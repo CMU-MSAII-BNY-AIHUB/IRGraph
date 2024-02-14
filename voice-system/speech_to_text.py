@@ -31,7 +31,7 @@ class AudioManager:
         """
         subprocess.run(['ffplay', '-nodisp', '-autoexit', audio_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-    def record_audio(self, duration=8, fs=44100) -> numpy.ndarray:
+    def record_audio(self, duration=7, fs=44100) -> numpy.ndarray:
         """Record audio from the microphone for a specified duration and sampling rate.
         
         Args:
