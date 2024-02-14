@@ -18,6 +18,7 @@ Follow the setup below to complete the demo.
 ```bash
 pip3 install -r requirements.txt
 brew install ffmpeg
+brew install espeak
 ```
 
 ## 2. Setup OpenAI API Key
@@ -36,5 +37,5 @@ python3 sample_knowledge_graph.py
 
 ## 4. Ask Questions to the BKGraph Voice System
 ```bash
-python3 voice.py
+python3 bkgraph_voice.py
 ```
