@@ -1,0 +1,8 @@
+openai==1.1.1
+python-dotenv==0.21.1 # For OpenAI auth
+openai-whisper
+numpy
+pydub
+wavio
+sounddevice
+networkx
