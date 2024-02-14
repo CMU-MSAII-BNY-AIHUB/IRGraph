@@ -1,4 +1,4 @@
-# Voice Interface for BKGraph
+# BKGraph Voice
 We have created a sample knowledge graph to answer these 4 questions:
 - What are the key financial metrics discussed during the earnings call?
 - What companies were represented in the participants who asked questions?
