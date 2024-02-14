@@ -3,11 +3,13 @@ import openai
 from openai import OpenAI
 from dotenv import load_dotenv
 import networkx as nx
-from audio_functions import AudioManager
+from speech_to_text import AudioManager
+import text_to_speech as tts
 from sample_knowledge_graph import traverse_graph
 import warnings
 import time
 import pickle
+import subprocess
 
 # Ignore specific user warnings about FP16 not being supported
 warnings.filterwarnings(
@@ -79,13 +81,14 @@ def get_user_query() -> str:
 
     return user_query
 
-def identify_query_topic(user_query: str) -> str:
+def identify_query_topic(user_query: str, speech_response: bool) -> str:
     """Given a user query, find the topic out of these that is the most relevant: 
     [Financial Metrics, Participants, Sentiment, Hiring Needs]. This is because we have a 
     predefined set of questions you can ask.
 
     Args:
         user_query: the question the user asks
+        speech_response: true/false based on if the user wants voice response
 
     Returns:
         the topic
@@ -110,14 +113,18 @@ def identify_query_topic(user_query: str) -> str:
     response = None
     topic = [""]
     if related_nodes:
-        response = f"I see that you are asking a question about {related_nodes[0].lower()}. What kind of response do you want? (simple/descriptive)"
+        response = f"I see that you are asking a question about {related_nodes[0].lower()}. What kind of response do you want? (simple or descriptive)"
         print_bkgraph_response(response)
         topic = related_nodes[0]
     else:
         response = "The sentence is not related to any valid node."
         print_bkgraph_response(response)
 
-    # am.stream_and_play(response) # text-to-speech (needs $$, uncomment if you have sufficient quota)
+    if speech_response:
+        print("Converting text to speech...")
+        with open('/dev/null', 'w') as null:  # Use 'NUL' on Windows
+            subprocess.run(['python3', 'text_to_speech.py', '-r', response], stdout=null, stderr=null)
+
     return topic
 
 def read_descriptive_text(file_path: str) -> str:
@@ -137,12 +144,13 @@ def read_descriptive_text(file_path: str) -> str:
         sentence = ' '.join(words)
         return(sentence)
 
-def retrieve_answer(topic: str, mode: str) -> str:
+def retrieve_answer(topic: str, mode: str, speech_response: bool) -> str:
     """Traverse knowledge graph and get the answer for the user
 
     Args:
         topic: the topic of the user query
         mode: simple or descriptive, based on user's choice
+        speech_response: true/false based on if the user wants voice response
 
     Returns:
         response: the answer to the query
@@ -155,27 +163,35 @@ def retrieve_answer(topic: str, mode: str) -> str:
             response = read_descriptive_text('descriptive_text/financial_metric.txt')
             print_bkgraph_response(response)
         else:
-            print_bkgraph_response(f"The key financial metrics are {response}.")
+            response = f"The key financial metrics are {response}."
+            print_bkgraph_response(response)
     if topic == "Participants":
         if mode == "descriptive":
             response = read_descriptive_text('descriptive_text/participants.txt')
             print_bkgraph_response(response)
         else:
-            print_bkgraph_response(f"The companies that participated were {response}.")
+            response = f"The companies that participated were {response}."
+            print_bkgraph_response(response)
     if topic == "Sentiment":
         if mode == "descriptive":
             response = read_descriptive_text('descriptive_text/sentiment.txt')
             print_bkgraph_response(response)
         else:
-            print_bkgraph_response(f"The overall sentiment was {response}.")
+            response = f"The overall sentiment was {response}."
+            print_bkgraph_response(response)
     if topic == "Hiring Needs":
         if mode == "descriptive":
             response = read_descriptive_text('descriptive_text/hiring_needs.txt')
             print_bkgraph_response(response)
         else:
-            print_bkgraph_response(f"The specific skills being sought after in hiring are {response}.")
-    
-    # am.stream_and_play(response) # text-to-speech (needs $$, uncomment if you have sufficient quota)
+            response = f"The specific skills being sought after in hiring are {response}."
+            print_bkgraph_response(response)
+
+    if speech_response:
+        print("Converting text to speech...")
+        with open('/dev/null', 'w') as null:  # Use 'NUL' on Windows
+            subprocess.run(['python3', 'text_to_speech.py', '-r', response], stdout=null, stderr=null)
+
     return response
 
 def display_instructions() -> None:
@@ -193,17 +209,46 @@ def display_instructions() -> None:
     print("3. What is the overall sentiment of investors towards BNY Mellon?")
     print("4. What specific skills and talents is BNY Mellon actively seeking to hire?")
 
+def yes_no_to_boolean(answer: str) -> bool:
+    """Convert 'yes'/'no' strings to True/False booleans.
+
+    Args:
+        answer: the user input
+
+    Returns:
+        boolean conversion
+    """
+    if answer.lower() == 'yes':
+        return True
+    elif answer.lower() == 'no':
+        return False
+    else:
+        raise ValueError("Invalid input. Please enter 'yes' or 'no'.")
+
 if __name__ == "__main__":
     # Launch voice chat interaction to get user input and return a response
     G = load_knowledge_graph("sample_knowledge_graph.pickle")
     display_instructions()
     ready = input("\nAre you ready to begin? (yes/no): ")
     if ready.lower() == 'yes':
+        # Ask if user wants voice input
+        answer = input("Should I speak my responses to you? (yes/no): ")
+        print("")
+        speech_response = yes_no_to_boolean(answer)
+
+        # Get user question
+        print_bkgraph_response("What is your question?")
+        time.sleep(2)
         user_query = get_user_query()
-        topic = identify_query_topic(user_query)
+
+        # Find the topic of the question
+        topic = identify_query_topic(user_query, speech_response)
         mode = input("Enter your choice: ")
         print("")
-        response = retrieve_answer(topic, mode)
+
+        # Return answer
+        response = retrieve_answer(topic, mode, speech_response)
         print("")
+        print("\nBKGraph Voice Ended.")
     else:
         print("\nBKGraph Voice Ended.")
