@@ -7,8 +7,9 @@ We have created a sample knowledge graph to answer these 4 questions:
 
 Below is a visualization of the graph: ![sample knowledge graph](sample_knowledge_graph.png)
 
+We used NetworkX to create the graph, just for prototype purposes, but we would need to look into how to convert this pipeline to Neo4j.
 
-As a feature of BKGraph, we are building out a voice interaction system for you to be able to interact with the graph using another modality in addition to text. 
+As a feature of BKGraph, we are building out a voice interaction system for you to be able to interact with the graph using another modality in addition to text. We use Open AI whisper for speech-to-text and Coqui TTS for text-to-speech. The time it takes to convert text to speech is currently slow at about 1-2mins.
 
 
 Follow the setup below to complete the demo.
