@@ -1,0 +1,93 @@
+[
+    {
+        "value": "Dermot William McDonogh",
+        "label": "person",
+        "attribute": {
+            "title": "Senior Executive VP & CFO"
+        }
+    },
+    {
+        "value": "Marius  Merz",
+        "label": "person",
+        "attribute": {
+            "title": "Head of Investor Relations"
+        }
+    },
+    {
+        "value": "Robin Antony Vince",
+        "label": "person",
+        "attribute": {
+            "title": "President, CEO & Director"
+        }
+    },
+    {
+        "value": "Alexander  Blostein",
+        "label": "person",
+        "attribute": {
+            "title": "Goldman Sachs Group, Inc., Research Division"
+        }
+    },
+    {
+        "value": "Betsy Lynn Graseck",
+        "label": "person",
+        "attribute": {
+            "title": "Morgan Stanley, Research Division"
+        }
+    },
+    {
+        "value": "Brennan  Hawken",
+        "label": "person",
+        "attribute": {
+            "title": "UBS Investment Bank, Research Division"
+        }
+    },
+    {
+        "value": "Brian Bertram Bedell",
+        "label": "person",
+        "attribute": {
+            "title": "Deutsche Bank AG, Research Division"
+        }
+    },
+    {
+        "value": "Ebrahim Huseini Poonawala",
+        "label": "person",
+        "attribute": {
+            "title": "BofA Securities, Research Division"
+        }
+    },
+    {
+        "value": "Gerard Sean Cassidy",
+        "label": "person",
+        "attribute": {
+            "title": "RBC Capital Markets, Research Division"
+        }
+    },
+    {
+        "value": "Glenn Paul Schorr",
+        "label": "person",
+        "attribute": {
+            "title": "Evercore ISI Institutional Equities, Research Division"
+        }
+    },
+    {
+        "value": "Kenneth Michael Usdin",
+        "label": "person",
+        "attribute": {
+            "title": "Jefferies LLC, Research Division Rajiv K. Bhatia"
+        }
+    },
+    {
+        "value": "Robert Henry Wildhack",
+        "label": "person",
+        "attribute": {
+            "title": "Autonomous Research US LP"
+        }
+    },
+    {
+        "value": "Steven Joseph Chubak",
+        "label": "person",
+        "attribute": {
+            "title": "Wolfe Research, LLC"
+        }
+    }
+]
