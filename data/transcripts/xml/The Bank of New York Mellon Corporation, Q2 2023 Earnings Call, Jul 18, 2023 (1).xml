@@ -56,9 +56,10 @@
             <person position="BofA Securities, Research Division" group="ANALYSTS" id="7">Ebrahim Huseini Poonawala</person>
             <person position="RBC Capital Markets, Research Division" group="ANALYSTS" id="8">Gerard Sean Cassidy</person>
             <person position="Evercore ISI Institutional Equities, Research Division" group="ANALYSTS" id="9">Glenn Paul Schorr</person>
-            <person position="Jefferies LLC, Research Division Rajiv K. Bhatia" group="ANALYSTS" id="10">Kenneth Michael Usdin</person>
-            <person position="Autonomous Research US LP" group="ANALYSTS" id="11">Robert Henry Wildhack</person>
-            <person position="Wolfe Research, LLC" group="ANALYSTS" id="12">Steven Joseph Chubak</person>
+            <person position="Jefferies LLC, Research Division" group="ANALYSTS" id="10">Kenneth Michael Usdin</person>
+            <person position="Morningstar Inc., Research Division" group="ANALYSTS" id="11">Rajiv K. Bhatia</person>
+            <person position="Autonomous Research US LP" group="ANALYSTS" id="12">Robert Henry Wildhack</person>
+            <person position="Wolfe Research, LLC" group="ANALYSTS" id="13">Steven Joseph Chubak</person>
             </section>
         <section name="Presentation ">
             <speaker id="-1" position="">Operator<text>Good morning, and welcome to the 2023 Second Quarter Earnings Conference Call hosted by BNY Mellon. [Operator Instructions] Please note that this conference call and webcast will be recorded and will consist of copyrighted material. You may not record or rebroadcast these materials without BNY Mellon's consent. 
@@ -216,7 +217,7 @@ On the asset side of the balance sheet, like I would like to go back 18 months w
                     </speaker>
                 </trainsition>
             <question id="3">
-                <speaker id="12" position="Wolfe Research, LLC">Steven Joseph Chubak<text>So wanted to dig into noninterest-bearing deposits. They're now firmly within your 20% to 25% guidance or target range. Your peers have offered more conservative guidance on NIB deposit trends. I know some of your businesses and your mix is pretty unique or idiosyncratic, but I wanted to just better understand what's driving the resiliency in NIB trends and your confidence level at that 20% to 25% range is still appropriate.</text>
+                <speaker id="13" position="Wolfe Research, LLC">Steven Joseph Chubak<text>So wanted to dig into noninterest-bearing deposits. They're now firmly within your 20% to 25% guidance or target range. Your peers have offered more conservative guidance on NIB deposit trends. I know some of your businesses and your mix is pretty unique or idiosyncratic, but I wanted to just better understand what's driving the resiliency in NIB trends and your confidence level at that 20% to 25% range is still appropriate.</text>
                     </speaker>
                 </question>
             <answer id="3">
@@ -226,7 +227,7 @@ And then we look at what industry is saying and what you analysts are writing ab
                     </speaker>
                 </answer>
             <answer id="3">
-                <speaker id="12" position="Wolfe Research, LLC">Steven Joseph Chubak<text>That's really helpful. And just for my follow-up, encouraging to see the 30% margin for Securities Services this quarter. That said, the IWM margin remains subdued, running in the low teens year-to-date. 
+                <speaker id="13" position="Wolfe Research, LLC">Steven Joseph Chubak<text>That's really helpful. And just for my follow-up, encouraging to see the 30% margin for Securities Services this quarter. That said, the IWM margin remains subdued, running in the low teens year-to-date. 
 I know, Robin, you had talked about distribution being a big focus, but what do you see as an achievable target versus that low teens level you're running at today? And how much of that margin improvement is contingent on revenue opportunities like improved distribution versus efficiency gains?</text>
                     </speaker>
                 </answer>
@@ -367,7 +368,7 @@ Within the Asset Servicing segment specifically, so the Asset Servicing part of 
                     </speaker>
                 </trainsition>
             <question id="9">
-                <speaker id="11" position="Autonomous Research US LP">Robert Henry Wildhack<text>I wanted to go back to the theme of fees versus expenses and drill down a little bit into Securities Services and the margin in there. I mean, what portion of the margin improvement you're aiming for do you think will come from sheer expense discipline? And then what portion do you think comes from all the fee opportunities that you're speaking to?</text>
+                <speaker id="12" position="Autonomous Research US LP">Robert Henry Wildhack<text>I wanted to go back to the theme of fees versus expenses and drill down a little bit into Securities Services and the margin in there. I mean, what portion of the margin improvement you're aiming for do you think will come from sheer expense discipline? And then what portion do you think comes from all the fee opportunities that you're speaking to?</text>
                     </speaker>
                 </question>
             <answer id="9">
@@ -376,7 +377,7 @@ Also, we feel we have -- we're the world's largest custodian. We're #1 in a lot 
                     </speaker>
                 </answer>
             <answer id="9">
-                <speaker id="11" position="Autonomous Research US LP">Robert Henry Wildhack<text>And then just one more on Pershing. Excluding the deconversion, performed pretty well again in terms of net new assets. Can you speak to some of the drivers there. Remind us what the revenue impact is and how you're thinking about the pipeline for that business specifically?</text>
+                <speaker id="12" position="Autonomous Research US LP">Robert Henry Wildhack<text>And then just one more on Pershing. Excluding the deconversion, performed pretty well again in terms of net new assets. Can you speak to some of the drivers there. Remind us what the revenue impact is and how you're thinking about the pipeline for that business specifically?</text>
                     </speaker>
                 </answer>
             <answer id="9">
@@ -384,16 +385,14 @@ Also, we feel we have -- we're the world's largest custodian. We're #1 in a lot 
                     </speaker>
                 </answer>
             <trainsition>
-                <speaker id="-1" position="">Operator<text>And our final question comes from the line of Rajiv Bhatia with Morningstar. 
- 
- 
-Rajiv K. Bhatia 
-Morningstar Inc., Research Division 
- 
-Just on that Pershing business, can you remind us how much of your revenue is from RIA custody side? And then can you talk about what you're seeing from a competitive standpoint? Goldman Sachs seems to be expanding in this area. Envestnet has partnered with FNZ. SEI has also made some moves here. So curious how you see the competitive landscape evolving.</text>
+                <speaker id="-1" position="">Operator<text>And our final question comes from the line of Rajiv Bhatia with Morningstar.</text>
                     </speaker>
                 </trainsition>
             <question id="10">
+                <speaker id="11" position="Morningstar Inc., Research Division">Rajiv K. Bhatia<text>Just on that Pershing business, can you remind us how much of your revenue is from RIA custody side? And then can you talk about what you're seeing from a competitive standpoint? Goldman Sachs seems to be expanding in this area. Envestnet has partnered with FNZ. SEI has also made some moves here. So curious how you see the competitive landscape evolving.</text>
+                    </speaker>
+                </question>
+            <answer id="10">
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>Sure, Rajiv. Look, we don't split out the RIA versus the broker-dealer. As you know, we're #1 in broker-dealer, and we're in the top 3 in RIA. So we're clearly a market leader. It's interesting the names that you picked because none of them are in the top 3 on either of those measures. 
 So having said that, we're obviously not complacent about newer entrants into the market or other people who want to sort of get into this. This is a business that we've been in for a long time. We understand it, and we have scale. 
 I'm just going to repoint you to the $2.3 trillion of assets on that platform that we think is -- gives us a tremendous starting point with clients and then the innovation that we've got in it. So we've gone multi-custody, which is very important in that business. 
@@ -401,7 +400,7 @@ We're innovating -- a lot of our services traditionally have been focused on the
 We're deploying BNY Mellon advisers and the capabilities from Investment Management because we have a $1.9 trillion investment manager. We have existing technology from our Wealth Management franchise, which is market-leading. And we're adopting a 1BNY Mellon mindset to that. So we're taking that technology and delivering it through Wove to other adviser clients. 
 So we've got this whole breadth to how we're actually approaching this opportunity. And while we, of course, welcome the competition from some of these other folks, I don't think any of them can deliver that breadth of capability to our clients. And so for advisers and investors, we feel very good about our direction of travel in this business.</text>
                     </speaker>
-                </question>
+                </answer>
             <ending>
                 <speaker id="-1" position="">Operator<text>And with that, that does conclude our question-and-answer session for today. I would now like to hand the call back over to Robin with any additional or closing remarks.</text>
                     </speaker>
