@@ -5,7 +5,7 @@ import re
 import argparse
 import aspose.words as aw
 
-ENDING = ["conclude", "thank you for participating",
+ENDING = ["conclude", "thank you for participating", "no further question",
           "that concludes our call", "that's all the time we have",
           "end of", "thank you for joining",
           "this concludes our presentation", "we are now closing the call",
@@ -151,7 +151,8 @@ def process_dialog(dialog,speaker_list, name):
     i = 0 
     hasSub = False
     while i < len(paragraph):
-
+        # print(paragraph[i])
+        # print("------------------------")
         if paragraph[i].strip() in speaker_list:
             id = speaker_list[paragraph[i].strip()]
             position = paragraph[i+1].strip()
@@ -173,7 +174,10 @@ def process_dialog(dialog,speaker_list, name):
             text = ""
             para = ET.SubElement(speaker_element, "text")
             i += 2
-            while i < len(paragraph) and paragraph[i].strip() not in speaker_list and paragraph[i].strip()!= "Operator":
+            while i < len(paragraph) and paragraph[i].strip() not in speaker_list and paragraph[i].strip()!= "Operator" and not paragraph[i].startswith("Operator"):
+                # print(paragraph[i])
+                # print(paragraph[i].startswith("Operator"))
+                # print("--------------------------")
                 if len(paragraph[i].strip()) != 0:
                     text += paragraph[i] + "\n"
                 i += 1
@@ -190,18 +194,15 @@ def process_dialog(dialog,speaker_list, name):
             speaker_element.text = "Operator"
             text = ""
             para = ET.SubElement(speaker_element, "text")
-            i += 1
+            paragraph[i] = paragraph[i].replace("Operator", "")
             while i < len(paragraph) and paragraph[i].strip() not in speaker_list:
                 text += paragraph[i] + "\n"
                 i += 1
             para.text = text.strip()
-            for word in ENDING:
-                if word in para.text:
-                    context.tag = "ending"
-                    end = True
-                    break
-                
-            
+            if "conclude" in para.text:
+                context.tag = "ending"
+                end = True
+                        
         else:
             i += 1
 
