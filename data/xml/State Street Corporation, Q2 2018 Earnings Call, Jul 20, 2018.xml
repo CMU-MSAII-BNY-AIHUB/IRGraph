@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Transcript>
+    <header>
+        <company>State Street Corporation NYSE:STT</company>
+        <title>FQ2 2018 Earnings Call Transcripts</title>
+        <time>Friday, July 20, 2018 12:00 PM GMT</time>
+        <currency>Currency: USD</currency>
+        <note>Consensus as of  Jul-20-2018 12:41 PM GMT</note>
+        </header>
+    <body>
+        <section name="financial tables">
+            <table id="0" name="Earnings Estimates Comparison Table">
+                <timePeriods>
+                    <period name="FQ2 2018" />
+                    <period name="FQ3 2018" />
+                    <period name="FY 2018" />
+                    </timePeriods>
+                <metrics>
+                    <metric name="EPS Normalized">
+                        <value period="-FQ2 2018-" type="CONSENSUS">2.01</value>
+                        <value period="-FQ3 2018-" type="ACTUAL">2.05</value>
+                        <value period="-FY 2018-" type="SURPRISE">1.99</value>
+                        </metric>
+                    <metric name="Revenue  (mm)">
+                        <value period="-FQ2 2018-" type="CONSENSUS">3046.52</value>
+                        <value period="-FQ3 2018-" type="ACTUAL">3026.00</value>
+                        <value period="-FY 2018-" type="SURPRISE">(0.67 %)</value>
+                        </metric>
+                    </metrics>
+                </table>
+            <table id="1" name="EPS Normalized Comparison Table">
+                <timePeriods>
+                    <period name="FQ3 2017" />
+                    <period name="FQ4 2017" />
+                    <period name="FQ1 2018" />
+                    <period name="FQ2 2018" />
+                    </timePeriods>
+                <metrics>
+                    <metric name="EPS Normalized">
+                        <value period="FQ3 2017" type="CONSENSUS">1.61</value>
+                        <value period="FQ4 2017" type="CONSENSUS">1.70</value>
+                        <value period="FQ1 2018" type="CONSENSUS">1.59</value>
+                        <value period="FQ2 2018" type="CONSENSUS">2.01</value>
+                        </metric>
+                    </metrics>
+                </table>
+            </section>
+        <section name="call participants">
+            <person position="Executive VP &amp; CFO" group="EXECUTIVES" id="0">Eric Walter Aboaf</person>
+            <person position="Global Head of Investor Relations" group="EXECUTIVES" id="1">Ilene Fiszel Bieler</person>
+            <person position="Former Chairman of the Board" group="EXECUTIVES" id="2">Joseph L. Hooley</person>
+            <person position="Former CEO &amp; President" group="EXECUTIVES" id="3">Ronald Philip O’Hanley</person>
+            <person position="Goldman Sachs Group Inc., Research Division" group="ANALYSTS" id="4">Alexander  Blostein</person>
+            <person position="Morgan Stanley, Research Division" group="ANALYSTS" id="5">Betsy Lynn Graseck</person>
+            <person position="UBS Investment Bank, Research Division" group="ANALYSTS" id="6">Brennan  Hawken</person>
+            <person position="Deutsche Bank AG, Research Division" group="ANALYSTS" id="7">Brian Bertram Bedell</person>
+            <person position="Keefe, Bruyette, &amp; Woods, Inc., Research Division" group="ANALYSTS" id="8">Brian Matthew Kleinhanzl</person>
+            <person position="Autonomous Research LLP" group="ANALYSTS" id="9">Geoffrey  Elliott</person>
+            <person position="RBC Capital Markets, Research Division" group="ANALYSTS" id="10">Gerard S. Cassidy</person>
+            <person position="Evercore ISI Institutional Equities, Research Division" group="ANALYSTS" id="11">Glenn Paul Schorr</person>
+            <person position="The Buckingham Research Group Incorporated" group="ANALYSTS" id="12">James Francis Mitchell</person>
+            <person position="Sandler O'Neill + Partners, L.P., Research Division" group="ANALYSTS" id="13">Jeffery J. Harte</person>
+            <person position="Jefferies LLC, Research Division" group="ANALYSTS" id="14">Kenneth Michael Usdin</person>
+            <person position="BofA Merrill Lynch, Research Division" group="ANALYSTS" id="15">Michael Roger Carrier</person>
+            <person position="JP Morgan Chase &amp; Co, Research Division" group="ANALYSTS" id="16">Vivek  Juneja</person>
+            </section>
+        <section name="Presentation ">
+            <statement>
+                <speaker id="-1" position="">Operator<text>Good morning, and welcome to the State Street Corporation's Second Quarter of 2018 Earnings Conference Call and Webcast. 
+ 
+ 
+Today's discussion is being broadcast live on State Street's website at investors.statestreet.com. 
+ 
+ 
+This conference call is also being recorded for replay. State Street's conference call is copyrighted and all rights are reserved. This call may not be recorded or rebroadcast or redistribution in whole or in part without the expressed written authorization from State Street Corporation. The only authorized broadcast of this call will be housed on the State Street website. 
+ 
+ 
+Now I would like to introduce Ilene Fiszel Bieler, Global Head of Investor Relations at State Street.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="1" position="Global Head of Investor Relations">Ilene Fiszel Bieler<text>Thank you, Lisa. Good morning, and thank you all for joining us. 
+On our call today are Chairman and CEO, Jay Hooley; and our CFO, Eric Aboaf, will speak first on our second quarter 2018 earnings highlights, followed by this morning's announcement of our agreement to acquire Charles River Development. Presentations on either of these are available for download on the investor relations website, investors.statestreet.com. 
+Afterwards, Ron O'Hanley, President and COO will join Jay and Eric for Q&amp;A. 
+Before we get started, I would like to remind you that today's presentation will include adjusted basis and other measures presented on a non-GAAP basis. Reconciliations of these non-GAAP measures to GAAP are available in the addendum included in the 2Q '18 financial materials released today. 
+In addition, today's presentation will contain forward-looking statements. Actual results may differ materially from those statements due to a variety of important factors, such as those factors referenced in our discussion today. All forward-looking statements speak only as of today, and we disclaim any obligation to update them, even if our views change. 
+Now let me turn it over to Jay.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Thanks, Ilene, and good morning, everyone. As you've seen we announced our second quarter results as well as a definitive agreement to acquire Charles River Development, a premier front-office investment management software solutions provider. Our acquisition of Charles River represents a key milestone in our digital and technology transformation, in that leading the evolution of the investment servicing industry. We're very pleased with this transaction, and we'll take you through the details a little later in the call. First, let me cover some of the highlights of the second quarter and then I will turn it over to Eric to walk you through the 2Q '18 financials. We'll then discuss the announced acquisition in more detail. 
+Our second quarter year-to-date 2018 results reflect strength across our asset servicing and asset management businesses, as we continue to deepen client relationships, win new business and advance our digital transformation. Second quarter earnings also included substantial EPS growth and increased return on equity. We continue to see strength across our core franchise. Equity market appreciation and new business listed our assets under custody at administration, with growth of approximately 9% from second quarter 2017 to nearly $34 trillion. We saw year-to-date servicing commitments of approximately $1.5 trillion, of which approximately $105 billion were won in the second quarter, with new business yet to be installed of approximately $300 billion as we install the large Vanguard win and begin the BlackRock transition. 
+And we were recognized as the #1 FX provider to asset managers in the Euromoney Real Money FX Survey with the best overall customer satisfaction rate. State Street Global Advisors finished second quarter 2018 with assets under management levels of $2.7 trillion, up approximately 5% from second quarter 2017, driven by strength in equity markets and ETF flows, with continued traction in our low-cost ETF products launched late last year. Furthermore, we continue to realize benefits from Beacon, our multi-year program to digitize our business and drive new solutions and innovations for our clients, while creating greater efficiencies for State Street. 
+We achieved a net benefit of approximately $60 million in both the first and second quarters of this year and now expect full year 2018 savings to be approximately $200 million, which exceeds our previously announced guidance of $150 million. 
+Additionally, our ability to deliver new tools and functionality is proving to be a meaningful factor and point of differentiation in client decisions as demonstrated by the Vanguard win. Building on the success of Beacon, we are monetizing our digitization accomplishments and reducing manual processes. We are continuing to focus on achieving greater organizational effectiveness and streamlining as we move into the next phase of opportunities, which Eric will discuss further. 
+To conclude, I'm very pleased with our financial performance to date. Revenue growth was strong, driven by both fee revenue and net interest income, reflecting the higher U.S. market interest rates, continued market appreciation, new business wins and higher trading activity. We remain focused on expense management, which you saw this quarter, as we actively calibrated cost to revenues, while prudently investing in new products and solutions. We also declared a common stock dividend of $0.42 per share in the quarter and yesterday, we declared a 3Q '18 dividend of $0.47 per share, representing an increase of 12% from 2Q '18 dividend. 
+Importantly, we continue to be well positioned to achieve our financial objectives in 2018, including delivering full year positive fee operating leverage. And with that over to you, Eric.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Thank you, Jay, and good morning, everyone. Please turn to Slide 4, where I will begin my review of 2Q '18 and year-to-date results. We have highlighted a few notable items, which we believe provide investors insight into specific initiatives as well as our underlying business trends. As you can see on the right, 2Q '18 results included a charge of $77 million or $0.17 per share consisting of $61 million of compensation expenses related to the organizational realignment and management delayering and $16 million of occupancy cost as we continue to rightsize our real estate footprint. I'll also remind you that the quarters of 2018 reflect the impacts of the new revenue recognition accounting standard. This increased both total fee and total expense by $70 million year-over-year but is EBIT neutral. 
+Now let me move to Slide 5 where most of my comments will focus on year-over-year results. 2Q '18 EPS increased to $1.88 up 23% compared to 2Q '17. Excluding the $0.17 related to the repositioning charge, 2Q '18 EPS increased to $2.05. Both 2Q '18 and year-to-date results reflect continued strength across servicing fees, management fees and trading services as well as continued improvement in net interest income, supported by the higher interest rate environment. We continue to prudently manage expenses relative to the revenue environment as demonstrated by an increase of 1 percentage point in 2Q '18 pretax margin. We achieved positive operating leverage of 1.4 percentage points compared to 2Q '17. The operating leverage was negative largely due to lower 2Q '18 securities and seasonality relative to 2Q '17, which was worth 1.1 percentage points. 
+Return on equity reached 14.7%, up 2.1 percentage points relative to 2Q '17. 
+Now let me turn to Slide 6 to review AUCA and AUM performance. 2Q '18 AUCA of $33.9 trillion increased 9% from 2Q '17. Growth was primarily driven by a combination of market appreciation, strong new business and client activity, especially in EMEA and our middle-office outsourcing business. AUCA increased 2% sequentially driven by the installation of a significant portion of the Vanguard win in the first quarter, offset by the previously announced BlackRock transition, which is about 50% complete and lower market levels. In our Asset Management business, AUM increased 4% from 2Q '17, driven by market appreciation and higher-yielding ETF inflows, partially offset by outflows from lower fee institutional index assets in a subdued market environment. 
+Please turn to Slide 7, where I will review 2Q '18 revenue. Total fee revenue increased 6% relative to 2Q '17, reflected solid performance across most of our businesses. Let me take you through some of the details. Servicing fees increased 3% reflecting higher global equity markets, increased client activity and new business, partially offset by continued modest H1 outflows. On a sequential basis, servicing fees decreased due in part to lower global equity market as well as the transition of the previously announced BlackRock assets. Management fees increased 17%, benefiting from higher global equity markets as well, as approximately $45 million related to the new revenue recognition standard. Management fees decreased on a sequential basis, reflecting lower global equity markets as well as net outflows in line with muted industry flows this quarter. 
+Trading services revenue increased 9%, primarily due to higher FX client volumes, driven by the debts of our FX capabilities and platforms, which continue to differentiate our offerings. Securities finance fees decreased, driven by lower seasonal activity in 2Q '18 relative to 2Q '17. 
+Moving to Slide 8, NII was up 15% on a GAAP basis and NIM increased 19 basis points on a fully tax-equivalent basis relative to 2Q '17. NII benefited from higher U.S. interest rates and disciplined liability pricing, partially offset by a mix shift to HQLA assets. 
+NIM increased due to higher NII and a smaller interest-earning asset base as we repositioned the investment portfolio at the end of first quarter. Deposit betas for the U.S. interest-bearing accounts continued to move a bit higher but stayed in line with our expectation. We continue to expect good growth in NII. 
+Now let me turn to Slide 9 to review 2Q '18 expenses. Year-on-year expenses increased $21 million due to currency translation and $70 million related to the new accounting for revenue recognition. When considering these 2 effects, year-over-year expenses were well controlled, increasing just 2% from the year ago quarter as we actively managed the cost base and calibrated to revenues this quarter. Relative to 1Q '18, expenses decreased 4%, which included the 1Q seasonally elevated compensation costs and the 2Q management delayering charge. Excluding these 2 items, underlying expenses were well controlled, decreasing 1% sequentially. Our top priority continues to be to actively manage the expenses relative to revenues. 
+From a line item perspective, let me cover the year-over-year trends quickly. Compensation employee benefits decreased 1% relative to 2Q '17. Due to continued Beacon savings and lower performance-related incentive compensation, partially offset by costs to support new business. Transaction processing increased relative to 2Q '17, reflecting higher client volumes and market levels as well as the impact of the new revenue recognition standard. 
+Information systems increased relative to 2Q '17 as a result of higher Beacon-related investments. Occupancy costs were up compared to 2Q '17, primarily driven by $16 million in the occupancy expense charge related to the continued rightsizing of our footprint, partially offset by a few discrete items that will not reoccur. 
+Other expenses increased primarily due to the new accounting for revenue recognition. Our intention is to keep second half expenses roughly in line with first half ex the 1Q '18 seasonally differed compensation bump. 
+Let me now move to Slide 10 to review our progress on State Street Beacon. On the left side of the slide, you can see that we achieved almost $60 million in net Beacon saves this quarter by optimizing our core servicing business, transforming our IT infrastructure and by gaining efficiencies within the corporate functions and SSgA. Notably, we now expect to realize approximately $200 million in savings in 2018, which exceeds our previously announced guidance of $150 million. Shifting to the right side of the slide, building on the success of Beacon, we are now transitioning to the next phase of efficiency initiatives that comes as we begin to implement the organizational changes we announced in November when we move from a regional product structure to a single global highly functionalized business. 
+We thus recorded a $77 million repositioning charge related to management delayering as we implement this organizational change. We expect this repositioning charge to pay back in about a year. 
+Moving to the next slide, let me touch on our balance sheet. Our capital ratios remain healthy and all our ratios increased. Also, as you are aware, last month our 2018 capital plan received a nonobjection from the fed as well as some tactical conditions. The nonobjection was based on our CCAR submission including a strategic change that contemplated the acquisition of Charles River as a potential transaction and the related capital ratio. 
+Moving to Slide 12, let me briefly summarize results. Both 2Q and year-to-date reflect continued business momentum, resulting in year-to-date EPS growth of 30% and an increase in ROE of 2.5 points. Year-to-date, total revenue increased 10% supporting over 3 percentage points of positive leverage as well as an increase in pretax margin of over 2 percentage points. 
+Before turning the call back to Jay, let me briefly touch on our current outlook, which excludes any contribution from today's announced acquisition of Charles River Development. 
+We remain on track to deliver on our 2018 financial objectives, including fee revenue growth of 7% to 8%, fee operating leverage of 75 to 150 basis points, NII growth of 10% to 13% and a tax rate of 15% to 17%. It remains a top priority to actively manage the expense base relative to revenue and you can expect us to continue to do so. 
+Now let me turn the call back to Jay to start the discussion of our acquisition of Charles River, and then I'll be back to take you through the transaction details.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Thanks, Eric. And let me ask everyone to please turn to Slide 3 in the second section of today's presentation on our acquisition of Charles River Development. Today's announcement represents an important milestone in the digital and technological transformation aimed at providing clients with differentiated solutions. And importantly, this transaction will allow State Street to address a fragmented and underserved approximately $8 billion front-office revenue pool opportunity. Against the backdrop of significant industry change, institutional investors are relentlessly focusing on delivering better investment returns. At the same time, these investors face increasing complexity and regulatory expectations, coupled with the need to upgrade technology and manage costs, while still focusing on product or geographic expansion. To address these challenges, they want solutions that add value across the front, middle and back office. We believe that the combination of State Street and Charles River will create an unparalleled platform for our clients that uniquely positions us as the first-ever global front-, middle- and back-office solution providers in the industry. Importantly, our platform will be interoperable, meaning that we'll connect and exchange data with other industry platforms and providers as well as the clients' proprietary systems. 
+Charles River provides leading investment management software solutions to institutional asset managers, ensures pension funds and wealth managers with a single investment platform for improved decision-making, better risk management and greater efficiency while lowering costs. Building on our digital efforts, Charles River capabilities also include a comprehensive suite of advanced data management services. 
+In addition to the strategic benefits I just mentioned and Charles River's leading position in the industry, we believe the transaction is financially compelling. We expect to recognize significant cost and revenue synergies that will drive attractive long-term financial returns for State Street shareholders. In addition, the transaction generates an internal rate of return of approximately 14% with cost synergies only and greater than 20% with full cost and revenue synergies, excluding our cost of capital -- exceeding our cost of capital. 
+Moving to Slide 4. Let me spend some time further highlighting Charles River's business model. As I mentioned, Charles River is a leading provider of investment management software solutions and importantly, the acquisition provides a leading front-office platform and builds on our digitization efforts. Charles River's capabilities also include a comprehensive suite of advanced data management services. Charles River has more than 300 clients, many of whom are also State Street clients, with an aggregate asset under management of over $25 trillion. Revenue was $311 million in 2017. And notably, 85% of Charles River's revenue base is recurring, providing a stable revenue stream, which is not dependent on market levels. 
+On the bottom right of the slide, you can see Charles River's broad client base and business segments. Charles River's reach by market segment and region is highly aligned with our target market, while also allowing opportunity to both expand share of wallet as well as the potential to add new clients. Notably, the acquisition will also enable us to meaningfully address the large adjacent revenue pool of the wealth adviser market. 
+Let me briefly highlight how the acquisition enables us to create an integrated front to back platform by combining State Street's data analytics and those of Charles River and third-party providers. 
+On Page 5, you can see what we mean by an integrated platform that optimizes the front, middle and back office. I'm often asked about our front-, middle- and back-office capabilities. I think this slide helps bring those categories to light. On the left side of the slide, you can see key activities within the front, middle and back office. Charles River's core front-office capabilities for the investment management industry include portfolio modeling, construction and analysis, trade management and execution, order generation, and pretrade compliance, aimed at an approximately $8 billion front-office market. Charles River's capabilities expand into the middle office comprised of functions, such as risk monitoring, client reporting and post-trade support, areas that complement our existing middle-office offerings. As you're well aware, State Street's front-, middle- and leading back-office competencies begin with data and analysis and include middle-office functions, such as investment accounting as well as core back-office functions of custody, fund administration and fund accounting. On the far right of the slide, you can see that the acquisition will create a powerful new combination. Charles River enables State Street to further extend meaningfully into the front office, and ultimately deliver an integrated front- to back-office platform, a compelling proposition to help those clients rationalize front-office systems, enhance investment and risk management, extract meaningful insights from data and access additional sources of liquidity. 
+With that, let me turn it over to Eric to further highlight why the acquisition is a compelling strategic opportunity. Eric?</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Thank you, Jay. Let me review the deal terms and go into some detail on the points that Jay just highlighted. As you can see on Slide 6, the purchase price is $2.6 billion. This will be financed by suspending buybacks from 2Q to 4Q '18, which is worth $950 million and the balance will be financed with roughly 2/3 common equity and 1/3 preferred stock. We would look to offset the preferreds by a similarly sized redemption of more expensive preferreds in late 2019. Lastly, we expect the transition to close by 4Q '18. 
+We are paying an attractive price for a premier front-office franchise. The PE with just cost synergies is 14x and with full synergies is 10.5x. The IRR on the transaction, which is a good benchmark on how we think about deploying capital is about 14% with just cost synergies alone. This exceeds our cost of equity, which makes us confident it's an attractive use of capital. With full cost and revenue synergies, the IRR is over 20%. 
+The financial metrics of this transaction are attractive because we're bringing together 2 leading companies with highly complementary product offerings focused on exactly the same top-tier client base. So first, we expect Charles River to help accelerate State Street's annual fee growth by 75 to 125 basis points, as we deliver on revenue synergies worth $80 million of EBIT by 2021, which I will detail out in a moment. 
+Notably, Charles River's significant recurring revenue streams add to and diversifies our current servicing fee revenue. Second, we plan to create efficiencies that will ramp up over time, which results in cost synergies of $60 million in 2021. EPS accretion is also expected within 2 years. 
+Moving to Slide 7, our combined client base will provide a natural opportunity to gain share of wallet among State Street and Charles River's existing clients, leveraging our platforms and delivering several additional services. To level set, here at State Street, we already serve about 75% or 155 of the top 220 institutional asset managers, but we have senior relationships with CEOs, CIOs, COOs and business heads. Only half of the 155 are served by Charles River today, as we detail on the summary note at the bottom of the page. So let me outline several areas of opportunity. First, we can help Charles River grow their client base by leveraging our 155 top-tier relationships, which could significantly increase their penetration of our top clients. Second, we have the ability to further expand the existing relationships with more than 70 share top-tier clients, which provides us with a unique opportunity to roll out a true front-, middle- and back-office platform. No other custody bank can do this. 
+Third, with this combination, we have the opportunity to offer an integrated platform to midsize institutions that represent the additional 45% of global asset management outside the top 220 institutions. Lastly, another exciting opportunity is to scale Charles River's established presence in the high-growth wealth management and private banking space. Here, we can also leverage Charles River's wealth management solutions to expand State Street's custody and accounting services into this attractive segment. 
+Turning to Slide 8, let me provide a bit more texture on how we will execute on these opportunities and the expected revenue and cost synergies as a result of the enhanced platform. By 2021, we are targeting annual revenue synergies to deliver EBIT of $75 million to $85 million and annual cost synergies of $55 million to $65 million. On the left side of the slide, you can see the components of the targeted revenue synergies. We have outlined these opportunities across 5 key categories, each of which has a specific execution plan. $70 million to $75 million of the expected revenue synergies are driven by upgrading about 10 Charles River clients from client-installed software to the State Street cloud and introducing Charles River to 10 to 15 State Street clients. 
+We expect $55 million to $60 million of synergies through expanding our core middle and back-office services into Charles River's existing base of top-tier and midsize clients. Approximately $70 million of revenue synergies are driven by expanding State Street's data and analytic offerings. Gaining significant front-office capabilities here supports our current front-office data offerings allowing us to accelerate the growth of our Global Exchange business. This is particularly powerful for our joint clients. 
+$35 million to $40 million will be achieved by integrating State Street's premier trading platforms, FX Connect, Currenex, Fund Connect into the heart of our client investment workflows through Charles River's platform, driving increased transaction volume and trading fee revenue. And another $30 million to $35 million by penetrating the wealth management segment, which I just described. For each of these revenue opportunities, we conservatively assume product delivery cost base on fully loaded margins. 
+Moving to the right of the slide. There are 3 main drivers contributing to the target $55 million to $65 million of cost synergies. First, we expect to drive operational efficiencies by streamlining existing custody accounting and middle-office operations, lowering unit costs by $35 million. Second, Charles River enabled State Street to retire legacy systems to achieve an additional $10 million to $15 million in savings. And lastly, we expect $10 million to $15 million in expense savings related to the implementation of Charles River's front-office solutions within SSgA. This is the sort of benefit that many clients will see, and we've detailed this opportunity in the appendix. All of these savings could be realized from State Street's existing cost base. 
+Turning to Slide 9, let me wrap up by highlighting the strategic and financial points that support the value that Charles River provides to State Street's businesses and shareholders. Overall, this transaction represents a significant milestone in our technology transformation, which creates the first-ever front-, middle-, back-office solutions and generates attractive financial returns. We are expanding into an $8 billion revenue pool, which is fragmented and underserved today. We expect to accelerate State Street's fee revenue growth as we round out asset management and asset services with a third [ nature ] of business. We expect EPS accretion within 2 years of the acquisition, supported by various [ increased ] revenue and cost synergies. And while time to accretion is a bit outside our traditional financial envelope, the intrinsic value and IRR are comfortably above the cost of capital with cost synergies alone. 
+Let me now turn it back over to Jay, and we will be happy to take your questions.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="2" position="Former Chairman of the BoardThanks, Eric. And Lisa, we are now open for questions.">Joseph L. Hooley<text />
+                    </speaker>
+                </statement>
+            </section>
+        <section name="Question and Answer">
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>[Operator Instructions] Your first question comes from the line of Glenn Schorr with Evercore.</text>
+                    </speaker>
+                </trainsition>
+            <question id="0">
+                <speaker id="11" position="Evercore ISI Institutional Equities, Research Division">Glenn Paul Schorr<text>So question on Charles River deal. With Eze Castle and Bloomberg being other big independent players, I'm curious on why timing is now for vertical integration or I don't even know if vertical is the right word, but the integration of front to middle to back. And then I'm curious on how pricing will work. Will Charles River continue to charge explicitly? Or will this be woven into the overall State Street relationship pricing?</text>
+                    </speaker>
+                </question>
+            <answer id="0">
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Yes, Glenn. This is Jay. Let me start that. And I might ask Ron to comment as well. There is a clear trend, and it's not a new trend, in the world of front, middle, back to create more integration. You mentioned Eze and Bloomberg and BlackRock. We work with BlackRock on a similar solution where we're integrating the front, middle and back office. Investment managers are under considerable pressure to get more efficient, to gain greater access to data, to do more things with a single touch. So I think this front, middle, back integration is clearly the wave of the future. And up till now, it's been -- it's all fragmented, with the custodians going into the middle office, but not all the way into the front office. You got some front-office players working with middle- and back-office players, so I think it's very clearly the direction of travel in this industry, and it will come together probably over time even more so. I think it's also true that -- we mentioned the word interoperability, which is -- we have a series of clients and now with Charles River, we have a combined series of clients that we can better link together the 3 components of the middle, front and back office. But we also will continue to work with Bloomberg, and we've got a significant partnership with BlackRock and Aladdin, where we're the largest custodian integrating the -- provider of Aladdin service. So it's going to happen in different forms. One last point I would mention is that one of the things that led us to Charles River was State Street Global Advisors, who a couple of years ago was looking to rationalize their front office, which is something that most firms are in some form of doing and landed on Charles River and that's what led us to Charles River. And SSgA will be one of the places where we'll integrate and where we'll control the front, middle and back office to create a streamline interface, which will not only create efficiencies, free up data, but give us access to the front office for the first time for some of our liquidity products and trading products. Now, would you add anything to that, Ron?</text>
+                    </speaker>
+                </answer>
+            <answer id="0">
+                <speaker id="3" position="Former CEO &amp; President">Ronald Philip O’Hanley<text>Sure, Glenn. This is Ron. What I would add to Jay's comments are that in terms of your question on timing, it's a combination of pull from clients and where we are in our own digital and data journey. On that pull from clients, and you'd be very well aware of this, large asset managers and large asset owners that act like asset managers are operating with very complicated both technology and operation stacks. And there's a strong desire to simplify, a strong desire to get more [ strength ] for processing and a strong desire to make better use of data in a timely way, which leads to the second point in timing. As you know, we've been on this road now for a while with Beacon, and there's a lot of things that Beacon is driving. But one of the things that it's driving is our ability to take client data and present it back to the client in a highly usable form, whether to reinject it back into the investment process or analytics, et cetera. So it's this data-enabled platform that will work with Charles River, but as importantly, as Jay said, we'll interoperate with other providers is what -- I mean, not all investment managers are going to want the same thing. But the one thing they do want is some kind of platform that enables them to work with their providers of choice to deal with a number of reconciliations.</text>
+                    </speaker>
+                </answer>
+            <answer id="0">
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>And Glenn, let me just pick up the second question, which was about pricing. And we will keep Charles River as a stand-alone entity there -- they -- there's a convenience that they're local. They're right up the street from us. And it'll continue to be Charles River, a State Street company. And in fact, we will combine some of our existing capabilities largely in the GX world into Charles River to make sure that from a pricing standpoint that it's a distinctive set of capabilities, which will have distinctive pricing separate from our middle- and back-office capabilities.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="11" position="Evercore ISI Institutional Equities, Research Division">Glenn Paul Schorr<text>I appreciate that. That make sense to me. One last one. Eric, what cost of capital used in the IRR calculation?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Just typical 10% should be conservative. So we think that's appropriate for our business. And then the other important part of the model on the IRR is always the perpetual growth rate, which we tagged at 4%, which I think is a little bit on the low end of the range, but we thought when we do these kinds of deals we need to do it conservatively.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Your next question comes from the line of Ken Usdin with Jefferies.</text>
+                    </speaker>
+                </trainsition>
+            <question id="1">
+                <speaker id="14" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>A question for you just around the capital side of things here. Eric, was just wondering if you could walk us through what happens to capital ratios on a pro forma basis at closing. And just wondering, you're moving off the buyback in the [ 9.50 ] for this year. Why the decision to issue, rather than just not just buy back going forward in terms of saving that extra capital?</text>
+                    </speaker>
+                </question>
+            <answer id="1">
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Sure. The capital ratios are actually embedded in our CCAR submission. So you can actually take the controls as a pro forma. Obviously, I think we came in a little better in the second quarter than expected and that will flow through. When we -- you can imagine this deal has been in process for a series of months and quarters that predated our CCAR submission. So as we were gearing up for the April -- the early April submission of CCAR this was a strong possibility, but by no means assured. And so we felt we should do, Ken, is to submit it as one of those strategic changes. There is a specific form in the fed filings for that. And effectively, do it on what I'll call a capital ratio neutral basis. And so that's why you see us suspend buyback plus issue some amount of common equity plus top up with preferred to get to the $2.6 billion. On a Tier 1 ratio basis, it will be neutral. On a leverage ratio basis, it will be neutral. On a CET1 ratio basis, it will be down by roughly about 50 basis points, literally because of the preferred piece in the stack.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="14" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>Okay. Got it. And then just that choice between issuing versus just not buying back into next year CCAR, just how do you -- what's the economics of that decision?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>It's not dramatically different. There's a little bit of question of underwriter fees and discount when you go out to the market. On the other hand, we felt like it's important to get on with this acquisition and to bring it together by the end of the year. And to be honest, we wanted to -- we're also signaling that we're confident in our earnings stream, in our go-forward earnings stream. And so while we temporarily suspend the buyback this past quarter and then 2 more quarters, we're fully committed to continue to return capital to shareholders on a go-forward basis.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="14" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>Okay. And I'll just -- one more on the capital front and then I'll stand aside. Just on -- coming back to CCAR this year and the counterparty number, which was -- it sounded like you guys have to go back and just look through that more. Can you tell us about the back and forth about that? What is -- what do you think was in the results? What do you have to do now? What does it mean if anything as you go forward?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes, Ken. On the counterparty condition, I think the first observation we think, which I think the fed made in its summary, is they clearly felt comfortable enough with our capital planning processes, our management processes, our risk processes, our business processes to give us a nonobjection. So I think, the kind of the strategic clarity is there and, in fact, this was also embedded in the submission was an acquisition. And so they felt, I think -- well, you'd have to ask them obviously, but it's -- our understanding is they signal with their action, which were quite positive. They have asked us to do some more work on the counterparty loss task. We've obviously been doing that since we've seen it in January, so that's not new. We've started by adding more measurement and scenarios to our kind of pool of our arsenal of monitoring mechanisms. We're sharing that with the fed. And I think we'll refine the exact deliverables that we have over the next month or 2 and then execute on those in line with our expectations.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Your next question comes from the line of Alex Blostein with Goldman Sachs.</text>
+                    </speaker>
+                </trainsition>
+            <question id="2">
+                <speaker id="4" position="Goldman Sachs Group Inc., Research Division">Alexander  Blostein<text>A couple of more deal-related questions. I guess, the first one on Charles River, pretty robust operating income growth in the last couple of years. It looks like a lot of percent CAGR. Can you guys talk a little bit about what you contemplate for their growth to be on a stand-alone basis in your kind of accretion math through 2020? And then secondly, maybe just spend a minute on just the nature of the contracts now with clients, kind of like what's the average length? And is there anything in the contracts related to change of control that could lead them to negotiate? So just kind of thinking through any sort of revenue attrition you might have on the back of this.</text>
+                    </speaker>
+                </question>
+            <answer id="2">
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes. Alex, it's Eric. Let me start on this one. So as you've observed, and we showed in the deck, they've had nice top line revenue growth, which obviously is a good part of our interest in them as a franchise. They are kind of leading an established franchise, but they have nice growth dynamics and that's largely because they operate in a fragmented space, right? The typical, call it, $500 billion institutional asset manager may have 15 or 20 systems and subsystems and providers in everything from portfolio construction to compliance, to trade quarter, optimization and routing to risk measurement. So it's a space that in our minds is open to strong growth by a leading player and that's why we chose Charles River as we've been watching and scanning this space. If you then take that and say, well, how do we think about the revenue growth synergies, revenue synergies we feel deliver about $80 million of EBIT over the first 3 years and that comes from about $270 million of top line revenue and then, obviously, we try to be conservative with the cost to serve. If you go to the buckets of revenue synergies on Page 8 that we provided and kind of tick through them, I guess, maybe the way I'd answer your question is the first bucket and the last bucket are really the -- on Blue Fin revenue synergies, so together about $100 million. And the second, third and fourth, so the middle buckets are really about the -- on State Street revenues. And so if you think about it that way, what we're effectively doing is taking Charles River, it's got a revenue growth rate, at least, based on the history of about 7% a year. We're effectively doubling that to about 14% based on the kind of -- on Blue Fin -- or on Charles River assumptions.</text>
+                    </speaker>
+                </answer>
+            <answer id="2">
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Alex, the thing -- this is Jay. The couple of things I'd add to that is there are very few, if any, client termination clauses in the contracts and that's the legal side of it. I'd say the nonlegal side of it is, as you might expect, these are disruptive things if you wanted to change and unwind. So we think there's more than ample time, not only with the introduction of State Street as a significant provider of resources to Charles River and with knowledge of most of these clients anyway, to not only secure what we have but to expand upon it.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="4" position="Goldman Sachs Group Inc., Research Division">Alexander  Blostein<text>Got it. And then just another cleanup question. When it comes to synergies, I think, in the deck, you guys gave 2020 run rate numbers for revenues and cost. Can you give from a timing perspective, how quickly do you guys expect that to come in?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Alex, it's Eric. We didn't go into details of that because, obviously, it's going to play out over time. What I'd tell you is as the synergies ramp up, it's not completely linear. And on the other hand, it's not hockey stick either. Obviously, the first year takes a little time to get things going. In the second year, we expect a real significant chunk of expenses. So that tends to lead a little bit relative to the -- what I might describe as a linear trend line. Revenue is a little the other way, early years build and then they build on subsequent years. So hopefully, that's enough just to help with the modeling.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Your next question comes from the line of Brennan Hawken with UBS.</text>
+                    </speaker>
+                </trainsition>
+            <question id="3">
+                <speaker id="6" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>A quick question here on -- as a follow-up on Ken's question, on the common. Deal close is expected in 4Q, but do you have any timing for when you expect to issue this common and preferred? And what you'd expect the cost of the preferred would be?</text>
+                    </speaker>
+                </question>
+            <answer id="3">
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Brennan, it's Eric. I think because we're now in this open period here, I think the lawyers will probably resist if I ask them to name a day, a week, a month. So I think, we'll be out in the market in due course and, obviously, we're watching markets to find a good opportunity. On the preferred, I think, you could probably take some of the current yields and some of the new preferreds issued by other similarly sized banks, or even look at some of ours that are out there and calculate some of the required yields. We do think that the market is favorable relative to some of our historic prefs. We've got some that are callable now. We have some that become callable over the next year and, obviously, we'd be inclined to call the more expensive ones there.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="6" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Okay. And then thinking about one more here on the deal. The reliance on revenue synergies is one that financial investors usually don't greet with open arms. So could you give us maybe a little bit more color on how you intend to insulate Charles River from maybe some of the pricing dynamics that we typically see in the trust bank world? How do you intend to allow for -- is the idea here that end to end will allow for greater insulation on the trust bank side? And how is it that you -- where do you expect the relationship to be owned if you're coming in front to back? Is now the ownership going to shift from the back office on the client side to the front office? Do you have any visibility on that?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Let me start that one, Bren. This is Jay. I would start with the point I made earlier, which is while State Street is acquiring Charles River, Charles River as an entity will continue to exist as an independent entity with a connection to State Street. And, in fact, as I mentioned, we're going to push more of the product capabilities, front office leading into Charles River. So the first thing is clear separation. I think the -- Charles River has a series of relationships where State Street is not involved and then State Street and Charles River have a number of -- a large number of clients where we jointly provide services. And I think we'll sort through to determine where the better relationship is. I would say generally you'd lean more towards the front office. In investment management firms while those relationships are different, the front office tends to carry a little bit more weight. And one of the things that beyond the front, middle, back connection, which I think we all understand, I think, one of the things that I think will provide upside to this deal over time is gaining access to the front-office platform world. Some of the new innovations that we've created in our markets business around peer-to-peer lending, access to one-button touch, access to specials and securities lendings, to the extent that we can stream those all the way through on a highly automated basis, it's going to be differentiated. So I think, the relationships will go through one by one to determine where the lead is. But my leaning is to the front office from the standpoint of what the lead relationship would be. Ron or Eric, would you add anything to that?</text>
+                    </speaker>
+                </followAnswer>
+            <answer id="3">
+                <speaker id="3" position="Former CEO &amp; President">Ronald Philip O’Hanley<text>Brennan, the only thing I would add to that is that I think it's important to remember that pricing is all about value delivered. And there is -- you're as familiar as anybody with the challenges that investment managers are facing and to the extent to which this platform is delivering value, enabling them to not only cut their costs but to streamline and improve their own investment process. We don't see this necessarily as being subject to the same kind of commodity-like pricing pressure that you see in other areas.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="6" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Yes. No, I appreciate that, Ron. It's just I wonder about once it's all under the same roof, keeping it separated. But seems like you guys are going to try to keep it separated, at least initially. That's at least the way it seems to me.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Correct.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="6" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Cool. Okay. And then how about we take a refreshing twist to actually the results here this quarter. The deposit cost ticked up a bit. It looks like 13 basis points for the total deposit base. I believe it's roughly 2/3 for you guys deposits that are in U.S. dollar. So is there any noise in that, Eric? And how much of that should we attribute to the U.S. dollar deposits? And am I right in the 2/3 number?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes, I think the -- just to go outright. I think deposit rates came up as the fed continued to rise -- raise rates. I think these are well within the bounds of our expectations. The U.S. interest-bearing deposit beta was just a smidge over 50%, which we think at this point in the rate cycle was -- makes a good bit of sense. We need to share some of the benefits of the industry environment with our clients and we need to keep it for ourselves as well to continue to build our return. I think we're seeing good activity with clients on the balance sheet, and so we're very well engaged with them. And I guess, the other metric to keep an eye on is the noninterest-bearing deposits and we continue to see the slow rotation, but that continues to move more slowly than our internal model. So I think, all in all, a good quarter on interest-bearing deposits, given we're in the middle of the cycle. And as I said in my prepared remarks, we expect NII to continue to build from here.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="6" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>I'm sorry, Eric. Can you walk me through the math on that just over 50%, because the 13 basis point increase would -- I would assume applies just to the U.S. dollar deposits. So I would think that based upon that math would drive that deposit ratio -- that deposit beta higher for the U.S. deposit. Isn't that right? Or is there some other noise that's in that 13 bps?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>There's more to that. So if you and others actually go to the average interest rate-earning balance sheet in our financial supplement, it's Page 7 for those, but deep into it. I'd actually take a look at U.S. versus non-U.S. This is a domicile view, but it's directionally right. So I focus on the U.S. rates, which went from 28 basis points to 37 basis points. If you actually have all the internal data, which I'm effectively sharing, the beta on that was effectively 50% for U.S. interest-bearing deposits. Just remember, the non-U.S. domicile line has the effects, swap costs in there, right, because we've now put them in that line. We've footnoted at the bottom of the page, and so you kind of have to -- if you want to start with that you've got to back those out and then split it U.S., non-U.S. But I'd just go to the U.S. line because it's the simple and more direct approach and work off of that.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Your next question comes from the line of Mike Carrier with Bank of America.</text>
+                    </speaker>
+                </trainsition>
+            <question id="4">
+                <speaker id="15" position="BofA Merrill Lynch, Research Division">Michael Roger Carrier<text>Eric, just maybe one on the core business first. Just on the asset servicing fees. It seems like sequentially, this came in a little weaker. I know you had the international and their currencies that weigh on it. But just wanted to understand maybe for the quarter, like the timing of both -- like the BlackRock and the Vanguard assets, like how much was that in there? And just trying to get maybe more of a run rate. I know that's tough with the markets and the FX, but just anything that kind of weighed on that besides the beta?</text>
+                    </speaker>
+                </question>
+            <answer id="4">
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Sure. It's -- let me just kind of give it to you sort of broadly and then try to be as specific as possible with the provisor that we've historically felt, though not appropriate to go client by client, win by win, transition by transition, but let me see if I can be helpful here. I think I was trying to be clear that the quarter-on-quarter change in fee -- in servicing fee revenue, which is down about $20 million was a mix of market effects and this transition of BlackRock, which we had announced, I think, over a year ago. And there's always a mix of other factors, right? There's kind of underlying product mix. There's client flows. There's shifts between the U.S. and EM and vice versa. And there's always a set of new business and business flowing through. I think just for this time and I'll probably not be terribly tempted to do this every quarter, but the effect of the BlackRock transition for this quarter was about half of the $20 million, and I think that can kind of be at least a starting point as you think about the results.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="15" position="BofA Merrill Lynch, Research Division">Michael Roger Carrier<text>Okay. That's helpful. And then just one more on the Charles River acquisition too, on the revenue synergies, like strategically or conceptually that could make sense. Just wondering like when you come up with those revenue opportunities, how much of those revenues are like new for the client, meaning new services versus how much are they currently using another provider? And when you make that assumption that they potentially shift to State Street, what is the -- like maybe the pricing assumption? I mean, do you have to be more competitive to kind of lure them away from another provider? And then I don't think this would be a huge issue, just given like Charles River's client base, but from a concentration issue, when you're doing the back, the middle, the front office, do you run into any of those issues similar to -- I mean, very different, but just similar to like the BlackRock move in terms of the assets?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Mike, this is Jay. I'll start and then I'll hand it over to Eric. Your first question, which is are these new services that they're not currently employing today. I would say, largely they're not. But they're using either someone else's platform or someone else's custodian or they're trading with some other counterparty. So most of the synergies on the State Street side, which are almost 2/3 of the revenue synergies are areas where they've got a counterparty today. You have some sense of changing out of a middle-office or a back-office providers, State Street becomes the custodian or State Street has part of the custody work, and we can show a more integrated value proposition as we've seen with some consolidation. It's likely that we'll see more of that. I think to the extent that we can stream trading and lending and other credit activity from the front, all the way through the back, which doesn't exist today, but will exist once we get in and wire that together, they are trading with other counterparties, they'll be compelled, I think, to trade more with State Street given the simplicity of execution and lowering of risks. So I think a lot of this, one, it's being done today somewhere else. And the transition and the lift it would cause one to make a change depends on the different services, but it's not extraordinary in any of those different areas.</text>
+                    </speaker>
+                </followAnswer>
+            <answer id="4">
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>And let me just add -- it's Eric. I think if you go through the synergies, they were -- we tried to put some real detail on Page 8. I think there's really a nice mix of different tactics here and that's what I like as the CFO because then we'll be able to execute and measure progress on every one of them. So take the first one, scaling the blue -- Charles River's front-office solutions. Some of that is taking their existing clients and moving them into our cloud and that's software-as-a-service and so that's just -- that's -- there's an old way to do it and a new way, and we're going to be able to accelerate that because we give Charles River kind of an institutional credibility, right, that they may not have had, right? When you're out there offering software to large asset managers, those large asset managers want to know that you'll be here for decades and decades, and they'll get the next releases and so forth. So that's part of the way this works. And then there is a series of these where they have other providers. They tend to be smaller. I mentioned, for the typical $500 billion asset managers there's often 20 providers, but there's a range. It could be 25 or 30 and it tends not to be a price sell because this is a software service. There's implementation. There's functionality. And if you think about the CIOs and front-office portfolio managers, their expectations are quite high. And I think the -- this, relative to some of the other services in the market, this is kind of front-office capability, functionality scenario-ing, performance attribution where folks want the functionality and I think are willing to pay a fair price. And so I think this is one where we've taken those kind of risks into account in the synergy models but are quite comfortable. The one other thing that I'd mentioned because we haven't talked about it that much is that we have quite a global franchise here and Charles River has a nice U.S. franchise, I think a developing European and Asia franchise. And if you think again, the institutional brand and reputational backing that we can bring to them as we help scale that international expansion is another part. I've not kind of overlaid that, but there is an overlay behind it in the execution plans against these synergies that really have a progression that builds out in Europe and Asia.</text>
+                    </speaker>
+                </answer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Your next question comes from the line of Brian Bedell with Deutsche Bank.</text>
+                    </speaker>
+                </trainsition>
+            <question id="5">
+                <speaker id="7" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Maybe just to start up with the Charles River. So just looking at that front-office pool that you identified about $8 billion and Charles River share of that looks like around, with the $311 million just under 4%. And then looking at the revenue synergies that you've outlined, some of that obviously is State Street revenue. But you still only imply maybe a 5% to 6% market share of that $8 billion pool. So can you talk about -- you mentioned, obviously -- and we all know this industry is incredibly fragmented and has historically been driven by sort of traders' decisions and usage of the products. Can you talk about the potential of actually increasing that market share much more significantly if you really believe that the decision making will move to the corporate office of the asset managers, where they'll be looking to really synergize this as opposed to sort of on the trading course?</text>
+                    </speaker>
+                </question>
+            <answer id="5">
+                <speaker id="3" position="Former CEO &amp; President">Ronald Philip O’Hanley<text>Yes. Brian, this is Ron. We're -- you'd want us to be conservative here in terms of how we think about the acquisition and not overstretch. But I think that you actually implied in your question is the answer. There's -- we see this every day with our clients. There's a real desire to simplify, to take the complexity out of the stack, to -- even amongst the largest asset managers, who, by any definition, are exceeding, what they're thinking about is how do we position ourselves for scale. So I think you're right that over time, particularly, assuming that we deliver on this vision of a data-enabled platform that's interoperable with our technology and other technologies that the client might choose to use, we think there's a lot of upside here. I'd also agree with your point that the decisions -- these front-office decisions are moving in many respects -- at least are centralizing to the CIO as opposed to individual portfolio manager decisions. And in many cases, it's a CEO, CIO and Chief Operations Officer kind of decision that, again, is around the idea of simplification and long-term scalability.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="7" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>That's helpful. And the regulatory approvals, who else is -- which do you need -- which regulators do you need approvals from for this?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Brian, it's Eric. Just the customary approvals from the Fed and others. Obviously, we've been through this. And included, as I mentioned, in CCAR and received a nonobjective -- nonobjection. So that's -- I think that's informative. Obviously, we keep the Fed and all of our regulators up to speed with any material activity. This is clearly one that we've been discussing with them since -- at least since the early part of this year, if not before that. And so we got into a definitive agreement. We feel confident that -- of the value here and we feel confident that we can close in the fourth quarter.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="7" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Okay. And then just -- just to go back on the asset servicing. Thanks for the color on the BlackRock transition. Is it -- if I heard you correctly, did you say the BlackRock transition was, from an asset perspective, halfway done? And then, if I also read correctly, I think, you've only got $300 billion left to install of the $1.5 trillion, so the $1.2 trillion of the new deals over the last few quarters is installed? And is that going to be fully in the run rate for 3Q versus 2Q?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes, that's -- you've got that right.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="7" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>It seems you have a tailwind in 3Q from installations other than you have another half of BlackRock to come out.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes. And this is where -- if you remember, on our last call, there was a lot of questions and interrogation on who was the client. We've been now able to tell you that it is Vanguard. We're quite proud of that win. I think it was quite clear on that call that there's always a range of different services that we offer, right, and -- both in different regions and in the U.S. And so the basis point range on pricing, if it's custody-only versus a full vertical stack is quite different. And so I think I did that purposely, right, to give you a sense that in many cases, and I'm not going to comment on a second client now, but in many cases, we start with a custody-only offering because sometimes that's the easiest one in which to start with. And then the -- we -- for many clients, we scale that into accounting or administration or middle office or performance and analytics. And so obviously, those are discussions we have with all clients, won't comment on Vanguard in particular, but we're excited to have them. We think they really were impressed with the automation and technology and so forth, the kind of functionality we brought to custody over the last few years through our Beacon efforts. And they have -- they're on a real growth trajectory, which is also constructive.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Your next question comes from the line of Geoffrey Elliott with Autonomous Research.</text>
+                    </speaker>
+                </trainsition>
+            <question id="6">
+                <speaker id="9" position="Autonomous Research LLP">Geoffrey  Elliott<text>Can you give us some thinking on how you look at M&amp;A as part of your strategy more broadly, I guess? The regulatory environment's moved on a bit over the last few years, which maybe makes it a little bit easier than it would have been a few years ago, and you did GE Asset Management, which was quite small and now this. So kind of curious to see how M&amp;A fits into the strategy and if this could be the first of several transactions we might see over the next few years?</text>
+                    </speaker>
+                </question>
+            <answer id="6">
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Jeffrey, this is Jay. Let me start that one, and maybe invite Ron to jump in as well. We've -- I think we've said over the last couple of periods that the 2 areas where we thought we might be able to advance our strategy through an acquisition was both in Asset Management where we thought there were some select capabilities, if we could acquire -- would enhance our solutions capabilities, and we specifically characterized those as smallish. That's still an area where if the right thing came along that might be interesting. And then the second area was this area that is really represented by Charles River, which is catapulting into the front office, which we've had a desire to do because we think that's where this business is going, and we've made a big move into the front office. And so I wouldn't see, other than maybe some small stuff, or -- I'll turn it over to Ron because -- you know what -- even with the rumors of State Street and Charles River coming together, you have a lot of other front office providers that are looking to engage with and interface with us, not necessarily that we would need to acquire, but we would integrate to create more functionality in the front office. So I wouldn't see anything more big in the front office, maybe some smaller capabilities and probably more likely, partnerships.</text>
+                    </speaker>
+                </answer>
+            <answer id="6">
+                <speaker id="3" position="Former CEO &amp; President">Ronald Philip O’Hanley<text>Yes, Jeffrey, what I would add to Jay's comments is that from where we sit now, we don't need to do any M&amp;A. And as we've, I think, consistently said we've got a business strategy, real growth-focused in both the data analytics part of asset servicing as well as in asset management. And I think, what you're seeing here is relatively the focused -- in both cases, relatively focused acquisitions to basically accelerate a strategy that we had already talked about. Jay's last comment there about the platform that we're creating is very important because -- and I said it a couple of times on this call. Our overall strategy even before we started talking to Charles River has been about data, and about this idea that information, and information delivered in an appropriate way and in a usable way, is the most powerful tool we can provide to the market. And as we build out this platform, which Charles River is a part of, but it goes way beyond Charles River, firstly, it's enabling clients -- enabling us to bring lots of solutions to clients, including their own solutions or including the solutions of third parties. And as we roll out more of this platform and perfect it, it would be very easy for us to have a conversation with a provider that might be interested enough, and we don't need to buy. If they can come on the platform, we'll have to work out the pricing of all that. But it's the platform itself that provides the ability to bring all these things together rather than us having to acquire things to bring it together.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="9" position="Autonomous Research LLP">Geoffrey  Elliott<text>And then maybe just to follow up, you mentioned, Charles River is going to stay as a separate entity. Who's going to be running that business?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Yes, we will install a chief executive into that business, somebody who is deeply experienced in running software companies. The founder will stay on in a consulting role to help us through the transition, given he's got a keen interest in making sure this is successful.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="9" position="Autonomous Research LLP">Geoffrey  Elliott<text>And you mentioned making -- your keen interests on the part of, I guess, the sellers are making sure it's successful. Is there any kind of an [ annals ] or anything like that because it kind of looks like a cash deal? And I guess, what is there to kind of tie the sellers to the success of this given they're not getting State Street shots, right? They're not going to participate in the hopeful upside of the shift.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Sure. Let me separate the founder, who is -- has an interest because he has built this company over 30 years. And he feels good about State Street, and feels good about State Street being able to take this to the next level, and he's obviously got an interest in that. It's not a financial interest, an emotional interest in it. But as you'd expect, we have spent a fair amount of time with the team, and have put in the appropriate retention schemes to make sure that the core assets that we're buying, which is really intellect that is embedded in the engineers and the software designers are -- we think they're going to embrace State Street as a theme because we're going to invest in this business. Because this is about taking it to the next level. But Ron, what would you add to that?</text>
+                    </speaker>
+                </followAnswer>
+            <answer id="6">
+                <speaker id="3" position="Former CEO &amp; President">Ronald Philip O’Hanley<text>Yes. What I would add to that, Geoffrey, is that the founder here owns virtually all the equity. There's very little that he doesn't own. So the ongoing retention here, and the work with the team that Jay just described is, there is a group of very high-performing people. We're excited about them. They're great engineers. We have worked out a compensation plan that we think will be very attractive to them and they, like everybody else at State Street, will share in their success.</text>
+                    </speaker>
+                </answer>
+            <answer id="6">
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>I think that probably there is just one more point, Geoffrey. I mean, this is a growth opportunity. I think you see it. Hopefully, you see it. We see it. They'll see it. So I think, growth in itself is a exciting theme for the team at Charles River.</text>
+                    </speaker>
+                </answer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Your next question comes from the line of James Mitchell with Buckingham Research.</text>
+                    </speaker>
+                </trainsition>
+            <question id="7">
+                <speaker id="12" position="The Buckingham Research Group Incorporated">James Francis Mitchell<text>Maybe we can talk a little bit about 2019 impact. So maybe before we contemplate synergies, if I kind of think about the foregone buyback, the issuance, I guess, the implied net income you expect for 2018 assumes some growth. I guess, putting it all together, I get about 3% EPS or earnings dilution. Is that a fair way to think about the numbers? Or is there anything -- and obviously building on the amortization in that number. Is that the right way to think about of it? And if so, are you expecting to get any synergies in '18 to add to that?</text>
+                    </speaker>
+                </question>
+            <answer id="7">
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Jim, it's Eric. I think it's early days on this question. And you've just started the modeling, I think, in probably in the last 2, 3 hours and you are asking this question. But I think you're approaching it correctly, right. You're kind of moving out what's the earnings stream, you've got to take the 2017 operating earnings up, you've got to adjust for some of the prior 606 Adoptions. So you've got to get that into the mix, you've got to adjust for taxes and then you've got to build a growth rate on that. So -- and I think you -- as I covered on one of the earlier questions, the -- there's some revenue that starts to come in, but it tends to ramp up over time. Expenses, some in year 1, I think a real nice amount in year 2. So I think you've got the pieces right. I think what I'd prefer to do, just to try to be more helpful is when we get to our October call for third quarter, we can give you a good indication of fourth quarter EPS or, I guess, kind of earnings contribution from this because by then we'll have completed the deal. We'll know the exact timing, we'll have concluded on all the financials and then I think, we'll have then a good basis either at that call or the January call to hopefully give you some ranges for '19. So I think, I'd rather take it in steps, but I think, you've got some of the components right. And we're certainly happy to iterate with you on that basis.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="12" position="The Buckingham Research Group Incorporated">James Francis Mitchell<text>Okay. And then when I think about compensation expense, getting to the quarter, was down quite a bit ex the charge. Is that a good run rate? Or was there some true-up there? Before, you mentioned incentive comp, that we shouldn't annualize that kind of number that we had -- saw this quarter?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes, it's Eric. There is probably a 2-part answer to that. I think on compensation expenses specifically, we did adjust downward a bit for performance-related incentives. We feel like we need to deliver on the financial commitments we have. We're, I think, ahead on Beacon and ahead on NII. And I think we're conscious of the revenue environment, and the fee operating leverage was neutral in the first quarter, a bit negative this quarter, and so we obviously match incentive with results. We think that's the way to run a company. And so there is a bit of an effect there. I think the best way to give you some indication of expenses is given we're here in the middle of the year, this is a natural time for us to think about second half expenses versus first half. I think you could take a look at what we reported. And our view is, we -- and I think I said it, we intend to keep second half expenses at about the level of first half. You've got to adjust out that first quarter bump that you get. But that to us is the right level of expenses, because we've got to be careful. We don't know if markets are going to go up or down. We don't know what kind of macroeconomic environment that we're likely to operate in. And so we think, it's best to be prudent on expenses.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="12" position="The Buckingham Research Group Incorporated">James Francis Mitchell<text>Okay. So -- but should we exclude the $77 million in that comparison as well?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>For the repositioning charge?</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="12" position="The Buckingham Research Group Incorporated">James Francis Mitchell<text>Right.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes. Yes, think about that as a specific item that was -- that addressed some delayering that we feel was -- is important, and real valuable to do, as we transition to a more global and functionalized operating modeling level, yes.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="12" position="The Buckingham Research Group Incorporated">James Francis Mitchell<text>Okay. So adjust that out.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Your next question comes from the line of Betsy Graseck with Morgan Stanley.</text>
+                    </speaker>
+                </trainsition>
+            <question id="8">
+                <speaker id="5" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>Two questions. One question I'm getting from folks this morning is the build versus buy. And I know you decided on buy. But maybe if you can give us a sense as to why that made sense versus building something out like this on your own.</text>
+                    </speaker>
+                </question>
+            <answer id="8">
+                <speaker id="3" position="Former CEO &amp; President">Ronald Philip O’Hanley<text>Betsy, it's Ron. I would say that we're doing both. We've built out a fair amount over the last several years, built out or bought out actually, as I think about it, lots of what we've done in DataGX, lots of the market platforms that we've built, FX Connect, Fund Connect, Currenex, which will all be integrated into this platform I've described. It really came down to a decision that we see so much activity here, so much pull from clients. And as we got to know Charles River through the work that SSgA was doing with it, we felt that this would really accelerate us to market, and enable us to occupy just more of the space quicker than we could on our own. So it was a classic build versus buy and it was really about timing.</text>
+                    </speaker>
+                </answer>
+            <answer id="8">
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>And Betsy, part of the answer is the capabilities, the software and the products and services. But the other part is access to 300 clients that are kind of in our sweet spot from a standpoint of asset managers, asset owners, alts. And in addition, we pick up access to this wealth adviser segment, which is a new segment for us and it's kind of exciting.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="5" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>Okay, got it. And then the follow-up question was just on the synergies on Page 8. A couple of them are related to streamlining and capturing synergies out of State Street's middle and back office. So maybe if you could help me understand how that works because you're buying someone who is more a front-office operator. So just want to understand that.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes, Betsy, it's Eric. Let me describe those. On Page 8 on the right side, there is a series of different synergies. I think at the bottom of the page, right, one of them is just implementing Charles River within SSgA, our own asset management, has actually been something that we've been considering for over 2 years now. So if you could imagine, we actually did product and functionality diligence right, with our CIO and PM teams long before we even considered this an acquisition. So -- and if you think about the SSgA, we've got a $1.3 billion expense base in SSgA. If you look at just technology, narrowly defined, it's $100 million. And so we're looking at some consolidation benefits from simplifying that -- what we have built, which is decent over time, but not at the level of what we have here. So that's kind of one example. I think when you get to the operational efficiencies at the top, remember -- and the systems, remember we have a set of middle-office systems today because we're in the middle-office business and so does Charles River. If you remember the slides that Jay showed earlier on, we're both in that middle office area. For example we both have a compliance system that helps with compliance processing for asset managers. They have one, we have one and naturally, ones retire. It turns out that's an expensive system to run and to operate. And so just something like that is worth in the $15 million range. So it's those kinds of overlaps that exist. And then the last piece, obviously, as we work on this middle-office area, which is full of reconciliations and data flows and comparisons, as soon as we begin to offer a service that streamlines some of that, there is real cost to take out. And so we're quite confident on the expense synergies. They're off of a relatively large base of what we do. And this is -- and it's also an area where we have a lot of experience extracting efficiencies off of.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="5" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>Okay. And the data analytics piece. I know you have been building out your data analytics front-end platform. I think, you showcased some of that several years back at an investor day, here in New York. So just wanted to understand if the acquisition means that -- those efforts then go away or just get layered onto CRD because you don't need to do that anymore. In other words, is the acquisition a replacement of your internal efforts for building up the data analytics platform or is it adjacent to?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="3" position="Former CEO &amp; President">Ronald Philip O’Hanley<text>Betsy, this is Ron. I'll take that. I think it's a little bit of both in the sense that there are some capabilities that are -- that Charles River brings that are additive. There are some capabilities they didn't have that with some -- with what we have it just rounds out the suite. And then there are some things that are by the dint of fact that we're together, we can actually build something together that we probably couldn't have built -- either one of us couldn't have built on our own. So if you think about -- going back to Eric's point on where the front office bleeds into the middle office would be post-trade workflow management. That's probably a space were Charles River has some tools in it, but now that they're exposed to our very large middle office business. We can build up even a better tool than they had, had or for that matter than anybody else has.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Your next question comes from the line of Vivek Juneja with JPMorgan.</text>
+                    </speaker>
+                </trainsition>
+            <question id="9">
+                <speaker id="16" position="JP Morgan Chase &amp; Co, Research Division">Vivek  Juneja<text>Couple of questions for you folks. How is DataGX service priced by you folks today when you pitch it to your clients?</text>
+                    </speaker>
+                </question>
+            <answer id="9">
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>I would say, it's -- Vivek, this is Jay, subscription based. There is a recurring fee associated with add-ons, if you add custodians or expand the base. And then in addition, once you get DataGX, which is the data aggregation layer, and then on top of that we have a number of analytic platforms that actually apply some analytics to the aggregated data, and that has a separate revenue stream, which is all subscription based. All of this is recurring based on usage.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="16" position="JP Morgan Chase &amp; Co, Research Division">Vivek  Juneja<text>So not tied to the rest of the middle-, back-office contracts that you may have?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Not at all.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="16" position="JP Morgan Chase &amp; Co, Research Division">Vivek  Juneja<text>Okay, okay. Ron, a question for you. I thought I heard you say, or maybe it was Eric, that for SSgA, your tax spending was $100 million, and you're going to save $10 million here by using CRD, so does this -- are you saying that this would cut front-office costs for your clients by about 10%? Is that the right extrapolation?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Vivek, it's Eric. I would think every client will be different. We've been able to kind of interrogate our own base of expenses. You actually have to -- when you do the math, even on SSgA, a $1.3 billion expense base, there is a technology base of $100 million. There's also an operations expense base that's associated with that and I was trying to just focus on the systems, just to kind of compartmentalize this and give us an estimate. But I think this could be representative of the value, and obviously, we think of value that way. We think that CEOs and CIOs are going to think about value that way. But remember, this is partly an efficiency play for institutions and asset managers because they're all under examination on those fees for -- in the active space. But it's as much a functionality and what are the benefits, and do I get the functionality that I need. And so our view is we've got a premier property here that can help do both, and that's what makes it attractive for the range of constituents you have. And at least as an example, we think this is in the range of what someone could expect, but it would depend on what they have, did they build it internally? How fragmented, how many little providers do they have? And so there's probably a range around that.</text>
+                    </speaker>
+                </followAnswer>
+            <answer id="9">
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>And Vivek, I would just add -- this is Jay, that I do think that the cost and the efficiency is important, but if you think about our own synergy model, it's only 1/3 of what -- where the value is. And I think of this as giving State Street access to the front office platform world, and the network effect that can be created by having a Charles River through 300 clients connected to State Street's liquidity and trading engines, I think it's a pretty powerful concept. And that's just a start. That doesn't include the other relationships and partnerships that we'll wire into this, as Ron referenced earlier.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="16" position="JP Morgan Chase &amp; Co, Research Division">Vivek  Juneja<text>And is there a lead time for getting these kinds of -- for getting CRD contracts similar to what you have to go through on the rest of your business, which can be multi-year process?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Yes. Let me take that. I think, it depends, is the answer, Vivek. This is Jay. CRD is a system that has multiple components. And so when you are changing out a software platform, that's a careful exercise that has some lead time to it. I would say that the short-to-long lead time would be defined by the complexity of the environment. SSgA is a reasonably complex environment, both globally across asset classes, and I'd say once that gets lined up, that's probably a year or 1.5 years kind of an implementation cycle with deliveries along the way. It doesn't all wait and happen on the final day.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="16" position="JP Morgan Chase &amp; Co, Research Division">Vivek  Juneja<text>Right. I guess, I was trying to think of, Jay, more the whole idea of pitching and winning business, which I know for your traditional middle and back offices are multi-year. So that's what I was trying to get a sense of, is CRD somewhat similar?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="3" position="Former CEO &amp; President">Ronald Philip O’Hanley<text>Yes. This is Ron, Vivek. I think that, again, it will be quite client-specific, but if there is a situation where we're already doing a lot of transformation work with a client, and working with them, for example, in moving them middle office, you could see this as being a pretty rapid add-on to that, because a lot of the things that you do -- or if we already have a middle office, a lot of the things that would be required to plug that in, we'd have already done. So I think if you're asking, one, will the pipeline build fairly quickly, yes. It probably will, although to be clear, what we're focused on how -- in the first few months after the close, we want to make sure that they're continuing to serve their existing clients very well, and then we'll add to the pipeline as it makes sense.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="16" position="JP Morgan Chase &amp; Co, Research Division">Vivek  Juneja<text>Yes, because I noticed your compound annual growth has gone from 7% to 14%. So I am trying to get a sense of over what period should we expect that to happen.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes, I think, certainly over the 3-year time period, Vivek. We have to -- we gave you a CAGR on that, right? So the first year will be closer to the 7% and the outer year a little higher. But we think of this as a mid-teens growing stream at least as we broaden them into our clients, whether it's our U.S. clients -- and I showed you the overlap data, which I think is quite striking. We can bring them into half of our top-tier clients, where they've not been able to get in the door, where we know the CEOs and CIOs, and then internationally. So it will build over time. And our view is it provides a nice stream. But as Ron said, we want to be careful, right. We've got to first really invest in current client, serving them, serving them well and building this business.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Your next question comes from the line of Brian Kleinhanzl with KBW.</text>
+                    </speaker>
+                </trainsition>
+            <question id="10">
+                <speaker id="8" position="Keefe, Bruyette, &amp; Woods, Inc., Research Division">Brian Matthew Kleinhanzl<text>Just one quick question first, maybe piggybacking on what Vivek just asked. How long, one, from integration will you be able to actually go out to clients and say this is our end-to-end solution that we have for you? I mean, I know you want to have the deal close in the fourth quarter, but I mean, when can you actually bring that solution to clients, like what quarter, what year?</text>
+                    </speaker>
+                </question>
+            <answer id="10">
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Brian, I would say -- this is Jay, I would say we are working on this already. I think, we said it a few times, but the fact that SSgA is 2 years into -- SSgA, obviously, a middle and back-office client of State Street's and has been working on this for a year, has given us a chance to really understand the connect points and understand the things that can be delivered in a relatively short period of time, and those things that will happen over time. So I think it will evolve, but probably pretty quickly we'll be able to show some linkages to the existing Charles River client base and to the State Street client base, which will show some value, and it will grow over time. And I think, if you think about, not only wiring this together from a State Street standpoint, but wiring additional capabilities from other firms into this, it will just continue to grow.</text>
+                    </speaker>
+                </answer>
+            <answer id="10">
+                <speaker id="3" position="Former CEO &amp; President">Ronald Philip O’Hanley<text>Yes. And what I would add to that is, I think the important thing to know about this client base and this segment is that even those firms that have -- are starting to outsource the middle office, they haven't -- most actually haven't put in an integrated solution into their front office. So this isn't about necessarily displacing somebody else, it's oftentimes what we're displacing is proprietary systems or spreadsheets that have been built up over time. And as we're given -- again, that we're working with them in the middle office. It's a pretty easy conversation to say, here's what's contributing to the complexity of your middle office, it has to do with your front office and let's help you figure this out.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="8" position="Keefe, Bruyette, &amp; Woods, Inc., Research Division">Brian Matthew Kleinhanzl<text>Okay, great. And then maybe just one quick one on the financials from the deal. Eric, you mentioned that the CET1 dilution was 50 basis points. Could you help us break that down? I don't know if I ever caught what the total intangibles were from the deal. I don't know if there would be any RWA impact from the deal.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes, it's Eric. I think, the easiest way to think about this is $2.6 billion of goodwill and intangibles, right, and obviously all those are deducted from capital under regulatory reporting. And so we've developed a fully kind of ratio-neutral financing of equity on the other side to [ add those ] -- that goodwill and intangibles. So if you kind of -- if everything was done contemporaneously it would be neutral in a Tier 1 capital and a leverage-capital basis, and then there would be that deterioration on a CET1 ratio. I think the next part of that is over time, there is a mix of goodwill and intangibles. The intangibles come through the expense base and thus the deduction is lower. So I think you can just model it out based on the -- I think we've given the -- the intangible spilt is roughly 800 to 900 over 10 years. And I think, you can just work through on a model how that plays out. And so that will come through our expense base, but the deduction from capital will come out and that will play through kind of a classic multi-year model, but we can certainly help you with, offline.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Your next question comes from the line of Gerard Cassidy with RBC Capital Markets.</text>
+                    </speaker>
+                </trainsition>
+            <question id="11">
+                <speaker id="10" position="RBC Capital Markets, Research Division">Gerard S. Cassidy<text>I apologize if you have been asked this question, I jumped on late. I understand that you're going to keep Charles River separate -- as a separate entity. And I'm assuming they're not a bank-holding company or any -- do not have a banking license. Are there any regulatory issues that you have to address with them as you integrate them as part of your bank holding company, any added costs or anything like that because they're not regulated by the bank regulators today?</text>
+                    </speaker>
+                </question>
+            <answer id="11">
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Gerard, it's Eric. Within the financial guidance that we've given you here on revenue, the cost to deliver the revenue and the expenses, we've actually factored in what you'd usually have to do to take a private company and put it into a public setting. So there is the usual work that you have to do on the accounting and auditing and financial reporting side for the various implementations that we have, and then we've got the same thing on the -- a more bank-regulatory side. Clearly, it has to be run from safety and soundness standpoint and data security and so forth, at the level that you'd expect a bank of our size and scope to have, and so we did factor that in.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="10" position="RBC Capital Markets, Research Division">Gerard S. Cassidy<text>Okay. And then the second. I know you have given some good data about the revenue synergies on Slide 8 and the internal rate of return that you guys calculated, and the expectation that this is accretive. With a run rate today of your total revenues of about $12 billion, it seems like -- and this happens in other acquisitions for your company and others that these benefits are hard for investors to kind of extract out 2 or 3 years down the road to see if it's really working. Are there any objective measures that you can share with us that we should look at that we can really see that, yes, this deal was a great deal or no, it's not coming in as expected, aside from what you have given us in the slides. So again, they get blended into your regular numbers?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Yes, I think, Gerard, what we'll be doing is actually your -- you'd like to see, right? Because we need to make sure that we extract the value from this acquisition. It's not just combined with other activities. Now like you say, it's not a perfect science to do that. But our perspective is each one of these, because there are 5 buckets we've given you, there are actually a dozen buckets behind that or things that we like to track. But take them by example, the liquidity services that we put against the platform, that comes through in defined revenue streams, against defined clients and through specific systems that we need to track, actually just book it on the [ GL ] in the right way and that should be something that we can trace back. We need to trace it back. It's for our own data lineage standpoint. And so that's the kind of thing we can share. I think wealth management is compartmentalized, it's [ findable ] . I think you can go back to top of the list, we talked about converting additional clients from the on-premises to a cloud application. That we will be able to find clients, client counts, what were they, what are they now, what's under implementation. So with some view of the trajectory. So we will do everything we can. We'll be doing it anyway internally, right? And the -- we'll certainly find ways to share that with you on some kind of regular basis to bring it together. I think as you step back though, at the end of the day, I think, we feel we've given guidance as to what we think our underlying growth rate is before the acquisition. We did that in January and that gave you some sense for how we think of the custody and accounting and asset management businesses, and markets businesses to grow. And our perspective is that this can add a percentage point on top of that, but we'll do everything we can to show you with -- the transparency that's possible, whether we're achieving it or how we're -- and at what pace.</text>
+                    </speaker>
+                </followAnswer>
+            <ending>
+                <speaker id="-1" position="">Operator<text>Your final question comes from the line of Jeff Harte with Sandler O'Neill.</text>
+                    </speaker>
+                </ending>
+            <ending id="12">
+                <speaker id="13" position="Sandler O'Neill + Partners, L.P., Research Division">Jeffery J. Harte<text>Most things have been covered, but just a couple. Can you talk a little bit about the revenue terms in the front office space now? I mean, I know there is [indiscernible] big offering, but I'm kind of wondering how that compares to your more traditional businesses where, from the outside, you kind of still calculate fees -- servicing fees as a percent of assets under custody continuing to decline.</text>
+                    </speaker>
+                </ending>
+            <ending id="12">
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>I'll start that, Jeff and maybe ask Ron to weigh in. I think that if I compare the back, middle and front, I would say the back office is pretty mature, as far as the set of services and the set of competitors. The middle office may be 40% of that, that's outsourced today, there's more to go. I'd say the front office is even more immature. And that -- and Ron referenced this earlier, the front offices are up and running, but the pressure that people are feeling to consolidate systems, get a data replaced, old [indiscernible] proprietary systems, it causes me to say the front office has probably like the most explosive growth opportunity in it. We sized the market at $8 billion, but I would say from a standpoint of change, churn and growth, the front office has the most attractive growth of those 3 segments, but Ron what would you -- being a...</text>
+                    </speaker>
+                </ending>
+            <ending id="12">
+                <speaker id="3" position="Former CEO &amp; President">Ronald Philip O’Hanley<text>I'd agree with that Jay, and Jeff, what I would add is that if you think about it, many of the kinds of tools and capabilities that we're now able to offer in the data space, they just weren't able to be offered 5, 10 years ago in terms of -- particularly some of the big data analytics, and the unstructured data analytics kinds of tools. So you're creating basically some -- it's a relatively new market with new offerings. And as Jay noted, in many cases, you're taking things that either weren't being done or were being done in a fairly primitive way in the front office and now, putting it together in a much more industrial-strength kind of data analytics and platform package.</text>
+                    </speaker>
+                </ending>
+            <ending id="12">
+                <speaker id="13" position="Sandler O'Neill + Partners, L.P., Research Division">Jeffery J. Harte<text>Okay, and employee retentions. You talked a bit about a, how important it is and b, the financial impacts. I mean, are retention packages or things like that included in the $200 million of acquisition and restructuring costs?</text>
+                    </speaker>
+                </ending>
+            <ending id="12">
+                <speaker id="0" position="Executive VP &amp; CFO">Eric Walter Aboaf<text>Jeff. Yes, it's Eric. Yes, absolutely. There is about $50 million that we've put aside for that kind of talent that we're bringing on. And we're -- we'd like to expand on that talent actually over time because that's what's going to drive additional growth in that business. So that's an important part of the $200 million that we summarized there.</text>
+                    </speaker>
+                </ending>
+            <ending>
+                <speaker id="-1" position="">Operator<text>And there are no further questions at this time.</text>
+                    </speaker>
+                </ending>
+            <ending id="13">
+                <speaker id="2" position="Former Chairman of the Board">Joseph L. Hooley<text>Thanks, Lisa and thanks everybody, for joining us this morning. We look forward to providing you an update in October after the third quarter. Thank you. 
+OperatorThis concludes today's conference. You may now disconnect.</text>
+                    </speaker>
+                </ending>
+            </section>
+        </body>
+    </Transcript>

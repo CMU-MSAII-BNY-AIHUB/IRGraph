@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Transcript>
+    <header>
+        <company>The Bank of New York Mellon Corporation NYSE:BK</company>
+        <title>FQ2 2018 Earnings Call Transcripts</title>
+        <time>Thursday, July 19, 2018 12:00 PM GMT</time>
+        <currency>Currency: USD</currency>
+        <note>Consensus as of  Jul-19-2018 12:25 PM GMT</note>
+        </header>
+    <body>
+        <section name="financial tables">
+            <table id="0" name="Earnings Estimates Comparison Table">
+                <timePeriods>
+                    <period name="FQ2 2018" />
+                    <period name="FQ3 2018" />
+                    <period name="FY 2018" />
+                    </timePeriods>
+                <metrics>
+                    <metric name="EPS Normalized">
+                        <value period="-FQ2 2018-" type="CONSENSUS">1.02</value>
+                        <value period="-FQ3 2018-" type="ACTUAL">1.03</value>
+                        <value period="-FY 2018-" type="SURPRISE">0.98</value>
+                        </metric>
+                    <metric name="Revenue  (mm)">
+                        <value period="-FQ2 2018-" type="CONSENSUS">4134.34</value>
+                        <value period="-FQ3 2018-" type="ACTUAL">4138.00</value>
+                        <value period="-FY 2018-" type="SURPRISE">0.09</value>
+                        </metric>
+                    </metrics>
+                </table>
+            <table id="1" name="EPS Normalized Comparison Table">
+                <timePeriods>
+                    <period name="FQ3 2017" />
+                    <period name="FQ4 2017" />
+                    <period name="FQ1 2018" />
+                    <period name="FQ2 2018" />
+                    </timePeriods>
+                <metrics>
+                    <metric name="EPS Normalized">
+                        <value period="FQ3 2017" type="CONSENSUS">0.92</value>
+                        <value period="FQ4 2017" type="CONSENSUS">0.91</value>
+                        <value period="FQ1 2018" type="CONSENSUS">0.96</value>
+                        <value period="FQ2 2018" type="CONSENSUS">1.02</value>
+                        </metric>
+                    </metrics>
+                </table>
+            </section>
+        <section name="call participants">
+            <person position="Former Chairman &amp; CEO" group="EXECUTIVES" id="0">Charles W. Scharf</person>
+            <person position="Chief Financial Officer" group="EXECUTIVES" id="1">Michael P. Santomassimo</person>
+            <person position="Former Global Head of Investor Relations" group="EXECUTIVES" id="2">Valerie C. Haertel</person>
+            <person position="Goldman Sachs Group Inc., Research Division" group="ANALYSTS" id="3">Alexander  Blostein</person>
+            <person position="UBS Investment Bank, Research Division" group="ANALYSTS" id="4">Brennan  Hawken</person>
+            <person position="Deutsche Bank AG, Research Division" group="ANALYSTS" id="5">Brian Bertram Bedell</person>
+            <person position="Autonomous Research LLP" group="ANALYSTS" id="6">Geoffrey  Elliott</person>
+            <person position="Evercore ISI Institutional Equities, Research Division" group="ANALYSTS" id="7">Glenn Paul Schorr</person>
+            <person position="The Buckingham Research Group Incorporated" group="ANALYSTS" id="8">James Francis Mitchell</person>
+            <person position="Jefferies LLC, Research Division" group="ANALYSTS" id="9">Kenneth Michael Usdin</person>
+            <person position="BofA Merrill Lynch, Research Division" group="ANALYSTS" id="10">Michael Roger Carrier</person>
+            </section>
+        <section name="Presentation ">
+            <statement>
+                <speaker id="-1" position="">Operator<text>Good morning, ladies and gentlemen, and welcome to the Second Quarter 2018 Earnings Conference Call hosted by BNY Mellon. [Operator Instructions] Please note that this conference call and webcast will be recorded and will consist of copyrighted material. You may not record or rebroadcast these materials without BNY Mellon's consent. 
+ 
+ 
+I will now turn the call over to Ms. Valerie Haertel. Ms. Haertel, you may begin.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="2" position="Former Global Head of Investor Relations">Valerie C. Haertel<text>Good morning, and welcome to the BNY Mellon Second Quarter 2018 Earnings Conference Call. With us today are Charlie Scharf, our Chairman and CEO; and Mike Santomassimo, our CFO. 
+The earnings materials include a financial highlights presentation that will be referred to in our discussion of second quarter results and can be found on the Investor Relations section of our website, bnymellon.com. Please note that our remarks today may be forward-looking statements. Actual results may differ materially from those indicated or implied by our forward-looking statements as a result of various factors. These factors include those identified in the cautionary statement in the earnings press release, the financial highlights presentation and in our documents filed with the SEC available on our website, bnymellon.com. Forward-looking statements made on this call speak only as of today, July 19, 2018, and we will not update forward-looking statements. 
+With that, I will now turn the call over to Charlie.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>Thanks, Valerie. Good morning, everyone, and thanks for joining us on the second quarter earnings call. I'll begin with a few comments on our business performance before turning it over to Mike who will then run through our second quarter financials and outlook before we open the call for questions. 
+We reported earnings per share of $1.03, up 17% from last year's second quarter. Year-over-year revenue grew 5%, expenses grew 3% and, as we did last quarter, we benefited from the reduction in our tax rate. I'll talk more specifically about revenue growth in a second, but just a reminder, we are focused on increasing the rate of revenue growth. Given the nature of our business, it takes time and, therefore, it's very hard to draw any conclusions in an individual quarter, good or bad. Having said that, we again saw some underlying franchise growth in some parts of the company this quarter, and we continued to benefit from the positive impact of higher interest rates and stronger equity markets albeit at a more modest pace than last quarter. Regarding expenses, we remained disciplined and focused on deploying our resources. Currency translation and real estate costs impacted expense growth by 2%. And despite an increase in our investment in technology, all other expenses were only up modestly. 
+Let me say a few words about our asset servicing business first. We saw steady performance in our core custody, middle office and fund accounting revenues, and we did see good growth in several areas, including securities lending, where we saw increased demand for U.S. government securities and equities, and we had good growth in foreign exchange revenue, driven by higher volumes from market activity, but also new business wins, predominantly from Asset Servicing clients. We continue to enhance our capabilities and recently launched new foreign exchange products to better service our clients, including FX prime brokerage and FX options. We also enhanced our existing capabilities in emerging markets. 
+As we look forward, our pipeline and demand for services is solid in our Asset Servicing business overall. Our strength in our end-to-end fund administration solutions business, which includes our institutional transfer agency services, is a differentiator, and we continue to experience growth in our real estate and private equity servicing, a trend we have seen for well over a year. Regarding new business, we had a healthy number of new wins and mandates, especially in the U.S. and Canada. 
+In Pershing, our business continues to be strong, but this quarter was impacted by 2 lost clients. These had been known to us for quite some time, and while these losses will impact us on a year-over-year basis for the next few quarters, we're also in the process of onboarding several large clients which will positively impact our results, starting predominantly in the second half of next year. 
+In Issuer Services, we continued to see improved results in our core Corporate Trust business, resulting from repositioning of our front office sales and relationship management teams and investments to improve our technology capabilities. While the market remains competitive, we continue to see a strong pipeline, particularly for collateralized loan obligations and corporate debt and through the first half of 2018, our market share improved a bit. 
+In Treasury Services, we continue to see growth in our payment volumes from existing and new clients, and our pipeline remains strong both in the U.S. and Europe. In Clearance and Collateral Management, our business here continues to be strong. We saw double-digit revenue growth in clearing and collateral management services from growth in collateral management activity, the onboarding of new broker-dealer clients from JPMorgan's exit of the government clearing business and higher clearance volumes related to some monitory policy easing from the increase in U.S. government debt and treasury issuances, as I noted last quarter. 
+In Investment Management, we're continuing to focus on investment performance, drive scale on our business portfolio, invest in product development and distribution capabilities, and strengthen our Wealth Management franchise. We did see outflows in our long-term strategies and cash this quarter. Mike will provide more color here in a few minutes. Importantly, investment performance remained in line with the first quarter, with 89% of our AUMs ahead of benchmark over 3 and 5 years. And importantly, we're continuing to focus on retaining and attracting great talent. 
+This quarter, we added 2 senior people to the executive team. In Wealth Management, Catherine Keating joined us as CEO on July 9, reporting to Mitchell. The business has done well, but we can do even better. Catherine is a seasoned CEO with a strong track record in wealth and asset management. She knows the business, the markets, appreciates the advantage of the business being part of BNY Mellon, and I'm confident she'll do a great job for us. We also announced a new CEO of Treasury Services, Paul Camp, who will be reporting to Todd and will be joining us in August. Paul has a great reputation and has extensive global experience in this space, and I'm thrilled that we are able to attract someone of his caliber. Hereto, we are doing well, but we have the opportunity to do even better. 
+Before I turn the call over to Mike, let me just say a few more things, all of which should sound familiar to you. We are focused on delivering strong financial results, including driving stronger organic revenue growth and, as I've said, this will take some time. Our technology investments will continue to grow, and we will be vigilant about controlling other discretionary expenses. We believe we have a financially attractive business model with unique collection of assets, which work together to give us a competitive advantage. We see some evidence of early progress, we still have much more to do, and we have confidence that we'll be successful and that we will drive more value for you and our clients. 
+Now let me turn the call over to Mike.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Thank you, Charlie, and good morning, everyone. I'll first run through the details of the second quarter results and then provide some thoughts for the third quarter. Charlie and I will then open up the call for questions. All comparisons will be on a year-over-year basis unless I note otherwise. 
+Beginning on Page 3 of the financial highlights presentation, total revenue increased 5% to $4.1 billion in the second quarter. Fee revenue increased 3% to $3.2 billion due to higher equity market values, the favorable impact of a weaker U.S. dollar, the change in FX translation rates, which positively impacted fee growth by approximately 1% and growth in volumes across our foreign exchange and our collateral management business. The year-over-year growth rate was negatively impacted by lease-related gains recorded in the second quarter of 2017, which impacted fee growth by approximately 1.5%. Net interest revenue increased 11% to $916 million from higher interest rates. 
+Our expenses grew 3% to $2.7 billion. The impact of the weaker U.S. dollar and costs related to our real estate consolidation activities negatively impacted expenses by approximately 2%. Including in the real estate costs is $12 million related to moving our headquarters in New York City from lease space to our own building. We have begun the physical move now and now -- and expect the costs associated with the relocation to be approximately $75 million, down from approximately $100 million that we communicated at Investor Day in March, with the remainder expected to be recorded in the fourth quarter of this year. This will enable us to reduce our real estate footprint by approximately 300,000 square feet in 2019. In addition to that, there were also some expenses in the second quarter related to rationalizing other locations. 
+Our continued investments we are making in technology were partially offset by declines in other expenses. The majority of the incremental technology investments this year is going towards improvements related to our operating platforms and technology infrastructure. Having said that, we are also still investing approximately $1.5 billion in developing new capabilities for clients. This year, as we have said in the past, technology is one of our key investment priorities as well as continuing to be focused in driving more efficiency into everything we do. 
+In the second quarter, we repurchased 12 million common shares for $651 million and paid $244 million in dividends to common shareholders. Additionally, the board has authorized the repurchase of up to $2.4 billion of common shares, beginning in the third quarter through the second quarter of 2019 and an increase in the quarterly common stock dividend to $0.28 per share, payable beginning in the third quarter of this year. All of this resulted in an increase in pretax income of 7% to $1.4 billion and an increase in net income applicable to common shareholders of 14% to $1.1 billion, which benefited from a lower U.S. tax rate of 20.5%. We generated positive operating leverage and a pretax operating margin of 34%, up from the prior year period. This, coupled with the reduction in our share count, increased earnings per share by 17% to $1.03. Our risk-adjusted returns continue to be strong. Our CET1 ratio increased 11%, and our return on tangible common equity was approximately 23%. 
+Page 5 highlights our Investment Services business. Investment Services revenue increased 8% to $3.1 billion. Net interest revenue increased in most businesses, primarily due to higher interest rates. Within the business, asset servicing revenue increased 10% to $1.5 billion, primarily reflecting higher net interest revenue mostly driven by higher rates, foreign exchange and securities lending volumes, equity market values and the favorable impact of a weaker U.S. dollar. Pershing revenue increased 2% to $558 million as a result of higher net interest revenue and fees from growth in long-term mutual fund balances, partially offset by the impact of lost business. 
+We are continuing to see our clients' consolidated assets on to the Pershing platform, which enhances visibility into their clients' portfolios. The lost business is primarily driven by a couple clients. One was the result of industry consolidation and one moved to another provider. As Charlie mentioned, the pipeline is good, but it takes time to onboard. Sequentially, Pershing's revenue decreased 4%, primarily reflecting lower clearance revenue, of which approximately half was from normal changes in volumes and half from the lost clients. Issuer Services revenue, which includes Corporate Trust and Depositary Receipts, increased 8% year-over-year and 3% sequentially to $431 million. Both comparisons primarily reflect higher net interest revenue in Corporate Trust and higher Depositary Receipts revenue. 
+Treasury Services revenue increased 6% year-over-year and 2% sequentially to $329 million, primarily reflecting higher net interest revenue due to the higher interest rates and higher payment volumes, which were up approximately 4%.  Clearance and Collateral Management revenue, which includes our U.S. government clearing, U.S. tri-party activity and global collateral management, increased 11% year-over-year and 5% sequentially to $269 million. Both increases primarily reflect growth in collateral management, increased clearance volumes and net interest revenue. We are continuing to onboard the U.S. government clearing clients that are transferring from JPMorgan, and those migrations are going well. We saw some modest impact from the activity in the second quarter and expect to have most of the migrations completed by the end of the third quarter. 
+Additionally, average collateral management balances were up 12%. Noninterest expense within Investment Services increased 2% to $2 billion, driven primarily by higher technology investments and the unfavorable impact of a weaker U.S. dollar. Also, our foreign exchange revenue increased 19% from higher volumes across many of our products. Securities lending revenue increased 31%, primarily driven by higher demand for U.S. government securities and higher demand for equities.  Our assets under custody and administration grew 8% to $33.6 trillion, reflecting higher market values and business growth. 
+Turning to Page 6 for Investment Management business. Investment Management revenue increased 3% to $1 billion. On a sequential basis, total revenue decreased 6%, driven by the performance fees being higher in the first quarter and the gain on sale from the CenterSquare divestiture also in the first quarter. 
+Asset Management revenue increased 3% to $702 million. The results were helped by the increase in equity markets, the favorable impact of a weaker U.S. dollar principally versus the pound, which was partially offset by the impact of lost revenue associated with the sale of CenterSquare and the impact of outflows in some of our actively managed strategies, particularly equities. 
+Wealth Management revenue increased 4% to $316 million, primarily result of an increase in the equity markets, partially offset by lower net interest revenue due to a 4% decline in deposits. Assets under management increased 2% year-over-year but declined 3% sequentially to $1.8 trillion. The sequential decline was primarily due to the unfavorable impact of a stronger U.S. dollar principally versus the pound, which drove an approximately 3% decline in net outflows, partially offset by market appreciation. 
+Turning to the flows. Our actively managed strategies experienced $8 billion in net outflows, with $4 billion in outflows from fixed income and $3 billion each from equity in multi-asset and alternatives, partially offset by LDI inflows of $2 billion. Index strategies had $7 billion of outflows. Cash outflows of $11 billion were primarily driven by some recent outflows due to client M&amp;A activity. 
+Now turning to the other segment on Page 7. Fee revenue decline year-over-year, primarily reflecting the impact of lease-related gains recorded in the second quarter of 2017 and lower corporate bank-owned life insurance. Fee revenue also declined sequentially, primarily reflecting lower asset-related gains. Net interest expense increased year-over-year and sequentially, primarily resulting from corporate treasury activity. Additionally, noninterest expense increased year-over-year, primarily reflecting higher technology spend and expenses related with our real estate consolidation. 
+Now turning to capital and liquidity on Page 8. Our capital and liquidity ratios at the end of the quarter increased since the first quarter. Common equity Tier 1 capital totaled $18.4 billion as of June 30, 2018, and our CET1 ratio was 11% under the advanced approach. The supplementary ratio was 6.2%. Our average LCR was 118% in the second quarter. 
+Turning to Page 9. Net interest revenue increased 11% to $916 million, primarily driven by the impact of higher interest rates. On a sequential basis, net interest revenue decreased slightly as expected due to lower deposits partially offset by higher interest rates. The net interest margin on a fully taxable equivalent basis increased 10 basis points to 1.26%. Sequentially, the NIM was up 3 basis points.  Year-over-year, our average interest-bearing deposits increased 7%, while our average noninterest-bearing deposits declined 12%. 
+Now Page 10 has details of our expenses. On a consolidated basis, expenses of $2.7 billion increased 3%, primarily reflecting higher investments in technology, which impacted the staff, professional, legal and other purchased services, and the software and equipment expense lines. Additionally, the year-over-year comparison reflects the unfavorable impact of a weaker U.S. dollar and the expenses related to our real estate consolidation. 
+Sequentially, noninterest expense increased, primarily reflecting higher investments in technology and expenses associated with the consolidation of our real estate. These expenses were partially offset by lower staff expense due to the impact of vesting of long-term stock awards for retirement eligible employees that was recorded in the first quarter and a favorable impact of a stronger U.S. dollar. 
+Now looking ahead to the third quarter, there are a few things to factor into your modeling. As it relates to net interest revenue, we expect reinvestment rates to be up significantly versus the third quarter of 2017, but up only modestly versus the second quarter. Deposit betas are behaving as we expected, and currently, deposit balances are down slightly versus the second quarter average, but it's still early. We expect this to result in net interest revenue growth in the mid- to high single-digit percent range versus the third quarter of 2017. And we still expect our full year 2018 effective tax rate to be approximately 21%. 
+Before we open the call up for questions, we'd like to make some comments on the outcomes of the CCAR process that were released in late June. I wanted to provide a brief reminder on how the process works. There is first a quantitative test, and all firms have to satisfy both their internal model-driven results and the Fed's models.  And just as a reminder, we don't have transparency into how the Fed models work. And as you look at the results, we've been constrained by our own model for the last couple years. Then there's a qualitative assessment. Historically, this focused on governance over the process, your capital management policies, and how you apply governance to your model output. 
+Now when you look at the results, we believe that our models are conservative. You can see the results of the test over the last couple of years and see the conservatism relative to the Federal Reserve's estimates and model outputs. So we weren't surprised by the results. Additionally, our constraining ratio is Tier 1 leverage, which is size-based and not risk-based. Our models project an increase in client deposits that we assume are placed at central banks, which does not create any incremental risk, but still causes our Tier 1 leverage ratio to decline and constrain our activities. We continue to believe that the Tier 1 leverage ratio should not be a constraint on capital actions. This all, coupled with a scenario that was more severe and very unlikely to actually occur, resulted in capital actions that were lower than some of you expected. I do want to point out that the lower distributions will not have a significant impact on earnings in 2018 or in the CCAR approval period. With a more reasonable scenario, we would expect to be in a position to return 100% over time whether or not we change our models. 
+So what does this mean as we look forward? You can assume that we are reviewing our models with urgency. The Fed proposals to provide more transparency into the CCAR scenarios and models as well as introduction of the stress capital buffer should all be constructive too. 
+And now, this concludes our remarks, and Charlie and I will be happy to take your questions. Operator?</text>
+                    </speaker>
+                </statement>
+            </section>
+        <section name="Question and Answer">
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>[Operator Instructions] Our first question comes from Glenn Schorr with Evercore ISI.</text>
+                    </speaker>
+                </trainsition>
+            <question id="0">
+                <speaker id="7" position="Evercore ISI Institutional Equities, Research Division">Glenn Paul Schorr<text>So I appreciate the forward-looking guidance. I'm just curious on the deposit migration that you're seeing, the interest-bearing down 12% -- interest-bearing up 7%, noninterest-bearing down 12%. Is that -- do we look for more of the same in the next several quarters that a function of the rate environment? In other words, if we go on the path that is in the forward curve, is it going to be just be chipping away? Or do you see an end to that client behavior? It just has, obviously, a big impact on the modeling.</text>
+                    </speaker>
+                </question>
+            <answer id="0">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Glenn, it's Mike. I'll take that. So I think when you look at the noninterest-bearing as a percentage of the total, it's about where we expected it to be and what we've been saying now for a very long time actually. And so just -- it's just about 30% of the total. And so as we've said a number of times over the last couple years, we would expect that percentage to trend down a little bit below 30 over a period of time. And so it's behaving sort of where we thought it would -- it's right about where we thought it would be.</text>
+                    </speaker>
+                </answer>
+            <answer id="0">
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>It's factored into what – and Glenn, this is Charlie.  That's the way we thought about where it looks like going forward if that continues.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="7" position="Evercore ISI Institutional Equities, Research Division">Glenn Paul Schorr<text>Okay. Might as well finish off this NII combo then. Does the same apply for the modest decline on the loan side and the incremental deposit betas of over 60% this quarter?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Yes. Look, I think on the loan side, that will bounce around from any given quarter. So I wouldn't read into a decline in loans as a go-forward trend that's going to continue to decline. On the deposit betas, recall that there was a rise in March that's fully baked into the second quarter, and there was a stub of -- or another rise in June. And so it's probably a decent indication of where betas are trending right now.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>And our next question comes from Alex Blostein with Goldman Sachs.</text>
+                    </speaker>
+                </trainsition>
+            <question id="1">
+                <speaker id="3" position="Goldman Sachs Group Inc., Research Division">Alexander  Blostein<text>Just first question around expenses. Can you provide us an update on the kind of $300 million investment initiative you outlined at the Investor Day? I guess, a, is it still $300 million? How much of the kind of $300 million is already in the run rate? And how we should think about just maybe absolute dollars of expenses as we progress through the year?</text>
+                    </speaker>
+                </question>
+            <answer id="1">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Alex, it's Mike. Thanks for the question. So as we mentioned last quarter, we -- that $300 million investment sort of ramps up throughout the year and so it's not exactly a linear sort of progression throughout the year, but we're sort of midway through the year, and we're sort of approximately at sort of where we expected to be in that sort of ramp-up. And the $300 million sort of plus or minus is still sort of the range that we've been looking at.</text>
+                    </speaker>
+                </answer>
+            <answer id="1">
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>The only thing I would add to it is that what we talked about relative to where we had hoped the total expense outcome to be for the company, I wouldn't say there's no meaningful difference there. So to the extent that we decide to spend more money on technology, we will actively seek to manage the overall expense base, and that's still what we're trying to accomplish.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="3" position="Goldman Sachs Group Inc., Research Division">Alexander  Blostein<text>Yes. Got you, that makes sense. And my second just a cleanup question around Issuer Services. It seems like there is kind of a different dynamic going on there. You guys are clearly making progress in the Corporate Trust, and DR business has been a lot more muted. As we think about seasonality, I think historically Q3 was a strong quarter for Issuer Services, and it kind of drops off in Q4. How should we think about it, I guess, given the changes in business the way you guys have been reporting it here?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Yes. I think as you saw last year in the third quarter, Alex, there was -- that historical sort of pop that you get in -- from the DR business sort of got muted last year. And so while we would expect the number to be a little bit higher than you saw in the second quarter, you got to sort of -- you can't go back a couple years. You've got to sort of look at the sort of new trend there in terms of what you think that pop might be.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>And our next question comes from Mike Carrier with Bank of America Merrill Lynch.</text>
+                    </speaker>
+                </trainsition>
+            <question id="2">
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>Mike, if you're talking, we can't hear you.</text>
+                    </speaker>
+                </question>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Mr. Carrier, we're unable to hear you. Please check your mute function.</text>
+                    </speaker>
+                </trainsition>
+            <question id="3">
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>Operator, why don't we go to the next one.</text>
+                    </speaker>
+                </question>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Okay. Mr. Carrier, did you want to ask your question? Okay. Hearing no response, we'll move on to Brian Bedell with Deutsche Bank.</text>
+                    </speaker>
+                </trainsition>
+            <question id="4">
+                <speaker id="5" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Just maybe focusing back on the balance sheet. On the asset side, I appreciate your comments, Mike, about you being -- you not moving up as much, but if you can talk about some of the drivers in the second quarter on the Fed funds and securities repo one. It looked like it was especially large increase, and it looked like there was also corresponding increase in the liability side there. What was the driver in that? And how should we think about that trend going forward?</text>
+                    </speaker>
+                </question>
+            <answer id="4">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Yes. I think you sort of need to -- and you'll probably notice there is -- if you're looking at the supplement, Brian. So there's a footnote on the page as well that I would sort of just point you to. But what happens in -- we've got a cleared repo product that gets some positive balance sheet treatment that gets -- where we'll do repos or reverse repos with clients that gets novated over to FICC. And so there's very little that ends up on the balance sheet. So that sort of makes the -- both the revenue and the rate sort of pop year-on-year, and you can get a sense based on the footnote on the bottom of the impact of that. So that's what you're seeing sort of drive that number -- or a good chunk of the driver of that number is that program really kicking in, and we've seen some good growth there.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="5" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>And would you expect that to stay pretty lively, I guess, with Fed hikes? Or does it look more sort of abnormal for at least this quarter?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>No. I think we've seen that -- we've seen the demand for that product ramp up over the last year. And so while in any given day or week, it sort of moved -- the volume moves around, we've seen that demand stay pretty consistent now over the last number of months.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="5" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>And then just as a follow-up. Maybe just as we look into 3Q and 4Q, if you can talk a little bit more about the impact to the clearing services run rate from the JPM transition that you mentioned at the end of the third quarter. So just trying to look through sort of a clean number there as we look into the fourth quarter. And then also, similarly from the 2 clients lost, I appreciate that you're going to be onboarding folks in the second half of next year. But is there more revenue runoff in the third quarter versus the second quarter, given those 2 clients running off?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>Yes. No, so I'll start with a second one first. So I think the impact of the lost clients is in the run rate now for the second quarter. So there's not another drop off in the Pershing business. So I think that's a pretty easy one. I think on the clearance and collateral, we haven't given you a specific number. But as we sort of think about those migrations, the -- we started with the smaller ones first and then you moved to the bigger ones over time. And so -- and by the end of the third quarter, we'll have pretty much everything in there. So I think once you get to a third quarter number, you'll have -- it will be pretty much fully in our run rate.</text>
+                    </speaker>
+                </followAnswer>
+            <answer id="4">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>So you're seeing a small piece this quarter, and you'll see a little bit more next quarter and then it will be in our run rate.</text>
+                    </speaker>
+                </answer>
+            <answer id="4">
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>Yes. And sorry, the only thing I'll add to your question though is when you sort of think about the clearing and collateral business, we're also seeing very good growth outside the U.S. So although we focus a lot on sort of the JPMorgan migrations here in the U.S., we've also got a very strong business outside the U.S., up -- very strong double-digit growth outside the U.S. in terms of the demand for that product that we've got.</text>
+                    </speaker>
+                </answer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>[Operator Instructions] Moving on to our next question from Brennan Hawken with UBS.</text>
+                    </speaker>
+                </trainsition>
+            <question id="5">
+                <speaker id="4" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>I just had a follow-up on the deposit beta point. Looking at the 15 or so basis points increase in interest-bearing this quarter, but also then thinking about the fact that, I think you said that U.S. dollar deposits are about 70%, was there an increase in non-U.S. dollar deposit costs? Or should we apply that 15 basis point just to the U.S. dollar, which would suggest a beta higher. I'm just trying to square that component of the math, Mike. If you could help out on that, that'd be great.</text>
+                    </speaker>
+                </question>
+            <answer id="5">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Yes. As you know, U.S. rate -- or non-U.S. rates have not really moved around that much in the quarter. Now there's some expectation that, that's going to start to happen in the third quarter, particularly in the U.K. at least, but that hasn't been a big driver so far. So and remember, as we've said, the betas are going to continue to sort of increase as rates increase. And so on the -- it sort of implies about a 60% beta for the quarter, and we would expect that to keep increasing as rates go up.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="4" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Yes. It would apply 60% beta, but if we think about the U.S. dollar deposits, wouldn't it imply a higher beta in the U.S. -- on the U.S. side because -- since that's the only place we saw...</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Yes, it would be a little higher.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="4" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Okay. Good. Just wanted to clarify that. And then it sounds like noninterest-bearing shift you guys think is probably sustainable and in line with what you had expected. Do you think that we're going to be continuing the trend lower here in the foreseeable future? Or is there any sort of visibility that you have into that line as well and the sort of remixing that we would think is natural as rates go higher? That'd be great.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Yes, Brennan, so -- I mean, what we said a little earlier, right, is that the percentage -- the noninterest bearing as a percentage of the total is a little less than 30%, rounds, I think to 30% this quarter. That percentage we would expect to sort of grind down as rates rise. And so that may bounce around in a given quarter a little bit, but we would expect that to continue to grind down.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>We'll take our next question from Geoffrey Elliott with Autonomous Research.</text>
+                    </speaker>
+                </trainsition>
+            <question id="6">
+                <speaker id="6" position="Autonomous Research LLP">Geoffrey  Elliott<text>In terms of capital, you mentioned reviewing your models with some urgency. Once you've completed that, would you be thinking about putting in kind of mid-cycle resubmission as some of the other banks have done in the past to get the payout ratio back up without having to wait for next year's process?</text>
+                    </speaker>
+                </question>
+            <answer id="6">
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>Yes. This is Charlie. I would say, I don't think we -- I think it's unclear. I think our first -- the first thing we've got to do is do the work on the modeling. And that is, it's got to be done properly, it's detailed, it's got to be reviewed, it's got to be signed off. And so we don't have a date at which that will be done, but the point is we're actively doing it. And then depending on when it's done and our conversations with the Fed, that will figure out where we go from there. So the short answer is we don't know.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="6" position="Autonomous Research LLP">Geoffrey  Elliott<text>And then the real estate consolidation costs coming down from $100 million to $75 million, is that because you're able to do the same things at the lower cost than you originally expected? Or is it because you're doing a bit less or doing it over a longer time frame?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>No. It really relates to 1 building, and we actually sublet it. We know the actual numbers now.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Our next question comes from Jim Mitchell with Buckingham Research.</text>
+                    </speaker>
+                </trainsition>
+            <question id="7">
+                <speaker id="8" position="The Buckingham Research Group Incorporated">James Francis Mitchell<text>I noticed that on the period end balance sheet, deposits were down $10 billion, but the balance sheet was down $20 billion. Is there a deliberate effort to delever a little bit? Or is there something else going on in terms of the mismatch between the deposits shrinking and the balance sheet?</text>
+                    </speaker>
+                </question>
+            <answer id="7">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Yes. There's no effort to deleverage per se, Jim, as you would suggest. But as you start to look at treasury activity, some of the trades you would put on just make less sense now. And so we're just looking at how to best optimize sort of some of that. So I wouldn't read into that.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="8" position="The Buckingham Research Group Incorporated">James Francis Mitchell<text>Okay. And then maybe just with the rollback bill that passed that gave you guys a carve-out for the SLR, is that -- does that help at all? Or is that just the DFAST remains a constraint and it doesn't really matter in how you run your business?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Yes. I think -- well, I think the bills that are out -- the bill that got passed plus the -- some of the Fed proposals still have to get implemented. And so that'll take some time to sort of play into it. So in a BAU environment, the SLR is still something we're still focused on to make sure that we stay where we need to be. But as we sort of think about the future as constructed, the Tier 1 leverage ratio in CCAR is the place we're most focused on where our constraint is.</text>
+                    </speaker>
+                </followAnswer>
+            <answer id="7">
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>I guess, the only editorializing I would do around it is, I would describe it's certainly helpful because whenever you have something which you think makes less sense and you wind up with something which you think directionally makes more sense, that's a positive change in terms of recognition of the way the business should be run. But as Mike mentioned, our current constraint is the Tier 1 leverage ratio in CCAR, which quite frankly we struggle with in terms of a concept of constraint because of the reasons Mike spoke about. But we'll see where that one goes as well.</text>
+                    </speaker>
+                </answer>
+            <ending>
+                <speaker id="-1" position="">Operator<text>And our final question comes as a follow-up question from Brian Bedell with Deutsche Bank.</text>
+                    </speaker>
+                </ending>
+            <ending id="8">
+                <speaker id="5" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Just wanted to actually circle back more strategically on the balance sheet growth strategy. As rates go up, you guys have always thought deposits would sort of run off to some extent. But is there -- I mean, I guess, going forward, how do you view this from the client side of the business in terms of what you view as, let's say, the level of excess deposits that are subject to that potential runoff versus how you want to use deposit as an important product within your toolkit? And then if deposits do run off, would you be willing to use more borrowed funds to keep the balance sheet from shrinking significantly?</text>
+                    </speaker>
+                </ending>
+            <ending id="8">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>So there's a bunch in there, Brian, so I'll try to get at it. But the -- so on the last piece, we're always looking for opportunities to deploy the balance sheet where it makes sense and where the return makes sense. So that's something we're looking at now and have always looked at and so -- and that'll sort of continue as we sort of think about that. And where we're focused on deposits is really growing the underlying franchise. So as Charlie sort of talked about a number of times now like where our focus is, is driving organic growth. And as you sort of do that across most of our products, particularly in Investment Services, that will bring deposits with it. And so as we sort of think about there may be some decline in some of the excess deposits, a lot of that sort of run off already, and you've got -- and as you sort of grow the franchise, you'll bring in new deposits as you do that.</text>
+                    </speaker>
+                </ending>
+            <ending id="8">
+                <speaker id="5" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Right.  And can we frame what the level of excess deposits is right now roughly so we can get a sense of that?</text>
+                    </speaker>
+                </ending>
+            <ending id="8">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>We have not disclosed that what we think that answer is.</text>
+                    </speaker>
+                </ending>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>And it looks like we do actually have another question from Ken Usdin from Jefferies.</text>
+                    </speaker>
+                </trainsition>
+            <ending id="9">
+                <speaker id="9" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>If I can ask a question on core asset servicing. So ex securities lending, that line was down 1%, AUC/A were flattish. Can you just talk us through some of the dynamics, the pluses and minuses in the Asset Servicing on a sequential basis?</text>
+                    </speaker>
+                </ending>
+            <ending id="9">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Yes. A lot of that, Ken, is just some seasonal-like activity that happens in the first quarter. We get some fees for things like tax reporting and then there are some other items that sort of hit -- only hit in the first quarter. So I wouldn't read into that as a run rate decline.</text>
+                    </speaker>
+                </ending>
+            <ending id="9">
+                <speaker id="9" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>Okay. And then can you give us just some idea of your -- I know you've stopped giving us the new wins, but can you just give us an idea of the pipeline and how you're expecting that to kind of just traject over time as far as new wins in servicing?</text>
+                    </speaker>
+                </ending>
+            <ending id="9">
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>Yes. I would -- this is Charlie. I think we feel very good about what the wins were both on a gross basis and a net basis in the quarter. And I guess, the only other thing I would say is because with lots of people, you're right about the way the quarter pans out and whatnot, but you all know this, and we talked a little bit about this over the prior quarters. Wins take a period of time. These are generally conversations that happen over multiple quarters, leading up to a process generally if you're not going to renew with the incumbent. And so I think where we are today relative to where we hoped we would be, we're on target. And success for us in Asset Servicing will continue to be a slow, steady build, which quite frankly, it's hard to look at quarter-by-quarter, you need to look at it over a longer period of time. And I think at this point, we still feel on track relative to that commentary.</text>
+                    </speaker>
+                </ending>
+            <ending id="9">
+                <speaker id="9" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>Fair point, Charlie. And if I might just 2 more cleanups just related to the numbers. Mike, did you say what the benefit on the revenue side was from FX translation on a year-over-year basis, if we put it into context with the 2% hurt on the cost side?</text>
+                    </speaker>
+                </ending>
+            <ending id="9">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>We did. It was in my commentary. Roughly -- it was roughly about 1%.  Yes. It's like roughly -- but there, too, remember, we mentioned we also had some leasing gains and COLI/BOLI in the prior year. So my own take this net-net is -- the overall number is a pretty good -- I mean, the reported number is a pretty good proxy for what real growth was in the quarter. On the expense side, we did have the effect of currency and the real estate.</text>
+                    </speaker>
+                </ending>
+            <ending id="9">
+                <speaker id="9" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>And as we roll forward, that was my other question on the currency. The rate of growth on expenses, if we continue to have this burden on the cost side, is this kind of 3% zone the right way to think about go-forward as well?</text>
+                    </speaker>
+                </ending>
+            <ending id="9">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Yes. I would go back to sort of the guidance we gave at Investor Day on expenses, Ken, and I think we're sort of tracking there.</text>
+                    </speaker>
+                </ending>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>And we have a question from Mike Carrier with Bank of America Merrill Lynch.</text>
+                    </speaker>
+                </trainsition>
+            <ending id="10">
+                <speaker id="10" position="BofA Merrill Lynch, Research Division">Michael Roger Carrier<text>Sorry about that earlier. Just one question on the Investment Management side. In terms of the long-term flows in the quarter, I don't know if you mentioned anything that was more unusual or maybe lumpy just given the level of outflows this quarter versus we haven't seen?</text>
+                    </speaker>
+                </ending>
+            <ending id="10">
+                <speaker id="1" position="Chief Financial Officer">Michael P. Santomassimo<text>Yes, so I'll take that and, Charlie, you can add color if you want. Just to remind you, Mike, we're very much an institutional money manager, very little retail in there. So you've got to think of that as you sort of look at some of these line items. I'll just reiterate the performance has been consistent. Charlie mentioned sort of the 89% over the 3 and 5-year benchmark. So we feel okay there. And as you sort of look at some of the more -- some of the equity -- actively managed equity portfolios, that's sort of in line with what you're seeing across the industry. On index, I would sort of think of some of those outflows as very idiosyncratic client -- changes in allocation for our clients. And then on the cash side, as I mentioned in my commentary, there was some concentration related to some big client M&amp;A activity that brought some balances in on a temporary basis. So you sort of see that dynamic going through there.</text>
+                    </speaker>
+                </ending>
+            <ending id="10">
+                <speaker id="10" position="BofA Merrill Lynch, Research Division">Michael Roger Carrier<text>Okay. That's helpful. And then I know you guys hit on Pershing just year-over-year some of the lost business. But just when I think about that business and some of the industry trends that we're seeing, generally, it's fairly favorable. But I just wanted to figure out like how much of that was just very specific to that versus maybe the core or the underlying trends of the business?</text>
+                    </speaker>
+                </ending>
+            <ending id="10">
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>Yes. Let me take a shot at this, I think these are -- so just as I talked about on the Asset Servicing side, where there are long gestation periods, when people decide to leave us, it's the same thing. So these are things that we've known about for a long time. It's factored into our thinking about what we think overall trends in revenue can look like. And again, these are relatively idiosyncratic relative to when they show up. There continues to be a significant interest in clients of all sizes to talk about their desire to figure out how -- what we can do at scale relative to not just cost, but building additional capabilities, how they can benefit from that. There is a -- I would describe this as an extremely open mind in the asset servicing world, where we deal with big asset managers and small asset managers across the world, but also, the broker-dealer community, both bigger and smaller. So I think relative to the way we think about the opportunity in the business, those trends continue to make us feel very good about the business that we have. And that's not even talking about the opportunities if -- within Pershing that we think we continue to have in the RIA space, which we highlighted at Investor Day.</text>
+                    </speaker>
+                </ending>
+            <ending>
+                <speaker id="-1" position="">Operator<text>And there are no further questions in the queue.</text>
+                    </speaker>
+                </ending>
+            <ending id="11">
+                <speaker id="2" position="Former Global Head of Investor Relations">Valerie C. Haertel<text>Thanks, everyone, for joining us. Feel free to call Investor Relations if you have any follow-up, and have a great day.</text>
+                    </speaker>
+                </ending>
+            <ending id="11">
+                <speaker id="0" position="Former Chairman &amp; CEO">Charles W. Scharf<text>Thank you, everyone. 
+OperatorAnd if there any additional questions or comments, you may contact Ms. Valerie Haertel at (212) 635-8529. Thank you, ladies and gentlemen. This concludes today's conference and webcast. Thank you for participating.</text>
+                    </speaker>
+                </ending>
+            </section>
+        </body>
+    </Transcript>

@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Transcript>
+    <header>
+        <company>State Street Corporation NYSE:STT</company>
+        <title>FQ3 2022 Earnings Call Transcripts</title>
+        <time>Tuesday, October 18, 2022 3:00 PM GMT</time>
+        <currency>Currency: USD</currency>
+        <note>Consensus as of  Oct-18-2022 7:08 AM GMT</note>
+        </header>
+    <body>
+        <section name="financial tables">
+            <table id="0" name="Earnings Estimates Comparison Table">
+                <timePeriods>
+                    <period name="FQ3 2022" />
+                    <period name="FQ4 2022" />
+                    <period name="FY 2022" />
+                    </timePeriods>
+                <metrics>
+                    <metric name="EPS Normalized">
+                        <value period="-FQ3 2022-" type="CONSENSUS">1.78</value>
+                        <value period="-FQ4 2022-" type="ACTUAL">1.82</value>
+                        <value period="-FY 2022-" type="SURPRISE">2.25</value>
+                        </metric>
+                    <metric name="Revenue  (mm)">
+                        <value period="-FQ3 2022-" type="CONSENSUS">2970.32</value>
+                        <value period="-FQ4 2022-" type="ACTUAL">2959.00</value>
+                        <value period="-FY 2022-" type="SURPRISE">(0.38 %)</value>
+                        </metric>
+                    </metrics>
+                </table>
+            <table id="1" name="EPS Normalized Comparison Table">
+                <timePeriods>
+                    <period name="FQ4 2021" />
+                    <period name="FQ1 2022" />
+                    <period name="FQ2 2022" />
+                    <period name="FQ3 2022" />
+                    </timePeriods>
+                <metrics>
+                    <metric name="EPS Normalized">
+                        <value period="FQ4 2021" type="CONSENSUS">1.89</value>
+                        <value period="FQ1 2022" type="CONSENSUS">1.48</value>
+                        <value period="FQ2 2022" type="CONSENSUS">1.73</value>
+                        <value period="FQ3 2022" type="CONSENSUS">1.78</value>
+                        </metric>
+                    </metrics>
+                </table>
+            </section>
+        <section name="call participants">
+            <person position="CFO &amp; Vice Chairman" group="EXECUTIVES" id="0">Eric Walter Aboaf</person>
+            <person position="Executive VP &amp; Global Head of IR" group="EXECUTIVES" id="1">Ilene Fiszel Bieler</person>
+            <person position="Chairman &amp; CEO" group="EXECUTIVES" id="2">Ronald Philip O’Hanley</person>
+            <person position="Goldman Sachs Group, Inc., Research Division" group="ANALYSTS" id="3">Alexander  Blostein</person>
+            <person position="Morgan Stanley, Research Division" group="ANALYSTS" id="4">Betsy Lynn Graseck</person>
+            <person position="UBS Investment Bank, Research Division" group="ANALYSTS" id="5">Brennan  Hawken</person>
+            <person position="Deutsche Bank AG, Research Division" group="ANALYSTS" id="6">Brian Bertram Bedell</person>
+            <person position="RBC Capital Markets, Research Division" group="ANALYSTS" id="7">Gerard Sean Cassidy</person>
+            <person position="Evercore ISI Institutional Equities, Research Division" group="ANALYSTS" id="8">Glenn Paul Schorr</person>
+            <person position="Seaport Research Partners" group="ANALYSTS" id="9">James Francis Mitchell</person>
+            <person position="Jefferies LLC, Research Division" group="ANALYSTS" id="10">Kenneth Michael Usdin</person>
+            <person position="Keefe, Bruyette, &amp; Woods, Inc., Research Division" group="ANALYSTS" id="11">Michael C. Brown</person>
+            <person position="Wells Fargo Securities, LLC, Research Division" group="ANALYSTS" id="12">Michael Lawrence Mayo</person>
+            <person position="Wolfe Research, LLC" group="ANALYSTS" id="13">Steven Joseph Chubak</person>
+            <person position="JPMorgan Chase &amp; Co, Research Division" group="ANALYSTS" id="14">Vivek  Juneja</person>
+            </section>
+        <section name="Presentation ">
+            <statement>
+                <speaker id="-1" position="">Operator<text>Good morning, and welcome to State Street Corporation's Third Quarter 2022 Earnings Conference Call and Webcast. Today's discussion is being broadcast live on State Street's website at investors.statestreet.com. This conference call is also being recorded for replay. State Street's conference call is copyrighted, and all rights are reserved. This call may not be recorded for rebroadcast or distribution in whole or in part without the express written authorization from State Street Corporation. The only authorized broadcast of this call will be housed in the State Street website. 
+ 
+ 
+Now I'd like to introduce Ilene Fiszel Bieler, Global Head of Investor Relations at State Street.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="1" position="Executive VP &amp; Global Head of IR">Ilene Fiszel Bieler<text>Good morning, and thank you all for joining us. On our call today, our CEO, Ron O'Hanley, will speak first; then Eric Aboaf, our CFO, will take you through our third quarter 2022 earnings slide presentation, which is available for download in the Investor Relations section of our website, investors.statestreet.com. Afterwards, we'll be happy to take questions. [Operator Instructions] 
+Before we get started, I would like to remind you that today's presentation will include results presented on a basis that excludes or adjusts one or more items from GAAP. Reconciliations of these non-GAAP measures to the most directly comparable GAAP or regulatory measure are available in the appendix to our slide presentation, also available in the IR section of our website. 
+In addition, today's presentation will contain forward-looking statements. Actual results may differ materially from those statements due to a variety of important factors, such as those factors referenced in our discussion today and in our SEC filings, including the risk factors in our Form 10-K. Our forward-looking statements speak only as of today, and we disclaim any obligation to update them even if our views change. 
+Now let me turn it over to Ron.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Thank you, Ilene, and good morning, everyone. 2022 continues to unfold like no other year in recent memory with the challenges faced today arising partly out of, but acutely different from, those the world faced in 2020 during the onset of the COVID-19 pandemic. And while the global operating environment continues to be very challenging, our third quarter results clearly demonstrate the resilience of our business model and our focus on maintaining and further improving State Street's pretax margin, which was a solid 29% in the third quarter, excluding notable items. 
+During the third quarter, financial markets were negatively impacted by the adverse effects of the ongoing war in Ukraine and several macroeconomic headwinds, including continued price and wage inflation, dramatically higher interest rates, significant U.S. dollar strength and heightened fears of a global recession. These factors collectively drove heightened uncertainty, which contributed to meaningful declines in both global equity and fixed income markets as well as increased market volatility, which in turn impacted flows. 
+We continue to carefully navigate the business through this environment. While the operating climate created a number of fee revenue headwinds for our business in the third quarter, the savings and efficiency of our Alpha and enterprise outsourcing offering makes our value proposition even more attractive to asset managers and asset owners in the current market and inflationary environment. We maintained a solid balance sheet and strong capital position, delivered significant NII growth as well as healthy FX trading revenues and remain laser focused on intensely managing what we can control as demonstrated by our expense management. 
+Turning to Slide 3 of our presentation, I will review our third quarter highlights before Eric takes you through the quarter in more detail. Starting with our financial performance. Third quarter '22 EPS was $1.80 or $1.82, excluding notable items compared to $1.96 or $2, excluding notable items in 3Q '21. Double-digit year-over-year declines in average global equity market values drove most of this decrease. 
+Total fee revenue for the third quarter declined 8% year-over-year, primarily reflecting the impact of significantly lower global equity and fixed income market levels on servicing and management fees as well as the stronger U.S. dollar. Within total fee revenue, our Global Markets franchise once again continued to perform well with FX trading services and securities finance revenues increasing 14% and 4% year-over-year, respectively, as the business was able to benefit from increased volatility while supporting our clients. 
+We also drove a solid result within Front office software and data with third quarter revenue increasing 9% year-over-year. Total revenue for the third quarter declined just 1% year-over-year, as lower total fee revenue was largely offset by a very strong NII result, which increased 36% relative to the year ago period, driven primarily by higher interest rates. 
+Faced with continued market-related fee revenue headwinds and inflationary pressures, we remain focused on controlling expense growth. Even as we invested in our people and business, third quarter total expenses were flat, both year-over-year and quarter-over-quarter, primarily driven by the impact of the stronger U.S. dollar and expense management. 
+Business momentum was solid in the third quarter, with new AUC/A asset servicing wins amounting to $233 billion. Encouragingly, our third quarter wins include expanded relationships with two existing Alpha clients. demonstrating our ability to broaden and deepen client relationships and drive new back office mandates through our Alpha strategy. As a result of this quarter's solid sales performance, AUC/A won but yet to be installed with $3.4 trillion at quarter end. Front office and data also experienced good business momentum in the third quarter with annual recurring revenue increasing 20% year-over-year to $267 million. 
+At Global Advisors, assets under management totaled $3.3 trillion. Overall, third quarter AUM flows and management fees were negatively impacted by weaker equity and fixed income markets, but we still saw positive net flows into our cash, SPY and U.S. low-cost ETF products during the quarter. Even in the volatile environment, our global institutional money market business has continued to gain market share this year with AUM reaching a record level in the third quarter, having experienced 4 quarters in a row of inflows. We remain excited by our Global Adviser strategy and the growth potential of the franchise and announced new leadership in the third quarter as Yie-Hsin Hung will become SSGA's new President and CEO in December. 
+I would now like to turn to the proposed acquisition of Brown Brothers Harriman's Investor Services business, which remains subject to regulatory approvals and other closing conditions. The current regulatory environment for M&amp;A transactions involving G-SIBs is challenging. We are engaged in ongoing dialogue with U.S. and international banking regulators regarding the prolonged regulatory review process. We have developed with BBH proposed modifications to the transaction, including changes to the operating model and legal entity structure and a reduction to the purchase price. We anticipate that a modified transaction would be somewhat more complex and included a delay in timing and amount of deal synergies, resulting in a slower path to accretion. 
+While discussions with regulators on the proposed modified transaction are ongoing, the likelihood of a successful outcome is increasingly uncertain. There can be no assurance that a mutually acceptable modified transaction will be agreed and enter into or as to the timing or outcome of any regulatory approvals and other closing conditions for a modified transaction. 
+The modifications to the transaction remain subject to review and approval by both BBH's partners and our Board of Directors. As previously noted, the sale and purchase agreement allows each of State Street and BBH the right to terminate the transaction upon written notice without a contractual penalty at any time. 
+We continue to believe the strategic rationale for the transaction remains compelling, and that has encouraged us to continue to seek an acceptable path forward. These efforts are actively underway. And as we previously stated, we expect to reach a decision on whether the transaction can proceed forward during this quarter. 
+Turning to our balance sheet and capital. Despite a continued rise in interest rates, our CET1 capital ratio was a strong 13.2% at quarter end. As I have noted previously, we recognize the importance of capital return to our shareholders and it remains an integral component of our medium-term targets. Accordingly, having already announced a 10% per share increase to our quarterly common stock dividend earlier this year, we now intend to repurchase approximately $1 billion of State Street's common stock in the fourth quarter under the existing common stock repurchase program authorization, which expires at the end of 2022. 
+Additionally, in keeping with our medium-term targets, it is also our intention to return greater than 80% of earnings in 2023 in the form of common stock dividends and share repurchases, subject to approval by our Board of Directors and market conditions at the time. If the proposed acquisition of BBH Investor Services does not progress, we would expect capital return to be significantly more than that amount. 
+To conclude, the events of the last 2.5 years have demonstrated the resiliencies of State Street's business model during times of heightened market volatility and macroeconomic uncertainty. Even as financial markets broadly declined in the third quarter, we delivered a healthy pretax margin of 29%, excluding notable items, in addition to solid new business wins. While the environment is challenging and uncertain, we remain confident in our ability to continue to successfully execute against our strategic agenda and improve our operating model and financial performance over the medium term for the benefit of our clients and shareholders. 
+As we look ahead, we will continue to adapt to the highly uncertain environment by remaining intensely focused on managing what we can control as our solid expense discipline in 2022 to date has demonstrated with year-to-date total expenses flat to the same 9-month period in 2021, even as we invested meaningfully in our people and business. 
+And with that, let me turn it over to Eric to take you through the quarter in more detail.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Thank you, Ron, and good morning, everyone. I'll begin my review of our third quarter results on Slide 4. 
+We reported EPS of $1.80 or $1.82, excluding acquisition and restructuring costs as detailed in the panel on the right of the slide. As you know, the operating environment in the third quarter remained challenging with persistent market volatility related to ongoing geopolitical tensions, inflationary pressures, rapidly rising interest rates and concerns about the global economy. Despite these challenges, as you can see on the left panel of the slide, strong growth in both net interest income and our FX trading services business enabled us to partially offset the significant headwinds from lower equity and fixed income markets in the quarter. Additionally, we continue to demonstrate prudent expense management in the third quarter, even as we experienced ongoing price and wage increases, while we continue to invest in the franchise. 
+Turning to Slide 5. During the quarter, we saw period-end investment services AUC/A decreased by 18% on a year-on-year basis and 7% sequentially. The year-on-year change was largely driven by continued lower period end market levels across equity and fixed income markets globally, a previously disclosed client transition and the impact of currency translation, partially offset by net new business installations. The quarter-on-quarter decline was largely a result of these same factors. 
+Similarly, at Global Advisors, period-end AUM decreased 15% year-on-year and 6% sequentially. The year-on-year decline in AUM was largely driven by lower period end market levels, institutional net outflows and the impact of currency translation, which was partially offset by positive net flows in both our ETF and cash businesses. 
+Turning to Slide 6. On the left side of the page, you'll see third quarter total servicing fees down 12% year-on-year, largely driven by lower average equity and fixed income market levels, lower client activity and adjustments, normal pricing headwinds and the impact of currency translation, partially offset by net new business. Excluding the impact of currency translation, servicing fees were down 9% year-on-year. Even with the negative impact of the market environment in the quarter, I would highlight that we're pleased to see good double-digit growth in our private markets businesses. Sequentially, total servicing fees were down 6%, primarily as a result of these same drivers. 
+Lastly, we recorded traditional custody wins worth $233 billion in the quarter with attractive fee rates across key client segments. And we now have more than $3.2 trillion of assets to be installed, a good portion of which are attributed to large Alpha deals that were won over the past year. Given our large backlog, we installed approximately $350 billion of assets this quarter, which is in line with our historical pace. 
+Turning to Slide 7. Third quarter management fees were $472 million, down 10% year-on-year, primarily reflecting lower average equity and fixed income market levels, a previously disclosed client-specific pricing adjustment, institutional net outflows and the impact of currency translation, partially offset by the absence of the impact of money market fee waivers and positive net ETF and cash inflows. Management fees were down 4% quarter-on-quarter, largely due to equity and fixed income market headwinds and the impact of currency translation. 
+Notwithstanding the challenging backdrop in the quarter, while we did see some outflows in our ETF business due to an exit of a low-yielding Asia Pacific fund, our franchise still remains well positioned for growth. In ETFs, we saw sustained ETF inflows into the SPDR low-cost suite and fixed income funds. 
+In our institutional business, there's continued momentum in defined contribution with third quarter inflows of $10 billion, including the target date franchise. In our cash business, top quartile performance on our government money market fund was a major driver of net inflows which contributed to market share gains in the institutional money market funds. 
+On Slide 8, FX trading services had yet another strong quarter. Relative to the period a year ago, third quarter FX trading services revenue was up 14%, primarily driven by higher FX spreads driven by higher market volatility and the recent regulatory capital changes partially offset by lower client FX volumes. Quarter-on-quarter FX trading services revenue was down 4% as the benefit of higher FX spreads was more than offset by lower client FX volumes, which tend to be lower in the summer months. 
+Securities finance performed well in the third quarter, with revenues up 4% year-on-year, primarily driven by higher spreads due to higher special activity, only partially offset by lower agency and enhanced custody balances due to falling market levels. Sequentially, revenues were up 3%, mainly reflecting higher agency spreads. 
+Third quarter software and processing fees were up 2% year-on-year primarily driven by higher Front office software revenues associated with CRD, which were up 9%, while lending fees were down 11% due to changes in product mix. Finally, other fee revenues of negative $5 million in the third quarter declined on a year-on-year basis, largely due to negative market-related adjustments. Sequentially, we saw an increase in other fee revenue, primarily reflecting fewer negative market-related adjustments. 
+Moving to Slide 9. Let me provide some details on the performance of the Front office software and data revenue in the third quarter on the left panel of the slide. Front office software revenues increased 9% year-on-year as our more durable and recurring software-enabled revenue continues to grow nicely, driven by new client implementations and continued success in converting clients through a cloud-based SaaS platform environment. Sequentially, revenues were up 1% due to higher software-enabled revenue, partially offset by lower professional services revenue. Our revenue backlog remains healthy. 
+Turning to some of the CRD and Alpha business metrics on the right panel, we continue to be pleased with our new bookings for the business. The $14 million of new bookings from this quarter was well diversified across client segments, particularly wealth and asset owners, demonstrating the benefit of and breadth of clients the platform can now support. As for middle office, we continue to have extremely healthy installed revenue backlog of over $100 million, which is up 50% on a year-on-year basis, as I mentioned earlier. 
+Now turning to Slide 10. Third quarter NII increased 36% year-on-year and 13% sequentially, primarily reflecting the impact of higher short-term interest rates from central bank hikes, only partially offset by lower client deposits. More than 40% of this increase was driven by non-U.S. dollar rates as we saw central banks globally raise interest rates. 
+On the right of the slide, we show our average balance sheet during the third quarter. As a result of a rapidly changing rate environment, industry-wide deposits have begun to trend lower, and we are seeing some of this play through our balance sheet as well. Excluding the impact of currency translation, average deposits were down 5%, both year-on-year and sequentially and primarily driven by the global tightening in monetary policy by central banks and by the impact of significantly lower market levels on AUC/A. The investment portfolio is down modestly as we continue to manage duration and we now have more than 60% in HTM. As to today's results reaffirm, our balance sheet continues to be well positioned to recognize this interest rate and NII tailwind and also protect AOCI. 
+Turning to Slide 11. Third quarter expenses, excluding notable items, were once again proactively managed in light of the revenue environment and flat year-on-year, or up approximately 4% adjusted for currency translation and notable items. We've been carefully executing on our continued productivity and optimization savings efforts, which generated approximately $80 million in year-on-year gross savings or approximately $230 million year-to-date, which puts us in line to achieve our full year expense optimization guidance of 3% to 4% of the expense base. 
+It also contributed to our year-to-date positive operating leverage, which we also expect to deliver for the full year. These savings, in addition to benefits from a stronger U.S. dollar enabled us to offset some of the wage inflation we have seen -- we have been seeing in the industry while we continue to invest in the strategic parts of our company, including Alpha, private markets and operations automation. 
+On a line-by-line basis compared to third quarter '21. Compensation and employee benefits were down 1% as the impact of currency translation was partially offset by higher salary costs associated with wage inflation and higher headcount. Headcount increased 6%, primarily in our Poland and India global centers as we invested in important technology capabilities and added operations talent to support new products and services in growth areas such as Alpha, private markets and middle office servicing. 
+There is also a portion of the headcount increase associated with some hiring catch-up post COVID. we expect headcount growth to start to level off. Information Systems and communications expenses were down 2% as we began to see benefits from our in-sourcing efforts and continued vendor pricing optimization, partially offset by technology and infrastructure investments. 
+Transaction processing was down 10%, mainly reflecting lower sub-custody costs related to equity market movements. Occupancy was down 5% largely due to currency translation. And other expenses were up 17%, primarily reflecting higher securities processing costs, marketing costs, travel costs and foundation grants. 
+Moving to Slide 12. On the right side of the slide, we show our capital highlights. We are pleased to report CET1 of 13.2%, up 30 basis points quarter-on-quarter, primarily driven by higher retained earnings and well-controlled RWA. With respect to RWAs, there is volatility, and I would caveat that they were lower than we expected this quarter. We would anticipate some RWA increases that we continue to both optimize the balance sheet and efficiently put capital to work across our businesses. 
+Third quarter Tier 1 leverage ratio of 6.4% was up 40 basis points quarter-on-quarter, mainly due to the decrease in balance sheet size and higher retained earnings. As the slide highlights, our capital position is strong, and our commitment to being stewards of shareholder capital remains steadfast. In keeping with that commitment, we returned $232 million to shareholders in the third quarter through dividends. And as Ron highlighted, we now intend to repurchase approximately $1 billion of State Street's common stock in the fourth quarter. 
+This higher-than-expected buyback amount is based on our healthy capital levels and our expected future uses of capital. The AFS mark-to-market in OCI this quarter amounted to $170 million negative as compared to minus $0.5 billion in 2Q '22, meaningfully improved as a result of the management actions we took despite another strong run-up in interest rates this quarter. 
+Turning to Slide 13. We provide a summary of our third quarter results. Despite the continued volatile market environment, I'm pleased with our quarterly performance. Even with the current macroeconomic environment and persistent geopolitical uncertainties, our strong growth in net interest income and FX trading services enabled us to partially offset another quarter of significant headwinds from both equity and fixed income markets, highlighting the resiliency of the franchise, and our expenses remained well controlled, demonstrating our laser focus on productivity. 
+Turning to our outlook. Let me share our current thinking regarding our fourth quarter and some of our macro assumptions as we look over the remainder of the year. At a macro level, while market rate expectations have been volatile, our current interest rate outlook is broadly in line with the current forwards, which suggests that year-end Fed funds rate of 4.5%. We expect other international central banks to continue to raise rates in 4Q and beyond into 2023 as well. 
+Our outlook assumes 4Q equity market levels will be flat to September month end, which would imply a 10% quarter-on-quarter decline in global daily average equity markets in 4Q. We also expect continued U.S. dollar strength to be worth about 1 percentage point of headwind to fee and a tailwind to expenses on a quarter-on-quarter basis, which is included in our guide. 
+So in terms of the fourth quarter of 2022. Given the expected decline in average global equity market levels, we expect total fee revenue to be down about 3% on a sequential quarter basis, with servicing fees down 4% to 5% quarter-on-quarter and management fees down 8% quarter-on-quarter. 
+Turning to NII. Following yet another strong sequential increase in NII in 3Q, we expect to deliver additional NII growth of 4% to 10% quarter-on-quarter, driven by the tailwind from U.S. and foreign central bank rate hikes. This outlook includes our expectation for some continued deposit outflow in 4Q. For the full year, we now expect NII to increase 28% to 30%, which is better than our prior full year guide of 24% to 27%. We also expect continued good growth in NII in full year 2023. 
+Next, we expect total expenses, excluding notable items, to be roughly flat quarter-on-quarter despite inflationary wage pressure as we continue to target productivity initiatives in the face of a challenging environment for fee revenue. This focus should enable us to drive positive total operating leverage and a healthy pretax margin for both the fourth quarter and the full year. Full year expenses are expected to be flat versus last year. Finally, we would expect the fourth quarter tax rate to be approximately 18% to 19% for the quarter. 
+And with that, let me hand the call back to Ron.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="2" position="Chairman &amp; CEOThanks, Eric. Operator, let's open the line for questions.">Ronald Philip O’Hanley<text />
+                    </speaker>
+                </statement>
+            </section>
+        <section name="Question and Answer">
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>[Operator Instructions] And we'll take our first question from Glenn Schorr with Evercore.</text>
+                    </speaker>
+                </trainsition>
+            <question id="0">
+                <speaker id="8" position="Evercore ISI Institutional Equities, Research Division">Glenn Paul Schorr<text>So maybe just a wrap-up question on BBH, and I appreciate all the transparency along the way. But regulators hate it, more complex, market values have fallen, I definitely went with you on the strategic merits. But I guess the question people have is, why not just walk away? It seems like you could do some really accretive stuff with the capital now and at what point do you just say, "not worth it, not as accretive, too complex, enough said."</text>
+                    </speaker>
+                </question>
+            <answer id="0">
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Glenn, it's Ron. Maybe needless to say, we go through that calculus that you're describing every day. And that's part of what's led to this. I mean, obviously, the regulatory environment is driving the time frame here, but what's driving our work is that trade-off. The trade-off between the opportunity to consolidate on a global basis, a very attractive firm versus what's the alternative uses of the capital, including returning it back to shareholders. 
+We believe there's still the possibility that we can get this -- we can structure this transaction in a way that it will work both for shareholders and to achieve that strategic objective. But as we've said in the disclosure, the likelihood of that happening is going down. So I think what you can take away from this is one of the reasons that's driving that decrease probability is the calculus that you're describing.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="8" position="Evercore ISI Institutional Equities, Research Division">Glenn Paul Schorr<text>Okay. Well, I guess we don't have to wait that much longer, so I can still have for another couple of months. Just one follow-up on -- I think you mentioned 60% of the securities portfolio has been moved into held to maturity. It shows in the smaller AOCI hits as rates go up. What's the other side of it? Like do you -- can you calculate what the NII give up or any other offsets to moving that large of a piece into held to maturity?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Glenn, it's Eric. We've carefully considered what portion of the investment portfolio moved to held to maturity and what amounts. But what we do, as we make that consideration is the benefit is that you largely don't give up NII, right? By and large, you're earning the coupon and whether they're treasuries or agencies or MBS, just in a different accounting form and structure, but the earnings of the corporation are the same, and that's what's quite attractive about HTM. 
+The reason why you wouldn't put the whole portfolio in HTM is partly you want some flexibility, you want to from time to time, rebalance the portfolio and you might want to rebalance 5, 10, 15 yards, and that takes an AFS construct under which to do it. And then partly, you want to make sure that you have -- you'll always have monetization at the front end to maximize and to maintain the liquidity construct you'd like. We've now put that in place. We can repo HTM securities in size. We test that in the marketplace, so we're quite comfortable. 
+But there's a point where you say, look, I'd rather sit on cash or I'd rather sit on available and for sale. And so we feel like we're in a good balance now that really provides a real positive NII trajectory. And you see that, we've guided now to 28% to 30% up in NII this year. And I've also started to signal that we're positive on the NII trajectory in 2023 and partly because of the entire investment portfolio, whether it's an AFS or HTM is contributing to that upswing.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>And next, we'll go to Ken Usdin with Jefferies.</text>
+                    </speaker>
+                </trainsition>
+            <question id="1">
+                <speaker id="10" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>I wanted to come back to putting the deal into context with the buyback that you announced, which you have been clearly saying you'd want to get back into the buyback this quarter. So could you just help us understand the $1 billion sizing and if that has anything to put in context with, your thoughts around how the pricing and eventual outcome if the deal goes through might end up coming through? Or is it completely separate and just based on where capital sits regardless of the deal outcome?</text>
+                    </speaker>
+                </question>
+            <answer id="1">
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Ken, it's Eric. As I've said in my prepared remarks, the buyback was larger than anticipated. And part of that is we do two things. We look at our current capital levels, which have trended towards that 13% CET1 mark that we had guided to, remember that discussion we had in the first quarter. And then partly because -- partly as we consider the capital uses over the next couple of quarters, including the possibility of Brown Brothers Investment Services transaction. And you would expect us to factor in any adjustments downward adjustments to purchase price that we would expect, and that's effectively what we've done. So it's a mix of factors, but those are the components. 
+And I think we're quite pleased. We can now proceed with $1 billion. As Ron said, we we're planning on comfortably returning more than 80% of earnings to shareholders next year, quarter by quarter by quarter, which is what our medium-term targets are. And that still availed us the capacity to do a deal at an admittedly adjusted price if it's appropriate at the time.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="10" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>Okay. And then on the denominator side, I guess, of capital, can you just give us a little color on how you'd expect deposits to traject from here, a pretty meaningful decline in both interest-bearing and noninterest-bearing, just relative to where you're ending here, just your general outlook on your thoughts around deposit mix and flows.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Yes. I think our deposit trends will probably be in line with some of what you're seeing in the industry. I think we're within that zone of if you look at the Fed reports, if you look at other institutions, and we've certainly begun to see that rotation out of deposits this quarter, down about 5%, both year-on-year and quarter-over-quarter adjusted for currency translation. 
+I think what we have seen over the last year is a series of factors that have impacted it. And this is my way to say that I can give you some guidance, but it's going to vary depending on how the factors play out. So you have U.S. dollar appreciation, and so you have a -- nondollar deposits are -- come down as a result. 
+We have equity markets falling, which means the AUC/As that we custody for are coming down. And with that, investors, institutions, retail hold similarly lower cash amounts. And so part of what's happening here is the environment is actually affecting deposits somewhat independently of where we are in the rate -- with rising rates and quantitative tightening. 
+Now we are seeing the effects of rising rates and quantitative tightening as well. So I kind of give you that as a background because I think there are 4 or 5 factors at play here, which is more than expected. I think as we look forward, we continue to expect some deposit outflows in the fourth quarter. We expect those to be somewhat less than we saw in the third quarter, but we do expect some, and those are factored into our NII guide. And one of the reasons why we have a wider NII guide than usual is because there's a range of outcomes. 
+But we're seeing what we expected. We're seeing what we expected as we -- as rates are up, and we price carefully and maintain, I think, some healthy betas this quarter. we're seeing noninterest-bearing begin to flow out because with the higher rates, both in the U.S. and internationally. The U.S. in particular, you have the difference that clients can earn. 
+And then one of the things we're doing with our clients is to be -- is to think about the full range of offerings for them. Sometimes it's the base account, sometimes it's special accounts with deposits. We -- if you remember, we've historically put in place deposit initiatives to have the right balance of deposits on the balance sheet. And then the other thing that this is feeding in some of our other businesses, whether it's the cash business in GA, whether it's the repo business. There's a whole set of product offerings that are that cash flows to that we're pleased to support our clients with. 
+So there's quite a bit going on in this area, more to come, but we're comfortable with some of these forecasts. And what I find particularly important to keep in mind is NII continues to rise even with some of these deposit outflows. And part of that is the U.S. rates that we're also familiar with. But given that so much of our balance sheet is international, those foreign rate rises are particularly helpful and those deposits are at good levels as well.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Next, we'll go to Alex Blostein with Goldman Sachs.</text>
+                    </speaker>
+                </trainsition>
+            <question id="2">
+                <speaker id="3" position="Goldman Sachs Group, Inc., Research Division">Alexander  Blostein<text>I was hoping we could speak a little bit more broadly around State Street's capital allocation strategy. If BBH does not go through, what's your appetite for any other deals, whether it's in the services space or asset management space? Obviously, macro conditions are pretty volatile. So I'm sure that will impact that as well. But curious how you're thinking about the trade-off between accelerating buyback or other deals. And then if you do go down the path of more buybacks, should we be thinking about the upper end of your CET1 and leverage as sort of the target to which you will go to or you might need to run with a buffer sort of on top of that given uncertain macro conditions?</text>
+                    </speaker>
+                </question>
+            <answer id="2">
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Yes. Alex, why don't I begin on this just on how we think about M&amp;A. It's not like we have a shopping list here. BBH is a unique opportunity to consolidate the market on a global basis. And by that, I mean it's not just about adding to some particular geography, but it really does bolster us in all the major geographies that we're in. Having said that, we've got our own what we believe is a distinctive organic strategy in the servicing area, led by our Alpha proposition, which continues to grow. 
+There's a lot of development that was being completed this year and early next year, which will lead to a lot of new onboardings and we think even make the proposition attractive to a broader set of clients. So we always are looking in the marketplace to see if there's something that makes sense, but it's not like the money is burning a hole in our pocket. And if this doesn't work, we're immediately going to go out and come back with something else. Eric, you may want to talk just about how we think about the context of buybacks.</text>
+                    </speaker>
+                </answer>
+            <answer id="2">
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Yes. And Alex, I think I'd add that we're quite conscious that we raised almost $2 billion of equity from our investors and diluted them. We certainly expect that -- if the deal doesn't proceed, that the bulk of our excess capital needs to go back to shareholders. That's deserved and I think expected, and we would deliver on that. I think in terms of capital ratios, I had said earlier this year when the economic environment felt more benign and when we had simplified and attenuated a lot of the OCI risk in the investment portfolio that we might be willing to go down to the lower end and even below the lower end of our 10% to 11% range. 
+I think now given the economic uncertainties, we, for the time being, expect to operate in the -- towards the middle of that range, that might change over time. But for now, I think our current expectation is we have reduced the volatility in the investment portfolio, which reduces on one hand, the need for a capital buffer to some extent. On the other hand, the economic environment is much more -- has much more volatility in it, and that pushes us in the other direction. But the net of that is that I think we're quite comfortable with the 10% to 11% range and operating somewhere in the middle there.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="3" position="Goldman Sachs Group, Inc., Research Division">Alexander  Blostein<text>Great. That's helpful. My follow-up question may be around the business side of things. You guys have a very sizable pipeline of installations on the servicing side. A lot of them are Alpha mandates, which obviously tend to be a little bit more complex. You talked to us, I think, on the last call sort of the cadence of how that's going to come through on the revenue side. But I'm just kind of curious how you would contextualize any incremental investments or expenses that will need to come with it given sort of complexity of those installations over the next 12 to 18 months.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Yes, I'll start, Alex, on the investments. And Eric can talk you through the pattern. On the investments, there is actually ongoing development, as I mentioned earlier. And that development, much of -- some of which is being completed this year, some of which is being completed next year. But it's all part of our medium-term plan as well as our budget. So there's nothing out of the ordinary that you should expect to do this. 
+And in fact, much of the development is behind us or will be behind us at year-end. These -- within the $3.4 trillion, as you would expect, it's the larger, more complex Alpha mandates in some cases, they're development partners with us where we're developing new features and functionality, which will be available not just to that particular client, but more broadly to the client base. So these are important things to get done, important things to get done right, and we think are a good use of our investment dollars because they'll result not just in being able to onboard that client, but to be able to broaden the offering.</text>
+                    </speaker>
+                </followAnswer>
+            <answer id="2">
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>And then, Alex, I'd add that we certainly need to plan and begin to set up onboarding teams. Those are well underway. And so you saw a head count tick up this quarter for example. Expenses, though, were well controlled. The headcount was in our hubs in some of the lower-cost markets purposely, so we're navigating through that. But some of the expenses have to be put on in advance of -- as we're doing the onboarding in advance of the installation and the recognition of revenue and some come as the revenue comes on. 
+But I think, as Ron said, all this is within our expense guidance. It will be within our expense guidance when we get to that in January for next year. And our view is that we collectively need to continue to drive margins in the right direction given our medium-term targets. That needs to be a mix of both the revenue lift we're getting from Alpha deals as well as the expense and productivity initiatives, both within the Alpha environment and across the traditional franchise. And all that has to come together to deliver on our financial commitments.</text>
+                    </speaker>
+                </answer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Next, we'll go to Brennan Hawken with UBS.</text>
+                    </speaker>
+                </trainsition>
+            <question id="3">
+                <speaker id="5" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>I'd like to ask on BBH. It seems somewhat unusual to be getting regulatory approval before the approvals within the company. So why is that happening? And given that there's risk of deterioration, loss of talent, customers, Ron, you made reference to this during the last quarter call when you guys first said you were renegotiating. Would you have the ability to adjust price further if this process drags? And -- or has that been set already?</text>
+                    </speaker>
+                </question>
+            <answer id="3">
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>On the approvals, our Board has been actively involved in this, Brennan, as has the BBH partners on their side throughout this process. So obviously, there was an approval before we announced this and in September of '21, there's an ongoing consultation with our Board, and we've walked them through modifications. But we don't have a final deal yet, largely because we have not actually gotten through the regulatory process and figured out what the actual structure would be that will satisfy all of the regulators. So it's not completely binary and that we're not talking to our Board until it's all done. But obviously, our Board needs to see the entire thing in total and be able to make that decision. 
+In terms of the ongoing kind of risk to clients and people, that's there. It continues. We are spending a lot of time with clients, as I think I've mentioned before, about half the client base is a shared client base. So these are clients that we talk to anyway. I think there's still a strong desire on the part of our clients that if this can be completed in a way that makes sense, they'd like to see it completed. So I do not worry about further client attrition. 
+We obviously are worried about people attrition on both sides, but largely on the BBH side, and we're monitoring that closely. And to the extent to which we felt like after the price reduction we've already negotiated that circumstances have changed sufficiently further that we needed that again, of course, we would raise up if we needed to do that.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="5" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Okay. And then second question is maybe a bit -- well, I will just come right out. So why is this so strategically compelling? I mean it seemed as though it was largely a scale deal, now it's deteriorated. You said earlier, Ron, that the accretion is probably going to be more drawn out and it's going to be lower than initially planned. It's more complicated, so you're introducing a lot of operational and legal complexity. I get it, you're lowering the price, but is this really a good use of time? Is this really a good use of management focus? Why not just understand that the environment deteriorated, the regulatory approvals didn't come through, it couldn't work as constructed, and so it's better off just to walk.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>I mean, again, I'm probably repeating myself a little bit, Brennan, here, but that's exactly what we ask ourselves every day. And you're right, it is taking a lot of management time. I think what's compelling about it is several things. One is its footprint. Many of the things that are out there or supposedly out there are rumored to be out there tend to be single geography kinds of things. And if you have a strong desire to be in that geography, maybe it is something useful, but there I would describe as at best, tactical. This one is -- adds scale to us everywhere where we are, and it really does set it apart from the others. 
+Secondly, it's got some technology assets that we like. We've talked about those in the past. Third, it's got a set of people and professionals that we believe are equal to and sometimes even better than some of our people, and that's attractive to us. But that has to be weighed against all the factors that you and others have raised here, and we continue to do that, which is why we're not coming here saying to you, "yes, this is -- we're ready to go. We're not ready to go." It's also why we're coming here saying to you that we recognize this has gone on long enough, and that we need to bring this to a close this quarter.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Next, we'll go to Steven Chubak with Wolfe Research.</text>
+                    </speaker>
+                </trainsition>
+            <question id="4">
+                <speaker id="13" position="Wolfe Research, LLC">Steven Joseph Chubak<text>So I wanted to ask one clarifying question on NII. Some of your bank peers, they've indicated 4Q exit rate could be close to the peak this cycle just as lag deposit pricing begins to catch up with rate hikes. You noted that the '23 NII, Eric, will be up nicely year-on-year, but do you see the potential for '23 NII coming in above that annualized 4Q level, suggesting that, that fourth quarter NII guidance is not going to be representative of the peak?</text>
+                    </speaker>
+                </question>
+            <answer id="4">
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>I think you're trying to get deeply into our 2023 forecast, and I think it's a little premature to do that. I mean, to be honest, let's see how deposits flow and evolve this coming quarter. Let's see whether the U.S. Central Bank and the foreign central banks continue to have the wherewithal to tame inflation because that's important, right? Or are they going to or not? So it's quite dependent upon all that. 
+I think the reason I made my positive statements about 2023 is that we don't see fourth quarter as the quarterly peak. We think there's more of that more NII upside over subsequent quarters. We also have a balance sheet that has a mix of USD and non-USD and in some cases, we tend to have more foreign deposits. And those are areas if those foreign central banks continue to hike and address the serious inflationary environments in their geographies that give us an additional tailwind that may be different than a U.S. bank. 
+So there's certainly momentum here. I don't want to get into fourth quarter annualized versus my current view of 2023, but I did say good continuing growth purposely. I think there's more to come on NII. But I think we'll know more in a quarter or two, to be honest, but we see a trajectory that is good and reasonably positive given what we know in the environment today.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="13" position="Wolfe Research, LLC">Steven Joseph Chubak<text>So reading the tea leaves, I may scrap my question on the expense growth algorithm and what that implies for next year. But the one area I did want to unpack on expense is the margins in the investment management segment, they're down about 600 basis points year-on-year. That's an area where you made significant progress over the last couple of years. Certainly, you're going to see some pressures given the declining market, but wanted to get a sense as to how much expense flexibility you have there? And where you think you can actually hold the line on the pretax margin for that particular business?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>I think I'd start answering that question by saying we're actually quite pleased by the progress we've made in growth and margins in the Investment Management business over, call it, the last 3 years. I think it had teens level margins, if you go back in time, that we got into the 20s. 
+Some of that was the market uptick, which flowed through the management fee line. Some of it was a, I think, delivering strongly on flows and net new revenues was positive across the franchise. Cash as an example, continues to be a standout, but each of the three franchises have new products and offerings have been quite good. 
+And I think what the team has done there well is as they have secured those flows, launched those new products, they've also managed the expense base. And so just because it was a tailwind from equity markets or fixed income markets or from flows, they've actually kept expenses remarkably flat in that environment or flattish in that environment, which I think is a testament to how they've navigated the environment. 
+I think what you should expect is that a couple of things. If equity markets continue to operate at this level, we need to continue to work on expenses and productivity becomes an even bigger focus there as it should be across the company. I think on the flip side of that, if we get some kind of rebound in equity and fixed income markets, that plays through the asset management business financials, I would expect expenses to continue to be disciplined there and margins to certainly go back to some of the higher levels that you saw. 
+But I would say, I think at 31% margins, we're quite pleased with where we are. And I think there is -- depend where equity markets go, I think the trajectory will continue in a generally positive direction.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Next, we'll go to Brian Bedell with Deutsche Bank.</text>
+                    </speaker>
+                </trainsition>
+            <question id="5">
+                <speaker id="6" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Just one quick cleanup on BBH. Can you close that deal, if it all works well? Can you close that on December 31 or earlier and buyback the $1 billion? And do you need to have that Tier 1 leverage ratio be within or above your target range? In other words, can you do this and be at, say, the low end of the target range just temporarily for 4Q or even below?</text>
+                    </speaker>
+                </question>
+            <answer id="5">
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Brian, it's Eric. I think the timing of this deal is quite uncertain given where we are. We've not been able to complete the regulatory process and there's still -- so I think -- thinking about this in months as opposed to quarters is premature. We've done the buyback calculation though fully considering the reduced price that is -- that would be part of Brown Brothers transaction. 
+And so whether the timing is quarter x or quarter y, we're comfortable proceeding with $1 billion. We're pleased to get it started in the coming days. And regardless how that plays out, be able to return, as I said, and as Ron said, comfortably more than the 80% that we've committed to throughout next year at a minimum.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="6" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Great. That's great. And then just one on the deposit betas. Maybe if you can just talk about how you see them right now as they exist in terms of like how you're defining them for both the U.S. versus the non-U.S. And then as we move into next year, maybe sort of an outlook without giving NII guidance, of course, but just sort of a range of where you think the terminal betas could be in the U.S. versus the non-U.S. even if it's a fairly wide range.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Yes. Let me describe it this way. And let me cover U.S. and non-U.S. to -- because both matter in a positive way for our books. I think the betas this quarter in the U.S. were in the 55% range. We're pleased to see that. Those are up from about 35% last quarter, but exactly where you'd expect us to be where we expected to be, given the uptick in rates. Next quarter, if we go from 55% this quarter to 65% beta the next quarter, we'd be quite comfortable. And then it just continues to inch up. That's just how it plays through. 
+In euros, we're also in that 50% range as we've started to cross into positive territory for central banks, and we expect that to continue. So part of the reason for the NII forecast into fourth quarter and into next year is that we expect betas in the 50% to 60% range in euros. The market operates a little differently than the U.S., but that would be in the range. 
+And then in pound sterling, betas are lower, they tend to be in the 30% to 35% range there. and then you can keep going, Aussie dollars, Canadian dollars and so forth. And we have a balance sheet that is prepared for rate rises across those currencies as well. And then you'll just see betas notch up quarter-over-quarter. I think at the terminal level, there's always some amount of lagging that you do. That's just how it happens. You never get to 100% beta or anything near that because you have some noninterest-bearing and you have some lag deposits, but we'll see. We're comfortable where we are in the 50% range going to 60%, and I think it will -- I think it will play out well for the NII and the balance sheet accordingly.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Next, we'll go to Jim Mitchell with Seaport Global.</text>
+                    </speaker>
+                </trainsition>
+            <question id="6">
+                <speaker id="9" position="Seaport Research Partners">James Francis Mitchell<text>Eric, maybe just one last question on NII, and I apologize. But as we think about big picture, Fed funds being potentially 200 basis points or more higher than 2018, European rates being positive versus negative back then. Do you see anything conceptually to suggest you should -- your NIM shouldn't be higher than back then? Or just wanted to get your thoughts on that.</text>
+                    </speaker>
+                </question>
+            <answer id="6">
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Jim, it's Eric. I'm a little more focused on NII than on NIM. And the reason we've done that is because we've actually changed the shape of our balance sheet over time. I mean, remember, we added some deposit initiatives, which tend to be at lower NIMs, but they are NII-accretive and positive. And we do that because sometimes we want to balance currencies around the balance sheet. We want to raise deposits where we want to land. We need to keep deposits for intraday. There are lots of reasons why we have a different mix of the balance sheet. And we've done that purposely in an engaging way with our clients over the last 2, 3 years. 
+So I don't think as a result, the balance sheet is bigger. And part of the reason we've been -- we've allowed it to be bigger is that the leverage ratio is not particularly constraining on us. And so what our intentionality is actually to maximize NII as opposed to NIM. So I think as you play that out, I think our NIMs are lower at this point than they were last time in the cycle. And I think they will -- they'll likely be below the -- the NIMs will be below the highs of the last cycle. 
+On the other hand, I think if you calculate the forecast we've given you for NII for fourth quarter, so the next quarter that we're about to print, that will be a new high of NII relative to what we had seen in the last cycle. And so -- and that's where we're a little more focused because that's what comes back to shareholders and what creates earnings and earnings momentum that contributes to the bottom line.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="9" position="Seaport Research Partners">James Francis Mitchell<text>Okay. Fair enough. And just maybe on the BlackRock ETF transition. How much is left? And do you see that as a material -- any kind of a material impact on forward revenues?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>We've our guidance has been pretty consistent on this. We -- and I think you'll find it in our 10-Qs and Ks that we estimate that the revenue outflow is about 2 percentage points of fees. So that hasn't changed. You saw some of that begin to come out this quarter. That was worth about $5 million this quarter. If you kind of get to the full quarter amount, it will be just under $10 million for fourth quarter, and that was worth about $1 trillion of AUC/A. So that did occur, and we'll continue to keep you updated on that. 
+But as we've previously disclosed and talked about, deconversions just take time. And it'll play out sometime towards the second half of 2023 and then into 2024 will probably be the majority of it. But we'll just see. We're working closely with our -- with BlackRock. We continue to be quite pleased with all the existing business we do with them and the work we do for them in the alternative servicing area, which we're one of the largest providers and certainly help them as they want to evolve, diversify and support their plans.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Next, we'll go to Gerard Cassidy with RBC.</text>
+                    </speaker>
+                </trainsition>
+            <question id="7">
+                <speaker id="7" position="RBC Capital Markets, Research Division">Gerard Sean Cassidy<text>Eric, can you remind us, you talked a little bit about it in your prepared remarks about fee revenues, the pricing pressure that you see every year. Can you remind us if that number has changed a bit at all? And second, as part of that, I think you've also indicated in the past, you needed a certain amount of assets under custody to neutralize that pressure. And I don't remember, I think it was $1.3 billion, but I could be wrong of new business wins to neutralize that downward pricing pressure.</text>
+                    </speaker>
+                </question>
+            <answer id="7">
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Gerard, let me start that, and it is an area that we continue to work on. The pricing headwinds are just a condition of our industry. Why? Because as you remember, pricing is AUM or a AUC/A based, and so as equity markets go up, clients expect some of that to come back to them. The pricing headwinds on an aggregate basis in the servicing fee line are about 2 percentage points of headwinds a year. And while we saw that bubble in 2017, '18, '19, that's come back down, that ticked up and then it's been well managed back down to that 2% or so level. And that's what we are seeing today. We're not seeing anything different than that, and it's well within our expectations. 
+In terms of wins, we always want to focus on net new business and for net new business to drive a positive impact on the revenues as they did this quarter. I was clear in my prepared remarks that net new business was positive. We had some nice wins. We actually had some nice wins and nice fee rates, right, because both matter to your point. The benchmark I've put out there is that we expect about $1.5 trillion of AUC/A wins a year to be in a good positive direction and trajectory for net new business. 
+But to be honest, as the CFO, I would like to see a little more and you've seen last year was particularly strong. This year, year-to-date, I think we're comfortably -- we're already comfortably at that level, and we still have another quarter to go. So the sales momentum continues. And what I find important is it continues to cross both our traditional cost and accounting business and our Alpha offerings, and so it's been broad-based.</text>
+                    </speaker>
+                </answer>
+            <answer id="7">
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Gerard, what I would add is on the topic of pricing. We mentioned to you at the end of the second quarter that we launched a targeted repricing initiative. That is well underway, and it's focused on the areas of high value or where costs are increasing higher than in other places, and that is intended to -- is to achieve margin preservation. In other words, to offset the cost of delivering something high value or to offset the increasing costs in areas, for example, where we have disproportionate market data and things like that. So that initiative is well underway. When we talked to you last time, it just launched, so we were in the dozens of clients. Now we're in conversations with a triple-digit number, so we're pleased with that progress, too.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="7" position="RBC Capital Markets, Research Division">Gerard Sean Cassidy<text>And has it been well received or understood, I should say, nobody likes price increases? But are the clients' understanding of why this conversation has to take place?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Yes. I think understood is the right word, Gerard. I think that these are sophisticated institutions themselves. They see what's going on. So I think it's been, for the most part, understood.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="7" position="RBC Capital Markets, Research Division">Gerard Sean Cassidy<text>Very good. And then, Eric, as a follow-up, can you remind us what percentage of assets under custody or under management are variable rate-priced products, meaning your customers pay basis points on the assets under custody, and so therefore, to your point, when the value goes up and down, obviously, it affects revenues?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Yes. It's a bit of a mix across different segments and across geographies. But a good rule of thumb is 50%, 55% are asset under custody based, so move up and down with market. There's another 20% that -- of the pricing tends to be based on transactional activity, and we actually saw transactions volumes, DTCC trades, wire transfers, derivatives, transactions and so forth come down this quarter. And then the last 20%, 25% tend to be relatively fixed or sometimes semi-fixed, the number of funds you custody for or some flat fees.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Okay. Next, we'll go to Mike Brown with KBW.</text>
+                    </speaker>
+                </trainsition>
+            <question id="8">
+                <speaker id="11" position="Keefe, Bruyette, &amp; Woods, Inc., Research Division">Michael C. Brown<text>I guess on BBH, I suppose it's been a while since we've gotten a financial update on the business and how it's performed in this volatile environment year-to-date. And clearly, there's a possibility that we have a resolution that could end up moving forward with the acquisition. So as we think about our models here and getting those kind of aligned with how BBH is performing, anything you can share on how the company has performed year-to-date?</text>
+                    </speaker>
+                </question>
+            <answer id="8">
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Yes, we're obviously monitoring the business performance closely, monthly, quarterly. And I think it's -- you should expect -- you can go back to some of the materials that we had shared a year ago, September, as the base case. But you could take that, Mike, and extrapolate some of what you've seen in our book of business, right? We're an asset management-oriented custodian. 
+You can even look at some of our peers with as benchmark. And I think you'd find what we've seen, which is that there's a sharp boost in NII, in their book or NII plus fees because of the mix of programs that they run for their clients' cash, offset -- partially offset, I'd say, with some downdraft in servicing fee rates, equity in bond markets. And then you'd see a bit of uptick on the FX services kind of business. 
+So I think it's ours and other large custodians are a parallel to what you've seen. And so it's something we're considering. But as we talked about earlier, we're conscious that it's -- that we need to think about this from a couple of different perspectives. But it's performing in line with what we and you would expect at this point.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="11" position="Keefe, Bruyette, &amp; Woods, Inc., Research Division">Michael C. Brown<text>Okay. Understood, Eric. Maybe just one last cleanup one for me. How should we think about how the unrealized losses on the AFS portfolio could -- should accrete back over the next, call it, 12 to 24 months as we think about your capital ratio or how that will impact the capital ratios over that time period?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Yes. It is part of our capital forecasting now. So -- and it was actually included in some of the buyback and capital return estimates that we provided not only for the fourth quarter, but also for our intentions related to next year. I think this quarter, the accretion was worth $60 million or so of capital, and that's just the reversal of those, of that mark accreting back as the bonds mature. There tends to be a little lumpiness to it, but that's the start of the accretion. 
+And so it did provide some amount of modest tailwind, and we'll certainly factor that in, right? Because just like earnings create an opportunity to return capital to shareholders, the accretion does as well, and that will be part of -- that builder capital ratios, which then we can share back with shareholders.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Next, we'll go to Mike Mayo with Wells Fargo Securities.</text>
+                    </speaker>
+                </trainsition>
+            <question id="9">
+                <speaker id="12" position="Wells Fargo Securities, LLC, Research Division">Michael Lawrence Mayo<text>Just to clarify. So in the next 10 weeks, we should either expect you to say that you'll proceed with the BBH deal or that you won't be proceeding and maybe there'll be an extra $2 billion buyback. Am I interpreting that correctly?</text>
+                    </speaker>
+                </question>
+            <answer id="9">
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>What you should take away from what we've said, Mike, is that by the end of this quarter, we will have a decision on whether to proceed forward or not to proceed forward. On the buyback, first, we need a Board authorization for further buyback and we'll communicate what we're intending on buybacks after that authorization.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="12" position="Wells Fargo Securities, LLC, Research Division">Michael Lawrence Mayo<text>Okay. And just I know that the first question of this call was why don't just walk away and that's been the topic. Let me just take the flip side, just I'm sure you've invested a lot of resources and time and thought into this. Is the real issue, just the regulators? And I'm just wondering, it's like roughly what, like 10% of your size, other G-SIFIs either 10x to 15x larger. 
+I mean, when I worked at the Fed 30 years ago, it all must be considered de minimis, right? I mean it's -- and I'm just trying to figure out the change. We all know the change in mindset as it relates to mergers generally. But I'm just wondering, does this put you at a permanent strategic penalty box that you can't pursue any mergers. Or is it something unique to this deal? Now I know you can't talk in particular about this deal in general, but can you make any broader statements like when G-SIFIs do this or G-SIFIs do that, it gets extra scrutiny or it's not as easy to get through anymore?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Yes, Mike, what I would say is that the timing of our announcement in this deal in retrospect, probably couldn't have come at a worst time because if you think about the regulatory agencies, many of them, to some extent, were going through some kind of personnel change. So that itself has slowed things down. In some cases, it's driven a very significant change in philosophy. 
+Whether that change in philosophy will be permanent or not, I don't know. I'd like to think not. But to answer, I think the number of your question is, did anything change for us beyond the regulatory situation? The answer is no. I mean we have -- for all the reasons that we've stated to you going back to September of last year, we feel like the deal is strategically compelling. 
+In terms of longer term, what does this mean for our position. I mean, again, that's something that we think about, and that's something that we certainly have conversations about with our primary regulator. And I think there's some sympathy to all that. But I don't want to talk about something in the abstract beyond the transaction that we're in, which is the BBH deal. It's not all regulators. It's a subset, and it's a situation that we're going to work our way through, but work our way through very cognizant of what it means for our shareholders, what it means for clients, et cetera.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="12" position="Wells Fargo Securities, LLC, Research Division">Michael Lawrence Mayo<text>And then last follow-up on this. Is there anything that you can do to help control the outcome at this time? Or is it simply based on the analysis by the regulators?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Well, that -- I mean, we've talked about modifications to the transaction and the modifications are meant to meet either regulatory concern or to navigate or to do what we believe is required to navigate through regulatory concerns. So that's what we're up to now.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>Next, we'll go to Betsy Graseck with Morgan Stanley.</text>
+                    </speaker>
+                </trainsition>
+            <question id="10">
+                <speaker id="4" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>Just a couple of quick follow-ups. One, I know you've had some M&amp;I charges, merger and integration charges over the past few quarters. I mean if any of that is for the BBH deal, was there anything in a walkaway that you would be refunded for? I'm guessing the answer is no, but I just want to make sure I understand how that works.</text>
+                    </speaker>
+                </question>
+            <answer id="10">
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Betsy, it's Eric. No, those are incurred charges that are about primarily our staffing and then some of the service providers. But we've also -- what we have done is avoided some of the -- obviously, there are costs that are continuing on deal closing, some of the advisory fees, et cetera, those have not played through there, and those would not be incurred. So those are kind of the base level expenses. And there's no tail on those by and large.</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="4" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>Right. Okay. And is it possible to size how much of those were for or have been for BBH or not?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Since earlier this year, they've primarily been around the BBH transaction work.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="4" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>Okay. And then we've had 2 quarters of very strong dollar performance here, dollar strengthening Q-on-Q. And I just -- I see it in the deck, the ins and outs on, the drag on revenues, the benefit to expenses, a little bit of a drag on the AUC, AUM volumes, you've got some benefit from volatility in the trading line. So I just wanted to get your sense of how has the dollar strengthening all in impacted you? And how do you think about managing, just generally speaking?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Yes. Betsy, it's Eric. What I described to you is that the dollar has an effect as do all the currencies on our P&amp;L and balance sheet, but it's relatively symmetric and, I'll say, almost neutral. And I say that in EBIT terms and in balance sheet terms, it -- dollar strengthening reduces revenues but also reduces the expenses, not in all currencies and all the time, but it tends to have almost an EBIT-neutral impact on the P&amp;L. 
+And then on the balance sheet, you also have a similar effect whereas deposits are revalued downwards in foreign jurisdictions as U.S. appreciates, so are the assets in those jurisdictions, and so you have some symmetry. So by and large, it's, I'll call it, roughly neutral, which is why we don't do any particular hedging on it because we find that we can manage through it in a comfortable manner except that it makes our reporting to all of you in the analyst and investment community a little more complicated, but that's just what needs to happen.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="4" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>And when you think about the footprint that you have today and the effort to continue to get scale in that footprint, is the international exposure strategically important from a diversification perspective? Or do you feel that the growth outlook for the non-U.S. markets is higher, just wondering.</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Betsy, it's Ron. Let me take that. I would say that we've got a good geographic mix now. And so the way we think about it in virtually all of our locations, it's not like we're not at minimum efficient scale, but to the extent to which we can achieve more scale there, we'd like that. I think in general, the non-U.S. markets have continued in most circumstances, not all, to grow faster than U.S. markets on balance. If we could get a little bit more there, we'd like that.</text>
+                    </speaker>
+                </followAnswer>
+            <trainsition>
+                <speaker id="-1" position="">Operator<text>And next, we'll go to Vivek Juneja with JPMorgan.</text>
+                    </speaker>
+                </trainsition>
+            <question id="11">
+                <speaker id="14" position="JPMorgan Chase &amp; Co, Research Division">Vivek  Juneja<text>Sorry to beat a dead horse, but going back to BBH. Given that you've talked about buying back $1 billion of stock, the deal value was $3.5 billion, that's a pretty substantial percentage. Would you still be buying the full entity you had intended to when you announced the deal? Or is there some elimination of a part of it and flip it the other way? Could you buy just a piece of it? Or is it only available as a whole thing?</text>
+                    </speaker>
+                </question>
+            <answer id="11">
+                <speaker id="0" position="CFO &amp; Vice Chairman">Eric Walter Aboaf<text>Vivek, it's Eric. The kind of the outlines, the perimeter of the deal with Brown Brothers hasn't really changed. It's around their investment services business. That's the business that we're attracted to, and that's the one that they'd like to transact. So there's no -- no, there's not been any real change there.</text>
+                    </speaker>
+                </answer>
+            <answer id="11">
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Yes. And Vivek, we were never buying the whole business, and it was...</text>
+                    </speaker>
+                </answer>
+            <followQuestion>
+                <speaker id="14" position="JPMorgan Chase &amp; Co, Research Division">Vivek  Juneja<text>No, what I meant was the whole investment services business. Could you buy a piece of it since it's different geographies, given the regulatory complexity to sort of -- if there are geographies that are more attractive and more difficult to replicate on your own?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Yes. I suppose that's something we could explore, Vivek. It's -- then the attraction goes down even more. So -- and not clear that, that accomplishes what Brown Brothers itself is trying to accomplish, which is they'd like to exit the business, not have even a smaller bit than they already have now.</text>
+                    </speaker>
+                </followAnswer>
+            <followQuestion>
+                <speaker id="14" position="JPMorgan Chase &amp; Co, Research Division">Vivek  Juneja<text>Ron, I want to go back to a different topic. You mentioned about the price increase discussions you're having and you said the operative word is understood with your clients. Should I interpret understood as understood and agreeing to it? Or understood but not necessarily open to it and shopping it around with other providers?</text>
+                    </speaker>
+                </followQuestion>
+            <followAnswer>
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Yes. So I would say, again, this has been highly targeted, Vivek, so it's not like we've said, there's an x percent across the board kind of thing. We've really tied it to, one, where our costs are under the most pressure; and two, where there's high-value added delivered to the client. And so I think you should interpret understood as we understand why you're asking for this. There's certainly some talk around it and is that the right number, et cetera. But I would say in more cases than not, but far more cases than that, we're getting agreement on it.</text>
+                    </speaker>
+                </followAnswer>
+            <ending>
+                <speaker id="-1" position="">Operator<text>This concludes today's question-and-answer session. I'll now turn the call back over to Ron O'Hanley for any additional or closing remarks.</text>
+                    </speaker>
+                </ending>
+            <ending id="12">
+                <speaker id="2" position="Chairman &amp; CEO">Ronald Philip O’Hanley<text>Well, thank you, operator, and thanks to all of you for joining us on the call. 
+OperatorLadies and gentlemen, this concludes your conference call for today. We thank you for your participation, and ask that you please disconnect your lines.</text>
+                    </speaker>
+                </ending>
+            </section>
+        </body>
+    </Transcript>
