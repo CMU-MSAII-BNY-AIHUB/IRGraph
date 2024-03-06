@@ -46,9 +46,9 @@
                 </table>
             </section>
         <section name="call participants">
-            <person position="Senior Executive VP &amp; CFO" group="EXECUTIVES" id="0">Dermot William McDonogh</person>
-            <person position="Head of Investor Relations" group="EXECUTIVES" id="1">Marius  Merz</person>
-            <person position="President, CEO &amp; Director" group="EXECUTIVES" id="2">Robin Antony Vince</person>
+            <person position="The Bank of New York Mellon Corporation NYSE:BK, Senior Executive VP &amp; CFO" group="EXECUTIVES" id="0">Dermot William McDonogh</person>
+            <person position="The Bank of New York Mellon Corporation NYSE:BK, Head of Investor Relations" group="EXECUTIVES" id="1">Marius  Merz</person>
+            <person position="The Bank of New York Mellon Corporation NYSE:BK, President, CEO &amp; Director" group="EXECUTIVES" id="2">Robin Antony Vince</person>
             <person position="Goldman Sachs Group, Inc., Research Division" group="ANALYSTS" id="3">Alexander  Blostein</person>
             <person position="Morgan Stanley, Research Division" group="ANALYSTS" id="4">Betsy Lynn Graseck</person>
             <person position="UBS Investment Bank, Research Division" group="ANALYSTS" id="5">Brennan  Hawken</person>
@@ -132,10 +132,10 @@ With that, operator, can you please open the line for Q&amp;A?</text>
                 </statement>
             </section>
         <section name="Question and Answer">
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>[Operator Instructions] And our first question will come from Brennan Hawken with UBS.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="0">
                 <speaker id="5" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Dermot, I'd like to start with which you just touched on, the unchanged NII outlook. Curious what you're seeing as far as deposit cost pressure. We've begun to see that emerge. There are peer firms of Bank of New York's that have flagged some upward pressure in the back book. How is it that you are able to avoid these pressures and keep on your NII outlook that you had provided earlier?</text>
                     </speaker>
@@ -149,19 +149,19 @@ And specifically to your point on deposit costs, look, our client base, unlike o
 We price competitively. Clients come to us not just for deposits. They come for a broad range of goods and services, and deposits are part of our overall product mix. So we feel very good about where the book is and where the cost is. Notwithstanding, there are pressures given the higher for longer rate environment and people looking to optimize their net interest income. So that's it.</text>
                     </speaker>
                 </answer>
-            <answer id="0">
+            <followQuestion>
                 <speaker id="5" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>That's very helpful. I appreciate that. And so switching gears a little bit on the fee revenue side. This was a pretty good outcome for you guys here this quarter. How should we be thinking about jumping off into the next quarter? Is there anywhere in particular where you would flag some adjustments that we should be making to the baseline? Or is this a fair way to think about it?</text>
                     </speaker>
-                </answer>
-            <answer id="0">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So as it relates to fees, Brennan, look, I think when I look across the various businesses and the feedback that we're getting from clients and when I talk to our teams, our backlogs are good. We're winning our fair share of deals. 
 I have to say the enthusiasm and the energy of the team when they came back from the INSITE conference having launched the Wove product gives us great optimism about the future and what we can do for our clients. So overall, I would say our backlog is good in a very uncertain environment. We're winning our share. And our yet to be installed book of business in Asset Servicing is healthy and strong.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>And our next question will come from Alex Blostein with Goldman Sachs.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="1">
                 <speaker id="3" position="Goldman Sachs Group, Inc., Research Division">Alexander  Blostein<text>Just a quick follow-up first maybe around the deposit discussion. So Dermot, if I hear you correctly, no kind of catch-up from the back book that you expect to see in your deposit pricing for the rest of the year. But I guess, if we look at the deposit beta over the course of this quarter, it looks like it was pretty close to 100% on a currency adjusted basis. Maybe help us break down the deposit cost in U.S. and non-U.S. and maybe the type of -- what kind of deposit pressure and client conversations are you seeing in the kind of different regions?</text>
                     </speaker>
@@ -171,22 +171,22 @@ I have to say the enthusiasm and the energy of the team when they came back from
 If you take the overall deposit book in total, it's largely a dollar-based book, 80% dollars and then 10% split between euros and sterling. And the betas for sterling and euros are roughly in the kind of 50% to 60% range. And then I'll just reiterate like the point, and I think it's a very important point. The deposit book is largely institutional, sophisticated clients. And we've really repriced our book quite efficiently over the last 1.5 years, and that's really the message I'd like to leave you with.</text>
                     </speaker>
                 </answer>
-            <answer id="1">
+            <followQuestion>
                 <speaker id="3" position="Goldman Sachs Group, Inc., Research Division">Alexander  Blostein<text>Makes sense. And then, Robin, a question for you, maybe a little bit more on the strategic side. When we look at the Investment Management business at BNY Mellon, there are some areas that one could maybe characterize as sort of subscale. The organic growth has been muted, and obviously, margins is something you guys, as previously said, need to sort of work on. So, are there any strategic areas where you feel like you could address some of these issues by either divesting or adding scale to businesses that are subscale? So just kind of thinking more holistically about that business in the context of BNY Mellon.</text>
                     </speaker>
-                </answer>
-            <answer id="1">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>Thanks for the question, Alex. Obviously, this is an area, a segment we spend a lot of time on. Just to remind you, we did a series of strategic reviews all across the company. Going back over the course of the past 9 months, we've looked at every function, we've looked at every business. And we did spend a particular amount of time digging in to our Investment and Wealth Management segment. 
 Look, in terms of IM in particular, if you think about it as part of the IWM segment, 2 years ago, that whole segment was a 30% pre-tax margin segment. There's no reason to think we couldn't get back there over time. But there are a series of different things that we have set out to do ourselves. And so the execution of all of that is going to be really important. 
 There's going to be a combination of improving top line, what you'd expect in terms of really focused on meeting client needs, strong investment performance, new products, et cetera, and also some of the de-siloing and expense management that's really in there. But the thing I'm going to call out to you, which I really think of as the BNY Mellon superpower, and I think everyone needs to have a superpower these days, in Investment Management is our distribution. 
 And so that's a place where strategy for the whole company really meets strategy for Investment Management because if you step back from the way that we were organized, Investment Management was its own silo in the company and, frankly, a bit landlocked over there in its silo. But our distribution capabilities, $2.5 trillion worth of retail distribution as one example, but obviously, we have other distribution as well in the company on the institutional side, was separately landlocked over in a different corner of the company. 
 So our plan here is really to lean in to what we think of as one of our superpowers, distribution, and then allow the business in this newly configured format to really be able to stretch its legs in this non-siloed format and then go from there. And we think that, that's a good path forward.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>And we'll take a question from Betsy Graseck with Morgan Stanley.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="2">
                 <speaker id="4" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>I know we talked a lot about deposits, but I did just want to drill down on how you're thinking about the life of the deposits. And is that at all changed versus history? And part of the reason for asking is just trying to understand if there's any impact on the securities portfolio as you put that deposit flow to work.</text>
                     </speaker>
@@ -195,35 +195,35 @@ So our plan here is really to lean in to what we think of as one of our superpow
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>When you say life of deposit, Betsy, do you mean like tenor and duration of the deposit that stays with us, just to clarify the question?</text>
                     </speaker>
                 </answer>
-            <answer id="2">
+            <followQuestion>
                 <speaker id="4" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>Yes, what you are assuming the life of the deposit is because I'm expecting that drives how you're investing in those deposits.</text>
                     </speaker>
-                </answer>
-            <answer id="2">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>Okay. So let me start like talking about the $277 billion of average balance sheet that we have. Important point number one, 2/3 of those deposits are operational or what we call sticky. Here at BNY Mellon, we don't classify between insured and uninsured. We call it sticky and nonsticky. So the vast majority of our deposits are with us because the clients are in our ecosystem for the long term and need to have cash with us to execute their business. So that's why we think about it in that way. 
 On the asset side of the balance sheet, like I would like to go back 18 months when we kind of made some strategic decisions about positioning for this rise in interest rates. We took a view in terms of how we wanted to set up the balance sheet with a rapid increase in interest rates. And so we've done a lot of work last year in terms of repositioning the portfolio in terms of higher for longer. 60% of our portfolio is in AFS. And a big part of that is 60% of the portfolio is also fixed. That has a weighted average maturity of about 4 years. So think of about rolling off a quarter every year. So if you take on the asset side, the amount of money that we have in cash plus the amount that's rolling off from fixed to floating, and the investment yield pickup of that is about 300 basis points. We feel when you look at both assets and liability together combined, we're really well positioned over the next 12 to 18 months to manage through this rate environment.</text>
                     </speaker>
-                </answer>
-            <answer id="2">
+                </followAnswer>
+            <followQuestion>
                 <speaker id="4" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>Okay. And you would say that the deposits already reflect the rates that obviously have come through to date, right?</text>
                     </speaker>
-                </answer>
-            <answer id="2">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>Largely, yes, absolutely, which is why cumulative betas are in the mid- to high 70s. And we expect them to grind a little bit higher from here. But we -- as I've said, we pay our clients a competitive rate. And they are sophisticated, and they know what they're doing.</text>
                     </speaker>
-                </answer>
-            <answer id="2">
+                </followAnswer>
+            <followQuestion>
                 <speaker id="4" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>Yes. Okay. And then just a separate question on op risk RWA. Next week, I guess, we're getting the Basel III end-game rules. And just wondering, I know we don't have the final rule, but I'm sure you've thought a lot about this op risk RWA component that's being added to standardized. Maybe you can give us a sense as to how you're thinking through and how we should think through assessing your position when those rules come out next week.</text>
                     </speaker>
-                </answer>
-            <answer id="2">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So again, look, we've talked about this pretty much for the last 12 months. So just to kind of recap what we've said before. Based on what we know, we expect operational risk RWAs to be in the Standardized Approach, and that will drive an increase in our standardized RWAs. Based on our internal analysis, we think that will have a smaller increase than what the QIS has shown in the past. And so we kind of feel like capital levels will be a little bit higher. But we feel we will have the ability to adapt and live with whatever the outcome is. But again, it's been delayed a couple of times. So I think for us, we're just waiting to see. And we'll turn it around quickly, and we'll communicate to you when we have something tangible to say.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>And our next question will come from Steven Chubak with Wolfe Research.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="3">
                 <speaker id="13" position="Wolfe Research, LLC">Steven Joseph Chubak<text>So wanted to dig into noninterest-bearing deposits. They're now firmly within your 20% to 25% guidance or target range. Your peers have offered more conservative guidance on NIB deposit trends. I know some of your businesses and your mix is pretty unique or idiosyncratic, but I wanted to just better understand what's driving the resiliency in NIB trends and your confidence level at that 20% to 25% range is still appropriate.</text>
                     </speaker>
@@ -234,12 +234,12 @@ Important point to make here is our mix of businesses today is a little bit more
 And then we look at what industry is saying and what you analysts are writing about, and we kind of take that into accommodation, also what other people have guided and what our clients are telling us. And we take all of that together, and we kind of feel, at the end of the day, consistent with what we've said in the last 2 quarters is 20% is the best we can give you in terms of through the cycle, which importantly then feeds into our NII guidance of 20% over the course of 12 months. So it's important to remember, it's a 12-month guidance as opposed to managing it quarter-to-quarter.</text>
                     </speaker>
                 </answer>
-            <answer id="3">
+            <followQuestion>
                 <speaker id="13" position="Wolfe Research, LLC">Steven Joseph Chubak<text>That's really helpful. And just for my follow-up, encouraging to see the 30% margin for Securities Services this quarter. That said, the IWM margin remains subdued, running in the low teens year-to-date. 
 I know, Robin, you had talked about distribution being a big focus, but what do you see as an achievable target versus that low teens level you're running at today? And how much of that margin improvement is contingent on revenue opportunities like improved distribution versus efficiency gains?</text>
                     </speaker>
-                </answer>
-            <answer id="3">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>Sure. So looking at the whole company, the Securities Services margin was 29%. We've given previously the guidance and the target around getting that to 30%. We're very pleased with the progress. 
 But there's no question that we've had some sort of easier tailwinds in the form of rates, and we have to continue to get after this deliberate cost to serve. And so I just put that as a footnote on the Securities Services point. We are laser-focused on continuing to drive that margin higher. We're not complacent about this at all just because it happens to be approaching our original target. 
 But look, on Investment Management, and this goes a little bit to the prior question, 2 years ago, this was a 30% pretax margin segment. So we look around the world, we look at what's happened, how has it come down the various quarters, some of which is obviously a little bit cyclical. And our conclusion is we don't see any reason why we couldn't get back there. But execution comes in a bunch of different pieces, as I touched on before, and we really have to get after that execution. 
@@ -248,11 +248,11 @@ And as we pursue that strategic change, and it will take a little while, that, w
 And Investment Management is a great example of this. We have, in our Investment Management central team, additional expense that duplicates to the rest of the firm. And we can find better ways of bringing those capabilities together to actually execute better. So there's opportunity there as well. 
 So collectively, we're going to pursue all of these things. It's going to take us a couple of years realistically to see all of the benefit of all of this work, but we feel reasonably optimistic about our path forward here. And of course, we're going to continue to report it, and we'll keep you updated as we go on the journey.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>And our next question will come from Glenn Schorr with Evercore ISI.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="4">
                 <speaker id="9" position="Evercore ISI Institutional Equities, Research Division">Glenn Paul Schorr<text>So the FedNow platform has started for interbank payments. I'm assuming you're going to be playing a big role in this, but I'm curious what you think the expected impact for the industry and for BK is? Like these things are usually good for expenses, good for capital efficiency but bad for revenue. But I'm just curious if you can tell us what you think?</text>
                     </speaker>
@@ -265,24 +265,24 @@ And remember, we wrap them in new services, so the ability to offer real-time re
 And to your point about volumes versus price, one of the good things about being a disrupter when you don't have as big a share of some of the credit card flows and some of those other things, which admittedly have a higher price on them, we aren't. So we get the opportunity to bring this unconflicted approach and benefit from the upside, frankly, without sacrificing much on the other side.</text>
                     </speaker>
                 </answer>
-            <answer id="4">
+            <followQuestion>
                 <speaker id="9" position="Evercore ISI Institutional Equities, Research Division">Glenn Paul Schorr<text>Very interesting. Separate but related, I think you guys have done a very good job of taking that 20% net interest income growth you expect this year, offsetting a couple of percent expense growth and bringing that operating leverage. I'm trying to think out loud. The mid- to high single-digit expected deposit decline in the back half makes for a tougher full year '24. So even with good expense control, I guess my question is, how much do you need more of those -- get clients to do more with Bank of New York cross-selling mentality to kick in to produce that operating leverage next year?</text>
                     </speaker>
-                </answer>
-            <answer id="4">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So look, that's a kind of a crystal ball-type question, Steven (sic) [ Glenn ]. So I think it's a bit too early for us to comment on '24. There are 3 parts to the question. It's like 1BNY Mellon client franchise, we go at it every single day with incredible intensity. We want clients to do more with us across different parts of the firm, and we're really working hard at that. 
 The second point is expenses. Two quarters in, we're very pleased with where we are. We like the forward in terms of how we're executing and how the firm has set up to execute. I would remind you, like this time last year, we conducted a bottoms-up exercise where we took 1,500 ideas across the company from all our team members around the world, put a bit of investment dollars behind it. Digitization, automation and eliminating manual processes. And in the expenses flat quarter-over-quarter, you're beginning to see the dividends of that paying through. 
 And importantly, in my prepared remarks, I said that we funded the entirety of our investment plan for the second quarter from efficiency, and we expect that to continue over the medium term. And then NII, we'll just prepare as we go. And the outlook is uncertain, but we'll manage through it.</text>
                     </speaker>
-                </answer>
+                </followAnswer>
             <answer id="4">
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>Glenn, I'll add one thing to that, which is as you look across our strategy, we were very clear at the beginning of the year about what we wanted to achieve this year. We set out these 3 points of our outlook, our guidance for 2023. And of course, the year is always going to evolve a little differently than you imagine it will right at the beginning of the year. And we've certainly had a year like that this year, where we've had unexpected things happening in all quarters of financial markets. And so what we have done is we stuck very deliberately to our medium-term plan. And we've not allowed ourselves -- while, we manage every quarter, of course, deliberately every individual thing that we're doing every day, generating more fees, focused on NII, focused on expenses. What we're really doing is preparing our company for this medium- and longer-term journey of delivery and achieving our objectives. And so there are always going to be a little bit of pluses and minuses in the quarter. But we really think that, that sort of broader strategy is what we're about, just deliberately executing and bringing the culture to bear. So I hear you on the next couple of quarters, but I would just continually remind you and put you back to that guidance that Dermot mentioned about what we're trying to do this year.</text>
                     </speaker>
                 </answer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>And we have a question from Ebrahim Poonawala with Bank of America.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="5">
                 <speaker id="7" position="BofA Securities, Research Division">Ebrahim Huseini Poonawala<text>Just had a follow-up, Dermot, on the NII side. So heard everything that you talked about. You've done a good job in terms of forecasting NII and depositor behavior. Give us a sense of if we don't get any rate cuts over the next 12 months, where does NII trough, given the repricing on the security side that you expect and assuming no big surprises on deposits relative to your current expectations. Just is there a natural trough to NII without -- before we bake into it any Fed moves?</text>
                     </speaker>
@@ -291,20 +291,20 @@ And importantly, in my prepared remarks, I said that we funded the entirety of o
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So look, the path of -- it's a difficult question. The path of interest rate matters, yes, level of rates, timing. If you look at the last 8 months, the market, broadly speaking, hasn't got it right relative to Fed dota and has now come into line over the last several weeks. I think the 2 things that I'm looking at are -- it's pretty baked in that the Fed will hike in July. Then you have Jackson Hole. That's going to be a very important meeting. And then what happens in November because if it's one hike every 2 meetings, between July and November is a long time, and there will be a lot of data in that period. And so if they pass on November, it's going to be very hard for them to restart again. So I think when we look at our balance sheet, we positioned it higher for longer. And that kind of has informed our guidance of 20% for this year. And the book over the next 12 months, 12 to 18 months, we're broadly neutral on the outcome for rates up a little bit or rates down a little bit, and that's kind of how we think about it.</text>
                     </speaker>
                 </answer>
-            <answer id="5">
+            <followQuestion>
                 <speaker id="7" position="BofA Securities, Research Division">Ebrahim Huseini Poonawala<text>Got it. And I guess just one follow-up maybe, Robin, you made efficiency improvement a huge focus for the last year or 2. And as we think about it -- and without sort of asking for guidance into next year, as we think about these efficiency benefits to the bottom line, should we think about it in increments much like you achieved it this year? Or should we expect a larger move at some point as you had the time to assess operations and maybe we see something larger next year or so?</text>
                     </speaker>
-                </answer>
-            <answer id="5">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>It's an important question, Ebrahim. And I'm going to frame it slightly differently to you, which is we are focused on things that are going to be relatively quick wins associated with cleaning things up that we thought were inefficient. And we've also laid out for ourselves a series of medium-term things and a series of long-term things. And so we have a variety of initiatives in each of those buckets. Of course, we've been executing on them in parallel, but you've only seen the benefits of some of the shorter-term things right now. So Dermot gave you the example of the ideas that our people generated, and we're going after those. And we said those were sort of a 3-year-or-so implementation to get after that. We've talked about the fact that we did some work, some delayering in the organization at the end of last year into the beginning of this year, which has been quite helpful. That's also been a slightly shorter-term thing. 
 At the same time, we're looking very deliberately and remembering that we are essentially a diversified financial services company because all of these different businesses that we have, and we have a lot of embedded platforms within that, platforms that have been operated in sort of nonplatform ways as a result of our sort of slightly siloed past. So now we're getting after organizing those things a little bit differently. And as we organize that, there'll be some expense benefit from that. But also then having organized them in that way, we get to really deliberately go after the duplication of systems and processes that are inside the company. And that's also when we really get to go after the digitization. 
 So it's harvesting a little bit for the short term, focused on the things that we think make the company a well-run company, organizing ourselves to be able to structurally operate ourselves as we think of the company and then harvesting the benefit of that. So there's a 1-year story, a 2-, 3-, 4-, 5-year story associated with doing all of those things. But as with everything, we have to execute it really well. And we want our people to come along with us on that journey because a lot of this is change of behavior from how people have worked in the past, which is why we have a strategy. We're laser-focused on the execution, and culture really matters.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>And we have a question from Ken Usdin with Jefferies.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="6">
                 <speaker id="10" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>Just a follow-up, to your point about being able to beat that expense expectation for the year and in reaction to a little bit different outcome on the fees than initially expected, I just wonder if you could just talk to us about both sides of that. Number one, the beating on the expense side, is that doing anything incremental in terms of either the severance effects or delaying investments? Or is it just the core? 
 And on the fees side, I'm just wondering if you can kind of catalog for us which businesses have underperformed a little bit. And do you have a better line of sight for a better rate or change for those going forward?</text>
@@ -317,10 +317,10 @@ If you go to our Securities Services segment, that is about increasing our margi
 On the fees, I think generally, we feel very good about our backlog. We feel very good about the pipeline. We're winning our share of what the market has to offer, and our clients like what we have to offer. So on the forward, we feel we have excellent momentum, and we're executing well with our clients.</text>
                     </speaker>
                 </answer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>And moving on to Brian Bedell with Deutsche Bank.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="7">
                 <speaker id="6" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Most of my questions have been asked and answered. But maybe just a follow-on on the 1BNY Mellon initiative. Maybe on the revenue side of that, it sounds like, obviously, there's a lot of low-hanging fruit on the cost side that will run well over the next 1 to 2 years. But on the revenue side of that, I guess, how would you -- just in a comparison perspective relative to expenses, how would you cite the revenue potential for 1BNY over the next couple of years? And if you can point to any one early example of cross-sell traction.</text>
                     </speaker>
@@ -334,19 +334,19 @@ I can give you the same types of examples around the way that outsourced trading
 We have another example of that with trading that we do for certain clients where we had multiple examples. So we have a long list of things where we were operating kind of independently. And part of our growth is by bringing those together, yes, we will get benefits in terms of efficiency, but we expect more client business from it, too.</text>
                     </speaker>
                 </answer>
-            <answer id="7">
+            <followQuestion>
                 <speaker id="6" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Yes. That's fantastic color. Maybe if I could just finish up on the deposit, one more on the deposit side for you, Dermot. You mentioned that your pricing is already very good. You're not seeing a great deal of pressure on deposit costs other than the grind higher that you cited. 
 Within the Asset Servicing segment specifically, so the Asset Servicing part of Securities Services, are you seeing a different dynamic there whereby clients are looking to either shift out of NIBs or look for better deposit pricing? And then in those contracts that you have, servicing contracts that you have, do you have provisions for embedding sort of a level revenue type of outcome depending on whether they pay via fee or compensating balance?</text>
                     </speaker>
-                </answer>
-            <answer id="7">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So look, Brian, I think you're trying to do a read across. So I think it's not really appropriate for me to kind of get into the detail on any specific business because we aggregate up to the firm and we give you a firm view. So I wouldn't say -- I'm not seeing anything within Asset Servicing as it relates to the mix of IBs and NIBs that would cause me to think there's been an outlier change quarter-over-quarter or something that's unusual and out of line with what we expected at the beginning of the year.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>And we have a question from Gerard Cassidy with RBC.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="8">
                 <speaker id="8" position="RBC Capital Markets, Research Division">Gerard Sean Cassidy<text>Dermot, earlier Robin pointed out that, obviously, there's going to be a lot of Treasury issuance in the second half of the year. Could you guys quantify the benefit or the monetary benefit that you'll see from this type of issuance because you're the primary clearer of Treasuries, of course? Is there any way of quantifying that for us?</text>
                     </speaker>
@@ -355,26 +355,26 @@ Within the Asset Servicing segment specifically, so the Asset Servicing part of 
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>Well, I'll take that actually, Gerard. So look, when you look across all of our businesses, we recognize that growth comes in lots of different forms and our clients growing their wallet share with us. We can have market appreciation. We can have transaction balances, the total addressable market can go up. There are different ways in which we see opportunity. And in the Treasury market, given the role that we play in the Treasury market, at the end of the day, more Treasuries is a benefit for us because there are more Treasuries that get traded in the market. There are more Treasuries that need to get funded in the market. There are more Treasuries that get issued in the market. So there's a broader set of benefits there. And you've seen that as we've reported some of our results in Clearance and Collateral Management, which obviously has been a growing business. Now that business isn't only about Treasury. It's also about international clearance. It's about global tri-party outside of the U.S. So I don't want you to zero in and only think about that being driven by Treasuries. But clearly, Treasuries is a market we serve. And so when there are more of them and more activity, we regard that on average as good.</text>
                     </speaker>
                 </answer>
-            <answer id="8">
+            <followQuestion>
                 <speaker id="8" position="RBC Capital Markets, Research Division">Gerard Sean Cassidy<text>Very good. I appreciate that. And then, Dermot, you were talking about the balance sheet and how the portfolios, the securities portfolios are positioned going forward, especially if we're in a higher for longer rate environment. What if we get surprised sometime in the spring of '24 and the Fed starts cutting rates? How quickly can you reposition the portfolio for that? Or would you need to do that? Can you give us some color on the opposite of what everybody expects today of higher for longer?</text>
                     </speaker>
-                </answer>
-            <answer id="8">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>The quick answer is a large part of our portfolio is cash, so reprices very quickly up or down. So we kind of think of our balance sheet as broadly neutral. So if they cut by 25 basis points or 50 basis points, we're okay. I think also our CIO has taken a couple of a little bit of protection on NII for '24 in terms of locking some of the gains in. So I would say, again, to the question a little while ago, we're broadly neutral up or down over the next 12 to 18 months.</text>
                     </speaker>
-                </answer>
-            <answer id="8">
+                </followAnswer>
+            <followQuestion>
                 <speaker id="8" position="RBC Capital Markets, Research Division">Gerard Sean Cassidy<text>And then just if we were to move into this lower rate environment, because your deposit betas are so high so far year to -- from the beginning to where we are today, I would assume you would be able to cut rates pretty quickly -- deposit rates pretty quickly?</text>
                     </speaker>
-                </answer>
-            <answer id="8">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>Symmetrical. 100% accurate. Yes. Equally on the way down as on the way up.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>And we have a question from Rob Wildhack with Autonomous Research.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="9">
                 <speaker id="12" position="Autonomous Research US LP">Robert Henry Wildhack<text>I wanted to go back to the theme of fees versus expenses and drill down a little bit into Securities Services and the margin in there. I mean, what portion of the margin improvement you're aiming for do you think will come from sheer expense discipline? And then what portion do you think comes from all the fee opportunities that you're speaking to?</text>
                     </speaker>
@@ -384,18 +384,18 @@ Within the Asset Servicing segment specifically, so the Asset Servicing part of 
 Also, we feel we have -- we're the world's largest custodian. We're #1 in a lot of different things in the Securities Services space so we like our hands. We're winning our share. As I said earlier, our backlog is very strong, and we have a good medium-term opportunity set in front us that we're looking to win and execute on. Our yet to be installed book of business is very healthy. So I think we're going after the 2 legs with equal intensity, and both will deliver that margin of 30% through the cycle, very important. This quarter, we had a nice healthy pickup from the rate back up. But as Robin has said in an answer to another question, we're just not relying on that. We know we have a lot of work to do, and we're getting about it.</text>
                     </speaker>
                 </answer>
-            <answer id="9">
+            <followQuestion>
                 <speaker id="12" position="Autonomous Research US LP">Robert Henry Wildhack<text>And then just one more on Pershing. Excluding the deconversion, performed pretty well again in terms of net new assets. Can you speak to some of the drivers there. Remind us what the revenue impact is and how you're thinking about the pipeline for that business specifically?</text>
                     </speaker>
-                </answer>
-            <answer id="9">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So I don't want to do a revenue outlook based on the deconversion because I don't think it's right to talk about any single particular client. But what I would say ex the deconversion over the quarter. We had like 4% growth. Pershing is a business that's grown really well over the last number of years. We're very competitive. We're #1, top 3 in different things. And so I would say the feedback from our conference in Florida, INSITE, where we launched Wove, was really, really good. And Robin spoke about this at length in terms of the appetite about Wove. So we kind of think over the next several quarters, we like the business momentum. We have a lot of stuff in the pipeline. I think come October, we're going to have a couple of deals that we're going to be able to talk to you about that are quite exciting and will make you feel pretty good.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>And our final question comes from the line of Rajiv Bhatia with Morningstar.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="10">
                 <speaker id="11" position="Morningstar Inc., Research Division">Rajiv K. Bhatia<text>Just on that Pershing business, can you remind us how much of your revenue is from RIA custody side? And then can you talk about what you're seeing from a competitive standpoint? Goldman Sachs seems to be expanding in this area. Envestnet has partnered with FNZ. SEI has also made some moves here. So curious how you see the competitive landscape evolving.</text>
                     </speaker>
@@ -414,8 +414,11 @@ So we've got this whole breadth to how we're actually approaching this opportuni
                     </speaker>
                 </ending>
             <ending id="11">
-                <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>Thank you, operator. And thank you, everyone, for your interest in BNY Mellon. If you have any follow-up questions, please reach out to Marius and the IR team. Be well. 
-OperatorThank you. This concludes today's conference call and webcast. A replay of this conference call and webcast will be available on the BNY Mellon Investor Relations website at 2 p.m. Eastern Standard Time today. Have a great day. Thank you.</text>
+                <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>Thank you, operator. And thank you, everyone, for your interest in BNY Mellon. If you have any follow-up questions, please reach out to Marius and the IR team. Be well.</text>
+                    </speaker>
+                </ending>
+            <ending>
+                <speaker id="-1" position="">Operator<text>Thank you. This concludes today's conference call and webcast. A replay of this conference call and webcast will be available on the BNY Mellon Investor Relations website at 2 p.m. Eastern Standard Time today. Have a great day. Thank you.</text>
                     </speaker>
                 </ending>
             </section>
