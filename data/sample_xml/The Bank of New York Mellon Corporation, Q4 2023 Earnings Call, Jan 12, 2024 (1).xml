@@ -46,9 +46,9 @@
                 </table>
             </section>
         <section name="call participants">
-            <person position="Senior Executive VP &amp; CFO" group="EXECUTIVES" id="0">Dermot William McDonogh</person>
-            <person position="Head of Investor Relations" group="EXECUTIVES" id="1">Marius  Merz</person>
-            <person position="President, CEO &amp; Director" group="EXECUTIVES" id="2">Robin Antony Vince</person>
+            <person position="The Bank of New York Mellon Corporation NYSE:BK, Senior Executive VP &amp; CFO" group="EXECUTIVES" id="0">Dermot William McDonogh</person>
+            <person position="The Bank of New York Mellon Corporation NYSE:BK, Head of Investor Relations" group="EXECUTIVES" id="1">Marius  Merz</person>
+            <person position="The Bank of New York Mellon Corporation NYSE:BK, President, CEO &amp; Director" group="EXECUTIVES" id="2">Robin Antony Vince</person>
             <person position="UBS Investment Bank, Research Division" group="ANALYSTS" id="3">Brennan  Hawken</person>
             <person position="Deutsche Bank AG, Research Division" group="ANALYSTS" id="4">Brian Bertram Bedell</person>
             <person position="BofA Securities, Research Division" group="ANALYSTS" id="5">Ebrahim Huseini Poonawala</person>
@@ -155,10 +155,10 @@ With that, operator, can you please open the line?</text>
                 </statement>
             </section>
         <section name="Question and Answer">
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>[Operator Instructions] Our first question comes from the line of Brennan Hawken with UBS.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="0">
                 <speaker id="3" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Thanks for all the detail that you provided in the deck on the targets. Really very, very helpful, very, very thoughtful. I'd love to start there. So it seems as though you guys see a really strong pretax margin enhancement opportunity. Where do you expect that you're going to see the results of that opportunity come through first? 
 And while I appreciate that the targets are over a 3- to 5-year period, is the profile of the improvement that you expect likely to look straight line? Or is there going to be a more parabolic curve resulting in more of a back-end weighting?</text>
@@ -170,30 +170,30 @@ We've talked a lot over the last few quarters about Wove, which we launched last
 So I would say you're going to see it quarter-by-quarter. And I think over time, as you get to know Robin and myself, you'll see us do it and then talk about it rather than pre-announce it and then do it. So we're in execution mode, and we will deliver, but you're going to see this happen quarter-by-quarter.</text>
                     </speaker>
                 </answer>
-            <answer id="0">
+            <followQuestion>
                 <speaker id="3" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Okay. The environment is rather different from the last time we spoke. We've seen an indication of a Fed pivot. Everyone is now expecting a far more short order policy rates to be declining. And so we saw an uplift -- even though there was only a little bit of averaging in of policy rate a little higher this quarter, we did see an uptick in -- on the deposit cost side. 
 So what drove that? And then how should we be thinking about the mechanics of the lower policy rate and how that might flow through on the deposit side and what's captured in your NII outlook for 2024? A few questions in there. Sorry, Dermot.</text>
                     </speaker>
-                </answer>
-            <answer id="0">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>Yes, I was going to say for a follow-on question, that was special, yes.</text>
                     </speaker>
-                </answer>
-            <answer id="0">
+                </followAnswer>
+            <followQuestion>
                 <speaker id="3" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Got my money's worth.</text>
                     </speaker>
-                </answer>
-            <answer id="0">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>Yes. So hopefully, others won't have to ask the same question again. So look, if you go back 12 months when we gave our 20% guidance for 2023, there was a disconnect between what the market thought was going to happen in '23 and what the Fed thought was going to happen in '23. The market was calling for rate cuts in June of '23, and the Fed wasn't. We guided 20%. The year played out very, very differently to what everybody thought was going to happen. And we ended up with a 24% year. 
 To one of your questions where -- why did deposit costs go up, I think our NIM for Q4 was in the 1.26% range, and that really is balances rolling off and new balances coming on at market rates. And we ran strong to the tape at the year-end. And look, I have to say, how we did on deposits in Q4 was a little bit of a 1BNY Mellon effort between lines of business, our deposit team, our Treasurer and our CIO book. So we feel very good about how we finished the year, and we outperformed,  $1.1 billion of revenue. So all in all, we feel very good about that. 
 This year, again, I think the Fed and the market are a little bit at odds. We had a Fed commentator talk a couple of days ago about March being too early. Notwithstanding that, the market thinks there's an 80% probability of a rate cut happening in March. So we're neutrally positioned in the outlook for '24. 
 On balance, if the rates happen, and 6 cuts happen this year, we might expect balances to go up. If it's higher for longer, we expect people to optimize and we say continued outflow of deposits. But we start the year strong with $273 billion of average deposits in Q4. We feel good about our NIM for 2024. So we feel we're set up nicely, but the balance of outcomes, we think, down 10% for '24.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from the line of Mike Mayo with Wells Fargo Securities.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="1">
                 <speaker id="10" position="Wells Fargo Securities, LLC, Research Division">Michael Lawrence Mayo<text>So let me see if I did okay in my math class in school. So in 2024, you're guiding for flat expenses, flat or higher operating leverage, NII down 10%. That implies fees up 3%. So did I do my math correctly? And if I did it correctly, why only up 3%?</text>
                     </speaker>
@@ -202,26 +202,26 @@ On balance, if the rates happen, and 6 cuts happen this year, we might expect ba
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>So Mike, it's Robin. We're not going to quibble with your math or with your English comprehension either from our commentary. You've gotten right what we said. We've intentionally not guided on fees because of the nature of the year, and we recognize that there are a lot of different inputs to that. So we recognize that the year can, in fact, turn out in various different ways. We feel committed to the flat to plus on the operating leverage that we've committed to. And we've guided to how we think the other things are going to play out. And so that was quite deliberate, and we're focusing you on the things that we've talked about. But obviously, from a math point of view, we understand how the math works.</text>
                     </speaker>
                 </answer>
-            <answer id="1">
+            <followQuestion>
                 <speaker id="10" position="Wells Fargo Securities, LLC, Research Division">Michael Lawrence Mayo<text>The more important question would just be your medium-term target to take your returns to 23%, up from 21% last year or, I guess, 21.5% or so this past year. How do you define the medium term? And for that 150 basis point increase from here, how would you segment that, like efficiency, revenue, buybacks or some other way just to give us like a simple waterfall chart in words?</text>
                     </speaker>
-                </answer>
-            <answer id="1">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So the way I would think about it, Mike, is not to give you a weak answer, it really is all of the above. And if you think about fee revenue, we're very focused on higher organic growth. And we set about that and we've made a lot of mention about the Chief Commercial Officer, 1BNY Mellon and just generally de-siloing the organization. We really feel optimistic about being able to deliver over time higher organic growth. 
 Also in 2023, FX volumes around the world and volatility was lower. And so we expect FX revenue, that to normalize, which give us a boost. And look, we're optimistic about where equity markets are going to go. And so in our plans, we have mid-single-digit equity market appreciation to support that fee revenue growth. 
 On expenses, look, I think 2023 was a year where we got 50-plus thousand employees on the same page as how Robin and I think about and the management team think about running our company better. We don't talk about cost cutting or head count layoffs. We talk about what are the things that we need to do to run this company better. And I think we have 50,000 people aligned with us now. And I feel very optimistic through all the projects that we have underway to digitize the firm, automate processes, deliver more for our clients. So everything will feed together, and we'll do a lot at the same time. And with all of that, we'll be able to buy back more stock, which will drive us to that higher ROTCE and pretax margin that you talked about.</text>
                     </speaker>
-                </answer>
+                </followAnswer>
             <answer id="1">
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>And Mike, I'll just add one thing to that, which is we talked at the beginning of 2023, and you pressed us on this and rightly so in 2023, about the fact that we hadn't before managed to tell the improved expense story that we think we actually ended up telling on -- in 2023. And that was an important focus. 
 We also recognized that we were likely to have a good NII year, and we took the opportunity of those 2 things to be able to invest for future fee growth. And we never thought 2023 was likely to be a very strong fee year because the fees take time to be able to generate the return from the investment that we're putting into it through the various different things that Dermot just detailed. 
 And so we've set ourselves up, we think, to now be able to really leverage those investments. And that's a '24, '25, '26 story. Now of course, we'll stay focused on NII. We'll absolutely stay focused on efficiencies and expenses. We think AI will play a story in that over time, probably not a short-term story but more of a medium-term story. And that's how the whole thing comes together from an operating leverage point of view. So the way we got there in '23 is probably going to be different than the way we'll get there in '24. We're trying to point you to that through the disclosures.</text>
                     </speaker>
                 </answer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from the line of Brian Bedell with Deutsche Bank.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="2">
                 <speaker id="4" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Thanks for all the detail around the businesses and long-term outlook as well. If I can focus on Slide 16 in the Securities Services goals there. How do you think about -- in terms of automating the processes those first 2 boxes that drive the cost to serve down and then the second one on deepening client relationships, how do you think about the effect of digitizing and automating these processes and whether matching that against to what extent you can actually enhance the revenue profile as well? Are you favoring lowering the cost and not so much enhancing the revenue profile by digitizing the services? Or is there 2 parts of that where you can also improve the servicing quality?</text>
                     </speaker>
@@ -234,19 +234,19 @@ The other thing I would say is, for Asset Servicing specifically, we had our str
 And then within the other part of Securities Services, Corporate Trust and Depositary Receipts, we're making significant investments in Corporate Trust this year to do a lot more digitization and a lot more automation so we can scale the business and drive that margin higher.</text>
                     </speaker>
                 </answer>
-            <answer id="2">
+            <followQuestion>
                 <speaker id="4" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>That's great color. And then just a follow-on on the balance sheet deposit beta, the Fed cuts. And maybe if you can also comment on international cuts from the Bank of England and ECB. How are you viewing your deposit beta on the downside? Do you think within your guidance, are you able to move that down commensurately? Or is there a significant lag? And does that differ between the U.S. and Europe?</text>
                     </speaker>
-                </answer>
-            <answer id="2">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So just to give you a general framework, nothing really has much changed quarter-over-quarter. The dollar book, which is roughly 75% of the overall portfolio, has an 80% beta. As I've said many times, we have sophisticated clients. They're with us for not just deposits but for a variety of goods and services, which feeds the stickiness of our overall deposits being 2/3 operational. So that's a good story. 
 We passed on the price as I've said. It will grind a little bit higher from here, but I think I feel pretty good about the dollar book and where that's at. And then euros and sterling, which make up the balance, are in the 55 to 65 beta range. And so as the rate -- as the Fed ultimately will pivot and rates will come down, we do expect that to follow symmetrically and so go down the same way it came up. So that's how I would view that.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from the line of Ebrahim Poonawala with Bank of America.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="3">
                 <speaker id="5" position="BofA Securities, Research Division">Ebrahim Huseini Poonawala<text>I had a follow-on question just around looking at your medium-term targets. And I heard what you said in response to Mike's question on the fee revenue guide for this year. But when I looked at your strategic targets, I guess it's deliberate that we don't have a revenue growth number in there or a revenue growth target. 
 And I'm just wondering, is that due to the macro or your view on the business, where you don't have a line of sight around being able to sustain a certain level of revenue growth? And I ask this because I think that's probably the toughest part of the BK investment story is what's the sustainable level of revenue growth. You gave a lot of details around products and businesses, but would love to hear in terms of how you think one should think about baseline revenue growth in a more or less normal macro environment over the coming years.</text>
@@ -265,20 +265,20 @@ But as Dermot said, there is both a market impact potential. We'll have to see h
 So we've got a confidence on a portfolio basis around those investments, but we don't have the absolute line of sight that makes us comfortable to tell you the exact number in the exact quarter that it's actually going to hit. And so all we can do is show you the inputs and now point to a year of track record in 2023 around the fact that we have, in fact, made progress on the things that we said we were committed to make progress on.</text>
                     </speaker>
                 </answer>
-            <answer id="3">
+            <followQuestion>
                 <speaker id="5" position="BofA Securities, Research Division">Ebrahim Huseini Poonawala<text>That's helpful. Good color. And just a separate question. I mean I'm sure most investors like the fact that you're going to be buying back stock. But when you think about -- given the run in the stock valuation-wise, is there any sensitivity to where you probably don't want to be leaning into buybacks? And secondly, are there other good uses of capital, one of them being inorganic M&amp;A-driven growth? Or is that just off the table right now?</text>
                     </speaker>
-                </answer>
-            <answer id="3">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>So you're right that we have an implied waterfall of how we think about our capital. And the first is to be able to invest it profitably well in the business. And then towards the bottom of that waterfall is if we have surplus capital after we taking those things into account, we want to return it to our shareholders, and that's what we've been doing. And so that waterfall hasn't changed in how we think about it. 
 Now in terms of M&amp;A, right now, we're focused on what we have and how we think that we can improve it. That's really been the story. Dermot really made the point around running our company better. And we think that there's so much opportunity in the franchise to be able to run ourselves better and have the growth that we haven't wanted to distract ourselves with M&amp;A. 
 Now we have a high bar. We've had a high bar. We continue to have a high bar, but we are keeping our eyes open. And I think that's the right thing to do, particularly for things that would help us to accelerate our delivery. We're not looking at transformation, we're not looking at big pivots, but we are always interested in things that can, in their own way, speed us on the journey that we've laid out to you.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from the line of Ken Usdin with Jefferies.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="4">
                 <speaker id="8" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>So last year, you guys did a really good job setting a hittable bar on that NII point that you made earlier, and we ended up seeing a nice increase to NII to the end of the year up to $1.1 billion. So I'm just wondering, given that you're still setting a new bar to down 10%, which implies definitely like a settling down from the $1.1 billion, I'm wondering to the prior conversation on rates, just can you help us understand like the cadence of that, the direction of travel and then with regards to the rates forecast you're building in, like when that settles back down and starts to bottom?</text>
                     </speaker>
@@ -288,24 +288,24 @@ Now we have a high bar. We've had a high bar. We continue to have a high bar, bu
 And so we bank it as it comes. But when I sit back and I look out at the macro, and this is what we said this time last year, we expected deposits to go down by mid- to high-single digits. And it'd ultimately be -- it was down 4% for us. That's the trajectory I expect to happen this year. And so I don't have a particular magic ball on what's going to happen quarter-by-quarter. So I would just take the down 10% and divide it by 4 for your model and just see where that gets you.</text>
                     </speaker>
                 </answer>
-            <answer id="4">
+            <followQuestion>
                 <speaker id="8" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>Okay. Got it. And then as a corollary to that, your comments on the movement to a flattish expense base from a successful plus 3% last year is a meaningful move. And I know it foots to that point we just ended on, which it still incorporates a down 10% NII. Presuming we get past this point and NII does get stable and/or the fee income starts to grow, I presume you're not trying to point us to a flattish expense trajectory for the longer-term future. But maybe you can talk us to how you will manage that positive operating leverage gap relative to needed investments and then the margin targets you just gave us, too, in terms of how you deal with volatility of the macro environment while getting to that point of seeing those margin target improvements.</text>
                     </speaker>
-                </answer>
-            <answer id="4">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>So Ken, it's Robin. I'll start off. Dermot might want to add something. Look, I think about this at a fairly high level of us being focused on positive operating leverage, at least until the point that we get to the margin targets that we're talking about, and there's a little bit of work between here and there. 
 And we also recognize that each year is going to have unique factors. And so the year in which we have a fairly significant NII jump of the 24% is going to create different conditions that allowed us to have a fee year which was fine but not growing in a meaningful way. And that allowed for some headroom on expenses, which was -- which is something that we've used in order to be able to make investments. 
 Now 2024 is a different year. It's got a different composition. But every one of the years that we face has each of these inputs. It has fees, it has NII and it has expenses. And we're trying to be very purposeful around solving for operating leverage in the context of the year that we actually are faced with. And we think that that's the right thing to do, recognizing that markets move around. And each year brings -- serves us something different. We manage what's in our control.</text>
                     </speaker>
-                </answer>
+                </followAnswer>
             <answer id="4">
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So Ken, I'll go a little bit off script here. It's a bit of a cultural moment for us on just expense management, financial discipline, running our company better. I talked with one of the Executive Committee yesterday and he said, Dermot, you have a very high bar for yourself on flat expenses for 2024. And I said, no, we have a high bar, we as a firm. And that's down to all of us. And we talked to our managing director population earlier today, and we're all in it together about running our company better. And I think that's an important culture pivot that we've managed to achieve over the last 12 months.</text>
                     </speaker>
                 </answer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from the line of Glenn Schorr with Evercore ISI.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="5">
                 <speaker id="7" position="Evercore ISI Institutional Equities, Research Division">Glenn Paul Schorr<text>So just one big question, if I could. So I think you've been talking about getting clients to do more business with Bank of New York Mellon, which -- and you're executing on getting them better and you invested a lot. I did hear you today talk about improve the service and then clients will consolidate business. 
 So my question is, high level, it feels -- it's natural and it feels like it's working, but you're putting a lot of effort and expense at improving and modernizing and digitizing your businesses that actually haven't been growing as much and/or need to modernize more and have lower margins to improve them. But is there any thought towards maybe you're supposed to put capital towards actually your highest profitable business and ones that grow? It's a question on, do you need the whole portfolio basically?</text>
@@ -323,10 +323,10 @@ And then in our Investment and Wealth Management business, where we've had highe
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>And what I would add there, Glenn, is -- it's in my remarks, but we invested $0.5 billion last year in things that we wanted to do that was going to grow the company while keeping our expense growth rate at 2.7%. So we're very disciplined about what we want to do, getting value for money, while at the same time, manage the expense base of the firm.</text>
                     </speaker>
                 </answer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from the line of Manan Gosalia with Morgan Stanley.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="6">
                 <speaker id="9" position="Morgan Stanley, Research Division">Manan  Gosalia<text>Can you talk about your assumptions around QT in your NII guide? And are you assuming it continues at the current rate? So if the Fed does slow and does end QT early, would that be a big benefit to your deposit growth and to NII?</text>
                     </speaker>
@@ -335,26 +335,26 @@ And then in our Investment and Wealth Management business, where we've had highe
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So our NII guidance is based on market-implied forward rates at the end of the year with QT continuing. And so with QT continuing, we expect deposits to roll off. If QT were to change, then obviously, we would revisit and see what the benefits of that would be and run our models again and then we will come and talk to you. But that is not our base case, QT ending anytime soon.</text>
                     </speaker>
                 </answer>
-            <answer id="6">
+            <followQuestion>
                 <speaker id="9" position="Morgan Stanley, Research Division">Manan  Gosalia<text>But on a net basis, that should help the noninterest-bearing deposit balances?</text>
                     </speaker>
-                </answer>
-            <answer id="6">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>It should help, yes. But I couldn't give you a sensitivity to it here today, and it's not our base case.</text>
                     </speaker>
-                </answer>
-            <answer id="6">
+                </followAnswer>
+            <followQuestion>
                 <speaker id="9" position="Morgan Stanley, Research Division">Manan  Gosalia<text>Got it. Okay. Great. And then if you could help us with how we should think about the securities book with 6 rate cuts? Is there still a large chunk of the securities book that still reprices higher even if we get 6 cuts?</text>
                     </speaker>
-                </answer>
-            <answer id="6">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So Q4 -- I'll start with Q4. As you will see in the financial supplement, the securities book rolled down by about $4 billion, largely deployed into cash and some mortgages, et cetera. And we had a yield pickup there of about 300 basis points. In 2024, we expect the yield pickup from the roll-down to be about 150 to 200 basis points, so rolling off at about 3% into current market rates. It's very liquid, quite short in duration. So overall, we feel good about the outlook for the book in 2024.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from the line of Gerard Cassidy with RBC.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="7">
                 <speaker id="6" position="RBC Capital Markets, Research Division">Gerard Sean Cassidy<text>Dermot, I know you touched on this with the net interest revenue already in terms of your expectations for 2024 being down 10% following, I think, the forward curve, correct me if I'm wrong there. If the forward curve is incorrect currently 6 rate cuts and it comes in closer to 2 or 3 for the year, how does that affect that 10% guidance?</text>
                     </speaker>
@@ -363,18 +363,18 @@ And then in our Investment and Wealth Management business, where we've had highe
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So I would say the theoretical answer to that is you're higher for longer. And so therefore, people will continue to optimize their deposits into higher-yielding assets. So you could see the base case, you could see balances run off more. But we've analyzed this top-down, bottom-up left to right. And so the best guidance we give you is 10%. But if it transpired to be a different number, obviously, the NII number would be different.</text>
                     </speaker>
                 </answer>
-            <answer id="7">
+            <followQuestion>
                 <speaker id="6" position="RBC Capital Markets, Research Division">Gerard Sean Cassidy<text>Sure. No, understood. Okay. And maybe, Robin, and I apologize if you guys already talked about this or it's in the deck. Your new business wins this quarter, what was the dollar amount of that? And what's the installed base that you have for next year?</text>
                     </speaker>
-                </answer>
-            <answer id="7">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So we don't give specific guidance on the installed base or backlogs. But I would say, look, I said it in an answer to an earlier question and it's in my prepared remarks, we had -- Q4 sales was our strongest of '23. We won mandates in the Middle East, asset managers, largest clients giving us more business. So look, we feel very good about what we accomplished in Asset Servicing in '23, and the team feel very bulled up about '24 and what the opportunities are in front of them.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from the line of Rob Wildhack with Autonomous Research.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="8">
                 <speaker id="12" position="Autonomous Research US LP">Robert Henry Wildhack<text>A couple more on deposits. Dermot, you mentioned a couple of times that you've had 4 straight months of deposit growth to close '23. It seems that a lot of the things that would weigh on deposits in '24 were or already are headwinds in '23. And yet despite that, you've been able to grow deposits. So I'm curious if there's anything else that you think might change or become more of a headwind from the last 1/3 of '23 and into '24. And if there's a possibility or an environment where deposits actually do come in better than what's in the guide?</text>
                     </speaker>
@@ -389,19 +389,19 @@ When I sit here today and I sat here last January, '23 didn't turn out the way e
 So we're still at the complexity of -- we talk about the fact that the Fed might cut in March. The Fed talks about the fact that they might not cut in March. So there's enough variation in the exact way that this is going to play out. And that's why Dermot answered one of the earlier questions in the way that he did around our 10% and the path of it because we just don't have that type of visibility. But we do have the sense that we can work the problem to our current guidance.</text>
                     </speaker>
                 </answer>
-            <answer id="8">
+            <followQuestion>
                 <speaker id="12" position="Autonomous Research US LP">Robert Henry Wildhack<text>Okay. And then I think earlier you mentioned something about deposits that were not yet seasoned or not yet operational. I was just wondering if you could expand on that. What's the criteria for a deposit to be considered operational? And then how long does it take for something like that to play out?</text>
                     </speaker>
-                </answer>
-            <answer id="8">
+                </followQuestion>
+            <followAnswer>
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So that's -- there's a very long answer to that, which we can take you through off-line. But the general sense of to be operational, you have to be doing stuff with us in another line of business and you have to be making payments and you have to be sticky to us as the firm. And over time, then we classify you as operational in nature. And that helps us on the liquidity ratio standpoint. 
 So if you're a relatively new client and you haven't established that track record, then you're considered nonoperational until such time as you meet those criteria. But as I said earlier, 2/3 of our deposits overall are sticky, and that's a good fact.</text>
                     </speaker>
-                </answer>
-            <trainsition>
+                </followAnswer>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from the line of Rajiv Bhatia with Morningstar.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="9">
                 <speaker id="11" position="Morningstar Inc., Research Division">Rajiv K. Bhatia<text>Can you comment on the pricing environment within your Securities Services segment? I guess AUCA was up 9% against flat fee revenue. So is pricing pressure, would you say, is stable or would you say it's intensifying?</text>
                     </speaker>
@@ -411,10 +411,10 @@ So if you're a relatively new client and you haven't established that track reco
 So over the last 12 months, we've done a lot of foundational work on how we've become more sophisticated in terms of how we price our business and how we talk to clients vis-Ã -vis pricing. So I would say stable with a positive momentum to it.</text>
                     </speaker>
                 </answer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>And our final question comes from the line of Mike Mayo with Wells Fargo Securities.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="10">
                 <speaker id="10" position="Wells Fargo Securities, LLC, Research Division">Michael Lawrence Mayo<text>At the Boston Bank Conference in November, Emily Portney, the head of your Asset Servicing business, seemed very excited about AI and the implications and the implementation of that in the Asset Servicing business. And I'm just wondering if that excitement is shared throughout BNY Mellon and what you see as potential use cases and the ability to go from pilot to production. Is it -- beyond the hype, where is the reality of AI? And any specific numbers of what it might be able to do?</text>
                     </speaker>
@@ -432,8 +432,11 @@ Now we haven't put it into numbers, and so it's not directly in our outlooks in 
                 </ending>
             <ending id="11">
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>Thank you, operator. I'd like to close by reiterating that 2023 was an important foundational year for us and that the multiyear transformation of our company is off to a good start. As we begin our company's 240th anniversary year, we're excited about the opportunity ahead of us. I'm immensely proud of everything that our people here at BNY Mellon got done over the past 12 months. I'm grateful to our clients who are leaning in to their relationships with BNY Mellon and allowing us the opportunity to serve them in even greater ways. And I appreciate the faith and support that our investors, old and new, have placed in BNY Mellon. 
-Marius and the IR team stand ready to assist you should you have any questions. Be well and enjoy the long weekend. 
-OperatorThank you. This does conclude today's conference and webcast. A replay of this conference call and webcast will be available on the BNY Mellon Investor Relations website at 5 p.m. Eastern Standard Time today. Have a great day.</text>
+Marius and the IR team stand ready to assist you should you have any questions. Be well and enjoy the long weekend.</text>
+                    </speaker>
+                </ending>
+            <ending>
+                <speaker id="-1" position="">Operator<text>Thank you. This does conclude today's conference and webcast. A replay of this conference call and webcast will be available on the BNY Mellon Investor Relations website at 5 p.m. Eastern Standard Time today. Have a great day.</text>
                     </speaker>
                 </ending>
             </section>

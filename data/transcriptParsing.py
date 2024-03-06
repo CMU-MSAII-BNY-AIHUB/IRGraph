@@ -73,7 +73,7 @@ def build_second_table(data):
 
     return root
 
-def build_third_table(data):
+def build_third_table(data, company):
     id = 0
     root = ET.Element("CallParticipants")
     speaker_list = {}
@@ -94,7 +94,8 @@ def build_third_table(data):
 
                 name = lines[0].strip()
                 position = lines[1].strip()
-
+                if current_group == "EXECUTIVES":
+                    position = company +", " + position
                 person_element = ET.SubElement(root, "person", position=position, group=current_group, id = str(id))
                 person_element.text = name
                 speaker_list[name] = str(id)
@@ -189,7 +190,7 @@ def process_dialog(dialog,speaker_list, name):
             cur_question = None
             hasSub = False
             question_id += 1
-            context =ET.SubElement(conversation, "trainsition") 
+            context =ET.SubElement(conversation, "transition") 
             speaker_element = ET.SubElement(context, "speaker", id=id, position=position)
             speaker_element.text = "Operator"
             text = ""
@@ -225,6 +226,12 @@ def prettify(element, indent='    ', level=0):
 
 
 def build_table(doc):
+    company = ""
+    for i, paragraph in enumerate(doc.paragraphs):
+
+        if i ==2 :
+            company = paragraph.text
+            break
     tables = []
     for table_index, table in enumerate(doc.tables):
             t = []
@@ -244,7 +251,7 @@ def build_table(doc):
             
     t1 = build_first_table(tables[0])
     t2 = build_second_table(tables[1])
-    sec2,speaker_list = build_third_table(tables[3])
+    sec2,speaker_list = build_third_table(tables[3],company)
     sec1 = ET.Element("section", attrib={"name": "financial tables"})
     sec1.append(t1)
     sec1.append(t2)
@@ -281,7 +288,8 @@ def build_xml(doc):
         elif paragraph.text.strip().startswith("Presentation"):
             
             presentation = process_presentation(paragraph.text,speaker_list,"Presentation ")
-        
+
+  
     header = ET.Element("header")
 
     ET.SubElement(header, "company").text = company

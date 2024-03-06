@@ -77,7 +77,7 @@ date_range_slider = DateRangeSlider(title="Select Date Range:", start=min_date, 
 date_range_slider.on_change('value', callback2)
 
 def main_plot():
-    p1 = figure(x_axis_type="datetime", title="Sharing Prices", width=1600, height=1000)
+    p1 = figure(x_axis_type="datetime", title="Sharing Prices", width=1600, height=800)
     p1.grid.grid_line_alpha = 0.3
     p1.xaxis.axis_label = 'Date'
     p1.yaxis.axis_label = 'Share Price'

@@ -46,9 +46,9 @@
                 </table>
             </section>
         <section name="call participants">
-            <person position="CFO &amp; Executive VP" group="EXECUTIVES" id="0">Jason Jerrome Tyler</person>
-            <person position="Senior VP &amp; Director of Investor Relations" group="EXECUTIVES" id="1">Mark M. Bette</person>
-            <person position="Chairman, President &amp; CEO" group="EXECUTIVES" id="2">Michael G. O’Grady</person>
+            <person position="Northern Trust Corporation NasdaqGS:NTRS, CFO &amp; Executive VP" group="EXECUTIVES" id="0">Jason Jerrome Tyler</person>
+            <person position="Northern Trust Corporation NasdaqGS:NTRS, Senior VP &amp; Director of Investor Relations" group="EXECUTIVES" id="1">Mark M. Bette</person>
+            <person position="Northern Trust Corporation NasdaqGS:NTRS, Chairman, President &amp; CEO" group="EXECUTIVES" id="2">Michael G. O’Grady</person>
             <person position="Goldman Sachs Group Inc., Research Division" group="ANALYSTS" id="3">Alexander  Blostein</person>
             <person position="Morgan Stanley, Research Division" group="ANALYSTS" id="4">Betsy Lynn Graseck</person>
             <person position="UBS Investment Bank, Research Division" group="ANALYSTS" id="5">Brennan  Hawken</person>
@@ -113,10 +113,10 @@ Thank you, again, for participating in Northern Trust's first quarter earnings c
                 </statement>
             </section>
         <section name="Question and Answer">
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>[Operator Instructions] Our first question will come from Alex Blostein with Goldman Sachs.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="0">
                 <speaker id="3" position="Goldman Sachs Group Inc., Research Division">Alexander  Blostein<text>So I wanted to start with your guys' thoughts around the organic fee growth in the current environment. So I think in the past, you talked about low to mid-single-digit growth across institutional and wealth businesses. So wondering how the current sales cycle likely being extended. How is that impacting the fee growth outlook from an organic basis? 
 And as a kind of follow-up to that, obviously, importantly, I want to get your thoughts on expenses as well. Again, similarly, you talked about aligning expense growth with organic fee growth, again, sort of call it 3% to 5% range. How low can you guys take that given the current environment? And any thoughts around 2020 expense growth would be helpful.</text>
@@ -144,10 +144,10 @@ And so we un-bucketed things the way we traditionally do: inflation, productivit
 And I wouldn't put a specific stake in the ground as to whether that's flat or up or down because, again, some of those expenses are affected by the environment, but that's what we're trying to drive to. So it is -- as Jason said, it's a replan. There's no part of this that says we're just plowing through with the same plan that we had at the beginning of the year.</text>
                     </speaker>
                 </followAnswer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Glenn Schorr with Evercore.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="1">
                 <speaker id="9" position="Evercore ISI Institutional Equities, Research Division">Glenn Paul Schorr<text>Wonder if I could ask a question, I could use them both on this on the provision and the loan book. So if you could talk generically what type of economic backdrop, you wrote that provision to because the world was changing a lot right around quarter end. And then if we could talk about the loan book that produce most of that. I'm assuming it's almost all-in C&amp;I and CRE. So maybe you could talk about what in, say, office, retail and construction, where that is derived from? How much of it is clients that are across the firm versus some things that are syndicated? I really appreciate. We normally don't have much discussion about your loan book.</text>
                     </speaker>
@@ -172,10 +172,10 @@ When you start to look at the commercial and the commercial real estate, the com
                 <speaker id="0" position="CFO &amp; Executive VP">Jason Jerrome Tyler<text>No, that's for the full year. That's the -- that would be the peak-to-trough change for the full year. The -- so at a high level, the assumption that we used had very sharp second quarter decline and then a relatively strong recovery but not to the current levels of GDP.</text>
                     </speaker>
                 </followAnswer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Mike Carrier with Bank of America.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="2">
                 <speaker id="12" position="BofA Merrill Lynch, Research Division">Michael Roger Carrier<text>First, can you provide a bit more color on the net interest income outlook, particularly given the rise in deposits, and expectations in this backdrop with a lot of liquidity out there? And then for the NIM, just how you're thinking about the portfolio and reinvestment rates?</text>
                     </speaker>
@@ -195,10 +195,10 @@ And it really gives you a sense of the NII impact of a lot of the earning assets
 Now that said, I mentioned early in the opening that our NIF treasury fund at $60 billion to $70 billion you get at 15 to 20 basis points in fees. If we fall below those rates by even 5 basis points, you're talking about annual run rate, just from a math perspective, of potentially $30 million. And we're not there yet, but if we were to try and point you to something to track and between the time that we're able to talk publicly, those would be the line items to look at.</text>
                     </speaker>
                 </followAnswer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Brian Bedell with Deutsche Bank.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="3">
                 <speaker id="6" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Maybe just staying with the balance sheet for a minute on that LIBOR-to-IOER spread. I guess they're down. They're 7% to 10% down. Is that considering current LIBOR -- 1-month LIBOR rates? Or that -- or are you factoring in LIBOR to compress further with that? 
 And if you could just remind us again on the loan repricing mechanism, I think it's 3/4 of loans repriced quarterly to 1-month LIBOR with the rest lagged for 1 year, if you could just remind us on that.</text>
@@ -218,10 +218,10 @@ On a spot basis, I haven't looked at it this morning, but last week, it was kind
 And since then, we've had deposit levels come down significantly from those peaks. And I'll tell you, they've been more in kind of the $140 million to $145 million range, and in that type of area over the beginning of the second quarter. But -- and that's still elevated relative to what -- where we experienced historically at peaks or at the end of the first quarter.</text>
                     </speaker>
                 </followAnswer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Ken Usdin with Jefferies.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="4">
                 <speaker id="10" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>On the balance sheet, Jason, can you talk through where the floating/fixed mix is of the balance sheet right now, what the duration of the portfolio is? And just how do you decide, based on your prior response, about the ins and outs of deposits where you're going with reinvestment yields so much lower in terms of the asset side of earning assets distribution?</text>
                     </speaker>
@@ -248,10 +248,10 @@ And since then, very recently, as we're reinvesting maturing securities, that wi
                 <speaker id="0" position="CFO &amp; Executive VP">Jason Jerrome Tyler<text>Yes. And the funding side, we think of is more 50-50, and we try and stay matched on that reflectively on the reinvestment side. I think as we continue to go shorter, in the near term, that's going to lean a little bit more short, but in the long run, it's about kind of maintaining that -- maintaining the hedge.</text>
                     </speaker>
                 </answer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Mike Mayo with Wells Fargo.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="5">
                 <speaker id="11" position="Wells Fargo Securities, LLC, Research Division">Michael Lawrence Mayo<text>Just my question was answered, but just one follow-up. You said 90% of people are working from home. Can you elaborate more on what sort of more permanent business model change that might lead to?</text>
                     </speaker>
@@ -271,10 +271,10 @@ And that sits in with not having everybody reporting into the office at the same
 And also through technology, through using videoconferencing and just the ability for clients to interact directly with their account online, on their phone, et cetera. So it's a multifaceted engagement model. And one that, again, we think we can differentiate ourselves in this. Jason talked about some of the calling statistics. If you talk to our partners in wealth management, as we said, they've been more engaged over this time period than the 3 months, let's say, prior to it. A lot of that because of all the activity, but also they've used different ways to do it. So we look forward to when we can meet more with clients, but that doesn't necessarily mean it has to happen in an office.</text>
                     </speaker>
                 </followAnswer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Steven Chubak with Wolfe Research.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="6">
                 <speaker id="13" position="Wolfe Research, LLC">Steven Joseph Chubak<text>So you noted earlier in a question relating to credit that you have lower exposure to the higher-risk industry categories. Given some of the stress in energy markets, I was hoping you could speak to any direct exposure to the energy sector, maybe what specific energy categories, in particular, such as E&amp;P, midstream, et cetera.</text>
                     </speaker>
@@ -295,10 +295,10 @@ And so we want to live up to that and not fall to temptation of trying to use th
 We just want to be patient and make sure that we don't do that too early. But some of the growth that we've had on the deposit side over the last year even, not just the last 1.5 months, but over the last year, it reflects a higher base level of deposits and a lot of it on the wealth side, which is very, very valuable.</text>
                     </speaker>
                 </followAnswer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Brennan Hawken with UBS.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="7">
                 <speaker id="5" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>First question is a follow-up on the expenses. So you talked about some of the actions taken. You helped us understand the pieces that were subject to volumes and when I take a look at the midpoint of that, I think you said it was outside services and equipment and software, 30% to 40%. 
 So if you take the midpoint, that's about 10% of your annual expenses, does that mean that things outside of that bucket of expenses you're going to be able to calibrate? And the -- that 10%, we should grow maybe at an elevated rate, given some of the things that are going on? Can you help us think about what, at least logically, might come into play when we try to calibrate how to forecast your expense growth for the year?</text>
@@ -321,10 +321,10 @@ And then in occupancy, just to refresh your memory on some of the things we've t
 But they do, based on timing of engagements, will go favorable or they might pop up in a given quarter. I would say this quarter was one where the engagements was -- were lower, and there was some benefit in the expense that we realized. But I don't know that I would necessarily portray that as a trend, but contractor expenses and things like that that go into things like consulting, certainly, that's something that can be an area that we can focus on managing.</text>
                     </speaker>
                 </followAnswer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Brian Kleinhanzl with KBW.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="8">
                 <speaker id="7" position="Keefe, Bruyette, &amp; Woods, Inc., Research Division">Brian Matthew Kleinhanzl<text>I hear what you're saying about the NII being down in the second quarter, but how do you think about it then after the second quarter? Is there a period of time that the liabilities will catch up on the repricing side? And kind of how we think about deposit betas moving forward?</text>
                     </speaker>
@@ -343,10 +343,10 @@ And even so -- even if we're taking longer duration and to -- even if we're exte
 We usually look at organic on year-over-year. But sequentially, that's probably in the right range, a little more than that. There was a drag from currencies. So that's kind of -- those are the largest factors. There's also some other non-asset level fees that were a little bit down sequentially, things like account-level fees and things like that. But so overall, kind of balanced out to flattish, I would say.</text>
                     </speaker>
                 </followAnswer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>[Operator Instructions] Our next question comes from Brian Bedell with Deutsche Bank.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="9">
                 <speaker id="6" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Great. Just wanted to just go over that, the pricing on the custody business and the Wealth Management business. I know the mix has changed over time because you've been servicing more people on the administrative basis, particularly in alternatives, and that's created a little bit more of an averaging mix than it used to be historically. 
 But if you could just review within the C&amp;IS asset servicing business, what portion of that book is priced on a quarter-end lag versus more of an averaging basis? And then just same within Wealth Management, what portion of that is priced on that 1-month lag, I think the custody part of that that you don't manage in Wealth Management? I think that's on a prior quarter lag, if I'm not mistaken. So if you're able to just review that price [ difference ].</text>
@@ -366,10 +366,10 @@ And the regions, and I would combine the regions together, then you're looking a
                 <speaker id="0" position="CFO &amp; Executive VP">Jason Jerrome Tyler<text>Sure. So the baseline that we went with for the March 31 for the reporting cycle had peak to trough down a little over 6% -- 6.1%. And then the update subsequent to that is it's down 7.5%.</text>
                     </speaker>
                 </answer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Betsy Graseck with Morgan Stanley.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="10">
                 <speaker id="4" position="Morgan Stanley, Research Division">Betsy Lynn Graseck<text>I had 2 questions. One, just on the comments that you made earlier in the call around the medium-term caution in the pipeline, could you just give us a sense as to the drivers of that? And how long you think that -- what your view of medium-term is? 
 And then maybe you could give us a sense as to this is really just a push out, not an evaporation. So maybe you could speak to how that comes back into your run rate as things open up.</text>
@@ -401,10 +401,10 @@ So being able to pull the lever on share repurchase like we did in, say, tremend
 So just as it was easy, I would say, to pull the lever to stop share repurchases, technically, it's very easy to push the lever the other direction. It's more just being able to assess the environment and the outlook at the time to be able to determine when that's appropriate.</text>
                     </speaker>
                 </followAnswer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Gerard Cassidy with RBC.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="11">
                 <speaker id="8" position="RBC Capital Markets, Research Division">Gerard S. Cassidy<text>I'd like to follow up on the credit comments. Northern Trust is obviously very well-regarded when it comes to credit. You guys have done a phenomenal job in the last 20 years. It was interesting in 2001, there was exposure to Enron, which surprised everybody that Northern would have that kind of credit. 
 And what we discovered was as part of the employment benefits processing that you did for Enron, you were asked to join the revolver line what they did at the time. Are there any of those outside situations today that we just wouldn't expect Northern to have a credit exposure? I'm not asking for specific names, but just to XYZ companies like, "Wow, how did that happen?" is there any of that on the books today versus what it was in '01?</text>
@@ -420,10 +420,10 @@ So we're providing credit to the different types of asset managers. And then on 
                 <speaker id="8" position="RBC Capital Markets, Research Division">Gerard S. Cassidy<text>I appreciate it.</text>
                     </speaker>
                 </followQuestion>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Brennan Hawken with UBS.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="12">
                 <speaker id="5" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Thanks for taking my follow-ups. Just quick on fee waivers. Could you give us the breakdown of your money fund AUM mix in between prime, Govi and muni?</text>
                     </speaker>
@@ -444,10 +444,10 @@ So we're providing credit to the different types of asset managers. And then on 
                 <speaker id="1" position="Senior VP &amp; Director of Investor Relations">Mark M. Bette<text>A lot of that would be public on the Northern Funds, Northern Institutional Funds website, but we could follow up with that, Brennan.</text>
                     </speaker>
                 </answer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Our next question comes from Steven Chubak with Wolfe Research.</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="13">
                 <speaker id="13" position="Wolfe Research, LLC">Steven Joseph Chubak<text>I just want to make sure, it's a quick modeling question. The other income line, there was a lot of noise this quarter. As we think about the right jumping off point for 2Q, given with some of the BOLI tailwinds, how should we be thinking about the appropriate run rate beginning in the second quarter?</text>
                     </speaker>
@@ -462,10 +462,10 @@ So if you took BOLI out as well as some of the things that we've had like last q
 I would just caution, though, it is a very -- there is volatility in that line. So it's a hard one. There's things like currency hedging that flows through that line. We've talked about some of the things that this quarter, some of the marks might flow through that line. The Visa-related income-expense type of swap marks flow through that line as well. So it certainly does move around. But if you looked at it over a longer period, you could use that potentially as kind of an average run rate.</text>
                     </speaker>
                 </answer>
-            <trainsition>
+            <transition>
                 <speaker id="-1" position="">Operator<text>Thank you. Ladies and...</text>
                     </speaker>
-                </trainsition>
+                </transition>
             <question id="14">
                 <speaker id="0" position="CFO &amp; Executive VP">Jason Jerrome Tyler<text>Great. And really quick, I'm going to save Mark a follow-up call because I do have the AUM breakout. So cash AUM at about $235 billion at period-end. Fixed income, about $150 billion and some of lump index and active equity at about 4.25% and then call the rest other and leave it there.</text>
                     </speaker>
