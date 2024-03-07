@@ -62,7 +62,7 @@
             <person position="Autonomous Research US LP" group="ANALYSTS" id="13">Robert Henry Wildhack</person>
             <person position="Wolfe Research, LLC" group="ANALYSTS" id="14">Steven Joseph Chubak</person>
             </section>
-        <section name="Presentation ">
+        <section name="Presentation">
             <statement>
                 <speaker id="-1" position="">Operator<text>Good morning, and welcome to the 2023 Third Quarter Earnings Conference Call hosted by BNY Mellon. [Operator Instructions] Please note that this conference call and webcast will be recorded and will consist of copyrighted material. You may not record or rebroadcast these materials without BNY Mellon's consent. 
  
@@ -167,12 +167,12 @@ So overall, that, and when you take the asset side of the balance sheet and how 
 As it relates to NIBs, we always said that it was going to be 25% to 20% through the cycle. The trough happened during the summer months and has stayed in the 20% ZIP code. So we feel overall pretty good about NIBs as a percentage of total deposits being in the 20% range.</text>
                     </speaker>
                 </answer>
-            <followQuestion>
+            <followQuestion id="0" question_id="0">
                 <speaker id="14" position="Wolfe Research, LLC">Steven Joseph Chubak<text>Very helpful. And just for my follow-up on the expense outlook. You've spoken about the commitment to improve operating margins. You cited a number of efforts, Robin, to deliver efficiencies across the platform. 
 As we look out to next year, given a lower NII exit rate relative to the first half for you and for some of your industry peers, wanted to get a sense of how much flexibility is embedded in your expense plans and your ability to drive expenses lower potentially in a more challenging revenue backdrop.</text>
                     </speaker>
                 </followQuestion>
-            <followAnswer>
+            <followAnswer id="0" question_id="0">
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>Steven, I'll start. So look, we've said on every call this year that bending the cost curve is a very important strategic objective for the firm. And we're attacking structural expenses in a number of different ways. And that's just continuous execution day in, day out, blocking and tackling. 
 The result of all that blocking and tackling have caused us to outperform the 4% guidance that we gave in January, and we're determined to push that number to closer to 3%. While we don't believe the work is over this year and we're now in the middle of budget season, and we are determined to bend the cost curve into next year and to continue to deliver that positive operating leverage. 
 And we kind of go at it in a number of different ways: rationalizing vendors, rationalizing locations, remixing our kind of headcount and how we hire. This year was our biggest campus class ever, double last year, and we'll continue to build on that. So there are a lot of things happening underneath the hood that give us a high degree of confidence that we'll be able to continue to bend the cost curve into '24 and beyond.</text>
@@ -196,11 +196,11 @@ And look, there were a lot of gives and takes this year through the bank turmoil
 But we feel like the summer slowdown, the seasonal slowdown that we experienced in August and the conversations that we have and talking to our deposit team, we feel very good about where we are on the deposit balance now and the pickup that's happened in September and October. And that kind of gives us the confidence to say here today that 20% NII is a good number, which I think should be good for you guys to know that we've been consistent in our approach over the whole year.</text>
                     </speaker>
                 </answer>
-            <followQuestion>
+            <followQuestion id="0" question_id="1">
                 <speaker id="6" position="BofA Securities, Research Division">Ebrahim Huseini Poonawala<text>That's helpful. And I guess maybe if I heard you correctly, I think you mentioned $0.5 billion of investments are self-funded. That's about 4% of your expense base. Is that $0.5 billion -- I'm just wondering the relevance of that number. Is that something that we should think about either go forward sort of incremental investment spend that you need to self-fund through efficiencies as we, from the outside, try to figure out what expense growth could look like next year? Just if you could contextualize that $0.5 billion in investments and what that means going forward.</text>
                     </speaker>
                 </followQuestion>
-            <followAnswer>
+            <followAnswer id="0" question_id="1">
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So the way I kind of think about that and the message that I would like to give you is it gives a message of discipline in that with half the growth rates, we're going towards 3%. And within that 3% growth, we've had the financial discipline to be able to self-fund $0.5 billion of investments that we will -- we are confident that will deliver further efficiency in years ahead and revenue opportunities. 
 So it's both kind of powering the top line and automating and driving further efficiency. And we look to continue to do that into the budget season this year and next year. 
 And like this year, we doubled the efficiency saves that we have typically achieved in past years. And that's both bottoms up. I think we both have mentioned it in our prepared remarks, the Catalyst project that we're roughly 40% the way through. And we're doing real work day in, day out that is driving that expense growth down and is kind of delivering opportunities for us that we will harvest in the quarters to come.</text>
@@ -234,20 +234,20 @@ We've got a clearing and collateral management business, which has a different s
 So that breadth and diversification just creates for different outcomes, and I think you've seen that over the course of this year. So we're not sitting here today giving guidance for next year, but the fourth quarter NII is probably a pretty decent place to start as you think about the world.</text>
                     </speaker>
                 </answer>
-            <followQuestion>
+            <followQuestion id="0" question_id="2">
                 <speaker id="10" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>Okay. Got it. And just one question on Pershing. It's great to see the wave start and the good commentary you have about the momentum. Just wondering, we know that there was going to be a client deconversion coming out of that as well. Did we see that in the third quarter result? Or is that still a pending yet to happen?</text>
                     </speaker>
                 </followQuestion>
-            <followAnswer>
+            <followAnswer id="0" question_id="2">
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So we expect that to happen over several quarters, Ken. I think the important point -- so it happened over both quarters. I think second quarter was a little bit more than the third quarter, but we do expect that to work its way through over the next several quarters. 
 I think the important point I'd leave you with on Pershing in addition to the Wove development is the fact that we added $23 billion of net new assets in the quarter. And the underlying strength of the business and our ability to provide solutions to our clients in that space is really, really terrific to see.</text>
                     </speaker>
                 </followAnswer>
-            <followQuestion>
+            <followQuestion id="1" question_id="2">
                 <speaker id="10" position="Jefferies LLC, Research Division">Kenneth Michael Usdin<text>Yes. And that's what I'm hoping for, that you can offset that with the organic growth. That's what I'm getting at.</text>
                     </speaker>
                 </followQuestion>
-            <followAnswer>
+            <followAnswer id="1" question_id="2">
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>Yes. We believe we have the confidence to earn our way out of that over the next several quarters.</text>
                     </speaker>
                 </followAnswer>
@@ -272,11 +272,11 @@ And we've got other proof points. We talked about deposits. Dermot was describin
 We've got KYC as an example as well. We used to do KYC in each of our businesses. We're bringing that together, to have a KYC platform. So there are a lot of proof points that we've got in various stages of development here in addition to the actual pilots that we did specifically for a platforms operating model.</text>
                     </speaker>
                 </answer>
-            <followQuestion>
+            <followQuestion id="0" question_id="3">
                 <speaker id="11" position="Wells Fargo Securities, LLC, Research Division">Michael Lawrence Mayo<text>So when you add it all together, you said next year, you expect to have positive operating leverage. Is that in aggregate or positive fee operating leverage? And how can you have such confidence at this stage?</text>
                     </speaker>
                 </followQuestion>
-            <followAnswer>
+            <followAnswer id="0" question_id="3">
                 <speaker id="2" position="President, CEO &amp; Director">Robin Antony Vince<text>So look, we're committed to positive operating leverage over time. And I don't want my second year as CEO to be one where we have negative operating leverage. So we are focused on positive operating leverage next year. That's aggregate operating leverage, to answer your question. 
 And one of the reasons why we have confidence in that is because we've been investing on both the revenue side and on the expense side in the short-, medium- and long-term perspective. Dermot just went through a few things that we've done specifically for 2023, but the platforms conversation and the answer I just gave to you, that's an investment in medium- and long-term efficiencies. And we haven't seen any of the benefit of that really yet. 
 And the same thing is true on the revenue side. Some of the shorter-term things that we've done and the enthusiasm around One BNY Mellon, the referrals that we've had across the business, we've talked about that in prior quarters. But now we're moving to the medium- and longer-term benefits, which are really getting the benefit of our Chief Commercial Officer and her approach to operationalizing One BNY Mellon, that's a more medium-term opportunity. 
@@ -299,12 +299,12 @@ So -- and then last but not least, you've kind of got Basel III and advocacy and
 As it relates to your specific question, we have about $2.3 billion of unrealized losses in our AFS portfolio, and we expect about half of that to come back into capital over the next 12 months. So from where we sit here today, we continue to build capital. We feel very good about our capital position. Ratios are healthy. Liquidity is healthy. And at the right time, we'll communicate a change in stance on that. But for now, steady as she goes.</text>
                     </speaker>
                 </answer>
-            <followQuestion>
+            <followQuestion id="0" question_id="4">
                 <speaker id="3" position="Goldman Sachs Group, Inc., Research Division">Alexander  Blostein<text>Great. And then there's one business that I was hoping to kind of double click into, which is Clearance and Collateral Management. We've seen really good growth there for the last several quarters now. I think it's up 11% year-to-date versus last year. 
 Can you maybe help us unpack some of the sources of that growth, between sort of what's been really market and maybe somewhat elevated volumes, given everything that's been going on in treasuries versus more kind of baseline growth in that business as we're sort of thinking about the building off of this baseline?</text>
                     </speaker>
                 </followQuestion>
-            <followAnswer>
+            <followAnswer id="0" question_id="4">
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So look, CCM, Clearance and Collateral Management, very big business for us. I would say a couple of things. A lot of volatility in the market this year, significant volumes, lots of treasury issuance, all of that is -- kind of helps that business. 
 I think we continue to innovate as well internationally. And so we've spent a lot of time on the road with clients overseas. Because of our strength in the U.S., we feel that we have a lot of value to add in the international space. And so we kind of look to build our international business from here. 
 I think in the medium term, we kind of still see that business continuing to grow, given the level of treasury issuance and what's happening in the market. So we kind of feel good about the underlying growth. 
@@ -334,21 +334,21 @@ I remember we had these conversations about the puts and takes of the various di
 So we feel quite good about the feedback that we're getting. And remember as well that we have this relatively unconflicted business model in terms of the fact that we're not running our own large RIA sales force next to our business. And we think that some of our clients really appreciate that.</text>
                     </speaker>
                 </answer>
-            <followQuestion>
+            <followQuestion id="0" question_id="5">
                 <speaker id="4" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Yes. That's all very helpful color. And then I'd like to ask a follow-up question on the noninterest-bearing. So you flagged that there was some growth quarter-to-date. Is it possible to quantify or give us a rough idea about what kind of growth we'd be talking about? And are you also seeing corresponding growth in the overall deposit base along with the trend in the NIBs?</text>
                     </speaker>
                 </followQuestion>
-            <followAnswer>
+            <followAnswer id="0" question_id="5">
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So I think I used the word modest in my prepared remarks for September off the seasonal lows. And I also used the word inflection point with the puts and takes between the level of activity as a result of March and the debt ceiling impasse. We kind of feel we've kind of reached a more natural level for deposits. 
 And if you kind of go back to the remarks in January, we kind of went -- declined in the deposit base of kind of mid-single digits from where we were at the beginning of the year. And so that's really largely how it's played out with albeit a different zigzag to what we thought was going to be at the beginning of the year. 
 And look, the important thing to walk away from the call with is we feel confident with the outlook and the guidance that we're giving today of 20%. And that's made up of a ton of different factors both on the deposit side and on the repricing on the asset side. So we kind of think of the 2 as very joined up and interlinked and don't really want to get into specific numbers, but we feel pretty good about where we're at.</text>
                     </speaker>
                 </followAnswer>
-            <followQuestion>
+            <followQuestion id="1" question_id="5">
                 <speaker id="4" position="UBS Investment Bank, Research Division">Brennan  Hawken<text>Okay. And are those trends applying to both the broad deposit base as well as the NIBs? Just...</text>
                     </speaker>
                 </followQuestion>
-            <followAnswer>
+            <followAnswer id="1" question_id="5">
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>Yes, I think it's fair to say that. Yes.</text>
                     </speaker>
                 </followAnswer>
@@ -389,12 +389,12 @@ And so operationalizing all of that with our clients is important. We just launc
 But we feel over time, this is a good new technology. And as we do see more network effect and these use cases start to go live, it provides a lot of client value. And so at the end of the day, I think that client value is going to win out, and we want to help them to do that.</text>
                     </speaker>
                 </answer>
-            <followQuestion>
+            <followQuestion id="0" question_id="7">
                 <speaker id="7" position="RBC Capital Markets, Research Division">Gerard Sean Cassidy<text>Great. And then Dermot, you touched on with deposits the challenges the banking system faced earlier in this year. And Bank of New York was looked at as a safe haven in some people's minds, and your deposits have reflected that as you pointed out. 
 Can you share with us, if QT stays with the Fed through the end of next year, what kind of impact are you guys thinking that, that could have on deposits throughout 2024?</text>
                     </speaker>
                 </followQuestion>
-            <followAnswer>
+            <followAnswer id="0" question_id="7">
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>So I think it's a bit too early for me, Gerard, to kind of give you guidance for '24 on that. But like as I said earlier, we kind of feel we've reached a more kind of normalized level, given what happened in March and then the debt ceiling and who kind of knows what's going to happen from here. 
 But our balance sheet is positioned for higher for longer. We have a lot of the balance sheet in cash. Our fixed income securities are going to roll off a quarter a year over the next few years. And the pickup in yield from that is about 200 to 300 basis points. 
 So when we look at the balance sheet together, we kind of feel very good about our NII for the next while. January will be when we give you more detailed guidance for how we think about it for '24. But our deposit base and how our clients are in the ecosystem -- and look, if they're not with us for deposits, we want them to be in our Dreyfus Money Market Fund complex and be kind of using our products and services. 
@@ -426,12 +426,12 @@ Corporate Trust as a business tends to attract a higher level of NIBs due to the
 In Asset Servicing, I would just say like how clients are behaving with us at the moment in the ecosystem, but I wouldn't really call anything out that is kind of noticeably different. And we kind of think about our deposits as one platform kind of centrally managed under one roof, and that's how we kind of manage it.</text>
                     </speaker>
                 </answer>
-            <followQuestion>
+            <followQuestion id="0" question_id="8">
                 <speaker id="5" position="Deutsche Bank AG, Research Division">Brian Bertram Bedell<text>Okay. Great. And then just -- maybe just a follow-up on the -- actually in the other -- investment and other revenue. There's one area there that's been growing quite nicely sequentially for now 3 straight quarters. It's the Other trading revenue line. 
 And the size of that is now -- if it continue with this type of growth for the next 2 or 3 quarters, you'll be approaching your FX trading revenues. I just wonder if you talk about the drivers of that and whether you see that type of growth path continuing.</text>
                     </speaker>
                 </followQuestion>
-            <followAnswer>
+            <followAnswer id="0" question_id="8">
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>Look, the key feature of that business this quarter as it has been all of this year really has been the strength of our fixed income trading. You do have a little bit of seed capital gains in there as well, but it's predominantly the fixed income trading. 
 So we feel very good about it in the overall kind of scheme of the quarter and the results. It's a small number in the big scheme of things, but we like what we have there.</text>
                     </speaker>
@@ -465,11 +465,11 @@ The cumulative beta of our dollar book is around 80%, which I think I said earli
 And so we kind of feel as it relates to passing on the pricing, the clients that we have are sophisticated, largely passed on the prices as they come through. And it may grind a little bit higher from here. But overall, we feel pretty good about where the book is, where it's priced. You may see some modest catch-ups and lags here or there. But overall, we think it's where it should be, given what's happened in the market.</text>
                     </speaker>
                 </answer>
-            <followQuestion>
+            <followQuestion id="0" question_id="10">
                 <speaker id="12" position="Morningstar Inc., Research Division">Rajiv K. Bhatia<text>Great. And then like your deposit betas by like lines of business?</text>
                     </speaker>
                 </followQuestion>
-            <followAnswer>
+            <followAnswer id="0" question_id="10">
                 <speaker id="0" position="Senior Executive VP &amp; CFO">Dermot William McDonogh<text>I don't have that level of detail with me, so we can follow up with you offline.</text>
                     </speaker>
                 </followAnswer>
