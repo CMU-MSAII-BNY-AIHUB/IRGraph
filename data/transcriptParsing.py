@@ -73,7 +73,7 @@ def build_second_table(data):
 
     return root
 
-def build_third_table(data, company):
+def build_third_table(data,company):
     id = 0
     root = ET.Element("CallParticipants")
     speaker_list = {}
@@ -92,7 +92,8 @@ def build_third_table(data, company):
                 
             if len(lines) > 1:
 
-                name = lines[0].strip()
+                name = re.sub(r'\s+', ' ', lines[0].strip())
+                
                 position = lines[1].strip()
                 if current_group == "EXECUTIVES":
                     position = company +", " + position
@@ -109,16 +110,16 @@ def process_presentation(dialog,speaker_list, name):
     conversation = ET.Element("section", attrib={"name": name})
     i = 0 
     while i < len(paragraph):
-        if paragraph[i].strip() in speaker_list:
-            id = speaker_list[paragraph[i].strip()]
+        if re.sub(r'\s+', ' ', paragraph[i].strip())  in speaker_list:
+            id = speaker_list[re.sub(r'\s+', ' ', paragraph[i].strip()) ]
             position = paragraph[i+1].strip()
             statement = ET.SubElement(conversation, "statement")
             speaker_element = ET.SubElement(statement, "speaker", id=id, position=position)
-            speaker_element.text = paragraph[i].strip()
+            speaker_element.text = re.sub(r'\s+', ' ', paragraph[i].strip()) 
             text = ""
             para = ET.SubElement(speaker_element, "text")
             i += 2
-            while i < len(paragraph) and paragraph[i].strip() not in speaker_list and paragraph[i].strip()!= "Operator":
+            while i < len(paragraph) and re.sub(r'\s+', ' ', paragraph[i].strip()) not in speaker_list and paragraph[i].strip()!= "Operator":
                 if len(paragraph[i].strip()) != 0:
                     text += paragraph[i] + "\n"
                 i += 1
@@ -145,37 +146,61 @@ def process_presentation(dialog,speaker_list, name):
 
 def process_dialog(dialog,speaker_list, name):
     question_id = -1
+    followup_id = -1
     end = False
     paragraph = dialog.split('\n')
     cur_question = None
     conversation = ET.Element("section", attrib={"name": name})
     i = 0 
     hasSub = False
+    last_question_element = None
+    last_question_answered = True
     while i < len(paragraph):
         # print(paragraph[i])
         # print("------------------------")
-        if paragraph[i].strip() in speaker_list:
-            id = speaker_list[paragraph[i].strip()]
+        if re.sub(r'\s+', ' ', paragraph[i].strip()) in speaker_list:
+            id = speaker_list[re.sub(r'\s+', ' ', paragraph[i].strip())]
             position = paragraph[i+1].strip()
             if end:
                 context = ET.SubElement(conversation, "ending", id = str(question_id))
+                
             elif cur_question == None:
+                if last_question_element is not None and not last_question_answered:
+                    if last_question_element.tag =="question":
+                        question_id-=1
+                    last_question_element.tag = "other"
+                followup_id = -1
                 context = ET.SubElement(conversation, "question", id = str(question_id))
                 cur_question = paragraph[i].strip()
+                last_question_element = context
+                last_question_answered = False
             elif paragraph[i].strip() == cur_question :
-                context = ET.SubElement(conversation, "followQuestion")
+                if last_question_element is not None and not last_question_answered:
+                    if last_question_element.tag =="question":
+                        question_id-=1
+                    elif last_question_element.tag =="followQuestion":
+                        print(last_question_element.tag)
+                        followup_id -=1
+                    last_question_element.tag = "other"
+
+                followup_id += 1
+                context = ET.SubElement(conversation, "followQuestion", id=str(followup_id),  question_id = str(question_id))
                 hasSub = True
+                last_question_element = context
+                last_question_answered = False
             elif hasSub and paragraph[i].strip()!= cur_question:
-                context = ET.SubElement(conversation, "followAnswer")
+                context = ET.SubElement(conversation, "followAnswer", id=str(followup_id),  question_id = str(question_id))
                 hasSub = False
+                last_question_answered = True
             else:
                 context = ET.SubElement(conversation, "answer", id = str(question_id))
+                last_question_answered = True
             speaker_element = ET.SubElement(context, "speaker", id=id, position=position)
-            speaker_element.text = paragraph[i].strip()
+            speaker_element.text = re.sub(r'\s+', ' ', paragraph[i].strip()) 
             text = ""
             para = ET.SubElement(speaker_element, "text")
             i += 2
-            while i < len(paragraph) and paragraph[i].strip() not in speaker_list and paragraph[i].strip()!= "Operator" and not paragraph[i].startswith("Operator"):
+            while i < len(paragraph) and re.sub(r'\s+', ' ', paragraph[i].strip()) not in speaker_list and paragraph[i].strip()!= "Operator" and not paragraph[i].startswith("Operator"):
                 # print(paragraph[i])
                 # print(paragraph[i].startswith("Operator"))
                 # print("--------------------------")
@@ -185,11 +210,18 @@ def process_dialog(dialog,speaker_list, name):
             para.text = text.strip()
             
         elif "Operator" in paragraph[i]:
+            if last_question_element is not None and not last_question_answered:
+                if last_question_element.tag =="question":
+                    question_id-=1
+                last_question_element.tag = "other"
+            last_question_element = None
+            last_question_answered = False
             id = "-1"
             position = ""
             cur_question = None
             hasSub = False
             question_id += 1
+            followup_id = -1
             context =ET.SubElement(conversation, "transition") 
             speaker_element = ET.SubElement(context, "speaker", id=id, position=position)
             speaker_element.text = "Operator"
@@ -203,7 +235,8 @@ def process_dialog(dialog,speaker_list, name):
             if "conclude" in para.text:
                 context.tag = "ending"
                 end = True
-                        
+                
+            
         else:
             i += 1
 
