@@ -103,7 +103,6 @@ def build_third_table(data,company):
                 id+=1
     return root, speaker_list
 
-
 def process_presentation(dialog,speaker_list, name):
     paragraph = dialog.split('\n')
 
@@ -135,7 +134,8 @@ def process_presentation(dialog,speaker_list, name):
             para = ET.SubElement(speaker_element, "text")
             i += 1
             while i < len(paragraph) and paragraph[i].strip() not in speaker_list:
-                text += paragraph[i] + "\n"
+                if text != "" or text != None or text != "\n":
+                    text += paragraph[i] + "\n"
                 i += 1
             para.text = text.strip()
             
