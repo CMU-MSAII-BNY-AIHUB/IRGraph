@@ -46,39 +46,31 @@
                 </table>
             </section>
         <section name="call participants">
-            <person position="The Bank of New York Mellon Corporation NYSE:BK, Chief Financial Officer" group="EXECUTIVES" id="0">Emily Hope Portney</person>
-            <person position="The Bank of New York Mellon Corporation NYSE:BK, Global Head of Investor Relations" group="EXECUTIVES" id="1">Magda Palczynska</person>
-            <person position="The Bank of New York Mellon Corporation NYSE:BK, CEO &amp; Director" group="EXECUTIVES" id="2">Thomas P. Gibbons</person>
-            <person position="Goldman Sachs Group, Inc., Research Division" group="ANALYSTS" id="3">Alexander Blostein</person>
-            <person position="Morgan Stanley, Research Division" group="ANALYSTS" id="4">Betsy Lynn Graseck</person>
-            <person position="UBS Investment Bank, Research Division" group="ANALYSTS" id="5">Brennan Hawken</person>
-            <person position="Deutsche Bank AG, Research Division" group="ANALYSTS" id="6">Brian Bertram Bedell</person>
-            <person position="Keefe, Bruyette, &amp; Woods, Inc., Research Division" group="ANALYSTS" id="7">Brian Matthew Kleinhanzl</person>
-            <person position="RBC Capital Markets, Research Division" group="ANALYSTS" id="8">Gerard Sean Cassidy</person>
-            <person position="Evercore ISI Institutional Equities, Research Division" group="ANALYSTS" id="9">Glenn Paul Schorr</person>
-            <person position="Seaport Global Securities LLC, Research Division" group="ANALYSTS" id="10">James Francis Mitchell</person>
-            <person position="Jefferies LLC, Research Division" group="ANALYSTS" id="11">Kenneth Michael Usdin</person>
-            <person position="Wells Fargo Securities, LLC, Research Division" group="ANALYSTS" id="12">Michael Lawrence Mayo</person>
-            <person position="BofA Merrill Lynch, Research Division" group="ANALYSTS" id="13">Michael Roger Carrier</person>
-            <person position="Wolfe Research, LLC" group="ANALYSTS" id="14">Steven Joseph Chubak</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" position="The Bank of New York Mellon Corporation NYSE:BK, Chief Financial Officer" group="EXECUTIVES" id="0">Emily Hope Portney</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" position="The Bank of New York Mellon Corporation NYSE:BK, Global Head of Investor Relations" group="EXECUTIVES" id="1">Magda Palczynska</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" position="The Bank of New York Mellon Corporation NYSE:BK, CEO &amp; Director" group="EXECUTIVES" id="2">Thomas P. Gibbons</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="3">Alexander Blostein</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="4">Betsy Lynn Graseck</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="5">Brennan Hawken</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="6">Brian Bertram Bedell</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="7">Brian Matthew Kleinhanzl</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="8">Gerard Sean Cassidy</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="9">Glenn Paul Schorr</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="10">James Francis Mitchell</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="11">Kenneth Michael Usdin</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="12">Michael Lawrence Mayo</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="13">Michael Roger Carrier</person>
+            <person company="The Bank of New York Mellon Corporation NYSE:BK" group="ANALYSTS" id="14">Steven Joseph Chubak</person>
             </section>
-        <section name="Presentation">
+        <section name="Presentation ">
             <statement>
                 <speaker id="-1" position="">Operator<text>Ladies and gentlemen, good morning, and welcome to the 2020 Third Quarter Earnings Conference Call hosted by BNY Mellon. [Operator Instructions] Please note that this conference call and webcast will be recorded and will consist of copyrighted material. You may not record or rebroadcast these materials without BNY Mellon's consent. 
- 
- 
-I will now turn the call over to Magda Palczynska, BNY Mellon's Global Head of Investor Relations. Please go ahead. 
- 
- 
-Magda  Palczynska 
-Global Head of Investor Relations 
- 
-Good morning. Welcome to BNY Mellon's Third Quarter 2020 Earnings Conference Call. Today, we will reference our financial highlights presentation available on the Investor Relations page of our website at bnymellon.com. Todd Gibbons, BNY Mellon's CEO, will lead the call. Then Emily Portney, our CFO, will take you through our earnings presentation. Following Emily's prepared remarks, there will be a Q&amp;A session. 
- 
- 
+I will now turn the call over to Magda Palczynska, BNY Mellon's Global Head of Investor Relations. Please go ahead.</text>
+                    </speaker>
+                </statement>
+            <statement>
+                <speaker id="1" position="Global Head of Investor Relations">Magda Palczynska<text>Good morning. Welcome to BNY Mellon's Third Quarter 2020 Earnings Conference Call. Today, we will reference our financial highlights presentation available on the Investor Relations page of our website at bnymellon.com. Todd Gibbons, BNY Mellon's CEO, will lead the call. Then Emily Portney, our CFO, will take you through our earnings presentation. Following Emily's prepared remarks, there will be a Q&amp;A session. 
 Before we begin, please note that our remarks include forward-looking statements and non-GAAP measures. Information about these statements and non-GAAP measures are available in the earnings press release, financial supplements and financial highlights presentation, all available on the Investor Relations page of our website. Forward-looking statements made on this call speak only as of today, October 16, 2020, and will not be updated. 
- 
- 
 With that, I will hand over to Todd.</text>
                     </speaker>
                 </statement>
@@ -151,30 +143,28 @@ With that, operator, can you please open the line for questions?</text>
             </section>
         <section name="Question and Answer">
             <transition>
-                <speaker id="-1" position="">Operator<text>[Operator Instructions] We will take our first question from Alex Blostein with Goldman Sachs. 
- 
- 
-Alexander  Blostein 
-Goldman Sachs Group, Inc., Research Division 
- 
-Welcome, Emily. So first question for you guys, I was hoping to go back to opening comments around how the challenging rate backdrop and, obviously, market was challenging in the beginning of the year, perhaps masking some of the growth initiatives that are taking place underneath. It sounds like, Todd, you're a little bit more optimistic about that into next year. So can you help us contextualize which specific initiatives from a top line perspective you expect to be the most material contributors to sort of top line growth into '21? And over time, again, given numerous things you mentioned, what do you see the reasonable organic fee growth for the firm, excluding sort of the market dynamics?</text>
+                <speaker id="-1" position="">Operator<text>[Operator Instructions] We will take our first question from Alex Blostein with Goldman Sachs.</text>
                     </speaker>
                 </transition>
             <question id="0">
+                <speaker id="3" position="Goldman Sachs Group, Inc., Research Division">Alexander Blostein<text>Welcome, Emily. So first question for you guys, I was hoping to go back to opening comments around how the challenging rate backdrop and, obviously, market was challenging in the beginning of the year, perhaps masking some of the growth initiatives that are taking place underneath. It sounds like, Todd, you're a little bit more optimistic about that into next year. So can you help us contextualize which specific initiatives from a top line perspective you expect to be the most material contributors to sort of top line growth into '21? And over time, again, given numerous things you mentioned, what do you see the reasonable organic fee growth for the firm, excluding sort of the market dynamics?</text>
+                    </speaker>
+                </question>
+            <answer id="0">
                 <speaker id="2" position="CEO &amp; Director">Thomas P. Gibbons<text>Sure, Alex. Good to hear from you. I think probably the most impactful one is around Pershing. And so -- and we did call out the details around Pershing. So as we've been investing in the advisory space, and we are seeing some good growth and some good wins there, yes, we saw on a year-over-year basis a decline in fees. But there's about $73 million of fee waivers that are reflected there. So if you adjust for that, there was actually pretty healthy growth. So we continue to see that as a potential upside. And it will be good to get these fee waivers behind us because that -- the masking of what's lying underneath it will go away. I think secondly, in Asset Servicing, we're seeing the same effect, where we're starting to see a little bit of fee waivers. Obviously, we're seeing a lot of net interest income impact and there's a little bit of other noise. 
 I mean we had divested off an asset that was driving that fee line a year ago. We took a big gain in the fourth quarter, but there was some income related to that, that we would have enjoyed in the third quarter that's no longer there. But when we look at what we see going on there, we do see some traction around our data and analytics space. We -- I mean -- and also one of the important things there, and one of our key strategies, is quality of service. And the quality of our service and the feedback that we're getting from clients continues to improve. It helps not only the retention of business but new business, especially with existing clients, and we're starting to see that come through the line and a bit of that is masked. 
 On the Clearing and Collateral Management space we're making significant investments in what we're calling the future of collateral, which will make that business much more interoperable and beneficial to our clients, we see some growth opportunities. This particular quarter was pretty soft for that. I mean it had -- again, we had divested off an asset that was reflected in that line. We also -- and this is kind of surprising, just the clearing of volumes in the treasury market despite the massive increases in issuance by the U.S. government, they were down. 
 It was kind of a quiet quarter when it came to the Clearing and Collateral Management business and the clearing business, in particular. We saw a very modest increase in global collateral but domestic collateral management was down a little bit as we saw some deleveraging. So there are a number of things masking that. I think we'll be able to pick up market share in the future. And I think we'll also be able to pick up a movement from bilateral to tri-party because of the efficiencies that they're going to get on our platform. So I think those are a couple of the key points.</text>
                     </speaker>
-                </question>
-            <answer id="0">
+                </answer>
+            <followQuestion id="0" question_id="0">
                 <speaker id="3" position="Goldman Sachs Group, Inc., Research Division">Alexander Blostein<text>Got it. And I guess just putting it all together and not to pinpoint, '21 or '22, as you think about the collection of businesses that you guys have, what do you think is the reasonable organic fee growth that we should anticipate from BNY Mellon over time?</text>
                     </speaker>
-                </answer>
-            <other id="0" question_id="0">
+                </followQuestion>
+            <followAnswer id="0" question_id="0">
                 <speaker id="2" position="CEO &amp; Director">Thomas P. Gibbons<text>Yes. I don't think I want to put that out of the guidance at this point. But when we look to this year, there's a modest amount, 1% or 2% underlying kind of organic fee growth, a lot of it masked by all those things I just described.</text>
                     </speaker>
-                </other>
+                </followAnswer>
             <transition>
                 <speaker id="-1" position="">Operator<text>We will take our next question from Betsy Graseck with Morgan Stanley.</text>
                     </speaker>
@@ -317,41 +307,37 @@ So there's things that we're trying to generate more revenues as we take on more
                     </speaker>
                 </followAnswer>
             <transition>
-                <speaker id="-1" position="">Operator<text>We will take our next question from Brennan Hawken with UBS. 
- 
- 
-Brennan  Hawken 
-UBS Investment Bank, Research Division 
- 
-I just wanted to follow-up on NII. You -- Emily, thank you for providing -- taking a stab at 2021 and appreciate that you're using the forward curve. So just was curious about what assumptions are also embedded for MBS prepayment activity in that? It seems as though more recently that was a bit of a surprise versus some of maybe what the third parties -- third-party data sources had been expecting. Are you expecting that, that will continue to accelerate? 
- 
- 
-And then when you talk about the lending and some balance sheet optimization into lending, is that on the margin side -- margin loan side or is that elsewhere? Because it looks like the margin loan yield is holding up better than the prior reserve period. So curious if that's sustainable, is that some mix or some color on that front?</text>
+                <speaker id="-1" position="">Operator<text>We will take our next question from Brennan Hawken with UBS.</text>
                     </speaker>
                 </transition>
             <question id="5">
+                <speaker id="5" position="UBS Investment Bank, Research Division">Brennan Hawken<text>I just wanted to follow-up on NII. You -- Emily, thank you for providing -- taking a stab at 2021 and appreciate that you're using the forward curve. So just was curious about what assumptions are also embedded for MBS prepayment activity in that? It seems as though more recently that was a bit of a surprise versus some of maybe what the third parties -- third-party data sources had been expecting. Are you expecting that, that will continue to accelerate? 
+And then when you talk about the lending and some balance sheet optimization into lending, is that on the margin side -- margin loan side or is that elsewhere? Because it looks like the margin loan yield is holding up better than the prior reserve period. So curious if that's sustainable, is that some mix or some color on that front?</text>
+                    </speaker>
+                </question>
+            <answer id="5">
                 <speaker id="0" position="Chief Financial Officer">Emily Hope Portney<text>Sure. Sure. I'll take both of those. In terms of MBS prepayments, just for what it's worth, they were -- we had a -- they accelerated about 5% more than we originally expected and that is part of the headwind on NIR, at least in the third quarter. In terms of as we think about -- as we go through next year, we do expect it to slow modestly. So that's in our projection. 
 And then, I guess, in terms of your question with regard to lending, we actually -- at the minute, our lending portfolio is relatively flat at $55 billion. You'll see probably growth in that as we get into next year, again, more marginally. We don't lead with lending. It's certainly something that we do to strengthen relationships that we have with our clients. And the places where we really see a lot of -- or some opportunity is in the '40 Act lending space, well, basically mortgages in wealth and also supply trade finance in Treasury Services.</text>
                     </speaker>
-                </question>
+                </answer>
             <answer id="5">
                 <speaker id="2" position="CEO &amp; Director">Thomas P. Gibbons<text>Yes. And I would add to that, Brennan, that interestingly, in the big drawdowns that we had on the corporate committed facilities, 70% of those have been paid back. So we've seen that loan -- part of the loan portfolio go down. So I think that's kind of the noise associated with that, that's been stabilized. But we would like to continue to grow, and we'll do it prudently. 
 The margin lending business. It's a very low risk. It's a decent return. We'd like to see some more '40 Act lending, which is something that looks akin to that as well as the supply chain and mortgages and wealth that we talked about.</text>
                     </speaker>
                 </answer>
-            <answer id="5">
+            <followQuestion id="0" question_id="5">
                 <speaker id="5" position="UBS Investment Bank, Research Division">Brennan Hawken<text>All right. That's really helpful. Thanks for that color. And then when we think of like taking a step back here, rates are tough and clearly more environmental than something that specifically you guys are doing. But a big part of your economic model is embedded within rates because of the deposit spreads embedded within your -- the returns that you generate from your clients. 
 And so this period feels sort of different than when we went into the last one. The last one was viewed as temporary. It's just something we need to get through, and then we're going to come out on the other side and we'll return to a "normal environment." And that position has come under a pretty significant question. 
 So I guess, what I would say is, what are you -- how are you thinking about making adjustments to the pricing model? How are you thinking about reconsidering some of the economic considerations when you assess clients? And what are your assumptions for where deposit spreads would return to, just to ensure that the new business that you win, the assessment of existing relationships remains reasonably calibrated to what is the likely environment, unfortunately, we're going to be until a while. I know it's a tough one, but just curious your thoughts.</text>
                     </speaker>
-                </answer>
-            <answer id="5">
+                </followQuestion>
+            <followAnswer id="0" question_id="5">
                 <speaker id="2" position="CEO &amp; Director">Thomas P. Gibbons<text>Yes. So -- yes, I think that the general feeling and ours is as well is that rates are lower for longer. By the way, the last cycle, they were low for a fairly substantial period of time. That being said, we see the light at the end of the tunnel for the fully baked in impact of interest rates today, and it's from there that we'll grow. 
 So we will take into consideration what the market implies in interest rates as we price activity going forward, and that's reflected in all of our pricing assumptions. And we've also got a whole series of initiatives that we think will give us deeper relationships and add revenue streams as we look there out. 
 So we do see the potential for some margin expansion. We see the potential for some revenue growth. We see the benefits of our operating efficiencies. It really just points back to our key priorities. There's a handful of organic growth initiatives that we've got in place. They're not all going to pay out, but some of them will. And the activity levels are still high. What we do is important, and it's growing. 
 I mean if you look at the Pershing marketplace, the advisory business is growing rapidly. And we think we can capture more of that. There's been a consolidation amongst custodians. That's an interesting opportunity for us. So it's not always with us. We understand we've got an interest rate headwind. We want to get it behind us and move off a bit and grow the company from there.</text>
                     </speaker>
-                </answer>
+                </followAnswer>
             <transition>
                 <speaker id="-1" position="">Operator<text>We will take our next question from Brian Bedell with Deutsche Bank.</text>
                     </speaker>
