@@ -115,8 +115,7 @@ def add_sentiment_tag_to_xml(xml_file_path, statement_df, file_name):
     # Add the sentiment report to the xml file
     for statement_element, sentiment_analysis in zip(root.findall(".//statement"), statement_df['Analysis Summary']):
         speaker_element = statement_element.find('speaker')
-        sentiment_element = speaker_element.find('sentiment')
-        analysis_element = ET.SubElement(sentiment_element, "analysis")
+        analysis_element = ET.SubElement(speaker_element, "analysis")
         analysis_element.text = sentiment_analysis
         
     # Save the modified XML file
@@ -125,27 +124,27 @@ def add_sentiment_tag_to_xml(xml_file_path, statement_df, file_name):
 
 if __name__ == "__main__":
 
-    # extract statements from the presentation
-    print("\n## Extracting statements from XML file...")
+    # # extract statements from the presentation
+    # print("\n## Extracting statements from XML file...")
     file_name = 'BNY-Q2-2023'
     xml_file_path = 'xml_files/'+file_name+'.xml'
-    statement_df = extract_statements(xml_file_path)
-    call_info = 'csv/'+file_name+'_'
-    # statement_df.to_csv(call_info+"presentation_section.csv", index=False)
+    # statement_df = extract_statements(xml_file_path)
+    # call_info = 'csv/'+file_name+'_'
+    # # statement_df.to_csv(call_info+"presentation_section.csv", index=False)
 
-    # conduct sentiment analysis on the statements
-    print("\n## Conducting sentiment analysis on the statements...")
-    statement_df['Sentiment Scores'], statement_df['Sentiment Labels'], statement_df['Top Sentiment Label'] = zip(*statement_df['Statement'].apply(get_sentiment_scores))
-    # statement_df.to_csv(call_info+"presentation_section_sentiment.csv", index=False)
+    # # conduct sentiment analysis on the statements
+    # print("\n## Conducting sentiment analysis on the statements...")
+    # statement_df['Sentiment Scores'], statement_df['Sentiment Labels'], statement_df['Top Sentiment Label'] = zip(*statement_df['Statement'].apply(get_sentiment_scores))
+    # # statement_df.to_csv(call_info+"presentation_section_sentiment.csv", index=False)
 
-    # create a summary of the sentiment analysis insights
-    print("\n## Creating a summary of analysis...")
-    statement_df['Analysis Summary'] = statement_df.apply(lambda x: create_analysis_summary(x['Statement'], x['Sentiment Labels']), axis=1)
-    statement_df.to_csv(call_info+"presentation_sentiment_summary.csv", index=False) # LASTED SAVED DF
+    # # create a summary of the sentiment analysis insights
+    # print("\n## Creating a summary of analysis...")
+    # statement_df['Analysis Summary'] = statement_df.apply(lambda x: create_analysis_summary(x['Statement'], x['Sentiment Labels']), axis=1)
+    # statement_df.to_csv(call_info+"presentation_sentiment_summary.csv", index=False) # LASTED SAVED DF
 
 
     ##### UNCOMMENT IF USING THE LAST SAVED DF WITHOUT RUNING PREVIOUS LINES OF CODE
-    # statement_df = pd.read_csv("csv/bny_q2_2023_"+"presentation_sentiment_summary.csv")
+    statement_df = pd.read_csv("csv/BNY-Q2-2023_"+"presentation_sentiment_summary.csv")
     #####
 
     # add the sentiment label to the xml file
