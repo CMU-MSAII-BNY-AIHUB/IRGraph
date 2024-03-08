@@ -128,7 +128,7 @@ if __name__ == "__main__":
     # extract statements from the presentation
     print("\n## Extracting statements from XML file...")
     file_name = 'BNY-Q2-2023'
-    xml_file_path = 'xml/'+file_name+'.xml'
+    xml_file_path = 'xml_files/'+file_name+'.xml'
     statement_df = extract_statements(xml_file_path)
     call_info = 'csv/'+file_name+'_'
     # statement_df.to_csv(call_info+"presentation_section.csv", index=False)
@@ -150,6 +150,6 @@ if __name__ == "__main__":
 
     # add the sentiment label to the xml file
     print("\n## Adding the report as a tag to the XML file...")
-    output_file = 'xml/'+file_name+'_with_presentation_sentiment.xml'
+    output_file = 'xml_files/'+file_name+'_with_presentation_sentiment.xml'
     add_sentiment_tag_to_xml(xml_file_path, statement_df, output_file)
     print(f"Done! Find the XML file here:{output_file} \n")
