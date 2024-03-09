@@ -84,7 +84,7 @@ def build_third_table(data,company):
         row_data = '\n \n \n'.join(row).strip()
         elements = row_data.split('\n \n \n')
         for element in elements:
-
+            speaker_dict = {}
             lines = element.split('\n')
 
             if len(lines) == 1 :
@@ -96,10 +96,21 @@ def build_third_table(data,company):
                 
                 position = lines[1].strip()
                 if current_group == "EXECUTIVES":
-                    position = company +", " + position
-                person_element = ET.SubElement(root, "person", position=position, group=current_group, id = str(id))
+                    person_element = ET.SubElement(root, "person", company = company, position=position, group=current_group, id = str(id))
+                    speaker_dict["company"] = company
+                    speaker_dict["position"] = position
+
+
+                else: 
+                    position = position.replace("Research Division", "").strip()
+                    if position[-1] == ",":
+                        position = position[:-1].strip()
+                    person_element = ET.SubElement(root, "person", company = position, group=current_group, id = str(id))
+                    speaker_dict["company"] = position
+                    
                 person_element.text = name
-                speaker_list[name] = str(id)
+                speaker_dict["id"] = str(id)
+                speaker_list[name] = speaker_dict
                 id+=1
     return root, speaker_list
 
@@ -110,11 +121,16 @@ def process_presentation(dialog,speaker_list, name):
     i = 0 
     while i < len(paragraph):
         if re.sub(r'\s+', ' ', paragraph[i].strip())  in speaker_list:
-            id = speaker_list[re.sub(r'\s+', ' ', paragraph[i].strip()) ]
-            position = paragraph[i+1].strip()
+            name = re.sub(r'\s+', ' ', paragraph[i].strip())
+            speaker = speaker_list[name]
+            id = speaker["id"]
             statement = ET.SubElement(conversation, "statement")
-            speaker_element = ET.SubElement(statement, "speaker", id=id, position=position)
-            speaker_element.text = re.sub(r'\s+', ' ', paragraph[i].strip()) 
+            if "position" in speaker:
+                speaker_element = ET.SubElement(statement, "speaker", id=id, position=speaker["position"], company = speaker["company"])
+            else:
+                speaker_element = ET.SubElement(statement, "speaker", id=id, company = speaker["company"])
+            speaker_element.text = name
+
             text = ""
             para = ET.SubElement(speaker_element, "text")
             i += 2
@@ -122,19 +138,20 @@ def process_presentation(dialog,speaker_list, name):
                 if len(paragraph[i].strip()) != 0:
                     text += paragraph[i] + "\n"
                 i += 1
+            
             para.text = text.strip()
             
         elif "Operator" in paragraph[i]:
             id = "-1"
-            position = ""
+            position = "Operator"
             statement = ET.SubElement(conversation, "statement")
             speaker_element = ET.SubElement(statement, "speaker", id=id, position=position)
             speaker_element.text = "Operator"
             text = ""
             para = ET.SubElement(speaker_element, "text")
             i += 1
-            while i < len(paragraph) and paragraph[i].strip() not in speaker_list:
-                if text != "" or text != None or text != "\n":
+            while i < len(paragraph) and re.sub(r'\s+', ' ', paragraph[i].strip()) not in speaker_list:
+                if len(paragraph[i].strip()) != 0:
                     text += paragraph[i] + "\n"
                 i += 1
             para.text = text.strip()
@@ -159,8 +176,13 @@ def process_dialog(dialog,speaker_list, name):
         # print(paragraph[i])
         # print("------------------------")
         if re.sub(r'\s+', ' ', paragraph[i].strip()) in speaker_list:
-            id = speaker_list[re.sub(r'\s+', ' ', paragraph[i].strip())]
-            position = paragraph[i+1].strip()
+            
+            name = re.sub(r'\s+', ' ', paragraph[i].strip())
+            speaker = speaker_list[name]
+            id = speaker["id"]
+
+            
+
             if end:
                 context = ET.SubElement(conversation, "ending", id = str(question_id))
                 
@@ -195,8 +217,15 @@ def process_dialog(dialog,speaker_list, name):
             else:
                 context = ET.SubElement(conversation, "answer", id = str(question_id))
                 last_question_answered = True
-            speaker_element = ET.SubElement(context, "speaker", id=id, position=position)
-            speaker_element.text = re.sub(r'\s+', ' ', paragraph[i].strip()) 
+
+
+            
+            if "position" in speaker:
+                speaker_element = ET.SubElement(context, "speaker", id=id, position=speaker["position"], company = speaker["company"])
+            else:
+                speaker_element = ET.SubElement(context, "speaker", id=id, company = speaker["company"])
+            speaker_element.text = name
+
             text = ""
             para = ET.SubElement(speaker_element, "text")
             i += 2
@@ -217,7 +246,7 @@ def process_dialog(dialog,speaker_list, name):
             last_question_element = None
             last_question_answered = False
             id = "-1"
-            position = ""
+            position = "Operator"
             cur_question = None
             hasSub = False
             question_id += 1
@@ -228,8 +257,9 @@ def process_dialog(dialog,speaker_list, name):
             text = ""
             para = ET.SubElement(speaker_element, "text")
             paragraph[i] = paragraph[i].replace("Operator", "")
-            while i < len(paragraph) and paragraph[i].strip() not in speaker_list:
-                text += paragraph[i] + "\n"
+            while i < len(paragraph) and re.sub(r'\s+', ' ', paragraph[i].strip())  not in speaker_list:
+                if len(paragraph[i].strip()) != 0:
+                    text += paragraph[i] + "\n"
                 i += 1
             para.text = text.strip()
             if "conclude" in para.text:
