@@ -4,6 +4,8 @@ import xml.etree.ElementTree as ET
 import re
 import argparse
 import aspose.words as aw
+import yfinance as yf
+from datetime import datetime,timedelta
 
 ENDING = ["conclude", "thank you for participating", "no further question",
           "that concludes our call", "that's all the time we have",
@@ -27,6 +29,33 @@ def rtfToDocx(rtf_path, filename):
     doc.save(filename.replace(".rtf", ".docx"))
     doc = docx.Document(filename.replace(".rtf", ".docx"))
     return doc
+
+def get_stock_info(ticker_symbol, time):
+    open = None
+    close = None
+
+    try:
+        ticker = yf.Ticker(ticker_symbol)
+
+
+        date_str = time
+        date_format = "%A, %B %d, %Y %I:%M %p %Z"
+        datetime_obj = datetime.strptime(date_str, date_format)
+
+        formatted_date = datetime_obj.strftime("%Y-%m-%d")
+        datetime_obj_plus_one = datetime_obj + timedelta(days=1)
+        print(formatted_date)
+        data = ticker.history(start=formatted_date, end=datetime_obj_plus_one)
+
+        if not data.empty:
+            open =  data['Open'][0]
+            close = data['Close'][0]
+        else:
+            print("No data available for the specified date.")
+    except Exception as e:
+        print("An error occurred:", str(e))
+
+    return open,close
 
 def build_first_table(data):
     data = [list(dict.fromkeys(row)) for row in data]
@@ -75,7 +104,7 @@ def build_second_table(data):
 
 def build_third_table(data,company):
     id = 0
-    root = ET.Element("CallParticipants")
+    root = ET.Element("Call Participants")
     speaker_list = {}
          
     current_group = ''
@@ -315,11 +344,11 @@ def build_table(doc):
     t1 = build_first_table(tables[0])
     t2 = build_second_table(tables[1])
     sec2,speaker_list = build_third_table(tables[3],company)
-    sec1 = ET.Element("section", attrib={"name": "financial tables"})
+    sec1 = ET.Element("section", attrib={"name": "Financial Tables"})
     sec1.append(t1)
     sec1.append(t2)
     sec2.tag = "section"
-    sec2.set("name", "call participants")
+    sec2.set("name", "Call Participants")
     return sec1, sec2, speaker_list
 
 def build_xml(doc):
@@ -354,12 +383,26 @@ def build_xml(doc):
 
   
     header = ET.Element("header")
-
+    ticker = company.split(":")[1].strip()
+    match = re.search(r"Q\d \d{4}", title)
+    quarter = match.group(0).replace(" ", "-") if match else "No match found"
     ET.SubElement(header, "company").text = company
-    ET.SubElement(header, "title").text = title
+    ET.SubElement(header, "quarter").text = quarter
     ET.SubElement(header, "time").text = time
     ET.SubElement(header, "currency").text = currency
     ET.SubElement(header, "note").text = note
+    ET.SubElement(header, "ticker").text = ticker
+    open, close = get_stock_info(ticker,time)
+    ET.SubElement(header, "stock_price_before").text =  f"{open:.6f}"
+    ET.SubElement(header, "stock_price_after").text = f"{close:.6f}"
+    if abs(close - open) <=1:
+        performance = "neutral"
+    elif (close - open) < 0:
+        performance = "negative"
+    else:
+        performance = "positive"
+    ET.SubElement(header, "stock_performance").text = performance
+
     body.append(sec1)
     body.append(sec2)
     body.append(presentation)
@@ -367,7 +410,7 @@ def build_xml(doc):
     root = ET.Element("Transcript")
     root.append(header)
     root.append(body)
-    return root
+    return root, ticker, quarter
 
 
 def main():
@@ -391,10 +434,11 @@ def main():
                 if os.path.isfile(file_path):
                     print(f"  File: {filename}")
                     doc = rtfToDocx(dir_path,filename)
-                    tree_root = build_xml(doc)
+                    tree_root, ticker, quarter = build_xml(doc)
                     prettify(tree_root)
                     tree = ET.ElementTree(tree_root)
-                    tree.write(os.path.join(save_path,filename.replace(".rtf",".xml")), encoding="utf-8", xml_declaration=True)
+                    out_file_name = f"{ticker}-{quarter}"
+                    tree.write(os.path.join(save_path,out_file_name+".xml"), encoding="utf-8", xml_declaration=True)
                     os.remove(filename.replace(".rtf", ".docx"))
                     
 if __name__ == "__main__":
