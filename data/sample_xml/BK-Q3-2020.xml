@@ -2,14 +2,14 @@
 <Transcript>
     <header>
         <company>The Bank of New York Mellon Corporation NYSE:BK</company>
-        <title>FQ3 2020 Earnings Call Transcripts</title>
+        <quarter>Q3-2020</quarter>
         <time>Friday, October 16, 2020 12:00 PM GMT</time>
         <currency>Currency: USD</currency>
         <note>Consensus as of  Oct-09-2020 6:01 PM GMT</note>
         <ticker>BK</ticker>
-        <stock_price_before>34.206308989976826</stock_price_before>
-        <stock_price_after>34.06296157836914</stock_price_after>
-        <stock_performance>negative</stock_performance>
+        <stock_price_before>34.206305</stock_price_before>
+        <stock_price_after>34.062958</stock_price_after>
+        <stock_performance>neutral</stock_performance>
         </header>
     <body>
         <section name="Financial Tables">
