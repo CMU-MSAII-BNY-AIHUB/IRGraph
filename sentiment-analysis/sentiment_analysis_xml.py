@@ -53,7 +53,11 @@ def get_presentation_sentiment_scores(text: str) -> Tuple[List, List, str]:
     model = AutoModelForSequenceClassification.from_pretrained("ProsusAI/finbert")
 
     # Split the text into sentences
-    sentences = text.split(".")
+    sentences = []
+    if text is None:
+        sentences = ["Neutral."]
+    else:
+        sentences = text.split(".")
 
     sentiment_labels = []
     sentiment_scores = []
@@ -90,7 +94,12 @@ def find_presentation_negative_sentences(text: str, sentiment_labels: List) -> s
         output: a string with all negative sentences concatenated
     """    
     # Extract sentences based on labels
-    sentences = text.split(".")
+    sentences = []
+    if text is None:
+        sentences = ["Neutral."]
+    else:
+        sentences = text.split(".")
+
     negative_sentences = []
     for sentence, label in zip(sentences, sentiment_labels):
         if label=="negative":
@@ -196,7 +205,11 @@ def extract_qa_text(xml_file_path: str) -> pd.DataFrame:
             speaker_company_list.append(element.get('company'))
             speaker_name_list.append(element.text.strip())
         if element.tag == 'text':
-            text = element.text.strip()
+            text = ''
+            if element.text is None:
+                text = "Neutral."
+            else:
+                text = element.text.strip()
             text_list.append(text)
 
     qa_df = pd.DataFrame({'Speaker ID': speaker_id_list,
@@ -291,41 +304,37 @@ def complete_sentiment_tagging(xml_file_path: str) -> None:
     file_name = os.path.splitext(file_name_with_extension)[0]
 
     # PRESENTATION SECTION
-    print("\n### Adding sentiment tags to the XML for the presentation section... ")
-    print("> Extracting statements from the presentation...")
+    print(f"[{file_name}] Adding sentiment tags to the XML for the presentation section... ")
     statement_df = extract_presentation_statements(xml_file_path)
+    # statement_df.to_csv(f'csv/statements_{file_name}.csv', index=False) # SAVE THE DATA
 
-    print("> Conducting sentiment analysis on the statements...")
     statement_df['Sentiment Scores'], statement_df['Sentiment Labels'], statement_df['Top Sentiment Label'] = zip(*statement_df['Statement'].apply(get_presentation_sentiment_scores))
     statement_df['Analysis Summary'] = statement_df.apply(lambda x: create_presentation_analysis_summary(x['Statement'], x['Sentiment Labels']), axis=1)
-    statement_df.to_csv(f'csv/Presentation_Sentiment_{file_name}.csv', index=False) # SAVE THE DATA
+    # statement_df.to_csv(f'csv/Presentation_Sentiment_{file_name}.csv', index=False) # SAVE THE DATA
 
     ##### UNCOMMENT IF USING THE SAVED DATA WITHOUT RUNING PREVIOUS LINES OF CODE
     # statement_df = pd.read_csv("csv/new_xml_"+"presentation_sentiment_summary.csv")
     #####
 
     # Add the sentiment label to the xml file
-    pres_sentim_xml_file = 'xml_files/With_Presentation_Sentiment_'+file_name+'.xml'
+    pres_sentim_xml_file = 'xml_w_sentiment/pres_sent_'+file_name+'.xml'
     add_presentation_sentiment_tag_to_xml(xml_file_path, statement_df, pres_sentim_xml_file)
-    print(f"Done! Find the XML file with sentiment tags for the presentation section here: {pres_sentim_xml_file} \n")
+    # print(f"Done! Find the XML file with sentiment tags for the presentation section here: {pres_sentim_xml_file}")
 
     # Q&A SECTION
-    print("\n### Adding sentiment tags to the XML (with presentation sentiment) for the Q&A section... ")
-    print(f"> Extracting Q&A section from {pres_sentim_xml_file}...")
+    print(f"[{file_name}] Adding sentiment tags to the XML (with presentation sentiment) for the Q&A section... ")
     qa_df = extract_qa_text(pres_sentim_xml_file)
-
-    print("> Conducting sentiment analysis on the Q&A text...")
     qa_df['Positive Score'], qa_df['Negative Score'], qa_df['Neutral Score'], qa_df['Sentiment Label'] = zip(*qa_df['Text'].apply(get_qa_sentiment_scores))
-    qa_df.to_csv(f'csv/Q&A_Sentiment_{file_name}.csv', index=False) # SAVE THE DATA
+    # qa_df.to_csv(f'csv/qa_sent_{file_name}.csv', index=False) # SAVE THE DATA
 
     ##### UNCOMMENT IF USING THE LAST SAVED DF WITHOUT RUNING PREVIOUS LINES OF CODE
     # qa_df = pd.read_csv(f"csv/{file_name}_qa_section_sentiment.csv", converters={'Positive Score': pd.eval})
     #####
 
     # Add the sentiment label to the xml file
-    sentiment_file = 'xml_files/With_Sentiment_'+file_name+'.xml'
+    sentiment_file = 'xml_w_sentiment/sent_'+file_name+'.xml'
     add_qa_sentiment_tag_to_xml(pres_sentim_xml_file, qa_df, sentiment_file)
-    print(f"Done! Find the XML file with all sentiment tags (both presentation and Q&A sections) here: {sentiment_file} \n")
+    # print(f"Done! Find the XML file with all sentiment tags (both presentation and Q&A sections) here: {sentiment_file}")
 
     # CLEANUP
     os.remove(pres_sentim_xml_file) # remove presentation sentiment xml file
