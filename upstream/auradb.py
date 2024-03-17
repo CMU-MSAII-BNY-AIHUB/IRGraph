@@ -295,7 +295,7 @@ def main(file, driver):
 
 if __name__ == '__main__':
     URI = "neo4j+s://bc8b6e15.databases.neo4j.io"
-    AUTH = ("neo4j", "Vucu9PUNiseZqd3RqqHjOBQ2-spLkBuP1H_VYbaZo7M")
+    AUTH = ("neo4j", "Passward")
 
     with GraphDatabase.driver(URI, auth=AUTH) as driver:
         driver.verify_connectivity()
