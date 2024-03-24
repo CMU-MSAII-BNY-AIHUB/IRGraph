@@ -1,5 +1,5 @@
 # Extending NeoDash for Customized BKGraph Website
-This README provides step-by-step instructions on how to set up your development environment to extend NeoDash for our specific needs, focusing on creating a more customized experience for querying earnings call transcripts through a knowledge graph.
+This README provides step-by-step instructions on how to set up your development environment to extend NeoDash for creating a more customized experience for querying earnings call transcripts through a knowledge graph.
 
 > Reference: https://neo4j.com/labs/neodash/2.4/developer-guide/build-and-run/ 
 
@@ -13,7 +13,7 @@ Before you begin, ensure you have the following installed:
 The NeoDash repository was already cloned into the `user-interface` folder.
 
 ### 1. Navigate to Project Directory
-Change to the directory where you cloned the NeoDash repository:
+Change to the directory for the cloned the NeoDash repository. This is where all website edits would take place:
 
 ```bash
 cd neodash
@@ -32,7 +32,7 @@ yarn install
 ```
 
 ### 4. Start Development Server
-To start the development server for NeoDash, allowing you to run the application locally for development and testing purposes:
+To start the development server for NeoDash, allowing you to run the application locally for development:
 ```bash
 yarn run dev
 ```
@@ -40,4 +40,6 @@ Once the server is running, you can view the application at http://localhost:300
 
 ### 5. Customize NeoDash For The BKGraph Website
 To customize the website, you'll find numerous files available for modification. Explore the NeoDash directories and files to identify which ones correspond to the page you're looking to edit.
+
+Starting from here, we will establish our own URL to make the website publicly accessible.
 
