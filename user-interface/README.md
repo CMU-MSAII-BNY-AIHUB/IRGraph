@@ -25,19 +25,19 @@ Corepack is a Node.js tool intended to manage package managers. This command ena
 corepack enable
 ```
 
-### 2. Install Dependencies
+### 3. Install Dependencies
 Installs all the dependencies listed in the project's package.json file using Yarn:
 ```bash
 yarn install
 ```
 
-### 3. Start Development Server
+### 4. Start Development Server
 To start the development server for NeoDash, allowing you to run the application locally for development and testing purposes:
 ```bash
 yarn run dev
 ```
 Once the server is running, you can view the application at http://localhost:3000.
 
-### 4. Customize NeoDash For The BKGraph Website
+### 5. Customize NeoDash For The BKGraph Website
 To customize the website, you'll find numerous files available for modification. Explore the NeoDash directories and files to identify which ones correspond to the page you're looking to edit.
 
