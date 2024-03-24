@@ -1,0 +1,3 @@
+[submodule "user-interface/user-interface/neodash"]
+	path = user-interface/user-interface/neodash
+	url = https://github.com/neo4j-labs/neodash.git
