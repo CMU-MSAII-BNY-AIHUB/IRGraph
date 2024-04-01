@@ -183,7 +183,10 @@ def main(file, driver):
         quarter=header_element.find('quarter').text,
         time=header_element.find('time').text,
         currency=header_element.find('currency').text,
-        note=header_element.find('note').text
+        note=header_element.find('note').text,
+        start_price=header_element.find('stock_price_before').text,
+        end_price=header_element.find('stock_price_after').text,
+        performance=header_element.find('stock_performance').text
     )
     print(header.quarter)
     participants_section = None
@@ -227,7 +230,8 @@ def main(file, driver):
     header = transcript.header
     query = \
         'MERGE (%s:COMPANY {name: "%s"}) \n' % (COMPANY, header.company) + \
-        'CREATE (%s:EARNINGSCALL {name: "%s", time: "%s"}) \n' % (EARNINGSCALL, header.quarter, header.time) + \
+        'CREATE (%s:EARNINGSCALL {name: "%s", time: "%s", start_price: "%s", end_price: "%s", performance: "%s"}) \n' \
+            % (EARNINGSCALL, header.quarter, header.time, header.start_price, header.end_price, header.performance) + \
         'CREATE (%s) -[:HAS_EARNINGS] -> (%s)' % (COMPANY, EARNINGSCALL)
 
     cypher = add_query(cypher, query)
@@ -294,8 +298,8 @@ def main(file, driver):
 
 
 if __name__ == '__main__':
-    URI = "neo4j+s://bc8b6e15.databases.neo4j.io"
-    AUTH = ("neo4j", "Passward")
+    URI = "neo4j+s://b38f7a62.databases.neo4j.io"
+    AUTH = ("neo4j", "v58CFsyXYfGg7TxCLWUD41IegFELmo5x8WpwvKcjZbc")
 
     with GraphDatabase.driver(URI, auth=AUTH) as driver:
         driver.verify_connectivity()

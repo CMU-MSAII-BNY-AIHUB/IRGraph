@@ -6,12 +6,15 @@ class Transcript:
         self.qa_section = qa_section
 
 class Header:
-    def __init__(self, company, title, time, currency, note):
+    def __init__(self, company, time, quarter, currency, note, start_price, end_price, performance):
         self.company = sanitize(company)
-        self.title = sanitize(title)
         self.time = sanitize(time)
+        self.quarter = sanitize(quarter)
         self.currency = currency
         self.note = sanitize(note)
+        self.start_price = start_price
+        self.end_price = end_price
+        self.performance = performance
 
 class ParticipantsSection:
     def __init__(self, participants=None, name="call participants"):
@@ -98,13 +101,7 @@ class Transcript:
         self.presentation_section = presentation_section
         self.qa_section = qa_section
 
-class Header:
-    def __init__(self, company, quarter, time, currency, note):
-        self.company = sanitize(company)
-        self.quarter = sanitize(quarter)
-        self.time = sanitize(time)
-        self.currency = currency
-        self.note = sanitize(note)
+
 
 class ParticipantsSection:
     def __init__(self, participants=None, name="call participants"):
