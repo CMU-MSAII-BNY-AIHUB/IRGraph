@@ -269,6 +269,24 @@ def add_qa_sentiment_tag_to_xml(xml_file_path: str, qa_df: pd.DataFrame, file_na
     qa_section = root.find("./body/section[@name='Question and Answer']")
 
     # Add sentiment label, positive score, negative score, neutral score
+    # idx = 0
+    # for speaker_element in qa_section.iter('speaker'):
+    #     if speaker_element.attrib.get('id') != '-1':
+    #         text_element = speaker_element.find('text')
+    #         # sentiment label
+    #         sentiment_element = ET.SubElement(text_element, "sentiment")
+    #         sentiment_element.text = qa_df.loc[idx, 'Sentiment Label']
+    #         # pos
+    #         pos_element = ET.SubElement(text_element, "pos")
+    #         pos_element.text = str(qa_df.loc[idx, 'Positive Score'])
+    #         # neg
+    #         neg_element = ET.SubElement(text_element, "neg")
+    #         neg_element.text = str(qa_df.loc[idx, 'Negative Score'])
+    #         # neutr
+    #         neutr_element = ET.SubElement(text_element, "neutr")
+    #         neutr_element.text = str(qa_df.loc[idx, 'Neutral Score'])
+    #         idx += 1
+            
     idx = 0
     for element in qa_section.iter():
         if element.tag == 'text':

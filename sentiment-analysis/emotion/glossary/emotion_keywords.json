@@ -1,0 +1,35 @@
+{
+    "Confidence": {
+        "Keywords": "assured, confident, certain, sure, secure, unwavering, strong, outperform, growth, upward, strong performance, robust, optimistic, hopeful, bullish, promising, potential, forward-looking, improving, opportunities"
+    },
+    "Excitement": {
+        "Keywords": "excited, thrilling, exhilarating, eager, enthusiastic, groundbreaking, innovative, breakthrough, leading, expansion, milestone, positive surprise, exceeded, outperformed, beyond expectations, record highs, significant increase, outstanding results, anticipation, electrifying"
+    },
+    "Optimism": {
+        "Keywords": "optimistic, hopeful, positive, bullish, promising, potential, forward-looking, improving, opportunities, assured, confident, certain, sure, secure, unwavering, strong, outperform, growth, upward"
+    },
+    "Positive Surprise": {
+        "Keywords": "positive surprise, exceeded, outperformed, beyond expectations, record highs, significant increase, outstanding results, excited, thrilling, exhilarating, eager, enthusiastic, groundbreaking, innovative, breakthrough, leading, expansion, milestone, anticipation, electrifying"
+    },
+    "Frustration": {
+        "Keywords": "frustrated, challenging, difficult, disappointed, dissatisfied, hurdles, delayed, hindrances, tough market, regulatory issues, concerned, cautious, uncertain, risks, issues, volatility, risk factors, competitive pressures, overwhelmed, setbacks"
+    },
+    "Concern": {
+        "Keywords": "concerned, cautious, uncertain, risks, issues, volatility, risk factors, competitive pressures, frustrated, challenging, difficult, disappointed, dissatisfied, hurdles, delayed, hindrances, tough market, regulatory issues, overwhelmed"
+    },
+    "Confusion": {
+        "Keywords": "confused, unclear, uncertain, perplexing, complicated, complex, reassess, ambiguous, concerned, cautious, risks, issues, volatility, risk factors, competitive pressures, overwhelmed, frustrating, puzzle, foggy"
+    },
+    "Doubtful": {
+        "Keywords": "doubtful, uncertain, skeptical, disbelief, doubts, unsure, critical, scrutinize, challenge, justify, concerned, cautious, risks, issues, volatility, risk factors, competitive pressures, overwhelmed, suspicious, distrustful"
+    },
+    "Negative Surprise": {
+        "Keywords": "negative surprise, unexpectedly, unforeseen, downturn, declined, missed, below expectations, setbacks, adverse effects, concerned, cautious, uncertain, risks, issues, volatility, risk factors, competitive pressures, overwhelmed, alarmed"
+    },
+    "Curiosity": {
+        "Keywords": "curious, inquire, wondering, explore, interested, keen, investigate, insight, elaborate, expound, clarify, concerned, cautious, uncertain, risks, issues, volatility, risk factors, competitive pressures, intrigued, probing"
+    },
+    "Skepticism": {
+        "Keywords": "skeptical, disbelief, doubts, unconvinced, critical, scrutinize, challenge, justify, evidence, proof, convince, sustain, concerned, cautious, uncertain, risks, issues, volatility, risk factors, competitive pressures, distrust, expand"
+    }
+}
