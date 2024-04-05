@@ -3,6 +3,11 @@ BK/
 NTRS/
 STT/
 xml/
+xml_w_sentiment/
+xml_w_emotion/
+xml_w_sentiment_topic/
+transcripts/
+qa_xml_w_sentiment_topic/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
