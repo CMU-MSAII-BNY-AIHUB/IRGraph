@@ -4,65 +4,54 @@ from emotion_classification_processor import EmotionClassificationProcessor
 import argparse
 import os
 
-def process_single_file(file_dir, filename, save_dir):
-    # Assuming process_file method for each processor does not require directory arguments but only file path
-    print(f"Processing file: {file_dir}")
-    tp = TranscriptParser()
-    temp_filename = tp.process_file(file_dir, filename, save_dir)
-    print(f"Transcript parsing completed. file in: {temp_filename}")
+class FileProcessor:
+    def __init__(self, file_dir, save_dir, filename=None):
+        self.file_dir = file_dir
+        self.save_dir = save_dir
+        self.filename = filename
+        self.tp = TranscriptParser()
+        self.sa_processor = SentimentAnalysisProcessor()
+        self.ec_processor = EmotionClassificationProcessor()
 
-    sa_processor = SentimentAnalysisProcessor()
-    sa_processor.process_file(temp_filename, save_dir)
-    print("Sentiment analysis completed.")
+    def process_single_file(self):
+        print(f"Processing file: {self.file_dir}")
+        temp_filename = self.tp.process_file(self.file_dir, self.filename, self.save_dir)
+        print(f"Transcript parsing completed. File saved in: {temp_filename}")
 
-    ec_processor = EmotionClassificationProcessor()
-    ec_processor.process_file(temp_filename)
-    print("Emotion classification completed.")
+        self.sa_processor.process_file(temp_filename, self.save_dir)
+        print("Sentiment analysis completed.")
 
-def process_all_files(file_dir, save_dir):
-    # Assuming process_folder method for each processor does not require save directory argument but only folder path
-    print(f"Processing all files in folder: {file_dir}")
-    tp = TranscriptParser()
-    tp.process_folder(file_dir, save_dir)
-    print("Transcript parsing for all files completed.")
+        self.ec_processor.process_file(temp_filename)
+        print("Emotion classification completed.")
 
-    sa_processor = SentimentAnalysisProcessor()
-    sa_processor.process_folder(save_dir)
-    print("Sentiment analysis for all files completed.")
+    def process_all_files(self):
+        print(f"Processing all files in folder: {self.file_dir}")
+        self.tp.process_folder(self.file_dir, self.save_dir)
+        print("Transcript parsing for all files completed.")
 
-    ec_processor = EmotionClassificationProcessor()
-    ec_processor.process_folder(save_dir)
-    print("Emotion classification for all files completed.")
+        self.sa_processor.process_folder(self.save_dir)
+        print("Sentiment analysis for all files completed.")
 
-# def process_single_file(file_dir, filename, save_dir):
-#     processor = TranscriptParser()
-#     processor.process_file(file_dir, filename, save_dir)
-#     print(f"Processed {filename} and saved to {save_dir}")
-
-# def process_all_files(file_dir, save_dir):
-#     processor = TranscriptParser()
-#     processor.process_folder(file_dir, save_dir)
-#     print(f"Processed all files in {file_dir} and saved to {save_dir}")
-
-# def sentiment_analysis_on_single_file(file_path):
-#     sa_processor = SentimentAnalysisProcessor()
-#     sa_processor.process_file(file_path)
-#     print(f"Completed sentiment analysis for {file_path}")
-
-# def sentiment_analysis_on_folder(folder_path):
-#     sa_processor = SentimentAnalysisProcessor()
-#     sa_processor.process_folder(folder_path)
-#     print(f"Completed sentiment analysis for all files in {folder_path}")
-
+        self.ec_processor.process_folder(self.save_dir)
+        print("Emotion classification for all files completed.")
 
 if __name__ == "__main__":
-    file_dir = "sample_data"
-    filename = "The Bank of New York Mellon Corporation, Q2 2023 Earnings Call, Jul 18, 2023 (1).rtf"
-    save_dir = "sample_output"
+    parser = argparse.ArgumentParser(description="Process files for sentiment and emotion analysis.")
+    parser.add_argument("--file-dir", type=str, required=True, help="Directory containing the files to process.")
+    parser.add_argument("--save-dir", type=str, required=True, help="Directory to save processed files.")
+    parser.add_argument("--filename", type=str, required=False, help="Name of a specific file to process.")
+    args = parser.parse_args()
 
+    if args.filename:
+        processor = FileProcessor(file_dir=args.file_dir, save_dir=args.save_dir, filename=args.filename)
+        processor.process_single_file()
+    else:
+        processor = FileProcessor(file_dir=args.file_dir, save_dir=args.save_dir)
+        processor.process_all_files()
 
-    # process_single_file(file_dir, filename, save_dir)
+'''
+Example:
 
-    process_single_file(file_dir, filename, save_dir)
-    # process_all_files(file_dir, save_dir)
-    # sentiment_analysis_on_folder(save_dir)
+python processPipline.py --file-dir "sample_data" --save-dir "sample_output" --filename "The Bank of New York Mellon Corporation, Q2 2023 Earnings Call, Jul 18, 2023 (1).rtf"
+python processPipline.py --file-dir "transcripts" --save-dir "xml"
+'''
