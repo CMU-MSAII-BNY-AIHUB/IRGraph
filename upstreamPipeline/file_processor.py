@@ -23,6 +23,7 @@ class FileProcessor:
 
         self.ec_processor.process_file(temp_filename)
         print("Emotion classification completed.")
+        return temp_filename
 
     def process_all_files(self):
         print(f"Processing all files in folder: {self.file_dir}")
@@ -34,6 +35,7 @@ class FileProcessor:
 
         self.ec_processor.process_folder(self.save_dir)
         print("Emotion classification for all files completed.")
+        
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process files for sentiment and emotion analysis.")
@@ -52,6 +54,6 @@ if __name__ == "__main__":
 '''
 Example:
 
-python processPipline.py --file-dir "sample_data" --save-dir "sample_output" --filename "The Bank of New York Mellon Corporation, Q2 2023 Earnings Call, Jul 18, 2023 (1).rtf"
-python processPipline.py --file-dir "transcripts" --save-dir "xml"
+python file_processor.py --file-dir "sample_data" --save-dir "sample_output" --filename "The Bank of New York Mellon Corporation, Q2 2023 Earnings Call, Jul 18, 2023 (1).rtf"
+python file_processor.py --file-dir "transcripts" --save-dir "xml"
 '''
