@@ -33,8 +33,22 @@ def deal_ambigity(person_info):
         similarity_score = compare_entities(node["name"], person_info["name"]) * compare_entities(node["company"], person_info["company"]) / 10000
         if similarity_score > 0.65:
             exist = True
-            print(node["name"],node["company"], person_info["name"], person_info["company"], similarity_score)
+            #print(node["name"],node["company"], person_info["name"], person_info["company"], similarity_score)
             return exist, node
+        #print(node["name"],node["company"], person_info["name"], person_info["company"], similarity_score)
+    return exist, None
+
+def debug_deal_ambigity(person_info):
+    exist = False
+    
+    for p in GLOBAL_SPEAKER:
+        node = GLOBAL_SPEAKER[p]
+        similarity_score = compare_entities(node["name"], person_info["name"]) * compare_entities(node["company"], person_info["company"]) / 10000
+        if similarity_score > 0.65:
+            exist = True
+            #print(node["name"],node["company"], person_info["name"], person_info["company"], similarity_score)
+            return exist, node
+        print(node["name"],node["company"], person_info["name"], person_info["company"], similarity_score)
     return exist, None
 
 def remove_empty_columns(arr):
@@ -167,12 +181,15 @@ def build_third_table(data,company):
                               
                 person_info["origin position"] = origin_position
                 exist, node = deal_ambigity(person_info)
+                    
                 if exist:
+                    node["origin position"] = origin_position
                     speaker_list[name] = node
                     person_element.set("id", node["id"]) 
                 else:
+                        
                     speaker_list[name] = person_info
-                    GLOBAL_SPEAKER[name] = person_info
+                    GLOBAL_SPEAKER[id] = person_info
                 id=len(GLOBAL_SPEAKER) +1
     return root, speaker_list
 
@@ -290,7 +307,7 @@ def process_dialog(dialog,speaker_list, name):
             
             para = ET.SubElement(speaker_element, "text")
             i += 2
-            while i < len(paragraph) and re.sub(r'\s+', ' ', paragraph[i].strip()) not in speaker_list and paragraph[i].strip()!= "Operator" and not paragraph[i].startswith("Operator"):
+            while i < len(paragraph) and re.sub(r'\s+', ' ', paragraph[i].strip()) not in speaker_list and paragraph[i].strip()!= "Operator":
                 # print(paragraph[i])
                 # print(paragraph[i].startswith("Operator"))
                 # print("--------------------------")
@@ -323,6 +340,8 @@ def process_dialog(dialog,speaker_list, name):
                     text += paragraph[i] + "\n"
                 i += 1
             para.text = text.strip()
+            if para.text =="":
+                conversation.remove(context)
             if "conclude" in para.text:
                 context.tag = "ending"
                 end = True
