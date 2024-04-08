@@ -231,7 +231,7 @@ class EmotionClassificationProcessor:
         # df.to_csv(output, index=False) # SAVE THE DATA  (OPTIONAL)
 
         # ADD TAGS TO XML
-        file_output = xml_file_path +'.xml'
+        file_output = xml_file_path
         self.add_qa_emotion_tag_to_xml(xml_file_path, df, file_output)
 
         # CLEANUP

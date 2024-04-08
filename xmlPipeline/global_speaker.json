@@ -97,7 +97,7 @@
         "company": "JP Morgan Chase & Co",
         "name": "Vivek Juneja",
         "id": "16",
-        "origin position": "JPMorgan Chase & Co, Research Division"
+        "origin position": "JP Morgan Chase & Co, Research Division"
     },
     "17": {
         "company": "The Bank of New York Mellon Corporation NYSE:BK",
@@ -218,117 +218,5 @@
         "name": "Manan Gosalia",
         "id": "35",
         "origin position": "Morgan Stanley, Research Division"
-    },
-    "36": {
-        "company": "Northern Trust Corporation NasdaqGS:NTRS",
-        "position": "Senior VP & Director of Investor Relations",
-        "name": "Mark M. Bette",
-        "id": "36",
-        "origin position": "Senior VP & Director of Investor Relations"
-    },
-    "37": {
-        "company": "Northern Trust Corporation NasdaqGS:NTRS",
-        "position": "Former Executive VP & CFO",
-        "name": "Stephen Biff Bowman",
-        "id": "37",
-        "origin position": "Executive VP & CFO"
-    },
-    "38": {
-        "company": "Vining Sparks IBG, LP",
-        "name": "Marlin Lacey Mosby",
-        "id": "38",
-        "origin position": "Vining Sparks IBG, LP, Research Division"
-    },
-    "39": {
-        "company": "Northern Trust Corporation NasdaqGS:NTRS",
-        "position": "CFO & Executive VP",
-        "name": "Jason Jerrome Tyler",
-        "id": "39",
-        "origin position": "Executive VP & CFO"
-    },
-    "40": {
-        "company": "Northern Trust Corporation NasdaqGS:NTRS",
-        "position": "Chairman, President & CEO",
-        "name": "Michael G. O\u2019Grady",
-        "id": "40",
-        "origin position": "Chairman & CEO"
-    },
-    "41": {
-        "company": "Piper Sandler & Co.",
-        "name": "Jeffery J. Harte",
-        "id": "41",
-        "origin position": "Piper Sandler & Co., Research Division"
-    },
-    "42": {
-        "company": "BofA Securities",
-        "name": "Michael Roger Carrier",
-        "id": "42",
-        "origin position": "BofA Securities, Research Division"
-    },
-    "43": {
-        "company": "Northern Trust Corporation NasdaqGS:NTRS",
-        "position": "Senior VP & Director of Investor Relations",
-        "name": "Jennifer Childe",
-        "id": "43",
-        "origin position": "Senior VP & Director of Investor Relations"
-    },
-    "44": {
-        "company": "Northern Trust Corporation NasdaqGS:NTRS",
-        "position": "Senior VP & Controller",
-        "name": "Lauren E. Allnutt",
-        "id": "44",
-        "origin position": "Executive VP & Controller"
-    },
-    "45": {
-        "company": "Chairman & CEO",
-        "name": "Michael G. O\u2019Grady",
-        "id": "45",
-        "origin position": "Chairman & CEO"
-    },
-    "46": {
-        "company": "Morgan Stanley",
-        "name": "Connell J. Schmitz",
-        "id": "46",
-        "origin position": "Morgan Stanley, Research Division"
-    },
-    "47": {
-        "company": "Wolfe Research, LLC",
-        "name": "Hang Leung",
-        "id": "47",
-        "origin position": "Wolfe Research, LLC"
-    },
-    "48": {
-        "company": "State Street Corporation NYSE:STT",
-        "position": "Executive VP & CFO",
-        "name": "Eric Walter Aboaf",
-        "id": "48",
-        "origin position": "CFO & Vice Chairman"
-    },
-    "49": {
-        "company": "State Street Corporation NYSE:STT",
-        "position": "Global Head of Investor Relations",
-        "name": "Ilene Fiszel Bieler",
-        "id": "49",
-        "origin position": "Executive VP & Global Head of IR"
-    },
-    "50": {
-        "company": "State Street Corporation NYSE:STT",
-        "position": "Former Chairman of the Board",
-        "name": "Joseph L. Hooley",
-        "id": "50",
-        "origin position": "Former Chairman of the Board"
-    },
-    "51": {
-        "company": "State Street Corporation NYSE:STT",
-        "position": "President, CEO & Director",
-        "name": "Ronald Philip O\u2019Hanley",
-        "id": "51",
-        "origin position": "CEO, President & Chairman"
-    },
-    "52": {
-        "company": "Sandler O'Neill + Partners, L.P.",
-        "name": "Jeffery J. Harte",
-        "id": "52",
-        "origin position": "Sandler O'Neill + Partners, L.P., Research Division"
     }
 }

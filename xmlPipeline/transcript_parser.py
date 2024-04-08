@@ -20,10 +20,22 @@ ENDING = ["conclude", "thank you for participating", "no further question",
           "appreciate your participation", "thanks to everyone", "signing off", "that's a wrap", 
           "we're done for today", "look forward to our next meeting",  "good day", "closing"]
 
-GLOBAL_SPEAKER = {}
+
+
+def load_or_initialize_global_speaker(file_path):
+    if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            global_speaker = json.load(file)
+    else:
+        global_speaker = {}
+    return global_speaker
+
+GLOBAL_SPEAKER = load_or_initialize_global_speaker("global_speaker.json")
+
 class TranscriptParser:
     def __init__(self):
         self.global_speaker = GLOBAL_SPEAKER
+        
     
     @staticmethod
     def compare_entities(name1, name2):
