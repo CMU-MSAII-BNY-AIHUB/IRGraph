@@ -4,3 +4,4 @@ pandas
 numpy
 matplotlib
 fuzzywuzzy
+neo4j
