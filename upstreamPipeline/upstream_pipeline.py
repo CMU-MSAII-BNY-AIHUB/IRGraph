@@ -3,8 +3,8 @@ from file_processor import FileProcessor
 import argparse
 import os
 
-URI = "neo4j+s://e33c0e5b.databases.neo4j.io"
-AUTH = ("neo4j", "xF4WEpmYij14DxWmyi72gshZylL5vbYuGoUaK1TqiWY")
+URI = "neo4j+s://28d0251c.databases.neo4j.io"
+AUTH = ("neo4j", "t4yYAA-Toa9N4cQNb1r2nQQAXWrabbMM3MclZ7rq2Tc")
 
 
 def neo4j_import_single_file(file_path):
