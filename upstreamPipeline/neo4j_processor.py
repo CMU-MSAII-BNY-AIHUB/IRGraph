@@ -207,8 +207,10 @@ class Neo4jProcessor:
             time=header_element.find('time').text,
             currency=header_element.find('currency').text,
             note=header_element.find('note').text,
-            start_price=header_element.find('stock_price_before').text,
-            end_price=header_element.find('stock_price_after').text,
+            open_price=header_element.find('open_price').text,
+            close_price=header_element.find('close_price').text,
+            high_price=header_element.find('high_price').text,
+            low_price=header_element.find('low_price').text,
             performance=header_element.find('stock_performance').text,
             year=header_element.find('year').text
         )
@@ -260,8 +262,8 @@ class Neo4jProcessor:
         header = transcript.header
         query = \
             'MERGE (%s:COMPANY {name: "%s"}) \n' % (COMPANY, header.company) + \
-            'CREATE (%s:EARNINGSCALL {name: "%s", time: "%s", start_price: "%s", end_price: "%s", performance: "%s", year: "%s"}) \n' \
-                % (EARNINGSCALL, header.quarter, header.time, header.start_price, header.end_price, header.performance, header.year) + \
+            'CREATE (%s:EARNINGSCALL {name: "%s", time: "%s", open_price: "%s", close_price: "%s", high_price: "%s", low_price: "%s", performance: "%s", year: "%s"}) \n' \
+                % (EARNINGSCALL, header.quarter, header.time, header.open_price, header.close_price, header.high_price, header.low_price,header.performance, header.year) + \
             'CREATE (%s) -[:HAS_EARNINGS] -> (%s)' % (COMPANY, EARNINGSCALL)
 
         cypher = add_query(cypher, query)
