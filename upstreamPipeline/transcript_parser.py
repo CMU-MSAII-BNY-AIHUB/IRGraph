@@ -40,6 +40,20 @@ class TranscriptParser:
     @staticmethod
     def compare_entities(name1, name2):
         return fuzz.ratio(name1, name2)
+    
+    @staticmethod
+    def analyze_stock_performance(open_price, close_price, high_price, low_price):
+        if close_price > open_price:
+            return "increased"
+        elif close_price < open_price:
+            return "decreased"
+        else:
+            if high_price > open_price or high_price > close_price:
+                return "increased"
+            elif low_price < open_price or low_price < close_price:
+                return "decreased"
+            else:
+                return "neutral"
 
     def deal_ambigity(self, person_info):
         exist = False
@@ -82,8 +96,7 @@ class TranscriptParser:
     
     @staticmethod
     def get_stock_info(ticker_symbol, time):
-        open = None
-        close = None
+        open_price,close_price, high_price, low_price = None, None, None, None
 
         try:
             ticker = yf.Ticker(ticker_symbol)
@@ -98,14 +111,16 @@ class TranscriptParser:
             data = ticker.history(start=formatted_date, end=datetime_obj_plus_one)
 
             if not data.empty:
-                open =  data['Open'].iloc[0]
-                close = data['Close'].iloc[0]
+                open_price =  data['Open'].iloc[0]
+                close_price = data['Close'].iloc[0]
+                high_price = data['High'].iloc[0] 
+                low_price = data['Low'].iloc[0]
             else:
                 print("No data available for the specified date.")
         except Exception as e:
             print("An error occurred:", str(e))
 
-        return open,close
+        return open_price,close_price, high_price, low_price
 
     def build_first_table(self, data):
         data = [list(dict.fromkeys(row)) for row in data]
@@ -461,16 +476,13 @@ class TranscriptParser:
         ET.SubElement(header, "currency").text = currency
         ET.SubElement(header, "note").text = note
         ET.SubElement(header, "ticker").text = ticker
-        open, close = self.get_stock_info(ticker,time)
-        ET.SubElement(header, "stock_price_before").text =  f"{open:.6f}"
-        ET.SubElement(header, "stock_price_after").text = f"{close:.6f}"
-        if abs(close - open) <=1:
-            performance = "neutral"
-        elif (close - open) < 0:
-            performance = "negative"
-        else:
-            performance = "positive"
-        ET.SubElement(header, "stock_performance").text = performance
+        open_price,close_price, high_price, low_price = self.get_stock_info(ticker,time)
+        ET.SubElement(header, "open_price").text =  f"{open_price:.6f}"
+        ET.SubElement(header, "close_price").text = f"{close_price:.6f}"
+        ET.SubElement(header, "high_price").text =  f"{high_price:.6f}"
+        ET.SubElement(header, "low_price").text = f"{low_price:.6f}"
+        ET.SubElement(header, "stock_performance").text = self.analyze_stock_performance(open_price, close_price, high_price, low_price)
+
 
         body.append(sec1)
         body.append(sec2)

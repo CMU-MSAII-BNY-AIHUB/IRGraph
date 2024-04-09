@@ -6,14 +6,16 @@ class Transcript:
         self.qa_section = qa_section
 
 class Header:
-    def __init__(self, company, time, quarter, currency, note, start_price, end_price, performance, year):
+    def __init__(self, company, time, quarter, currency, note, open_price, close_price, high_price, low_price, performance, year):
         self.company = sanitize(company)
         self.time = sanitize(time)
         self.quarter = sanitize(quarter)
         self.currency = currency
         self.note = sanitize(note)
-        self.start_price = start_price
-        self.end_price = end_price
+        self.open_price = open_price
+        self.close_price = close_price
+        self.high_price = high_price
+        self.low_price = low_price
         self.performance = performance
         self.year = year
 
