@@ -37,12 +37,14 @@ def extract_presentation(section_element, participants):
                     else speaker_element.find('text').findall('topic')[0].text
         analysis = "" if not speaker_element.find('text').findall('analysis') \
                     else speaker_element.find('text').findall('analysis')[0].text
-
+        summary = "" if not speaker_element.find('text').findall('summary') \
+                    else speaker_element.find('text').findall('summary')[0].text
         statement = Statement(speaker=participants.get_participant(speaker_id),
                             text=speaker_element.find('text').text,
                             topic=topic  if topic else "",
                             sentiment=sentiment if sentiment else "",
-                            analysis=analysis if analysis else "")
+                            analysis=analysis if analysis else "",
+                            summary = summary if summary else "")
 
         statements.append(statement)
     return PresentationSection(statements)
@@ -60,6 +62,8 @@ def extract_qanda(section_element, participants):
             else speaker_element.find('text').findall('analysis')[0].text
         emotion = "" if not speaker_element.find('text').findall('emotion') \
             else speaker_element.find('text').findall('emotion')[0].text
+        summary = "" if not speaker_element.find('text').findall('summary') \
+            else speaker_element.find('text').findall('summary')[0].text
         question = Question(
             id=question_element.get('id'),
             speaker=participants.get_participant(speaker_element.get('id')),
@@ -67,7 +71,8 @@ def extract_qanda(section_element, participants):
             topic=topic  if topic else "",
             sentiment=sentiment if sentiment else "",
             analysis=analysis if analysis else "",
-            emotion=emotion if emotion else ""
+            emotion=emotion if emotion else "",
+            summary = summary if summary else ""
         )
         questions[question.id] = question
 
@@ -81,6 +86,8 @@ def extract_qanda(section_element, participants):
                     else speaker_element.find('text').findall('analysis')[0].text
         emotion = "" if not speaker_element.find('text').findall('emotion') \
             else speaker_element.find('text').findall('emotion')[0].text
+        summary = "" if not speaker_element.find('text').findall('summary') \
+            else speaker_element.find('text').findall('summary')[0].text
         question = Question(
             id=followup_question_element.get('id'), # This is the followup question id
             speaker=participants.get_participant(speaker_element.get('id')),
@@ -88,7 +95,8 @@ def extract_qanda(section_element, participants):
             topic=topic  if topic else "",
             sentiment=sentiment if sentiment else "",
             analysis=analysis if analysis else "",
-            emotion=emotion if emotion else ""
+            emotion=emotion if emotion else "",
+            summary = summary if summary else ""
         )
         # Tie each followup question to the parent question
         questions[followup_question_element.get('question_id')].addfollowup(question.id, question)
@@ -106,6 +114,8 @@ def extract_qanda(section_element, participants):
                     else speaker_element.find('text').findall('analysis')[0].text
         emotion = "" if not speaker_element.find('text').findall('emotion') \
             else speaker_element.find('text').findall('emotion')[0].text
+        summary = "" if not speaker_element.find('text').findall('summary') \
+            else speaker_element.find('text').findall('summary')[0].text
         
         answer = Answer(
             id=global_answer_id,
@@ -115,7 +125,8 @@ def extract_qanda(section_element, participants):
             topic=topic  if topic else "",
             sentiment=sentiment if sentiment else "",
             analysis=analysis if analysis else "",
-            emotion=emotion if emotion else ""
+            emotion=emotion if emotion else "",
+            summary = summary if summary else ""
         )
         answer.question.addAnswer(answer)
         global_answer_id += 1
@@ -131,6 +142,8 @@ def extract_qanda(section_element, participants):
                     else speaker_element.find('text').findall('analysis')[0].text
         emotion = "" if not speaker_element.find('text').findall('emotion') \
                     else speaker_element.find('text').findall('emotion')[0].text
+        summary = "" if not speaker_element.find('text').findall('summary') \
+            else speaker_element.find('text').findall('summary')[0].text
         answer = Answer(
             id=global_answer_id,
             question=questions[followup_answer_element.get('question_id')].getfollowup(followup_answer_id),
@@ -139,7 +152,8 @@ def extract_qanda(section_element, participants):
             topic=topic if topic else "",
             sentiment=sentiment if sentiment else "",
             analysis=analysis if analysis else "",
-            emotion=emotion if emotion else ""
+            emotion=emotion if emotion else "",
+            summary = summary if summary else ""
         )
         # Tie each followup answer to follow up question
         answer.question.addAnswer(answer)
@@ -241,8 +255,8 @@ class Neo4jProcessor:
             for answer in question.answers:
                 neo4j_answer_id = make_answer_id(answer.id)
                 neo4j_participant_id = make_participant_id(answer.speaker.id)
-                q = 'CREATE (%s: ANSWER {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", emotion: "%s"}) -[:ANSWER_TO] -> (%s) \n' % \
-                (neo4j_answer_id, answer.text, answer.sentiment, answer.topic, answer.analysis, answer.emotion, neo4j_question_id) + \
+                q = 'CREATE (%s: ANSWER {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", emotion: "%s", summary: "%s"}) -[:ANSWER_TO] -> (%s) \n' % \
+                (neo4j_answer_id, answer.text, answer.sentiment, answer.topic, answer.analysis, answer.emotion, answer.summary, neo4j_question_id) + \
                     'CREATE (%s)-[:ANSWERED]->(%s) \n' % (neo4j_participant_id, neo4j_answer_id) + \
                     'CREATE (%s) -[:HAS_ANSWER] -> (%s)' % (neo4j_question_id, neo4j_answer_id) + \
                     'CREATE (%s)-[:WAS_ANSWERED_BY]->(%s) \n' % (neo4j_answer_id, neo4j_participant_id)
@@ -283,8 +297,8 @@ class Neo4jProcessor:
         query = 'CREATE (%s) -[:HAS_SECTION]-> (%s:SECTION {name: "%s"}) \n' % (EARNINGSCALL, PRESENTATION_SECTION, PRESENTATION_SECTION)
         content_id = 0
         for content in presentation_section.statements:
-            q = 'CREATE (%s) -[:HAS_CONTENT]-> (%s:CONTENT {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s"}) \n' \
-            % (PRESENTATION_SECTION, make_content_id(content_id), content.text, content.sentiment, content.topic, content.analysis) + \
+            q = 'CREATE (%s) -[:HAS_CONTENT]-> (%s:CONTENT {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", summary: "%s"}) \n' \
+            % (PRESENTATION_SECTION, make_content_id(content_id), content.text, content.sentiment, content.topic, content.analysis, content.summary) + \
                 'CREATE (%s) -[:ANNOUNCE] -> (%s) \n' % (make_participant_id(content.speaker.id), make_content_id(content_id)) + \
                 'CREATE (%s) -[:HAS_PARTICIPANT] -> (%s) \n' % (PRESENTATION_SECTION, make_participant_id(content.speaker.id))
 
@@ -300,8 +314,8 @@ class Neo4jProcessor:
         # Iterate through all questions
         for question in qa_section.questions:
             neo4j_question_id = make_question_id(question.id)
-            q = 'CREATE (%s) -[:HAS_QUESTION]->(%s:QUESTION {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", emotion: "%s"}) \n' % \
-            (QA_SECTION, neo4j_question_id, question.text, question.sentiment, question.topic, question.analysis, question.emotion) + \
+            q = 'CREATE (%s) -[:HAS_QUESTION]->(%s:QUESTION {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", emotion: "%s",summary: "%s"}) \n' % \
+            (QA_SECTION, neo4j_question_id, question.text, question.sentiment, question.topic, question.analysis, question.emotion, question.summary) + \
                 'CREATE (%s)-[:ASKED]->(%s)' % (make_participant_id(question.speaker.id), neo4j_question_id)
             query = add_query(query, q)
             answer_query = generate_query_to_add_answer(question, neo4j_question_id=neo4j_question_id)
@@ -309,8 +323,8 @@ class Neo4jProcessor:
             # Iterate through all follow-up questions associated with this question
             for follow_up_question in question.followup_questions.values():
                 neo4j_follow_up_question_id = make_follow_question_id(question.id, follow_up_question.id)
-                f_q = 'CREATE (%s) -[:HAS_FOLLOWUP_QUESTION]->(%s:QUESTION {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", emotion: "%s"})' \
-                % (make_question_id(question.id), neo4j_follow_up_question_id, follow_up_question.text, follow_up_question.sentiment, follow_up_question.topic, follow_up_question.analysis, follow_up_question.emotion)
+                f_q = 'CREATE (%s) -[:HAS_FOLLOWUP_QUESTION]->(%s:QUESTION {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", emotion: "%s",summary: "%s"})' \
+                % (make_question_id(question.id), neo4j_follow_up_question_id, follow_up_question.text, follow_up_question.sentiment, follow_up_question.topic, follow_up_question.analysis, follow_up_question.emotion, follow_up_question.summary)
                 query = add_query(query, f_q)
                 answer_query = generate_query_to_add_answer(follow_up_question,
                                                             neo4j_question_id=neo4j_follow_up_question_id,
