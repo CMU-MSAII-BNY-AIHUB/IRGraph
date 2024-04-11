@@ -1,6 +1,14 @@
 from openai import OpenAI
 import os
+from configparser import ConfigParser
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+# print(BASE_DIR)
+CONFIG = ConfigParser()
+CONFIG.read(BASE_DIR / "config.ini")
+OPENAI_KEY = CONFIG.get("UPSTREAM", "openai_api_key")
+print(OPENAI_KEY)
 class Summarizer:
 
     def __init__(self):
