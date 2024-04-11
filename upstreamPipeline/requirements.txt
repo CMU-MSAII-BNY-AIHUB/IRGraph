@@ -5,3 +5,4 @@ numpy
 matplotlib
 fuzzywuzzy
 neo4j
+openai
