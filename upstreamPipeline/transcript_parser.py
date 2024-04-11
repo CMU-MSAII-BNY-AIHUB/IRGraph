@@ -461,7 +461,7 @@ class TranscriptParser:
                 QA = self.process_dialog(paragraph.text,speaker_list,"Question and Answer")
             elif paragraph.text.strip().startswith("Presentation"):
                 
-                presentation = self.process_presentation(paragraph.text,speaker_list,"Presentation ")
+                presentation = self.process_presentation(paragraph.text,speaker_list,"Presentation")
 
     
         header = ET.Element("header")

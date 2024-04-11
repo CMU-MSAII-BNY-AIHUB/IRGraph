@@ -29,11 +29,12 @@ if __name__ == "__main__":
 
     processor = FileProcessor(file_dir=args.file_dir, save_dir=args.save_dir, filename=args.filename)
     if args.filename:
-        file_name = processor.process_single_file()
-        print(f"neo 4j processing {file_name}")
-        neo4j_import_single_file(file_name)
+        # file_name = processor.process_single_file()
+        # print(f"neo 4j processing {file_name}")
+        # neo4j_import_single_file(file_name)
+        print("here")
     else:
-        processor.process_all_files()
+        # processor.process_all_files()
         neo4j_import_folder(args.save_dir)
 
 '''
