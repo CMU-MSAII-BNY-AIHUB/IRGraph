@@ -8,6 +8,7 @@ xml_w_emotion/
 xml_w_sentiment_topic/
 transcripts/
 qa_xml_w_sentiment_topic/
+config.ini
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
