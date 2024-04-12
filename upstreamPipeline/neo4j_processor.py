@@ -230,10 +230,11 @@ class Neo4jProcessor:
         )
         print(header.quarter)
         participants_section = None
+        presentation_section = None
         for section_element in root.findall('body/section'):
             if section_element.get('name') == "Call Participants" or section_element.get('name') == "call participants":
                 participants_section = extract_participants(section_element, header)
-            elif section_element.get('name') == "Presentation ":
+            elif section_element.get('name') == "Presentation":
                 presentation_section = extract_presentation(section_element, participants_section)
             elif section_element.get('name') == "Question and Answer":
                 qa_section = extract_qanda(section_element, participants_section)

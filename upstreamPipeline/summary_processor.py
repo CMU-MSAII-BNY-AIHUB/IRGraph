@@ -102,6 +102,7 @@ class SummaryProcessor:
 
         # Write the modified XML back to the same file
         tree.write(xml_file_path, encoding='utf-8', xml_declaration=True)
+        print(f"Processed {xml_file_path}")
     
 
     def process_folder(self, folder_path: str):
@@ -121,5 +122,5 @@ class SummaryProcessor:
 if __name__=="__main__":
     sp = SummaryProcessor()
     # xml_file_path = "sample_output/BK-Q1-2020.xml"
-
-    sp.process_folder("xml")
+    sp.process_file("xml/STT-Q1-2024.xml")
+    # sp.process_folder("xml")
