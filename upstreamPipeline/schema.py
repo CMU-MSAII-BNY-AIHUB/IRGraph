@@ -34,11 +34,12 @@ class ParticipantsSection:
 
 
 class Person:
-    def __init__(self, id, company="", name="", position=""):
+    def __init__(self, id, company="", name="", position="", group=""):
         self.company = sanitize(company)
         self.id = id
         self.name = sanitize(name)
-        self.position = sanitize(position) 
+        self.position = sanitize(position)
+        self.group = sanitize(group)
 
     def __repr__(self):
         return self.name + ' ' + self.position
