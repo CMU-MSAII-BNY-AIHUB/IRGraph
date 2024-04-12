@@ -352,7 +352,8 @@ class Neo4jProcessor:
             person = Person(id=info['id'], 
                             position=info['position'] if 'position' in info else "", 
                             company=info['company'], 
-                            name=info['name'])
+                            name=info['name'],
+                            group=info['group'] if 'group' in info else "")
             persons.append(person)
 
         query = 'MERGE (:PARTICIPANT {name: "Operator", id: "0"}) \n'
@@ -360,8 +361,8 @@ class Neo4jProcessor:
 
         # Print the created Person objects
         for person in persons:
-            q = 'MERGE (:PARTICIPANT {name: "%s", company: "%s", position: "%s", id: "%s"})' \
-                % (person.name, person.company, person.position, str(person.id))
+            q = 'MERGE (:PARTICIPANT {name: "%s", company: "%s", position: "%s", id: "%s", group: "%s"})' \
+                % (person.name, person.company, person.position, str(person.id), person.group)
             query = add_query(query, q)
 
         records, summary, keys = self.driver.execute_query(query)
