@@ -4,6 +4,7 @@
         "position": "Former Chairman & CEO",
         "name": "Charles W. Scharf",
         "id": "1",
+        "group": "EXECUTIVES",
         "origin position": "Chairman & CEO"
     },
     "2": {
@@ -11,6 +12,7 @@
         "position": "Chief Financial Officer",
         "name": "Michael P. Santomassimo",
         "id": "2",
+        "group": "EXECUTIVES",
         "origin position": "Chief Financial Officer"
     },
     "3": {
@@ -18,66 +20,77 @@
         "position": "Former Global Head of Investor Relations",
         "name": "Valerie C. Haertel",
         "id": "3",
+        "group": "EXECUTIVES",
         "origin position": "Former Global Head of Investor Relations"
     },
     "4": {
         "company": "Goldman Sachs Group Inc.",
         "name": "Alexander Blostein",
         "id": "4",
+        "group": "ANALYSTS",
         "origin position": "Goldman Sachs Group, Inc., Research Division"
     },
     "5": {
         "company": "Morgan Stanley",
         "name": "Betsy Lynn Graseck",
         "id": "5",
+        "group": "ANALYSTS",
         "origin position": "Morgan Stanley, Research Division"
     },
     "6": {
         "company": "UBS Investment Bank",
         "name": "Brennan Hawken",
         "id": "6",
+        "group": "ANALYSTS",
         "origin position": "UBS Investment Bank, Research Division"
     },
     "7": {
         "company": "Deutsche Bank AG",
         "name": "Brian Bertram Bedell",
         "id": "7",
+        "group": "ANALYSTS",
         "origin position": "Deutsche Bank AG, Research Division"
     },
     "8": {
         "company": "Keefe, Bruyette, & Woods, Inc.",
         "name": "Brian Matthew Kleinhanzl",
         "id": "8",
+        "group": "ANALYSTS",
         "origin position": "Keefe, Bruyette, & Woods, Inc., Research Division"
     },
     "9": {
         "company": "Autonomous Research LLP",
         "name": "Geoffrey Elliott",
         "id": "9",
+        "group": "ANALYSTS",
         "origin position": "Autonomous Research LLP"
     },
     "10": {
         "company": "RBC Capital Markets",
         "name": "Gerard S. Cassidy",
         "id": "10",
+        "group": "ANALYSTS",
         "origin position": "RBC Capital Markets, Research Division"
     },
     "11": {
         "company": "Evercore ISI Institutional Equities",
         "name": "Glenn Paul Schorr",
         "id": "11",
+        "group": "ANALYSTS",
         "origin position": "Evercore ISI Institutional Equities, Research Division"
     },
     "12": {
         "company": "Jefferies LLC",
         "name": "Kenneth Michael Usdin",
         "id": "12",
+        "group": "ANALYSTS",
         "origin position": "Jefferies LLC, Research Division"
     },
     "13": {
         "company": "BofA Merrill Lynch",
         "name": "Michael Roger Carrier",
         "id": "13",
+        "group": "ANALYSTS",
         "origin position": "BofA Merrill Lynch, Research Division"
     },
     "14": {
@@ -85,18 +98,21 @@
         "position": "Global Head of Investor Relations",
         "name": "Magda Palczynska",
         "id": "14",
+        "group": "EXECUTIVES",
         "origin position": "Global Head of Investor Relations"
     },
     "15": {
         "company": "UBS Investment Bank",
         "name": "Adam Quincy Beatty",
         "id": "15",
+        "group": "ANALYSTS",
         "origin position": "UBS Investment Bank, Research Division"
     },
     "16": {
         "company": "JP Morgan Chase & Co",
         "name": "Vivek Juneja",
         "id": "16",
+        "group": "ANALYSTS",
         "origin position": "JPMorgan Chase & Co, Research Division"
     },
     "17": {
@@ -104,12 +120,14 @@
         "position": "CEO & Director",
         "name": "Thomas P. Gibbons",
         "id": "17",
+        "group": "EXECUTIVES",
         "origin position": "CEO & Director"
     },
     "18": {
         "company": "Wells Fargo Securities, LLC",
         "name": "Michael Lawrence Mayo",
         "id": "18",
+        "group": "ANALYSTS",
         "origin position": "Wells Fargo Securities, LLC, Research Division"
     },
     "19": {
@@ -117,24 +135,28 @@
         "position": "Senior EVP & CFO",
         "name": "Emily Hope Portney",
         "id": "19",
+        "group": "EXECUTIVES",
         "origin position": "Senior EVP & CFO"
     },
     "20": {
         "company": "Seaport Global Securities LLC",
         "name": "James Francis Mitchell",
         "id": "20",
+        "group": "ANALYSTS",
         "origin position": "Seaport Global Securities LLC, Research Division"
     },
     "21": {
         "company": "Wolfe Research, LLC",
         "name": "Michael Anthony Anagnostakis",
         "id": "21",
+        "group": "ANALYSTS",
         "origin position": "Wolfe Research, LLC"
     },
     "22": {
         "company": "Autonomous Research LLP",
         "name": "Robert Henry Wildhack",
         "id": "22",
+        "group": "ANALYSTS",
         "origin position": "Autonomous Research US LP"
     },
     "23": {
@@ -142,6 +164,7 @@
         "position": "Head of Investor Relations",
         "name": "Marius Merz",
         "id": "23",
+        "group": "EXECUTIVES",
         "origin position": "Head of Investor Relations"
     },
     "24": {
@@ -149,24 +172,28 @@
         "position": "President",
         "name": "Robin Antony Vince",
         "id": "24",
+        "group": "EXECUTIVES",
         "origin position": "President, CEO & Director"
     },
     "25": {
         "company": "Keefe, Bruyette, & Woods, Inc.",
         "name": "Michael C. Brown",
         "id": "25",
+        "group": "ANALYSTS",
         "origin position": "Keefe, Bruyette, & Woods, Inc., Research Division"
     },
     "26": {
         "company": "Morgan Stanley",
         "name": "Ryan Michael Kenny",
         "id": "26",
+        "group": "ANALYSTS",
         "origin position": "Morgan Stanley, Research Division"
     },
     "27": {
         "company": "Wolfe Research, LLC",
         "name": "Steven Joseph Chubak",
         "id": "27",
+        "group": "ANALYSTS",
         "origin position": "Wolfe Research, LLC"
     },
     "28": {
@@ -174,30 +201,35 @@
         "position": "Senior Executive VP & CFO",
         "name": "Dermot William McDonogh",
         "id": "28",
+        "group": "EXECUTIVES",
         "origin position": "Senior Executive VP & CFO"
     },
     "29": {
         "company": "Morningstar Inc.",
         "name": "Rajiv K. Bhatia",
         "id": "29",
+        "group": "ANALYSTS",
         "origin position": "Morningstar Inc., Research Division"
     },
     "30": {
         "company": "The Buckingham Research Group Incorporated",
         "name": "James Francis Mitchell",
         "id": "30",
+        "group": "ANALYSTS",
         "origin position": "The Buckingham Research Group Incorporated"
     },
     "31": {
         "company": "Seaport Research Partners",
         "name": "James Francis Mitchell",
         "id": "31",
+        "group": "ANALYSTS",
         "origin position": "Seaport Research Partners"
     },
     "32": {
         "company": "BofA Securities",
         "name": "Ebrahim Huseini Poonawala",
         "id": "32",
+        "group": "ANALYSTS",
         "origin position": "BofA Securities, Research Division"
     },
     "33": {
@@ -205,18 +237,21 @@
         "position": "Executive VP & Treasurer",
         "name": "Scott Freidenrich",
         "id": "33",
+        "group": "EXECUTIVES",
         "origin position": "Executive VP & Treasurer"
     },
     "34": {
         "company": "Wells Fargo Securities, LLC",
         "name": "Robert Carr Rutschow",
         "id": "34",
+        "group": "ANALYSTS",
         "origin position": "Wells Fargo Securities, LLC, Research Division"
     },
     "35": {
         "company": "Morgan Stanley",
         "name": "Manan Gosalia",
         "id": "35",
+        "group": "ANALYSTS",
         "origin position": "Morgan Stanley, Research Division"
     },
     "36": {
@@ -224,6 +259,7 @@
         "position": "Senior VP & Director of Investor Relations",
         "name": "Mark M. Bette",
         "id": "36",
+        "group": "EXECUTIVES",
         "origin position": "Senior VP & Director of Investor Relations"
     },
     "37": {
@@ -231,12 +267,14 @@
         "position": "Former Executive VP & CFO",
         "name": "Stephen Biff Bowman",
         "id": "37",
+        "group": "EXECUTIVES",
         "origin position": "Executive VP & CFO"
     },
     "38": {
         "company": "Vining Sparks IBG, LP",
         "name": "Marlin Lacey Mosby",
         "id": "38",
+        "group": "ANALYSTS",
         "origin position": "Vining Sparks IBG, LP, Research Division"
     },
     "39": {
@@ -244,6 +282,7 @@
         "position": "CFO & Executive VP",
         "name": "Jason Jerrome Tyler",
         "id": "39",
+        "group": "EXECUTIVES",
         "origin position": "Executive VP & CFO"
     },
     "40": {
@@ -251,18 +290,21 @@
         "position": "Chairman, President & CEO",
         "name": "Michael G. O\u2019Grady",
         "id": "40",
+        "group": "EXECUTIVES",
         "origin position": "Chairman & CEO"
     },
     "41": {
         "company": "Piper Sandler & Co.",
         "name": "Jeffery J. Harte",
         "id": "41",
+        "group": "ANALYSTS",
         "origin position": "Piper Sandler & Co., Research Division"
     },
     "42": {
         "company": "BofA Securities",
         "name": "Michael Roger Carrier",
         "id": "42",
+        "group": "ANALYSTS",
         "origin position": "BofA Securities, Research Division"
     },
     "43": {
@@ -270,6 +312,7 @@
         "position": "Senior VP & Director of Investor Relations",
         "name": "Jennifer Childe",
         "id": "43",
+        "group": "EXECUTIVES",
         "origin position": "Senior VP & Director of Investor Relations"
     },
     "44": {
@@ -277,24 +320,28 @@
         "position": "Senior VP & Controller",
         "name": "Lauren E. Allnutt",
         "id": "44",
+        "group": "EXECUTIVES",
         "origin position": "Executive VP & Controller"
     },
     "45": {
         "company": "Chairman & CEO",
         "name": "Michael G. O\u2019Grady",
         "id": "45",
+        "group": "Mark Bette",
         "origin position": "Chairman & CEO"
     },
     "46": {
         "company": "Morgan Stanley",
         "name": "Connell J. Schmitz",
         "id": "46",
+        "group": "ANALYSTS",
         "origin position": "Morgan Stanley, Research Division"
     },
     "47": {
         "company": "Wolfe Research, LLC",
         "name": "Hang Leung",
         "id": "47",
+        "group": "ANALYSTS",
         "origin position": "Wolfe Research, LLC"
     },
     "48": {
@@ -302,6 +349,7 @@
         "position": "Executive VP & CFO",
         "name": "Eric Walter Aboaf",
         "id": "48",
+        "group": "EXECUTIVES",
         "origin position": "CFO & Vice Chairman"
     },
     "49": {
@@ -309,6 +357,7 @@
         "position": "Global Head of Investor Relations",
         "name": "Ilene Fiszel Bieler",
         "id": "49",
+        "group": "EXECUTIVES",
         "origin position": "Executive VP & Global Head of IR"
     },
     "50": {
@@ -316,6 +365,7 @@
         "position": "Former Chairman of the Board",
         "name": "Joseph L. Hooley",
         "id": "50",
+        "group": "EXECUTIVES",
         "origin position": "Former Chairman of the Board"
     },
     "51": {
@@ -323,12 +373,14 @@
         "position": "President, CEO & Director",
         "name": "Ronald Philip O\u2019Hanley",
         "id": "51",
+        "group": "EXECUTIVES",
         "origin position": "CEO, President & Chairman"
     },
     "52": {
         "company": "Sandler O'Neill + Partners, L.P.",
         "name": "Jeffery J. Harte",
         "id": "52",
+        "group": "ANALYSTS",
         "origin position": "Sandler O'Neill + Partners, L.P., Research Division"
     }
 }
