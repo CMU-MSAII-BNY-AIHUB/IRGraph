@@ -209,6 +209,7 @@ class TranscriptParser:
                     person_info["name"] = name
             
                     person_info["id"] = str(id)
+                    person_info["group"] = current_group
                                 
                     person_info["origin position"] = origin_position
                     exist, node = self.deal_ambigity(person_info)
