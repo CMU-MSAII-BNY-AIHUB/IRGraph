@@ -25,6 +25,6 @@ class Summarizer:
             ]
         )
         summarization = completion.choices[0].message.content
-        print(len(summarization) / len(text) * 100, '%')
+        # print(len(summarization) / len(text) * 100, '%')
 
         return summarization
