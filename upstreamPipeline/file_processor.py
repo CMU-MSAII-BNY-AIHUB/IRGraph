@@ -1,6 +1,7 @@
 from transcript_parser import TranscriptParser
 from sentiment_analysis_processor import SentimentAnalysisProcessor
 from emotion_classification_processor import EmotionClassificationProcessor
+from summary_processor import SummaryProcessor
 import argparse
 import os
 
@@ -12,6 +13,7 @@ class FileProcessor:
         self.tp = TranscriptParser()
         self.sa_processor = SentimentAnalysisProcessor()
         self.ec_processor = EmotionClassificationProcessor()
+        self.su_processor = SummaryProcessor()
 
     def process_single_file(self):
         print(f"Processing file: {self.file_dir}")
@@ -23,6 +25,9 @@ class FileProcessor:
 
         self.ec_processor.process_file(temp_filename)
         print("Emotion classification completed.")
+
+        self.su_processor.process_file(temp_filename)
+        print("Summary generation completed.")
         return temp_filename
 
     def process_all_files(self):
@@ -35,6 +40,9 @@ class FileProcessor:
 
         self.ec_processor.process_folder(self.save_dir)
         print("Emotion classification for all files completed.")
+
+        self.su_processor.process_folder(self.save_dir)
+        print("Summary generation completed.")
         
 
 if __name__ == "__main__":
