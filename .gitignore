@@ -9,6 +9,9 @@ xml_w_sentiment_topic/
 transcripts/
 qa_xml_w_sentiment_topic/
 config.ini
+ASR/**/*.wav
+ASR/**/*.mp3
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
