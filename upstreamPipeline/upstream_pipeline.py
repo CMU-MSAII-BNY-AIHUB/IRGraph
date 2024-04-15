@@ -35,7 +35,7 @@ if __name__ == "__main__":
         neo4j_import_single_file(file_name)
         print("here")
     else:
-        processor.process_all_files()
+        # processor.process_all_files()
         neo4j_import_folder(args.save_dir)
 
 '''

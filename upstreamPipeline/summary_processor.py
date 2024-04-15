@@ -50,18 +50,18 @@ class SummaryProcessor:
         qa_section = root.find("./body/section[@name='Question and Answer']")
 
         # Iterate over the elements within the section 
-        
+        text_type = ""
         for element in qa_section.iter():
-            text_type = ""
+            
 
             if element.tag == "transition" or element.tag=="ending":
                 text_type = "transition"
                 
             elif "question" in element.tag.lower():
-                text_type = "statement"
+                text_type = "question"
                 
             elif "answer" in element.tag.lower():
-                text_type = "statement"
+                text_type = "answer"
                 
 
             if element.tag == 'text':
