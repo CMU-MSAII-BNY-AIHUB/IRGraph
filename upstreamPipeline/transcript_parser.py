@@ -209,6 +209,7 @@ class TranscriptParser:
                     person_info["name"] = name
             
                     person_info["id"] = str(id)
+                    person_info["group"] = current_group
                                 
                     person_info["origin position"] = origin_position
                     exist, node = self.deal_ambigity(person_info)
@@ -461,7 +462,7 @@ class TranscriptParser:
                 QA = self.process_dialog(paragraph.text,speaker_list,"Question and Answer")
             elif paragraph.text.strip().startswith("Presentation"):
                 
-                presentation = self.process_presentation(paragraph.text,speaker_list,"Presentation ")
+                presentation = self.process_presentation(paragraph.text,speaker_list,"Presentation")
 
     
         header = ET.Element("header")

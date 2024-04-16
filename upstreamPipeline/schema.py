@@ -34,22 +34,24 @@ class ParticipantsSection:
 
 
 class Person:
-    def __init__(self, id, company="", name="", position=""):
+    def __init__(self, id, company="", name="", position="", group=""):
         self.company = sanitize(company)
         self.id = id
         self.name = sanitize(name)
-        self.position = sanitize(position) 
+        self.position = sanitize(position)
+        self.group = sanitize(group)
 
     def __repr__(self):
         return self.name + ' ' + self.position
 
 class Statement: # Content in the schema
-    def __init__(self, speaker:Person, text, topic="", sentiment="", analysis=""):
+    def __init__(self, speaker:Person, text, topic="", sentiment="", analysis="", summary=""):
         self.speaker = speaker
         self.text = sanitize(text)
         self.topic = sanitize(topic)
         self.sentiment = sanitize(sentiment)
         self.analysis = sanitize(analysis)
+        self.summary = sanitize(summary)
 
 
 class PresentationSection:
@@ -73,7 +75,7 @@ class Transition:
         self.text = sanitize(text)
 
 class Question:
-    def __init__(self, id, speaker, text, topic="", sentiment="", analysis="", emotion=""):
+    def __init__(self, id, speaker, text, topic="", sentiment="", analysis="", emotion="",summary=""):
         self.id = id
         self.speaker = speaker
         self.text = sanitize(text)
@@ -81,6 +83,7 @@ class Question:
         self.sentiment = sanitize(sentiment)
         self.analysis = sanitize(analysis)
         self.emotion = sanitize(emotion)
+        self.summary = sanitize(summary)
         self.followup_questions = {} # A dictionary store id-question pair: {followup_question_id: followup_question}
         self.answers = [] # A list of Answers
 
@@ -94,7 +97,7 @@ class Question:
         self.answers.append(answer)
 
 class Answer:
-    def __init__(self, id, question, speaker, text, topic="", sentiment="", analysis="", emotion=""):
+    def __init__(self, id, question, speaker, text, topic="", sentiment="", analysis="", emotion="", summary=""):
         self.id = id
         self.question=question
         self.speaker = speaker
@@ -103,6 +106,7 @@ class Answer:
         self.sentiment = sanitize(sentiment)
         self.analysis = sanitize(analysis)
         self.emotion = sanitize(emotion)
+        self.summary = sanitize(summary)
 
 
         
