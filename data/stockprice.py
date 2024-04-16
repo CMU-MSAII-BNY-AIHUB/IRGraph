@@ -5,19 +5,14 @@ from bokeh.models.glyphs import Circle
 from bokeh.models import CustomJS, Dropdown,ColumnDataSource, CheckboxGroup,HoverTool
 from bokeh.models.transforms import LinearInterpolator
 from bokeh.models import CheckboxButtonGroup,DateRangeSlider
-from bokeh.palettes import Blues256, Colorblind, Magma256, Oranges, Category20,\
-    Turbo256, Viridis256, mpl,Spectral6,viridis,turbo,Spectral,Plasma,inferno,Set3,all_palettes
-from bokeh.transform import linear_cmap
 from bokeh.models.widgets import Select,MultiSelect, Slider
-from numpy import sqrt, square
 import numpy as np
 from numpy.core.arrayprint import format_float_positional
 import pandas as pd
 from bokeh.plotting import figure, output_file, show, curdoc
 from bokeh.transform import cumsum
 from math import pi
-from bokeh.palettes import Category20c
-from bokeh.models import RadioButtonGroup,Legend,SingleIntervalTicker
+
 import os
 from datetime import date
 
