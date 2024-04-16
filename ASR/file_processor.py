@@ -62,6 +62,6 @@ if __name__ == "__main__":
 '''
 Example:
 
-python file_processor.py --file-dir "sample_data" --save-dir "sample_output" --filename "The Bank of New York Mellon Corporation, Q2 2023 Earnings Call, Jul 18, 2023 (1).rtf"
+python file_processor.py --file-dir "" --save-dir "" --filename "State Street Corporation, Q1 2024 Earnings Call, Apr 12, 2024.rtf"
 python file_processor.py --file-dir "transcripts" --save-dir "xml"
 '''
