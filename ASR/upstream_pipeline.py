@@ -4,9 +4,10 @@ from file_processor import FileProcessor
 import argparse
 import os
 
-URI = "neo4j+s://28d0251c.databases.neo4j.io"
-AUTH = ("neo4j", "t4yYAA-Toa9N4cQNb1r2nQQAXWrabbMM3MclZ7rq2Tc")
-
+# URI = "neo4j+s://28d0251c.databases.neo4j.io"
+# AUTH = ("neo4j", "t4yYAA-Toa9N4cQNb1r2nQQAXWrabbMM3MclZ7rq2Tc")
+URI = "neo4j+s://e32a4bb4.databases.neo4j.io"
+AUTH = ("neo4j", "EerfwXY8kw-DFeEB8WaO4vjWJKzNTbVhLIMlx_uWwSI")
 
 def neo4j_import_single_file(file_path):
     neo4j_processor = Neo4jProcessor(URI, AUTH)
@@ -30,18 +31,19 @@ if __name__ == "__main__":
 
     processor = FileProcessor(file_dir=args.file_dir, save_dir=args.save_dir, filename=args.filename)
     if args.filename:
-        file_name = processor.process_single_file()
+        # file_name = processor.process_single_file()
+        file_name =args.filename
         print(f"neo 4j processing {file_name}")
         neo4j_import_single_file(file_name)
         print("here")
     else:
-        # processor.process_all_files()
+        processor.process_all_files()
         neo4j_import_folder(args.save_dir)
 
 '''
 Example:
 
-python upstream_pipeline.py --file-dir "transcripts/STT" --save-dir "xml" --filename "State Street Corporation, Q1 2024 Earnings Call, Apr 12, 2024.rtf"
+python upstream_pipeline.py --file-dir "" --save-dir "" --filename "STT-Q1-2024_timestamp.xml"
 python upstream_pipeline.py --file-dir "transcripts" --save-dir "xml"
 
 clean the data base:
