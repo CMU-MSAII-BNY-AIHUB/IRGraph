@@ -6,6 +6,9 @@ import argparse
 import aspose.words as aw
 import yfinance as yf
 from datetime import datetime,timedelta
+from fuzzywuzzy import fuzz
+import json
+import io
 
 ENDING = ["conclude", "thank you for participating", "no further question",
           "that concludes our call", "that's all the time we have",
@@ -16,6 +19,37 @@ ENDING = ["conclude", "thank you for participating", "no further question",
           "wrap up", "until next time", "goodbye", 
           "appreciate your participation", "thanks to everyone", "signing off", "that's a wrap", 
           "we're done for today", "look forward to our next meeting",  "good day", "closing"]
+
+GLOBAL_SPEAKER = {}
+
+def compare_entities(name1, name2):
+    return fuzz.ratio(name1, name2)
+
+def deal_ambigity(person_info):
+    exist = False
+    
+    for p in GLOBAL_SPEAKER:
+        node = GLOBAL_SPEAKER[p]
+        similarity_score = compare_entities(node["name"], person_info["name"]) * compare_entities(node["company"], person_info["company"]) / 10000
+        if similarity_score > 0.65:
+            exist = True
+            #print(node["name"],node["company"], person_info["name"], person_info["company"], similarity_score)
+            return exist, node
+        #print(node["name"],node["company"], person_info["name"], person_info["company"], similarity_score)
+    return exist, None
+
+def debug_deal_ambigity(person_info):
+    exist = False
+    
+    for p in GLOBAL_SPEAKER:
+        node = GLOBAL_SPEAKER[p]
+        similarity_score = compare_entities(node["name"], person_info["name"]) * compare_entities(node["company"], person_info["company"]) / 10000
+        if similarity_score > 0.65:
+            exist = True
+            #print(node["name"],node["company"], person_info["name"], person_info["company"], similarity_score)
+            return exist, node
+        print(node["name"],node["company"], person_info["name"], person_info["company"], similarity_score)
+    return exist, None
 
 def remove_empty_columns(arr):
     transposed = list(zip(*arr))
@@ -44,7 +78,7 @@ def get_stock_info(ticker_symbol, time):
 
         formatted_date = datetime_obj.strftime("%Y-%m-%d")
         datetime_obj_plus_one = datetime_obj + timedelta(days=1)
-        print(formatted_date)
+        # print(formatted_date)
         data = ticker.history(start=formatted_date, end=datetime_obj_plus_one)
 
         if not data.empty:
@@ -103,7 +137,7 @@ def build_second_table(data):
     return root
 
 def build_third_table(data,company):
-    id = 0
+    id = len(GLOBAL_SPEAKER) + 1
     root = ET.Element("Call Participants")
     speaker_list = {}
          
@@ -113,7 +147,7 @@ def build_third_table(data,company):
         row_data = '\n \n \n'.join(row).strip()
         elements = row_data.split('\n \n \n')
         for element in elements:
-            speaker_dict = {}
+
             lines = element.split('\n')
 
             if len(lines) == 1 :
@@ -122,25 +156,41 @@ def build_third_table(data,company):
             if len(lines) > 1:
 
                 name = re.sub(r'\s+', ' ', lines[0].strip())
-                
+                person_info = {}
                 position = lines[1].strip()
+                origin_position = position
                 if current_group == "EXECUTIVES":
                     person_element = ET.SubElement(root, "person", company = company, position=position, group=current_group, id = str(id))
-                    speaker_dict["company"] = company
-                    speaker_dict["position"] = position
+                    person_info["company"] = company
+                    person_info["position"] = position
 
-
-                else: 
+                    
+                else:
                     position = position.replace("Research Division", "").strip()
                     if position[-1] == ",":
                         position = position[:-1].strip()
                     person_element = ET.SubElement(root, "person", company = position, group=current_group, id = str(id))
-                    speaker_dict["company"] = position
+                    person_info["company"] = position
+
+                    
                     
                 person_element.text = name
-                speaker_dict["id"] = str(id)
-                speaker_list[name] = speaker_dict
-                id+=1
+                person_info["name"] = name
+        
+                person_info["id"] = str(id)
+                              
+                person_info["origin position"] = origin_position
+                exist, node = deal_ambigity(person_info)
+                    
+                if exist:
+                    node["origin position"] = origin_position
+                    speaker_list[name] = node
+                    person_element.set("id", node["id"]) 
+                else:
+                        
+                    speaker_list[name] = person_info
+                    GLOBAL_SPEAKER[id] = person_info
+                id=len(GLOBAL_SPEAKER) +1
     return root, speaker_list
 
 def process_presentation(dialog,speaker_list, name):
@@ -149,18 +199,23 @@ def process_presentation(dialog,speaker_list, name):
     conversation = ET.Element("section", attrib={"name": name})
     i = 0 
     while i < len(paragraph):
-        if re.sub(r'\s+', ' ', paragraph[i].strip())  in speaker_list:
-            name = re.sub(r'\s+', ' ', paragraph[i].strip())
-            speaker = speaker_list[name]
-            id = speaker["id"]
-            statement = ET.SubElement(conversation, "statement")
-            if "position" in speaker:
-                speaker_element = ET.SubElement(statement, "speaker", id=id, position=speaker["position"], company = speaker["company"])
+        speaker_name = re.sub(r'\s+', ' ', paragraph[i].strip())
+        if speaker_name  in speaker_list:
+            id = speaker_list[speaker_name]["id"]
+            title = paragraph[i+1].strip()
+            
+            if title != speaker_list[speaker_name]["origin position"]:
+                origin_position = speaker_list[speaker_name]["origin position"]
+                parts = title.split(origin_position)
+                other_part = parts[1] if len(parts) > 1 else ""
+                
+                text = other_part.strip() + "\n" if other_part!="" else ""
             else:
-                speaker_element = ET.SubElement(statement, "speaker", id=id, company = speaker["company"])
-            speaker_element.text = name
-
-            text = ""
+                text = ""
+            
+            statement = ET.SubElement(conversation, "statement")
+            speaker_element = ET.SubElement(statement, "speaker", id=id, position=speaker_list[speaker_name]["origin position"])
+            speaker_element.text = re.sub(r'\s+', ' ', paragraph[i].strip()) 
             para = ET.SubElement(speaker_element, "text")
             i += 2
             while i < len(paragraph) and re.sub(r'\s+', ' ', paragraph[i].strip()) not in speaker_list and paragraph[i].strip()!= "Operator":
@@ -171,7 +226,7 @@ def process_presentation(dialog,speaker_list, name):
             para.text = text.strip()
             
         elif "Operator" in paragraph[i]:
-            id = "-1"
+            id = "0"
             position = "Operator"
             statement = ET.SubElement(conversation, "statement")
             speaker_element = ET.SubElement(statement, "speaker", id=id, position=position)
@@ -202,16 +257,18 @@ def process_dialog(dialog,speaker_list, name):
     last_question_element = None
     last_question_answered = True
     while i < len(paragraph):
-        # print(paragraph[i])
-        # print("------------------------")
-        if re.sub(r'\s+', ' ', paragraph[i].strip()) in speaker_list:
-            
-            name = re.sub(r'\s+', ' ', paragraph[i].strip())
-            speaker = speaker_list[name]
-            id = speaker["id"]
-
-            
-
+        speaker_name = re.sub(r'\s+', ' ', paragraph[i].strip())
+        if speaker_name in speaker_list:
+            id = speaker_list[speaker_name]["id"]
+            title = paragraph[i+1].strip()
+            if title != speaker_list[speaker_name]["origin position"]:
+                origin_position = speaker_list[speaker_name]["origin position"]
+                parts = title.split(origin_position)
+                other_part = parts[1] if len(parts) > 1 else ""
+                
+                text = other_part.strip() + "\n" if other_part!="" else ""
+            else:
+                text = ""
             if end:
                 context = ET.SubElement(conversation, "ending", id = str(question_id))
                 
@@ -230,7 +287,6 @@ def process_dialog(dialog,speaker_list, name):
                     if last_question_element.tag =="question":
                         question_id-=1
                     elif last_question_element.tag =="followQuestion":
-                        print(last_question_element.tag)
                         followup_id -=1
                     last_question_element.tag = "other"
 
@@ -246,19 +302,12 @@ def process_dialog(dialog,speaker_list, name):
             else:
                 context = ET.SubElement(conversation, "answer", id = str(question_id))
                 last_question_answered = True
-
-
+            speaker_element = ET.SubElement(context, "speaker", id=id, position=speaker_list[speaker_name]["origin position"])
+            speaker_element.text = re.sub(r'\s+', ' ', paragraph[i].strip()) 
             
-            if "position" in speaker:
-                speaker_element = ET.SubElement(context, "speaker", id=id, position=speaker["position"], company = speaker["company"])
-            else:
-                speaker_element = ET.SubElement(context, "speaker", id=id, company = speaker["company"])
-            speaker_element.text = name
-
-            text = ""
             para = ET.SubElement(speaker_element, "text")
             i += 2
-            while i < len(paragraph) and re.sub(r'\s+', ' ', paragraph[i].strip()) not in speaker_list and paragraph[i].strip()!= "Operator" and not paragraph[i].startswith("Operator"):
+            while i < len(paragraph) and re.sub(r'\s+', ' ', paragraph[i].strip()) not in speaker_list and paragraph[i].strip()!= "Operator":
                 # print(paragraph[i])
                 # print(paragraph[i].startswith("Operator"))
                 # print("--------------------------")
@@ -274,7 +323,7 @@ def process_dialog(dialog,speaker_list, name):
                 last_question_element.tag = "other"
             last_question_element = None
             last_question_answered = False
-            id = "-1"
+            id = "0"
             position = "Operator"
             cur_question = None
             hasSub = False
@@ -291,6 +340,8 @@ def process_dialog(dialog,speaker_list, name):
                     text += paragraph[i] + "\n"
                 i += 1
             para.text = text.strip()
+            if para.text =="":
+                conversation.remove(context)
             if "conclude" in para.text:
                 context.tag = "ending"
                 end = True
@@ -385,9 +436,11 @@ def build_xml(doc):
     header = ET.Element("header")
     ticker = company.split(":")[1].strip()
     match = re.search(r"Q\d \d{4}", title)
-    quarter = match.group(0).replace(" ", "-") if match else "No match found"
+    q_y = match.group(0).replace(" ", "-") if match else "No match found"
+    quarter, year = q_y.split("-")
     ET.SubElement(header, "company").text = company
     ET.SubElement(header, "quarter").text = quarter
+    ET.SubElement(header, "year").text = year
     ET.SubElement(header, "time").text = time
     ET.SubElement(header, "currency").text = currency
     ET.SubElement(header, "note").text = note
@@ -410,7 +463,7 @@ def build_xml(doc):
     root = ET.Element("Transcript")
     root.append(header)
     root.append(body)
-    return root, ticker, quarter
+    return root, ticker, quarter, year
 
 
 def main():
@@ -434,12 +487,14 @@ def main():
                 if os.path.isfile(file_path):
                     print(f"  File: {filename}")
                     doc = rtfToDocx(dir_path,filename)
-                    tree_root, ticker, quarter = build_xml(doc)
+                    tree_root, ticker, quarter, year = build_xml(doc)
                     prettify(tree_root)
                     tree = ET.ElementTree(tree_root)
-                    out_file_name = f"{ticker}-{quarter}"
+                    out_file_name = f"{ticker}-{quarter}-{year}"
                     tree.write(os.path.join(save_path,out_file_name+".xml"), encoding="utf-8", xml_declaration=True)
                     os.remove(filename.replace(".rtf", ".docx"))
-                    
+    json_path = "global_speaker.json" 
+    with io.open(json_path, "w") as json_file:
+        json.dump(GLOBAL_SPEAKER, json_file, indent=4)                
 if __name__ == "__main__":
     main()
