@@ -2,9 +2,12 @@ from neo4j_processor import Neo4jProcessor
 from file_processor import FileProcessor
 import argparse
 import os
-
+## main db
 URI = "neo4j+s://28d0251c.databases.neo4j.io"
 AUTH = ("neo4j", "t4yYAA-Toa9N4cQNb1r2nQQAXWrabbMM3MclZ7rq2Tc")
+## backup db
+# URI = "neo4j+s://e32a4bb4.databases.neo4j.io"
+# AUTH = ("neo4j", "EerfwXY8kw-DFeEB8WaO4vjWJKzNTbVhLIMlx_uWwSI")
 
 
 def neo4j_import_single_file(file_path):
