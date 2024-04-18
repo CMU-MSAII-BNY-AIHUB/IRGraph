@@ -382,5 +382,12 @@
         "id": "52",
         "group": "ANALYSTS",
         "origin position": "Sandler O'Neill + Partners, L.P., Research Division"
+    },
+    "53": {
+        "company": "Autonomous Research US LP",
+        "name": "David Smith",
+        "id": "53",
+        "group": "ANALYSTS",
+        "origin position": "Autonomous Research US LP"
     }
 }

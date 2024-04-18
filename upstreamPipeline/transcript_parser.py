@@ -502,6 +502,11 @@ class TranscriptParser:
         out_file_name = f"{ticker}-{quarter}-{year}"
         tree.write(os.path.join(save_dir, out_file_name + ".xml"), encoding="utf-8", xml_declaration=True)
         os.remove(filename.replace(".rtf", ".docx"))
+
+        json_path = os.path.join("global_speaker.json")
+        with io.open(json_path, "w", encoding='utf-8') as json_file:
+            json.dump(self.global_speaker, json_file, indent=4)
+
         return os.path.join(save_dir, out_file_name + ".xml")
 
     def process_folder(self, file_dir, save_dir):
