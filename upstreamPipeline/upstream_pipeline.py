@@ -19,7 +19,7 @@ def neo4j_import_single_file(file_path):
 def neo4j_import_folder(folder_path):
     neo4j_processor = Neo4jProcessor(URI, AUTH)
     neo4j_processor.process_folder(folder_path)
-    print(f"Completed importing all files in {folder_path} to Neo4j.")
+    print(f"Completed importing all files in {folder_path} to Neo4j {URI}.")
     neo4j_processor.close()
 
 if __name__ == "__main__":
@@ -32,8 +32,9 @@ if __name__ == "__main__":
 
     processor = FileProcessor(file_dir=args.file_dir, save_dir=args.save_dir, filename=args.filename)
     if args.filename:
-        file_name = processor.process_single_file()
-        print(f"neo 4j processing {file_name} on {AUTH}")
+        file_name = args.filename
+        # file_name = processor.process_single_file()
+        # print(f"neo 4j processing {file_name} on {AUTH}")
         neo4j_import_single_file(file_name)
         print("here")
     else:
@@ -43,8 +44,10 @@ if __name__ == "__main__":
 '''
 Example:
 
-python upstream_pipeline.py --file-dir "transcripts/NTRS" --save-dir "xml" --filename "Northern Trust Corporation, Q1 2024 Earnings Call, Apr 16, 2024.rtf"
+python upstream_pipeline.py --file-dir "transcripts/BK" --save-dir "xml" --filename "The Bank of New York Mellon Corporation, Q1 2024 Earnings Call, Apr 16, 2024.rtf"
 python upstream_pipeline.py --file-dir "transcripts" --save-dir "xml"
+python upstream_pipeline.py --file-dir "xml" --save-dir "xml" --filename "xml\STT-Q1-2024_timestamp.xml"
+
 
 clean the data base:
 MATCH (n)

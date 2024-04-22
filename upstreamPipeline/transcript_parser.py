@@ -177,20 +177,35 @@ class TranscriptParser:
             
             row_data = '\n \n \n'.join(row).strip()
             elements = row_data.split('\n \n \n')
+            # print(elements)
             for element in elements:
 
                 lines = element.split('\n')
+                edge_case = False
+                if len(lines) == 1:
+                    if lines[0].strip().isupper():
+                        current_group = lines[0].strip()
+                    elif lines[0].strip().lower().startswith("unknown"):
+                        edge_case = True
+                    else:
+                        edge_case = True
 
-                if len(lines) == 1 :
-                    current_group = lines[0].strip()
-                    
-                if len(lines) > 1:
+                if edge_case or len(lines) > 1:
 
                     name = re.sub(r'\s+', ' ', lines[0].strip())
                     person_info = {}
-                    position = lines[1].strip()
-                    origin_position = position
-                    if current_group == "EXECUTIVES":
+                    if edge_case:
+                        position = "unknown"
+                        origin_position = "unknown"
+                    else:
+                        position = lines[1].strip()
+                        origin_position = position
+
+                    if edge_case:
+                        person_element = ET.SubElement(root, "person", company = position, group=current_group, id = str(id))
+                        person_info["company"] = "unknown"
+    
+                    elif current_group == "EXECUTIVES":
                         person_element = ET.SubElement(root, "person", company = company, position=position, group=current_group, id = str(id))
                         person_info["company"] = company
                         person_info["position"] = position

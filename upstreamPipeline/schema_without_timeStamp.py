@@ -6,7 +6,7 @@ class Transcript:
         self.qa_section = qa_section
 
 class Header:
-    def __init__(self, company, time, quarter, currency, note, open_price, close_price, high_price, low_price, performance, year, SP500_open, SP500_close,kbw_open,kbw_close):
+    def __init__(self, company, time, quarter, currency, note, open_price, close_price, high_price, low_price, performance, year):
         self.company = sanitize(company)
         self.time = sanitize(time)
         self.quarter = sanitize(quarter)
@@ -18,11 +18,6 @@ class Header:
         self.low_price = low_price
         self.performance = performance
         self.year = year
-        self.SP500_open = SP500_open
-        self.SP500_close = SP500_close
-        self.kbw_open =kbw_open
-        self.kbw_close =kbw_close
-        
 
 
 
@@ -50,17 +45,13 @@ class Person:
         return self.name + ' ' + self.position
 
 class Statement: # Content in the schema
-    def __init__(self, speaker:Person, text, topic="", sentiment="", analysis="", summary="",timeStamp = "", stockPrice="",SP500="", kbw = ""):
+    def __init__(self, speaker:Person, text, topic="", sentiment="", analysis="", summary=""):
         self.speaker = speaker
         self.text = sanitize(text)
         self.topic = sanitize(topic)
         self.sentiment = sanitize(sentiment)
         self.analysis = sanitize(analysis)
         self.summary = sanitize(summary)
-        self.timeStamp = sanitize(timeStamp)
-        self.stockPrice = sanitize(stockPrice)
-        self.SP500 = SP500
-        self.kbw =kbw
 
 
 class PresentationSection:
@@ -84,7 +75,7 @@ class Transition:
         self.text = sanitize(text)
 
 class Question:
-    def __init__(self, id, speaker, text, topic="", sentiment="", analysis="", emotion="",summary="", timeStamp = "", stockPrice="", SP500="", kbw = ""):
+    def __init__(self, id, speaker, text, topic="", sentiment="", analysis="", emotion="",summary=""):
         self.id = id
         self.speaker = speaker
         self.text = sanitize(text)
@@ -95,12 +86,6 @@ class Question:
         self.summary = sanitize(summary)
         self.followup_questions = {} # A dictionary store id-question pair: {followup_question_id: followup_question}
         self.answers = [] # A list of Answers
-        self.timeStamp = sanitize(timeStamp)
-        self.stockPrice = sanitize(stockPrice)
-        self.SP500 = SP500
-        self.kbw =kbw
- 
-        
 
     def addfollowup(self, id, question):
         self.followup_questions[id] = question
