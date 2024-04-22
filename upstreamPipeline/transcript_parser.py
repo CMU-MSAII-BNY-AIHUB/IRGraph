@@ -177,20 +177,35 @@ class TranscriptParser:
             
             row_data = '\n \n \n'.join(row).strip()
             elements = row_data.split('\n \n \n')
+            # print(elements)
             for element in elements:
 
                 lines = element.split('\n')
+                edge_case = False
+                if len(lines) == 1:
+                    if lines[0].strip().isupper():
+                        current_group = lines[0].strip()
+                    elif lines[0].strip().lower().startswith("unknown"):
+                        edge_case = True
+                    else:
+                        edge_case = True
 
-                if len(lines) == 1 :
-                    current_group = lines[0].strip()
-                    
-                if len(lines) > 1:
+                if edge_case or len(lines) > 1:
 
                     name = re.sub(r'\s+', ' ', lines[0].strip())
                     person_info = {}
-                    position = lines[1].strip()
-                    origin_position = position
-                    if current_group == "EXECUTIVES":
+                    if edge_case:
+                        position = "unknown"
+                        origin_position = "unknown"
+                    else:
+                        position = lines[1].strip()
+                        origin_position = position
+
+                    if edge_case:
+                        person_element = ET.SubElement(root, "person", company = position, group=current_group, id = str(id))
+                        person_info["company"] = "unknown"
+    
+                    elif current_group == "EXECUTIVES":
                         person_element = ET.SubElement(root, "person", company = company, position=position, group=current_group, id = str(id))
                         person_info["company"] = company
                         person_info["position"] = position
@@ -502,6 +517,11 @@ class TranscriptParser:
         out_file_name = f"{ticker}-{quarter}-{year}"
         tree.write(os.path.join(save_dir, out_file_name + ".xml"), encoding="utf-8", xml_declaration=True)
         os.remove(filename.replace(".rtf", ".docx"))
+
+        json_path = os.path.join("global_speaker.json")
+        with io.open(json_path, "w", encoding='utf-8') as json_file:
+            json.dump(self.global_speaker, json_file, indent=4)
+
         return os.path.join(save_dir, out_file_name + ".xml")
 
     def process_folder(self, file_dir, save_dir):

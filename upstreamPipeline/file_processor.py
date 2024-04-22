@@ -2,6 +2,7 @@ from transcript_parser import TranscriptParser
 from sentiment_analysis_processor import SentimentAnalysisProcessor
 from emotion_classification_processor import EmotionClassificationProcessor
 from summary_processor import SummaryProcessor
+from indexInfo_processor import IndexProcessor
 import argparse
 import os
 
@@ -14,6 +15,7 @@ class FileProcessor:
         self.sa_processor = SentimentAnalysisProcessor()
         self.ec_processor = EmotionClassificationProcessor()
         self.su_processor = SummaryProcessor()
+        self.index_processor = IndexProcessor()
 
     def process_single_file(self):
         print(f"Processing file: {self.file_dir}")
@@ -28,6 +30,9 @@ class FileProcessor:
 
         self.su_processor.process_file(temp_filename)
         print("Summary generation completed.")
+
+        self.index_processor.process_file(temp_filename)
+        print("index header addition completed.")
         return temp_filename
 
     def process_all_files(self):
@@ -43,6 +48,9 @@ class FileProcessor:
 
         self.su_processor.process_folder(self.save_dir)
         print("Summary generation completed.")
+
+        self.index_processor.process_folder(self.save_dir)
+        print("index header addition completed.")
         
 
 if __name__ == "__main__":
@@ -62,6 +70,6 @@ if __name__ == "__main__":
 '''
 Example:
 
-python file_processor.py --file-dir "sample_data" --save-dir "sample_output" --filename "The Bank of New York Mellon Corporation, Q2 2023 Earnings Call, Jul 18, 2023 (1).rtf"
+python file_processor.py --file-dir "transcripts/NTRS" --save-dir "xml" --filename "Northern Trust Corporation, Q1 2024 Earnings Call, Apr 16, 2024.rtf"
 python file_processor.py --file-dir "transcripts" --save-dir "xml"
 '''

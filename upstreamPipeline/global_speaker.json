@@ -382,5 +382,33 @@
         "id": "52",
         "group": "ANALYSTS",
         "origin position": "Sandler O'Neill + Partners, L.P., Research Division"
+    },
+    "53": {
+        "company": "Autonomous Research US LP",
+        "name": "David Smith",
+        "id": "53",
+        "group": "ANALYSTS",
+        "origin position": "Autonomous Research US LP"
+    },
+    "54": {
+        "company": "unknown",
+        "name": "Sharon Leung",
+        "id": "54",
+        "group": "ANALYSTS",
+        "origin position": "unknown"
+    },
+    "55": {
+        "company": "unknown",
+        "name": "Unknown Analyst",
+        "id": "55",
+        "group": "ANALYSTS",
+        "origin position": "unknown"
+    },
+    "56": {
+        "company": "unknown",
+        "name": "David Smith",
+        "id": "56",
+        "group": "ANALYSTS",
+        "origin position": "unknown"
     }
 }

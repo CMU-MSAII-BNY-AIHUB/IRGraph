@@ -11,6 +11,8 @@ qa_xml_w_sentiment_topic/
 config.ini
 ASR/**/*.wav
 ASR/**/*.mp3
+*.mp3
+*.wav
 
 
 # Byte-compiled / optimized / DLL files
@@ -176,3 +178,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 upstream/summarization.ipynb
+
