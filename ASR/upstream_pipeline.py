@@ -1,13 +1,14 @@
 from neo4j_processor import Neo4jProcessor
 from file_processor import FileProcessor
-
 import argparse
 import os
-
+## main db
 # URI = "neo4j+s://28d0251c.databases.neo4j.io"
 # AUTH = ("neo4j", "t4yYAA-Toa9N4cQNb1r2nQQAXWrabbMM3MclZ7rq2Tc")
+## backup db
 URI = "neo4j+s://e32a4bb4.databases.neo4j.io"
 AUTH = ("neo4j", "EerfwXY8kw-DFeEB8WaO4vjWJKzNTbVhLIMlx_uWwSI")
+
 
 def neo4j_import_single_file(file_path):
     neo4j_processor = Neo4jProcessor(URI, AUTH)
@@ -31,13 +32,13 @@ if __name__ == "__main__":
 
     processor = FileProcessor(file_dir=args.file_dir, save_dir=args.save_dir, filename=args.filename)
     if args.filename:
+        file_name = args.filename
         # file_name = processor.process_single_file()
-        file_name =args.filename
-        print(f"neo 4j processing {file_name}")
+        print(f"neo 4j processing {file_name} on {AUTH}")
         neo4j_import_single_file(file_name)
         print("here")
     else:
-        processor.process_all_files()
+        # processor.process_all_files()
         neo4j_import_folder(args.save_dir)
 
 '''
