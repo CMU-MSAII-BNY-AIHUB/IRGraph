@@ -256,8 +256,8 @@ class Neo4jProcessor:
             for answer in question.answers:
                 neo4j_answer_id = make_answer_id(answer.id)
                 neo4j_participant_id = make_participant_id(answer.speaker.id)
-                q = 'CREATE (%s: ANSWER {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", emotion: "%s", summary: "%s"}) -[:ANSWER_TO] -> (%s) \n' % \
-                (neo4j_answer_id, answer.text, answer.sentiment, answer.topic, answer.analysis, answer.emotion, answer.summary, neo4j_question_id) + \
+                q = 'CREATE (%s: ANSWER {text: "%s", sentiment: "%s", topic: "%s", emotion: "%s", summary: "%s"}) -[:ANSWER_TO] -> (%s) \n' % \
+                (neo4j_answer_id, answer.text, answer.sentiment, answer.topic, answer.emotion, answer.summary, neo4j_question_id) + \
                     'CREATE (%s)-[:ANSWERED]->(%s) \n' % (neo4j_participant_id, neo4j_answer_id) + \
                     'CREATE (%s) -[:HAS_ANSWER] -> (%s)' % (neo4j_question_id, neo4j_answer_id) + \
                     'CREATE (%s)-[:WAS_ANSWERED_BY]->(%s) \n' % (neo4j_answer_id, neo4j_participant_id)
@@ -315,8 +315,8 @@ class Neo4jProcessor:
         # Iterate through all questions
         for question in qa_section.questions:
             neo4j_question_id = make_question_id(question.id)
-            q = 'CREATE (%s) -[:HAS_QUESTION]->(%s:QUESTION {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", emotion: "%s",summary: "%s"}) \n' % \
-            (QA_SECTION, neo4j_question_id, question.text, question.sentiment, question.topic, question.analysis, question.emotion, question.summary) + \
+            q = 'CREATE (%s) -[:HAS_QUESTION]->(%s:QUESTION {text: "%s", sentiment: "%s", topic: "%s", emotion: "%s",summary: "%s"}) \n' % \
+            (QA_SECTION, neo4j_question_id, question.text, question.sentiment, question.topic, question.emotion, question.summary) + \
                 'CREATE (%s)-[:ASKED]->(%s)' % (make_participant_id(question.speaker.id), neo4j_question_id)
             query = add_query(query, q)
             answer_query = generate_query_to_add_answer(question, neo4j_question_id=neo4j_question_id)
