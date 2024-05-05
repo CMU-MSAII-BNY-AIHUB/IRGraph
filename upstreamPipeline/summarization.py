@@ -20,8 +20,8 @@ class Summarizer:
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": 
-                        "You are a fianacial analyst reading earnings call transcript, skilled in analyzing the call and perform summarization. You are preparing for an upcoming earnings call and looking back to previous earnings calls to get insights. Your task is to summartize the presentation statement, questions and answers concisely."},
-                {"role": "user", "content": f"Summarize this {tag} with only one sentences: {text}"}
+                        "You are a financial analyst reading earnings call transcript, skilled in analyzing the call and performing summarization. You are preparing for an upcoming earnings call and looking back to previous earnings calls to get insights. Your task is to summartize the presentation statement, questions and answers concisely."},
+                {"role": "user", "content": f"Summarize this {tag} with only one sentence: {text}"}
             ]
         )
         summarization = completion.choices[0].message.content
