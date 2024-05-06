@@ -326,7 +326,7 @@ class Neo4jProcessor:
             'CREATE (%s:EARNINGSCALL {name: "%s", time: "%s", open_price: "%s", close_price: "%s", high_price: "%s", low_price: "%s", performance: "%s", year: "%s",SP500_open: "%s", SP500_close: "%s",kbw_open: "%s",kbw_close: "%s"}) \n' \
                 % (EARNINGSCALL, header.quarter, header.time, header.open_price, header.close_price, header.high_price, header.low_price,header.performance, header.year, header.SP500_open, header.SP500_close,header.kbw_open,header.kbw_close) + \
             'CREATE (%s) -[:HAS_EARNINGS] -> (%s)' % (COMPANY, EARNINGSCALL)
-        print(f"query{query}")
+        # print(f"query{query}")
         cypher = add_query(cypher, query)
 
         # process_participants--------------------------------------------------------------------
