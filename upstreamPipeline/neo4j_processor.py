@@ -44,8 +44,6 @@ def extract_presentation(section_element, participants):
                     else speaker_element.find('text').findall('timeStamp')[0].text
         stockPrice = "" if not speaker_element.find('text').findall('stock_price') \
                     else speaker_element.find('text').findall('stock_price')[0].text
-        SP500 = "" if not speaker_element.find('text').findall('S_P500') \
-                    else speaker_element.find('text').findall('S_P500')[0].text
         kbw = "" if not speaker_element.find('text').findall('KBW') \
                     else speaker_element.find('text').findall('KBW')[0].text
         
@@ -57,7 +55,6 @@ def extract_presentation(section_element, participants):
                             summary = summary if summary else "",
                             timeStamp = timeStamp if timeStamp else "",
                             stockPrice = stockPrice if stockPrice else "",
-                            SP500 = SP500 if SP500 else "",
                             kbw = kbw if kbw else "")
 
         statements.append(statement)
@@ -72,8 +69,6 @@ def extract_qanda(section_element, participants):
                     else speaker_element.find('text').findall('sentiment')[0].text
         topic = "" if not speaker_element.find('text').findall('topic') \
                     else speaker_element.find('text').findall('topic')[0].text
-        analysis = "" if not speaker_element.find('text').findall('analysis') \
-            else speaker_element.find('text').findall('analysis')[0].text
         emotion = "" if not speaker_element.find('text').findall('emotion') \
             else speaker_element.find('text').findall('emotion')[0].text
         summary = "" if not speaker_element.find('text').findall('summary') \
@@ -82,8 +77,6 @@ def extract_qanda(section_element, participants):
                     else speaker_element.find('text').findall('timeStamp')[0].text
         stockPrice = "" if not speaker_element.find('text').findall('stock_price') \
                     else speaker_element.find('text').findall('stock_price')[0].text
-        SP500 = "" if not speaker_element.find('text').findall('S_P500') \
-                    else speaker_element.find('text').findall('S_P500')[0].text
         kbw = "" if not speaker_element.find('text').findall('KBW') \
                     else speaker_element.find('text').findall('KBW')[0].text
         question = Question(
@@ -92,12 +85,10 @@ def extract_qanda(section_element, participants):
             text=speaker_element.find('text').text,
             topic=topic  if topic else "",
             sentiment=sentiment if sentiment else "",
-            analysis=analysis if analysis else "",
             emotion=emotion if emotion else "",
             summary = summary if summary else "",
             timeStamp = timeStamp if timeStamp else "",
             stockPrice = stockPrice if stockPrice else "",
-            SP500 = SP500 if SP500 else "",
             kbw = kbw if kbw else ""
         )
         questions[question.id] = question
@@ -108,8 +99,6 @@ def extract_qanda(section_element, participants):
                     else speaker_element.find('text').findall('sentiment')[0].text
         topic = "" if not speaker_element.find('text').findall('topic') \
                     else speaker_element.find('text').findall('topic')[0].text
-        analysis = "" if not speaker_element.find('text').findall('analysis') \
-                    else speaker_element.find('text').findall('analysis')[0].text
         emotion = "" if not speaker_element.find('text').findall('emotion') \
             else speaker_element.find('text').findall('emotion')[0].text
         summary = "" if not speaker_element.find('text').findall('summary') \
@@ -118,8 +107,6 @@ def extract_qanda(section_element, participants):
                     else speaker_element.find('text').findall('timeStamp')[0].text
         stockPrice = "" if not speaker_element.find('text').findall('stock_price') \
                     else speaker_element.find('text').findall('stock_price')[0].text
-        SP500 = "" if not speaker_element.find('text').findall('S_P500') \
-                    else speaker_element.find('text').findall('S_P500')[0].text
         kbw = "" if not speaker_element.find('text').findall('KBW') \
                     else speaker_element.find('text').findall('KBW')[0].text
         question = Question(
@@ -128,12 +115,10 @@ def extract_qanda(section_element, participants):
             text=speaker_element.find('text').text,
             topic=topic  if topic else "",
             sentiment=sentiment if sentiment else "",
-            analysis=analysis if analysis else "",
             emotion=emotion if emotion else "",
             summary = summary if summary else "",
             timeStamp = timeStamp if timeStamp else "",
             stockPrice = stockPrice if stockPrice else "",
-            SP500 = SP500 if SP500 else "",
             kbw = kbw if kbw else ""
             
         )
@@ -149,8 +134,6 @@ def extract_qanda(section_element, participants):
                     else speaker_element.find('text').findall('sentiment')[0].text
         topic = "" if not speaker_element.find('text').findall('topic') \
                     else speaker_element.find('text').findall('topic')[0].text
-        analysis = "" if not speaker_element.find('text').findall('analysis') \
-                    else speaker_element.find('text').findall('analysis')[0].text
         emotion = "" if not speaker_element.find('text').findall('emotion') \
             else speaker_element.find('text').findall('emotion')[0].text
         summary = "" if not speaker_element.find('text').findall('summary') \
@@ -163,7 +146,6 @@ def extract_qanda(section_element, participants):
             text=speaker_element.find('text').text,
             topic=topic  if topic else "",
             sentiment=sentiment if sentiment else "",
-            analysis=analysis if analysis else "",
             emotion=emotion if emotion else "",
             summary = summary if summary else "",
         )
@@ -177,8 +159,6 @@ def extract_qanda(section_element, participants):
                     else speaker_element.find('text').findall('sentiment')[0].text
         topic = "" if not speaker_element.find('text').findall('topic') \
                     else speaker_element.find('text').findall('topic')[0].text
-        analysis = "" if not speaker_element.find('text').findall('analysis') \
-                    else speaker_element.find('text').findall('analysis')[0].text
         emotion = "" if not speaker_element.find('text').findall('emotion') \
                     else speaker_element.find('text').findall('emotion')[0].text
         summary = "" if not speaker_element.find('text').findall('summary') \
@@ -191,7 +171,6 @@ def extract_qanda(section_element, participants):
             text=speaker_element.find('text').text,
             topic=topic if topic else "",
             sentiment=sentiment if sentiment else "",
-            analysis=analysis if analysis else "",
             emotion=emotion if emotion else "",
             summary = summary if summary else "",
         )
@@ -267,8 +246,6 @@ class Neo4jProcessor:
             low_price=header_element.find('low_price').text,
             performance=header_element.find('stock_performance').text,
             year=header_element.find('year').text,
-            SP500_open = header_element.find("S_P500_open").text, 
-            SP500_close= header_element.find("S_P500_close").text,
             kbw_open = header_element.find("KBWBankIndex_open").text,
             kbw_close= header_element.find("KBWBankIndex_close").text,
         )
@@ -323,8 +300,8 @@ class Neo4jProcessor:
         header = transcript.header
         query = \
             'MERGE (%s:COMPANY {name: "%s"}) \n' % (COMPANY, header.company) + \
-            'CREATE (%s:EARNINGSCALL {name: "%s", time: "%s", open_price: "%s", close_price: "%s", high_price: "%s", low_price: "%s", performance: "%s", year: "%s",SP500_open: "%s", SP500_close: "%s",kbw_open: "%s",kbw_close: "%s"}) \n' \
-                % (EARNINGSCALL, header.quarter, header.time, header.open_price, header.close_price, header.high_price, header.low_price,header.performance, header.year, header.SP500_open, header.SP500_close,header.kbw_open,header.kbw_close) + \
+            'CREATE (%s:EARNINGSCALL {name: "%s", time: "%s", open_price: "%s", close_price: "%s", high_price: "%s", low_price: "%s", performance: "%s", year: "%s",kbw_open: "%s",kbw_close: "%s"}) \n' \
+                % (EARNINGSCALL, header.quarter, header.time, header.open_price, header.close_price, header.high_price, header.low_price,header.performance, header.year,header.kbw_open,header.kbw_close) + \
             'CREATE (%s) -[:HAS_EARNINGS] -> (%s)' % (COMPANY, EARNINGSCALL)
         # print(f"query{query}")
         cypher = add_query(cypher, query)
@@ -344,8 +321,8 @@ class Neo4jProcessor:
         query = 'CREATE (%s) -[:HAS_SECTION]-> (%s:SECTION {name: "%s"}) \n' % (EARNINGSCALL, PRESENTATION_SECTION, PRESENTATION_SECTION)
         content_id = 0
         for content in presentation_section.statements:
-            q = 'CREATE (%s) -[:HAS_CONTENT]-> (%s:CONTENT {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", summary: "%s",timeStamp: "%s",stockPrice: "%s",S_P500: "%s",KBW: "%s"}) \n' \
-            % (PRESENTATION_SECTION, make_content_id(content_id), content.text, content.sentiment, content.topic, content.analysis, content.summary, content.timeStamp, content.stockPrice,content.SP500, content.kbw) + \
+            q = 'CREATE (%s) -[:HAS_CONTENT]-> (%s:CONTENT {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", summary: "%s",timeStamp: "%s",stockPrice: "%s",KBW: "%s"}) \n' \
+            % (PRESENTATION_SECTION, make_content_id(content_id), content.text, content.sentiment, content.topic, content.analysis, content.summary, content.timeStamp, content.stockPrice, content.kbw) + \
                 'CREATE (%s) -[:ANNOUNCE] -> (%s) \n' % (make_participant_id(content.speaker.id), make_content_id(content_id)) + \
                 'CREATE (%s) -[:HAS_PARTICIPANT] -> (%s) \n' % (PRESENTATION_SECTION, make_participant_id(content.speaker.id))
 
@@ -361,8 +338,8 @@ class Neo4jProcessor:
         # Iterate through all questions
         for question in qa_section.questions:
             neo4j_question_id = make_question_id(question.id)
-            q = 'CREATE (%s) -[:HAS_QUESTION]->(%s:QUESTION {text: "%s", sentiment: "%s", topic: "%s", emotion: "%s",summary: "%s",timeStamp: "%s",stockPrice: "%s",S_P500: "%s",KBW: "%s"}) \n' % \
-            (QA_SECTION, neo4j_question_id, question.text, question.sentiment, question.topic, question.emotion, question.summary,question.timeStamp, question.stockPrice,question.SP500, question.kbw) + \
+            q = 'CREATE (%s) -[:HAS_QUESTION]->(%s:QUESTION {text: "%s", sentiment: "%s", topic: "%s", emotion: "%s",summary: "%s",timeStamp: "%s",stockPrice: "%s",KBW: "%s"}) \n' % \
+            (QA_SECTION, neo4j_question_id, question.text, question.sentiment, question.topic, question.emotion, question.summary,question.timeStamp, question.stockPrice, question.kbw) + \
                 'CREATE (%s)-[:ASKED]->(%s)' % (make_participant_id(question.speaker.id), neo4j_question_id)
             query = add_query(query, q)
             answer_query = generate_query_to_add_answer(question, neo4j_question_id=neo4j_question_id)
@@ -370,8 +347,8 @@ class Neo4jProcessor:
             # Iterate through all follow-up questions associated with this question
             for follow_up_question in question.followup_questions.values():
                 neo4j_follow_up_question_id = make_follow_question_id(question.id, follow_up_question.id)
-                f_q = 'CREATE (%s) -[:HAS_FOLLOWUP_QUESTION]->(%s:QUESTION {text: "%s", sentiment: "%s", topic: "%s", analysis: "%s", emotion: "%s",summary: "%s",timeStamp: "%s",stockPrice: "%s",S_P500: "%s",KBW: "%s"})' \
-                % (make_question_id(question.id), neo4j_follow_up_question_id, follow_up_question.text, follow_up_question.sentiment, follow_up_question.topic, follow_up_question.analysis, follow_up_question.emotion, follow_up_question.summary,follow_up_question.timeStamp, follow_up_question.stockPrice,follow_up_question.SP500, question.kbw)
+                f_q = 'CREATE (%s) -[:HAS_FOLLOWUP_QUESTION]->(%s:QUESTION {text: "%s", sentiment: "%s", topic: "%s", emotion: "%s",summary: "%s",timeStamp: "%s",stockPrice: "%s",KBW: "%s"})' \
+                % (make_question_id(question.id), neo4j_follow_up_question_id, follow_up_question.text, follow_up_question.sentiment, follow_up_question.topic, follow_up_question.emotion, follow_up_question.summary,follow_up_question.timeStamp, follow_up_question.stockPrice,question.kbw)
                 query = add_query(query, f_q)
                 answer_query = generate_query_to_add_answer(follow_up_question,
                                                             neo4j_question_id=neo4j_follow_up_question_id,
