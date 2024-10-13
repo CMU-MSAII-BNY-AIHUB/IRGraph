@@ -1,0 +1,9 @@
+[DEFAULT]
+#...
+[UPSTREAM]
+openai_api_key = needed if you want to process from the beginning 
+other api if needed
+
+[NEO4J]
+uri = your neo4j instance uri
+password = your neo4j instance password
