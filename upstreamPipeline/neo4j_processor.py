@@ -391,12 +391,20 @@ class Neo4jProcessor:
 
         records, summary, keys = self.driver.execute_query(query)
 
+    def clear_db(self):
+        print("clean the current database")
+        query = '''
+                MATCH (n)
+                DETACH DELETE n
+                '''
+        records, summary, keys = self.driver.execute_query(query)
 
     def process_single_file(self, file_path):
         self.extract_all_participants()
         self.main_processor(file_path)
 
     def process_folder(self, folder_path):
+        self.clear_db()
         self.extract_all_participants()
         for filename in os.listdir(folder_path):
             if filename.endswith('.xml'):

@@ -2,12 +2,18 @@ from neo4j_processor import Neo4jProcessor
 from file_processor import FileProcessor
 import argparse
 import os
-## main db
-URI = "neo4j+s://28d0251c.databases.neo4j.io"
-AUTH = ("neo4j", "t4yYAA-Toa9N4cQNb1r2nQQAXWrabbMM3MclZ7rq2Tc")
-## backup db
-# URI = "neo4j+s://e32a4bb4.databases.neo4j.io"
-# AUTH = ("neo4j", "EerfwXY8kw-DFeEB8WaO4vjWJKzNTbVhLIMlx_uWwSI")
+from configparser import ConfigParser
+from pathlib import Path
+
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+# print(BASE_DIR)
+CONFIG = ConfigParser()
+CONFIG.read(BASE_DIR / "config.ini")
+OPENAI_KEY = CONFIG.get("UPSTREAM", "openai_api_key")
+URI = CONFIG.get("NEO4J", "uri")
+PASSWORD = CONFIG.get("NEO4J", "password")
+AUTH = ("neo4j", PASSWORD)
 
 
 def neo4j_import_single_file(file_path):
@@ -25,12 +31,16 @@ def neo4j_import_folder(folder_path):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Process files for sentiment and emotion analysis and import to Neo4j.")
-    parser.add_argument("--file-dir", type=str, required=True, help="Directory containing the files to process.")
-    parser.add_argument("--save-dir", type=str, required=True, help="Directory to save processed files.")
+    parser.add_argument("--file-dir", type=str, required=False, help="Directory containing the files to process.")
+    parser.add_argument("--save-dir", type=str, required=False, help="Directory to save processed files.")
     parser.add_argument("--filename", type=str, required=False, help="Name of a specific file to process.")
+    parser.add_argument("--generate-from-rar", action="store_true", help="Flag to indicate if generate directly based on the xml.rar we provide")
     args = parser.parse_args()
 
     processor = FileProcessor(file_dir=args.file_dir, save_dir=args.save_dir, filename=args.filename)
+    if args.generate_from_rar:
+        print(args.generate_from_rar)
+        neo4j_import_folder(args.file_dir)
     if args.filename:
         file_name = args.filename
         # file_name = processor.process_single_file()
@@ -43,6 +53,8 @@ if __name__ == "__main__":
 
 '''
 Example:
+
+python upstream_pipeline.py --save-dir "xml" --generate-from-rar
 
 python upstream_pipeline.py --file-dir "transcripts/BK" --save-dir "xml" --filename "The Bank of New York Mellon Corporation, Q1 2024 Earnings Call, Apr 16, 2024.rtf"
 python upstream_pipeline.py --file-dir "transcripts" --save-dir "xml"
