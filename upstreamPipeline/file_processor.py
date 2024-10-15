@@ -17,9 +17,10 @@ class FileProcessor:
         self.su_processor = SummaryProcessor()
         self.index_processor = IndexProcessor()
 
-    def process_single_file(self):
+    def process_single_file(self, save_dir):
         print(f"Processing file: {self.file_dir}")
-        temp_filename = self.tp.process_file(self.file_dir, self.filename, self.save_dir)
+        file = self.tp.process_file(self.file_dir, self.filename, self.save_dir)
+        temp_filename= os.path.join(save_dir, file)
         print(f"Transcript parsing completed. File saved in: {temp_filename}")
 
         self.sa_processor.process_file(temp_filename, self.save_dir)
@@ -33,7 +34,7 @@ class FileProcessor:
 
         self.index_processor.process_file(temp_filename)
         print("index header addition completed.")
-        return temp_filename
+        return file
 
     def process_all_files(self):
         print(f"Processing all files in folder: {self.file_dir}")
