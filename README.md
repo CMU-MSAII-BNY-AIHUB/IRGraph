@@ -12,8 +12,6 @@ Our contributions include:
 4. **Text-to-Cypher Querying**: LLMs translate questions into Cypher queries for efficient data retrieval, with a human-in-the-loop process.
 5. **Visualization Dashboard**: NeoDash dashboards reveal insights with interactive charts.
 
-This project commenced as a collaborative effort between Bank of New York (BNY) and Carnegie Mellon University (CMU), supported by a dedicated team of students, faculty, and practitioners. We express our gratitude to the faculty and students from the Master’s of Artificial Intelligence and Innovation program.
-
 This project started with the name "BKGraph" representing the BNY stock ticker, BK, and KG representing knowledge graphs. We have broadened the scope to be "IRGraph" to represent Investor Relations. Please check our [Confluence page](https://nyu-tmi-capstone.atlassian.net/wiki/spaces/SD/overview) for more information.
 
 ## Data Collection and Tool Integration
@@ -59,10 +57,13 @@ Our framework, while focused on Investor Relations, has applications across Comm
 ### 1. Create the Neo4j Database
 
 1. Go to [Neo4j Aura](https://neo4j.com/aura/) to create an account and log in.
+   - You can use the **AuraDB Free** version.
 2. Click the "New Instance" button on the page. Or if this is the first time you are using Neo4j, you should be directed to the page to create your first instance. **Remember to save your password somewhere!!**
 3. It takes a few minutes to create the instance.
-4. Copy the connection URI which starts with `neo4j+s://` for further usage.
-5. You can click "Open" and enter the password you copied down before to connect to the instance.
+![](images/auradb_connection.png)
+
+4. Copy the connection URI which starts with `neo4j+s://`.
+5. Click "Open" and enter the password you copied down before to connect to the instance.
 6. Start using the Neo4j database.
 
 ### 2. Run Our GitHub Repo
@@ -108,3 +109,7 @@ Our framework, while focused on Investor Relations, has applications across Comm
 
 ---
 For more runtime options, stay tuned…
+
+
+## Acknowledgement
+This project commenced as a collaborative effort between Bank of New York (BNY) and Carnegie Mellon University (CMU), supported by a dedicated team of students, faculty, and practitioners. We express our gratitude to the faculty and students from the Master’s of Artificial Intelligence and Innovation program.
