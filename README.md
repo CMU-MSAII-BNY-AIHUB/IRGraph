@@ -70,13 +70,23 @@ Our framework, while focused on Investor Relations, has applications across Comm
 
 1. Clone the repo: `https://github.com/CMU-MSAII-BNY-AIHUB/IRGraph.git`
 
-2. In the root directory `IRGraph`, run the following command to set up the environment:
+2. Create a virtual environment with the following command:
+   ```bash
+   python3 -m venv irvenv
+   ```
+
+3. Activate the virtual environment with the following command:
+   ```bash
+   source irvenv/bin/activate
+   ```
+
+4. In the root directory `IRGraph`, run the following command to set up the environment:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Follow the `config.ini.sample` to create your `config.ini` file, and put your instance URI and password in this file in the following format:
+5. Follow the `config.ini.sample` to create your `config.ini` file, and put your instance URI and password in this file in the following format:
 
    ```ini
    [NEO4J]
@@ -84,9 +94,9 @@ Our framework, while focused on Investor Relations, has applications across Comm
    password = <your neo4j instance password>
    ```
 
-4. Go to the `pipeline` folder. This is the folder where we run our upstream pipeline to create the knowledge graph database.
+6. Go to the `pipeline` folder. This is the folder where we run our upstream pipeline to create the knowledge graph database.
 
-5. For a simple run, download and unzip `pipeline/xml.rar`, and put them in a folder called `xml`:
+7. For a simple run, download and unzip `pipeline/xml.rar`, and put them in a folder called `xml`:
 
    ```
    IRGRAPH
@@ -101,7 +111,7 @@ Our framework, while focused on Investor Relations, has applications across Comm
            └── ...
    ```
 
-5. Now you can run the below command to create from the XML file we provide and build your Neo4j knowledge graph database:
+8. Now you can run the below command to create from the XML file we provide and build your Neo4j knowledge graph database:
 
    ```bash
    python upstream_pipeline.py --save-dir "xml" --generate-from-rar
